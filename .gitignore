@@ -1,0 +1,10 @@
+# WordPress source download (reference only, not part of site repo)
+public_html/
+
+# Quarto build output
+/_site/
+/.quarto/
+
+# OS / editor
+.DS_Store
+Thumbs.db
