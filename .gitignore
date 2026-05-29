@@ -4,6 +4,14 @@ public_html/
 # Quarto build output
 /_site/
 /.quarto/
+# stray single-file render artifacts (quarto render <file>.qmd outputs beside source)
+/site_libs/
+/index.html
+/research.html
+/teaching.html
+/data-code.html
+/search.json
+/.nojekyll
 
 # OS / editor
 .DS_Store
