@@ -1,0 +1,12 @@
+﻿---
+title: "Seminario de AnÃ¡lisis EmpÃ­rico"
+description: "Course materials for Seminario de AnÃ¡lisis EmpÃ­rico, taught by Mauricio Romero."
+---
+
+[â† All teaching](../teaching.html)
+
+## 202601
+
+- [Syllabus_202601.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202601_Syllabus_202601.pdf)
+
+

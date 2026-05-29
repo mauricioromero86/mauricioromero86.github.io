@@ -1,0 +1,20 @@
+﻿---
+title: "Experimental Methods in Development Research"
+description: "Course materials for Experimental Methods in Development Research, taught by Mauricio Romero."
+---
+
+[â† All teaching](../teaching.html)
+
+## Bern2020
+
+- [ComputerProject.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_ComputerProject.pdf)
+- [Lecture 1 - Introduction.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_1_-_Introduction.pdf)
+- [Lecture 2 - Power, Blocking, Stratification.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_2_-_Power__Blocking__Stratification.pdf)
+- [Lecture 3 - Beyond the basics.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_3_-_Beyond_the_basics.pdf)
+- [Lecture 4 - Treatment Effects Heterogeneity.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_4_-_Treatment_Effects_Heterogeneity.pdf)
+- [Lecture 5 - Spillovers.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_5_-_Spillovers.pdf)
+- [Lecture 6 - Practical, theoretical, and ethical considerations.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_6_-_Practical__theoretical__and_ethical_considerations.pdf)
+- [Lecture 7 - Education RCTs.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_7_-_Education_RCTs.pdf)
+- [Syllabus.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Syllabus.pdf)
+
+

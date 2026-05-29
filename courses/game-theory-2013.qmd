@@ -1,0 +1,47 @@
+﻿---
+title: "Game Theory (2013)"
+description: "Course materials for Game Theory (2013), taught by Mauricio Romero."
+---
+
+[â† All teaching](../teaching.html)
+
+- [DistrBanner.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_DistrBanner.pdf)
+- [NotaFinal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_NotaFinal.pdf)
+- [Notas.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Notas.pdf)
+- [Parcial1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial1.pdf)
+- [Parcial1Distr.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial1Distr.pdf)
+- [Parcial2b.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2b.pdf)
+- [Parcial2bSol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2bSol.pdf)
+- [Parcial2Distr.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2Distr.pdf)
+- [SyllabusTeoJuegos201319.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_SyllabusTeoJuegos201319.pdf)
+- [Taller 1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller_1.pdf)
+- [Taller 2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller_2.pdf)
+- [Taller 3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller_3.pdf)
+- [Taller1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller_1.pdf)
+- [Taller10.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller10.pdf)
+- [Taller10Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller10Sol.pdf)
+- [Taller11.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller11.pdf)
+- [Taller11Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller11Sol.pdf)
+- [Taller1Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller1Sol.pdf)
+- [Taller2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller_2.pdf)
+- [Taller2Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller2Sol.pdf)
+- [Taller3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller_3.pdf)
+- [Taller3Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller3Sol.pdf)
+- [Taller4.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller4.pdf)
+- [Taller4Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller4Sol.pdf)
+- [Taller5.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller5.pdf)
+- [Taller5Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller5Sol.pdf)
+- [Taller6.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller6.pdf)
+- [Taller6Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller6Sol.pdf)
+- [Taller7.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller7.pdf)
+- [Taller7Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller7Sol.pdf)
+- [Taller8.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller8.pdf)
+- [Taller8Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller8Sol.pdf)
+- [Taller9.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller9.pdf)
+- [Taller9Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller9Sol.pdf)
+- [Taller9Sol1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller9Sol1.pdf)
+- [Taller9Sol2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Taller9Sol2.pdf)
+- [TallerP.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_TallerP.pdf)
+- [TallerParcial.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_TallerParcial.pdf)
+
+

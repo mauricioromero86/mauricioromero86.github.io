@@ -6,6 +6,7 @@ project:
     - research.qmd
     - teaching.qmd
     - data-code.qmd
+    - courses/*.qmd
 
 website:
   title: "Mauricio Romero"
@@ -13,7 +14,6 @@ website:
   site-url: "https://mauricioromero86.github.io"
   open-graph: true
   twitter-card: true
-  google-analytics: "G-PLACEHOLDER"
   favicon: img/favicon.png
   navbar:
     title: "Mauricio Romero"

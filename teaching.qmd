@@ -8,29 +8,29 @@ aliases:
 ## ITAM
 
 ### Economía IV
-Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · [Materials](/pdfs/EcoIV/)
+Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · [Materials](courses/ecoiv.html)
 
 ### Microeconometría Aplicada
-Fall 2020, Fall 2021, Spring 2023, Fall 2023 · [Materials](/pdfs/Microeconometria/)
+Fall 2020, Fall 2021, Spring 2023, Fall 2023 · [Materials](courses/microeconometria.html)
 
 ### Inferencia Causal
-Fall 2025, Spring 2026 · [Materials](/pdfs/Inferencia/)
+Fall 2025, Spring 2026 · [Materials](courses/inferencia.html)
 
 ### Seminario de Análisis Empírico
-Spring 2026 · [Materials](/pdfs/AnalisisEmpirico/)
+Spring 2026 · [Materials](courses/analisis-empirico.html)
 
 ## University of Bern
 
 ### Experimental Methods in Development Research
-Spring 2020 · [Materials](/pdfs/FieldExperiments/)
+Spring 2020 · [Materials](courses/field-experiments.html)
 
 ## Universidad de los Andes
 
 ### Advanced Microeconomics
-Summer 2016 · [Materials](/pdfs/MicroIII201619/)
+Summer 2016 · [Materials](courses/micro-iii.html)
 
 ### Game Theory
-Summer 2013, Summer 2014 · [Materials](/pdfs/TeoJuegos201419/)
+Summer 2013, Summer 2014 · [Materials (2013)](courses/game-theory-2013.html) · [Materials (2014)](courses/game-theory-2014.html)
 
 ### Calculus I
 2009
@@ -38,7 +38,7 @@ Summer 2013, Summer 2014 · [Materials](/pdfs/TeoJuegos201419/)
 ## Universidad del Rosario
 
 ### Intermediate Microeconomics
-Summer 2018 · [Materials](/pdfs/MicroII201819/)
+Summer 2018 · [Materials](courses/micro-ii.html)
 
 ### Mathematical Economics
 2011

@@ -8,3 +8,14 @@ public_html/
 # OS / editor
 .DS_Store
 Thumbs.db
+
+**/*.quarto_ipynb
+
+# Claude Code session/local state
+.claude/
+
+# Original full-res headshot (web-optimized copy lives in img/)
+profile_pic.jpg
+
+# Stray Quarto temp files
+*.tmp.*

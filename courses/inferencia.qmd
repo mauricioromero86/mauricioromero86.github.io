@@ -1,0 +1,30 @@
+﻿---
+title: "Inferencia Causal"
+description: "Course materials for Inferencia Causal, taught by Mauricio Romero."
+---
+
+[â† All teaching](../teaching.html)
+
+## 20261
+
+- [Syllabus_20261.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20261_Syllabus_20261.pdf)
+
+## 20252
+
+- [Lecture 0 - Course Admin.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_0_-_Course_Admin.pdf)
+- [Lecture 1 - Introduction to R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [Lecture 10 - Diff in Diff.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [Lecture 11 - IV.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Lecture_11_-_IV.pdf)
+- [Lecture 12 - RDD.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
+- [Lecture 13 - DID, IV, RDD implementation.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_13_-_DID__IV__RDD_implementation.pdf)
+- [Lecture 2 - Working with data in R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [Lecture 3 - Basics of programming.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [Lecture 4 - Statistics Review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [Lecture 5 - Summarizing data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [Lecture 6 - Potential outcomes and the experimental ideal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [Lecture 7 - OLS review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [Lecture 8 - Beyond basics of OLS.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [Lecture 9 - Panel Data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
+- [Syllabus_20252.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Syllabus_20252.pdf)
+
+
