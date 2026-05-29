@@ -11,7 +11,7 @@ project:
 website:
   title: "Mauricio Romero"
   description: "Mauricio Romero — Associate Professor of Economics at ITAM. Development, education, and public economics."
-  site-url: "https://mauricioromero86.github.io"
+  site-url: "https://mauricio-romero.com"
   open-graph: true
   twitter-card: true
   favicon: img/favicon.png
