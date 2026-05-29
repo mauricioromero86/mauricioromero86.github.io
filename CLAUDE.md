@@ -70,10 +70,21 @@ Reference only — WP core/plugins/DB are not migrated. Verified inventory:
 ## Commands
 
 ```powershell
-winget install --id Posit.Quarto -e   # Quarto not yet installed; only missing tool
 quarto preview                        # local live preview while editing
 quarto render                         # build to _site/
 ```
+
+**Build gotchas (Quarto installed v1.9.38):**
+- **PATH:** shells started before the install don't see `quarto`. Use the absolute path
+  `& "C:\Program Files\Quarto\bin\quarto.exe"` (subagents must do this) until a fresh shell.
+- **Dropbox locks:** the repo is under Dropbox, which locks `.quarto/` mid-sync and breaks
+  Quarto's post-render finalization (sitemap/resource copy). `.quarto/` and `_site/` are
+  marked Dropbox-ignored (`Set-Content -Path .quarto -Stream com.dropbox.ignored -Value 1`).
+  Keep them ignored; if a render exits 1 only on a `_freeze`/temp `remove (os error 32)`, the
+  HTML still built — re-run after the ignore propagates.
+- **Render scope:** `_quarto.yml` has an explicit `project: render:` list of the 4 pages.
+  Without it Quarto walks the whole tree (incl. `public_html/`) and tries to execute
+  teaching `.qmd` files. Do not remove the render list.
 
 PDF compression (target: get repo under ~1 GB for GitHub Pages):
 ```powershell

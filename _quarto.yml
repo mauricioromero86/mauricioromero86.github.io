@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - teaching.qmd
+    - data-code.qmd
 
 website:
   title: "Mauricio Romero"
