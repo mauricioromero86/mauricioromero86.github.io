@@ -1,6 +1,44 @@
 ---
 title: "Teaching"
 description: "Courses and teaching materials by Mauricio Romero at ITAM and elsewhere."
+aliases:
+  - /teaching/
 ---
 
-Courses (Task 10).
+## ITAM
+
+### Economía IV
+Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · [Materials](/pdfs/EcoIV/)
+
+### Microeconometría Aplicada
+Fall 2020, Fall 2021, Spring 2023, Fall 2023 · [Materials](/pdfs/Microeconometria/)
+
+### Inferencia Causal
+Fall 2025, Spring 2026 · [Materials](/pdfs/Inferencia/)
+
+### Seminario de Análisis Empírico
+Spring 2026 · [Materials](/pdfs/AnalisisEmpirico/)
+
+## University of Bern
+
+### Experimental Methods in Development Research
+Spring 2020 · [Materials](/pdfs/FieldExperiments/)
+
+## Universidad de los Andes
+
+### Advanced Microeconomics
+Summer 2016 · [Materials](/pdfs/MicroIII201619/)
+
+### Game Theory
+Summer 2013, Summer 2014 · [Materials](/pdfs/TeoJuegos201419/)
+
+### Calculus I
+2009
+
+## Universidad del Rosario
+
+### Intermediate Microeconomics
+Summer 2018 · [Materials](/pdfs/MicroII201819/)
+
+### Mathematical Economics
+2011

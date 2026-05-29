@@ -2,8 +2,41 @@
 title: "Mauricio Romero"
 description: "Associate Professor of Economics at ITAM; Co-Editor, Journal of Development Economics. Development, education, and public economics."
 include-in-header: _includes/person-jsonld.html
+about:
+  template: trestles
+  image: img/headshot.jpg
+  image-shape: rounded
+  links:
+    - icon: file-earmark-pdf
+      text: CV
+      href: pdfs/Mauricio-Romero-CV.pdf
+    - icon: mortarboard
+      text: Google Scholar
+      href: "https://scholar.google.com.au/citations?user=BD8UfDoAAAAJ&hl=en"
+    - icon: envelope
+      text: Email
+      href: "mailto:mtromero@itam.mx"
+    - icon: twitter
+      text: Twitter
+      href: "https://twitter.com/marome1"
+    - text: Bluesky
+      href: "https://bsky.app/profile/marome1.bsky.social"
 ---
 
-::: {.placeholder}
-Bio prose goes here (Task 8).
-:::
+**Associate Professor of Economics at ITAM** · Co-Editor at the *Journal of Development Economics*
+
+I was born and raised in Colombia, where I earned a B.A. in economics (summa cum laude) and a
+B.A. in mathematics (cum laude) from Universidad de los Andes. I received my Ph.D. in economics
+from the University of California, San Diego.
+
+I hold affiliations at the Jameel Poverty Action Lab (J-PAL), Innovations for Poverty Action
+(IPA), Experiments in Governance and Politics (EGAP), the Center for Global Development (CGD),
+the Bureau for Research and Economic Analysis of Development (BREAD), and the Institute for
+Labor Economics (IZA).
+
+I am a Jacobs Foundation Research Fellow (2024–2026 cohort) and currently serve on the
+Executive Committee of LACEA (2024–2027).
+
+My work focuses on the bottlenecks that impede high-quality government provision of education,
+health care, and environmental protection. In conjunction with my empirical research agenda, I
+work on methodological issues in applied econometrics and statistics.

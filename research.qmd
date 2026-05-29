@@ -1,6 +1,142 @@
 ---
 title: "Research"
 description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
+aliases:
+  - /research/
 ---
 
-Publications and working papers (Task 9).
+## Publications (peer-reviewed)
+
+### Inputs, Incentives, and Complementarities in Primary Education: Experimental Evidence from Tanzania
+*with Karthik Muralidharan, Isaac Mbiti, Youdi Schipper, Constantine Manda, and Rakesh Rajani* · *Quarterly Journal of Economics* 134(3), 2019
+
+[Journal](https://academic.oup.com/qje/article/134/3/1627/5479257) · [Data and code](/data-and-code/)
+
+### Outsourcing Education: Experimental Evidence from Liberia
+*with Justin Sandefur and Wayne Sandholtz* · *American Economic Review* 110(2), 2020
+
+[Journal](https://www.aeaweb.org/articles?id=10.1257/aer.20181478) · [Data and code](/data-and-code/)
+
+### Communal Property Rights and Deforestation
+*with Santiago Saavedra* · *Journal of Development Studies* 57(6), 2021
+
+[Journal](https://www.tandfonline.com/eprint/GFFZJJIVIQWFZH4SFPWQ/full?target=10.1080/00220388.2020.1817394) · [Data and code](/data-and-code/)
+
+### Local Incentives and National Tax Evasion: The Response of Illegal Mining to a Tax Reform in Colombia
+*with Santiago Saavedra* · *European Economic Review* 138, 2021
+
+[Journal](https://www.sciencedirect.com/science/article/pii/S0014292121001768) · [Data and code](/data-and-code/)
+
+### Direct vs Indirect Management Training: Experimental Evidence from Schools in Mexico
+*with Juan Bedoya, Rafael de Hoyos, Marcela Silveyra, and Monica Yanez-Pagans* · *Journal of Development Economics* 154, 2022
+
+[Journal](https://www.sciencedirect.com/science/article/abs/pii/S0304387821001371) · [Data and code](/data-and-code/)
+
+### Cross-Age Tutoring: Experimental Evidence from Kenya
+*with Lisa Chen and Noriko Magari* · *Economic Development and Cultural Change* 70(3), 2022
+
+[Journal](https://www.journals.uchicago.edu/doi/10.1086/713940) · [Data and code](/data-and-code/)
+
+### Beyond Short-term Learning Gains: The Impact of Outsourcing Schools in Liberia after Three Years
+*with Justin Sandefur* · *Economic Journal* 132(644), 2022
+
+[Journal](https://doi.org/10.1093/ej/ueab087) · [Data and code](/data-and-code/)
+
+### Designing Teacher Performance Pay Programs: Experimental Evidence from Tanzania
+*with Isaac Mbiti and Youdi Schipper* · *Economic Journal* 133(653), 2023
+
+[Journal](https://doi.org/10.1093/ej/uead010) · [Data and code](/data-and-code/)
+
+### Learning Losses during the COVID-19 Pandemic: Evidence from Mexico
+*with Enrique Alasino, María José Ramírez, Norbert Schady, and David Uribe* · *Economics of Education Review* 98, 2024
+
+[Journal](https://www.sciencedirect.com/science/article/pii/S0272775723001395)
+
+### The Effect of School Grants on Test Scores: Experimental Evidence from Mexico
+*with Juan Bedoya, Rafael de Hoyos, Marcela Silveyra, and Monica Yanez-Pagans* · *Economica* 91(363), 2024
+
+[Journal](https://onlinelibrary.wiley.com/share/author/QNSWV5CYKMWMDQZHFGDR?target=10.1111/ecca.12523)
+
+### Factorial Designs, Model Selection, and (Incorrect) Inference in Randomized Experiments
+*with Karthik Muralidharan and Kaspar Wuthrich* · *The Review of Economics and Statistics* 107(3), 2025
+
+[Journal](https://direct.mit.edu/rest/article-abstract/doi/10.1162/rest_a_01317/115272/Factorial-Designs-Model-Selection-and-Incorrect) · [Data and code](/data-and-code/)
+
+### COVID-19 Learning Loss and Recovery: Panel Data Evidence from India
+*with Abhijeet Singh and Karthik Muralidharan* · Forthcoming, *Journal of Human Resources*
+
+[Journal](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2) · [Data and code](/data-and-code/)
+
+### Preventing School Dropout: Experimental Evidence from Guatemala
+*with Melissa Adelman, Francisco Haimovich, and Emmanuel Vazquez* · Forthcoming, *Journal of Labor Economics*
+
+[Journal](https://doi.org/10.1086/739022)
+
+### The Productivity of Public and Private Preschools (and Schools): Evidence from India
+*with Petter Berg and Abhijeet Singh* · Forthcoming, *Economic Journal*
+
+[Journal](https://doi.org/10.1093/ej/ueaf089) · [Data and code](/data-and-code/)
+
+## Comments, conference proceedings, and others
+
+### How to Make Replication the Norm
+*with Paul Gertler and Sebastian Galiani* · *Nature* 554, 2018
+
+[Journal](https://www.nature.com/articles/d41586-018-02108-9)
+
+### Risk Adjustment Revisited using Machine Learning Techniques
+*with Álvaro Riascos and Natalia Serna* · *Proceedings Series of the Brazilian Society of Computational and Applied Mathematics* 6(2), 2018
+
+[Journal](https://proceedings.sbmac.org.br/sbmac/article/view/2216)
+
+## Non-economics peer-reviewed articles
+
+### On the Optimality of Answer-Copying Indices: Theory and Practice
+*with Álvaro Riascos and Diego Jara* · *Journal of Educational and Behavioral Statistics* 40(5), 2015
+
+[Journal](http://jeb.sagepub.com/content/40/5/435.abstract)
+
+### Misinformation About HIV and Negative Attitudes Toward Homosexuality and Same-Sex Couples' Rights: The Case of Colombia
+*with Federico Andrade-Rivas* · *International Journal of Public Opinion Research* 29(3), 2017
+
+[Journal](https://academic.oup.com/ijpor/article/2669468/Misinformation-About-HIV-and-Negative-Attitudes)
+
+## Working papers
+
+### The Incidence of Affirmative Action: Evidence from Quotas in Private Schools in India
+*with Abhijeet Singh* · Revise and resubmit, *Review of Economic Studies*
+
+[PDF](/pdfs/papers/CG_RTE_Draft.pdf)
+
+### Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico
+*with Erin Litzow, Bianca Cecato, and Tatiana Zarate-Barrera*
+
+[PDF](https://github.com/ErinLitzow/MyFiles/blob/main/JMP_Litzow.pdf)
+
+## Work in progress
+
+- The long-term effects of admission to an elite high school *(with Enrique Seira and Rafael de Hoyos)*
+- Improving preschool services: Experimental evidence on a technology-aided intervention in India *(with Ajinkya Keskar, Abhijeet Singh, and Karthik Muralidharan)*
+- Designing Teacher Incentives for Scale: Experimental Evidence from Tanzania *(with Isaac Mbiti, Youdi Schipper, and Karina Gomez)*
+- Beyond the experiment: medium-run impacts of a teacher performance pay program in Tanzania *(with Isaac Mbiti, Youdi Schipper, and Karina Gomez)*
+- How much do we gain from personalization? Experimental evidence from Peru *(with Raphaelle Aulagnon, Julian Cristia, Nicolas Bottan, and Jose Luis Montiel)*
+- Air filters and student learning: Experimental evidence from Colombia *(with Santiago Saavedra and Michael Kremer)*
+- Mitigating learning losses during school closures by bridging the digital divide: Experimental evidence from India *(with Abhijeet Singh and Karthik Muralidharan)*
+- Preventing dropout using mentors and information: Experimental evidence from Guatemala *(with Martina Jakob, Carla Coccia, and Eric Edmonds)*
+- Targeted instruction with teachers: Experimental evidence from El Salvador *(with Martina Jakob and Carla Coccia)*
+
+## Resting papers
+
+### Benefit Plans, Insurer Competition, and Pharmaceutical Prices: Evidence from Colombia
+
+[PDF](/pdfs/papers/Romero_Pharma.pdf)
+
+### Using Instrumental Variables under Partial Observability of Endogenous Variables for Assessing Effects of Air Pollution on Health
+*with Tarik Benmarhnia and Prashant Bharadwaj*
+
+[PDF](/pdfs/papers/partialiv.pdf)
+
+### The Effect of Gold Mining on the Health of Newborns
+*with Santiago Saavedra*
+
+[Abstract](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=BD8UfDoAAAAJ&citation_for_view=BD8UfDoAAAAJ:W7OEmFMy1HYC)

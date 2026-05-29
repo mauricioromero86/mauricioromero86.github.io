@@ -1,6 +1,36 @@
 ---
 title: "Data & Code"
 description: "Datasets, replication packages, and interactive tools from Mauricio Romero's research."
+aliases:
+  - /data-and-code/
 ---
 
-Data, code, and tools (Task 11).
+## Replication packages
+
+Replication data and code for my published work are archived in public repositories:
+
+- **Inputs, Incentives, and Complementarities (QJE 2019)** — KiuFunza Tanzania data: [Harvard Dataverse](https://doi.org/10.7910/DVN/XAOOTR)
+- **Outsourcing Education / Beyond Short-term Learning Gains (Liberia)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/5OPIYU) · [Zenodo](https://zenodo.org/record/5579799)
+- **Designing Teacher Performance Pay (Tanzania)** — [Zenodo](https://doi.org/10.5281/zenodo.7411312)
+- **Communal Property Rights and Deforestation** — [Harvard Dataverse](https://doi.org/10.7910/DVN/YMWIAR)
+- **Local Incentives and National Tax Evasion (Colombia)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/NML0MG)
+- **Direct vs Indirect Management Training (Mexico)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/7SDWNS)
+- **Cross-Age Tutoring (Kenya)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/IGZJ2J)
+- **Factorial Designs, Model Selection, and Inference** — [Harvard Dataverse](https://doi.org/10.7910/DVN/XG6U9H)
+- **COVID-19 Learning Loss and Recovery (India)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/XGY7CV)
+
+## Interactive tools
+
+### Air quality in Bogotá
+
+Neighborhood-level air-quality reports from the *Air filters and student learning* project
+(150 Bogotá schools):
+
+[Antonio Nariño](/polucion/antonio_narino.html) · [Barrios Unidos](/polucion/barrios_unidos.html) · [Bosa](/polucion/bosa.html) · [Ciudad Bolívar](/polucion/ciudad_bolivar.html) · [Engativá](/polucion/engativa.html) · [Fontibón](/polucion/fontibon.html) · [Kennedy](/polucion/kennedy.html) · [Mártires](/polucion/martires.html) · [Puente Aranda](/polucion/puente_aranda.html) · [Rafael Uribe Uribe](/polucion/rafael_uribe_uribe.html) · [San Cristóbal](/polucion/san_cristobal.html) · [Santa Fe](/polucion/santa_fe.html) · [Suba](/polucion/suba.html) · [Tunjuelito](/polucion/tunjuelito.html) · [Usaquén](/polucion/usaquen.html) · [Usme](/polucion/usme.html)
+
+## Health and pharmaceutical data (Colombia)
+
+Datasets compiled for my work on insurer competition and pharmaceutical prices in Colombia —
+SISMED pharmaceutical pricing (2006–2016), INVIMA drug registries, public benefit-plan
+legislation, and the IPS medical-provider directory — are available on request while they are
+migrated to a public data repository.
