@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mauricioromero86.github.io/sitemap.xml

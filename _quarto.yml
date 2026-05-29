@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mauricio Romero"
+  description: "Mauricio Romero — Associate Professor of Economics at ITAM. Development, education, and public economics."
+  site-url: "https://mauricioromero86.github.io"
+  open-graph: true
+  twitter-card: true
+  google-analytics: "G-PLACEHOLDER"
+  favicon: img/favicon.png
+  navbar:
+    title: "Mauricio Romero"
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Data & Code"
+        href: data-code.qmd
+      - icon: envelope
+        href: "mailto:mtromero@itam.mx"
+      - icon: google
+        href: "https://scholar.google.com/citations?user=BD8UfDoAAAAJ"
+
+format:
+  html:
+    theme:
+      - litera
+      - styles.scss
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 900px

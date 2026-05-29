@@ -1,0 +1,6 @@
+---
+title: "Research"
+description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
+---
+
+Publications and working papers (Task 9).
