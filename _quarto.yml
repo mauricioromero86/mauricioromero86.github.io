@@ -14,6 +14,7 @@ website:
   site-url: "https://mauricio-romero.com"
   open-graph: true
   twitter-card: true
+  google-analytics: "G-JM6020WT15"
   favicon: img/favicon.png
   navbar:
     title: "Mauricio Romero"
