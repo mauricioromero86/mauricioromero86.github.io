@@ -39,13 +39,33 @@ Teaching (`teaching.qmd`). Publications are **hand-written per-entry Markdown bl
 (no `.bib` pipeline). Theme: clean academic Bootswatch (default `litera`/`cosmo`) +
 light `styles.scss`.
 
+**Data & Code** page links *out* to externally hosted datasets and replication packages
+(Dataverse/OSF/Zenodo or journal archives — `data/` and `replicationData/` are not committed)
+and hosts the migrated `polucion/` maps in-repo. `Map_IPS.html` is omitted (deferred rebuild).
+
 ## Source material (not part of the deployed site)
 
-- `public_html/` — the WordPress FTP download (2.3 GB, **gitignored**). Reference only.
-  Useful parts: `public_html/pdfs/` (733 PDFs: papers, CV, teaching notes) and
-  `public_html/wp-content/uploads/` (images). WP core / DB are not migrated.
-- The current page *text* lives in the WordPress MySQL database, not in files — pull it by
-  reading the rendered live pages, not from `public_html/`.
+`public_html/` is the full WordPress FTP download (**~3.3 GB of content assets, gitignored**).
+Reference only — WP core/plugins/DB are not migrated. Verified inventory:
+
+| Path | Size | What / disposition |
+|------|------|--------------------|
+| `pdfs/` | 2.3 GB | Teaching notes + `pdfs/papers/` (51 MB, 32 papers) + CV. EcoIV alone = **1.8 GB** |
+| `data/` | 586 MB | Health/education datasets (CSV, `.dta`, SISMED/IPS) — **link externally**, not in repo |
+| `replicationData/` | 271 MB | 4 replication zips (incl. one 224 MB) — **link externally** |
+| `polucion/` | 44 MB | 16 self-contained Bogotá pollution maps (Pandoc/Leaflet) — **migrate as-is** |
+| `Map_IPS.html` | 82 MB | Interactive health-provider map, **broken deps** — **dropped** (defer rebuild) |
+| `wp-content/uploads/` | 2.2 MB | Mostly cache/config JSON; no headshot here |
+
+- Page *text*, SEO titles/descriptions, and the **headshot** live only in the MySQL DB
+  (`maurico8_WPFIY`) / media library — **not in the FTP files**. See "Recovering page content".
+- Current SEO is dynamic via the **All-in-One SEO Pack** plugin; there is no `robots.txt` or
+  `sitemap.xml` in the files. Analytics is a legacy Google **UA** property (deprecated → use
+  GA4 or omit).
+- Active theme is **Mesmerize v1.6.112** (fonts Muli + Open Sans; primary cyan `#03a9f4`) —
+  reference only; we use a clean academic theme, not a replica.
+- Stale duplicate `CV-ENG.pdf` copies exist under `pdfs/Microeconometria/` and
+  `pdfs/TeoJuegos201419/` — ignore them; canonical CV is `C:\Users\mauri\Dropbox\CV\CV-ENG.tex`.
 
 ## Commands
 
@@ -70,14 +90,31 @@ and publishes to `gh-pages`; `gh` CLI (installed) manages the repo.
   someone else, so `mauricioromero.github.io` is unavailable — the test URL is
   **`mauricioromero86.github.io`** (user-site repo, serves at root). Final URL is the custom
   domain `mauricio-romero.com`.
-- **Repo must stay under ~1 GB** (GitHub Pages soft limit). Compress PDFs first; prune oldest
-  course-years only with owner approval. No single file > 100 MB.
+- **Repo must stay under ~1 GB** (GitHub Pages soft limit). The source is ~3.3 GB. Fit
+  strategy: link `data/` + `replicationData/` (~860 MB) out of the repo, then
+  compress/prune teaching PDFs. Prune/compress targets: **EcoIV (1.8 GB)** — esp. terms
+  `20201` (363 MB), `20211` (449 MB), and `PastExams` (184 MB). No single file > 100 MB.
+- **URL preservation (SEO)**: keep paper PDFs at their exact existing paths
+  `/pdfs/papers/<file>.pdf` — they are cited from the CV and external sites. GitHub Pages has
+  **no server-side 301s**, so paths must match (or use client-side redirects). Preserve
+  `/polucion/*.html` paths too if kept.
 - **SEO/AI**: implement Google's SEO + AI optimization guides (per-page title/description,
   `site-url` → auto `sitemap.xml`, Open Graph + Twitter cards, `Person`/`ProfilePage` JSON-LD,
   `robots.txt`). **Do NOT create `llms.txt` or AI-specific markup** — Google's AI guide
   explicitly advises against it.
 - Domain cutover only after verifying on `*.github.io`; add a redirect on the old Bluehost
   site during the transition.
+
+## Recovering page content
+
+The four pages' text, their All-in-One-SEO titles/descriptions, and the headshot are **not in
+the FTP download** — they live in the WordPress DB / media library. To migrate them:
+
+- **Preferred**: scrape the rendered live pages (Bio/CV, Research, Data & Code, Teaching) from
+  `https://mauricio-romero.com` and their `<title>`/`<meta name="description">` tags.
+- **Or**: export the DB (`maurico8_WPFIY`) via phpMyAdmin / `wp db export` for the raw text.
+- The headshot must be pulled from the live media library or requested from the owner.
+- Cross-check every recovered publication against `CV-ENG.tex` before publishing.
 
 ## Working conventions
 
