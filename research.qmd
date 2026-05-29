@@ -7,136 +7,490 @@ aliases:
 
 ## Publications (peer-reviewed)
 
-### Inputs, Incentives, and Complementarities in Primary Education: Experimental Evidence from Tanzania
-*with Karthik Muralidharan, Isaac Mbiti, Youdi Schipper, Constantine Manda, and Rakesh Rajani* · *Quarterly Journal of Economics* 134(3), 2019
+### [Inputs, Incentives, and Complementarities in Primary Education: Experimental Evidence from Tanzania](https://academic.oup.com/qje/article/134/3/1627/5479257)
+*with [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/), [Isaac Mbiti](https://sites.google.com/site/isaacmbiti/), Youdi Schipper, [Constantine Manda](https://sites.google.com/site/constantinemanda/Home), and Rakesh Rajani* · *Quarterly Journal of Economics* 134(3), 2019
 
-[Journal](https://academic.oup.com/qje/article/134/3/1627/5479257) · [Data and code](/data-and-code/)
+[Final Manuscript](/pdfs/papers/2019_QJE_Complementarities.pdf) · [AEA RCT registration](https://www.socialscienceregistry.org/trials/291) · [NBER WP No. 24876](https://www.nber.org/papers/w24876) · [Data and code](https://doi.org/10.7910/DVN/XAOOTR) · [VoxDev](https://voxdev.org/topic/public-economics/getting-bang-your-buck-education-spending-evidence-tanzania) · [J-PAL brief](https://www.povertyactionlab.org/fr/node/1996) · [Free Policy Brief](https://freepolicybriefs.org/2019/05/27/the-learning-crisis-combining-incentives-and-inputs-to-raise-student-achievement/)
 
-### Outsourcing Education: Experimental Evidence from Liberia
-*with Justin Sandefur and Wayne Sandholtz* · *American Economic Review* 110(2), 2020
+::: {.callout-note collapse="true"}
+## Abstract
+We present results from a large-scale randomized experiment across 350 schools in Tanzania that studied the impact of providing schools with (i) unconditional grants, (ii) teacher incentives based on student performance, and (iii) both of the above. After two years, we find (i) no impact on student test scores from providing school grants, (ii) some evidence of positive effects from teacher incentives, and (iii) significant positive effects from providing both programs. Most important, we find strong evidence of complementarities between the programs, with the effect of joint provision being significantly greater than the sum of the individual effects. Our results suggest that combining spending on school inputs (the default policy) with improved teacher incentives could substantially increase the cost-effectiveness of public spending on education.
+:::
 
-[Journal](https://www.aeaweb.org/articles?id=10.1257/aer.20181478) · [Data and code](/data-and-code/)
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{mbiti2019inputs,
+  title={Inputs, incentives, and complementarities in education: Experimental evidence from Tanzania},
+  author={Mbiti, Isaac and Muralidharan, Karthik and Romero, Mauricio and Schipper, Youdi and Manda, Constantine and Rajani, Rakesh},
+  journal={The Quarterly Journal of Economics},
+  volume={134}, number={3}, pages={1627--1673}, year={2019},
+  doi={10.1093/qje/qjz010}
+}
+```
+:::
 
-### Communal Property Rights and Deforestation
-*with Santiago Saavedra* · *Journal of Development Studies* 57(6), 2021
+### [Outsourcing Education: Experimental Evidence from Liberia](https://www.aeaweb.org/articles?id=10.1257/aer.20181478)
+*with [Justin Sandefur](https://www.cgdev.org/expert/justin-sandefur) and [Wayne Sandholtz](https://econweb.ucsd.edu/~wasandho/)* · *American Economic Review* 110(2), 2020
 
-[Journal](https://www.tandfonline.com/eprint/GFFZJJIVIQWFZH4SFPWQ/full?target=10.1080/00220388.2020.1817394) · [Data and code](/data-and-code/)
+[Final Manuscript](/pdfs/papers/aer.20181478.pdf) · [AEA RCT registration](https://www.socialscienceregistry.org/trials/1501) · [Executive Summary](/pdfs/PSL_ExecutiveSummary.pdf) · [Data and code](https://doi.org/10.7910/DVN/5OPIYU) · [The Economist](https://www.economist.com/news/middle-east-and-africa/21728659-new-research-suggests-pioneering-scheme-has-made-encouraging-start) · [Devex](https://www.devex.com/news/early-results-did-private-outsourcing-improve-liberia-s-schools-90943)
 
-### Local Incentives and National Tax Evasion: The Response of Illegal Mining to a Tax Reform in Colombia
-*with Santiago Saavedra* · *European Economic Review* 138, 2021
+::: {.callout-note collapse="true"}
+## Abstract
+In 2016, the Liberian government delegated management of 93 randomly selected public schools to private providers. Providers received US$50 per pupil, on top of US$50 per pupil annual expenditure in control schools. After one academic year, students in outsourced schools scored 0.18 standard deviations higher in English and mathematics. We do not find heterogeneity in learning gains or enrollment by student characteristics, but there is significant heterogeneity across providers. While outsourcing appears to be a cost-effective way to use new resources to improve test scores, some providers engaged in unforeseen and potentially harmful behavior, complicating any assessment of welfare gains.
+:::
 
-[Journal](https://www.sciencedirect.com/science/article/pii/S0014292121001768) · [Data and code](/data-and-code/)
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{romero2020outsourcing,
+  title={Outsourcing education: Experimental evidence from Liberia},
+  author={Romero, Mauricio and Sandefur, Justin and Sandholtz, Wayne Aaron},
+  journal={American Economic Review},
+  volume={110}, number={2}, pages={364--400}, year={2020},
+  doi={10.1257/aer.20181478}
+}
+```
+:::
 
-### Direct vs Indirect Management Training: Experimental Evidence from Schools in Mexico
-*with Juan Bedoya, Rafael de Hoyos, Marcela Silveyra, and Monica Yanez-Pagans* · *Journal of Development Economics* 154, 2022
+### [Communal Property Rights and Deforestation](https://www.tandfonline.com/eprint/GFFZJJIVIQWFZH4SFPWQ/full?target=10.1080/00220388.2020.1817394)
+*with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra)* · *Journal of Development Studies* 57(6), 2021
 
-[Journal](https://www.sciencedirect.com/science/article/abs/pii/S0304387821001371) · [Data and code](/data-and-code/)
+[Final Manuscript](/pdfs/papers/Communal%20Property%20Rights%20and%20Deforestation.pdf) · [Data and code](https://doi.org/10.7910/DVN/YMWIAR)
 
-### Cross-Age Tutoring: Experimental Evidence from Kenya
+::: {.callout-note collapse="true"}
+## Abstract
+Almost a third of the world's forest area is communally managed. In principle, this arrangement could lead to a 'tragedy of the commons' and therefore more deforestation. But it may be easier to monitor outsiders' deforestation of land owned by a community rather than an individual. We present a theoretical framework to examine these trade-offs and empirically study the effect of communal titling on deforestation in Colombia. Our empirical approach uses a differences-in-discontinuities strategy that compares areas just outside and inside a title, before and after titling. We find that deforestation decreased in communal areas after titling, especially in small communities, which is consistent with the model's predictions. We also find evidence of positive spillovers: titling reduced deforestation in nearby areas outside the title (and thus our estimates are a lower bound of the total effects of communal titling on deforestation).
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{saavedra2021communal,
+  title={Communal property rights and deforestation},
+  author={Saavedra, Santiago and Romero, Mauricio},
+  journal={The Journal of Development Studies},
+  volume={57}, number={6}, pages={1038--1052}, year={2021},
+  doi={10.1080/00220388.2020.1817394}
+}
+```
+:::
+
+### [Local Incentives and National Tax Evasion: The Response of Illegal Mining to a Tax Reform in Colombia](https://www.sciencedirect.com/science/article/pii/S0014292121001768)
+*with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra)* · *European Economic Review* 138, 2021
+
+[Final Manuscript](/pdfs/papers/1-s2.0-S0014292121001768-main.pdf) · [Code](https://dataverse.harvard.edu/dataverse/illegal_mining)
+
+::: {.callout-note collapse="true"}
+## Abstract
+Achieving a fair distribution of resources is one of the goals of fiscal policy. To this end, governments often transfer tax resources from richer to more marginalized areas. In the context of mining in Colombia, we study whether lower transfers to the locality where the taxed economic activity takes place dampen local authorities' incentives to curb tax evasion. Using machine learning predictions on satellite imagery to identify mines allows us to overcome the challenge of measuring evasion. Employing difference-in-differences strategies, we find that reducing the share of revenue transferred back to mining municipalities leads to an increase in illegal mining. This result highlights the difficulties inherent in adequately redistributing tax revenues.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{saavedra2021local,
+  title={Local incentives and national tax evasion: The response of illegal mining to a tax reform in Colombia},
+  author={Saavedra, Santiago and Romero, Mauricio},
+  journal={European Economic Review},
+  volume={138}, pages={103843}, year={2021},
+  doi={10.1016/j.euroecorev.2021.103843}
+}
+```
+:::
+
+### [Direct vs Indirect Management Training: Experimental Evidence from Schools in Mexico](https://www.sciencedirect.com/science/article/abs/pii/S0304387821001371)
+*with [Juan Bedoya](https://ideas.repec.org/f/pbe909.html), [Rafael de Hoyos](https://scholar.google.com/citations?user=-pavGw8AAAAJ&hl=en), Marcela Silveyra, and [Monica Yanez-Pagans](https://ideas.repec.org/e/pya150.html)* · *Journal of Development Economics* 154, 2022
+
+[Final Manuscript](/pdfs/papers/PEC_Management_004.pdf) · [Code](https://doi.org/10.7910/DVN/7SDWNS) · [Original WP](https://hdl.handle.net/10986/35108)
+
+::: {.callout-note collapse="true"}
+## Abstract
+We use a large-scale randomized experiment (across 1,198 public primary schools in Mexico) to study the impact of providing schools directly with high-quality managerial training by professional trainers vis-à-vis through a cascade-style "train the trainer" model. The training focused on improving principals' capacities to collect and use data to monitor students' basic numeracy and literacy skills and to provide feedback to teachers on their instruction and pedagogical practices. After two years, the direct training improved schools' managerial capacity by 0.13 standard deviations (p-value 0.018) (relative to "train the trainer" schools), but had no meaningful impact on student test scores (we can rule out an effect greater than 0.08 standard deviations at the 95% level).
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{deHoyos2022direct,
+  title={Direct vs indirect management training: Experimental evidence from schools in Mexico},
+  author={de Hoyos, Rafael and Bedoya, Juan and Romero, Mauricio and Silveyra, Marcela and Yanez-Pagans, Monica},
+  journal={Journal of Development Economics},
+  volume={154}, pages={102779}, year={2022},
+  doi={10.1016/j.jdeveco.2021.102779}
+}
+```
+:::
+
+### [Cross-Age Tutoring: Experimental Evidence from Kenya](https://www.journals.uchicago.edu/doi/10.1086/713940)
 *with Lisa Chen and Noriko Magari* · *Economic Development and Cultural Change* 70(3), 2022
 
-[Journal](https://www.journals.uchicago.edu/doi/10.1086/713940) · [Data and code](/data-and-code/)
+[Final Manuscript](/pdfs/papers/DraftYr2.pdf) · [Code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IGZJ2J)
 
-### Beyond Short-term Learning Gains: The Impact of Outsourcing Schools in Liberia after Three Years
-*with Justin Sandefur* · *Economic Journal* 132(644), 2022
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{chen2022crossage,
+  title={Cross-age tutoring: Experimental evidence from Kenya},
+  author={Chen, Lisa and Magari, Noriko and Romero, Mauricio},
+  journal={Economic Development and Cultural Change},
+  volume={70}, number={3}, pages={1145--1175}, year={2022},
+  doi={10.1086/713940}
+}
+```
+:::
 
-[Journal](https://doi.org/10.1093/ej/ueab087) · [Data and code](/data-and-code/)
+### [Beyond Short-term Learning Gains: The Impact of Outsourcing Schools in Liberia after Three Years](https://doi.org/10.1093/ej/ueab087)
+*with [Justin Sandefur](https://www.cgdev.org/expert/justin-sandefur)* · *Economic Journal* 132(644), 2022
 
-### Designing Teacher Performance Pay Programs: Experimental Evidence from Tanzania
-*with Isaac Mbiti and Youdi Schipper* · *Economic Journal* 133(653), 2023
+[Final Manuscript](/pdfs/papers/PSL_Endline_Short.pdf) · [AEA RCT registration](https://www.socialscienceregistry.org/trials/1501) · [Data and code](https://doi.org/10.7910/DVN/5OPIYU) · [Replication package](https://zenodo.org/record/5579799) · [The Economist](https://www.economist.com/middle-east-and-africa/2020/01/02/lessons-from-a-radical-education-experiment-in-liberia)
 
-[Journal](https://doi.org/10.1093/ej/uead010) · [Data and code](/data-and-code/)
+::: {.callout-note collapse="true"}
+## Abstract
+Outsourcing the management of ninety-three randomly-selected government primary schools in Liberia to eight private operators led to learning gains of 0.18 standard deviations after one year, but these effects plateaued in subsequent years (reaching 0.2 after three years). Beyond learning gains, the programme reduced corporal punishment (by 4.6 percentage points from a base of 51%), but increased dropout (by 3.3 percentage points from a base of 15%) and failed to reduce sexual abuse. Despite facing similar contracts and settings, some providers produced uniformly positive results, while others presented trade-offs between learning gains, access to education, child safety, and financial sustainability.
+:::
 
-### Learning Losses during the COVID-19 Pandemic: Evidence from Mexico
-*with Enrique Alasino, María José Ramírez, Norbert Schady, and David Uribe* · *Economics of Education Review* 98, 2024
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{romero2022beyond,
+  title={Beyond short-term learning gains: The impact of outsourcing schools in Liberia after three years},
+  author={Romero, Mauricio and Sandefur, Justin},
+  journal={The Economic Journal},
+  volume={132}, number={644}, pages={1600--1619}, year={2022},
+  doi={10.1093/ej/ueab087}
+}
+```
+:::
 
-[Journal](https://www.sciencedirect.com/science/article/pii/S0272775723001395)
+### [Designing Teacher Performance Pay Programs: Experimental Evidence from Tanzania](https://academic.oup.com/ej/advance-article/doi/10.1093/ej/uead010/7104061)
+*with [Isaac Mbiti](https://sites.google.com/site/isaacmbiti/) and Youdi Schipper* · *Economic Journal* 133(653), 2023
 
-### The Effect of School Grants on Test Scores: Experimental Evidence from Mexico
-*with Juan Bedoya, Rafael de Hoyos, Marcela Silveyra, and Monica Yanez-Pagans* · *Economica* 91(363), 2024
+[Final Manuscript](/pdfs/papers/KF2.pdf) · [AEA RCT registration](https://www.socialscienceregistry.org/trials/1009) · [NBER WP No. 25903](https://www.nber.org/papers/w25903) · [Data and code](https://doi.org/10.5281/zenodo.7411312) · [GlobalDev brief](https://globaldev.blog/blog/motivating-teachers-improve-learning-evidence-tanzania)
 
-[Journal](https://onlinelibrary.wiley.com/share/author/QNSWV5CYKMWMDQZHFGDR?target=10.1111/ecca.12523)
+::: {.callout-note collapse="true"}
+## Abstract
+We use a nationally representative field experiment in Tanzania to compare two teacher performance pay systems in public primary schools: a 'pay-for-percentile' system (a rank-order tournament) and a 'levels' system that features multiple proficiency thresholds. Pay for percentile can potentially induce socially optimal effort among teachers, while levels systems can encourage teachers to focus on students near passing thresholds. Despite the theoretical advantage of the tournament system, we find that both systems improved student test scores across the distribution of initial learning levels after two years. However, the levels system is easier to implement and is more cost effective.
+:::
 
-### Factorial Designs, Model Selection, and (Incorrect) Inference in Randomized Experiments
-*with Karthik Muralidharan and Kaspar Wuthrich* · *The Review of Economics and Statistics* 107(3), 2025
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{mbiti2023designing,
+  title={Designing teacher performance pay programs: Experimental evidence from Tanzania},
+  author={Mbiti, Isaac and Romero, Mauricio and Schipper, Youdi},
+  journal={The Economic Journal},
+  volume={133}, number={653}, pages={1923--1955}, year={2023},
+  doi={10.1093/ej/uead010}
+}
+```
+:::
 
-[Journal](https://direct.mit.edu/rest/article-abstract/doi/10.1162/rest_a_01317/115272/Factorial-Designs-Model-Selection-and-Incorrect) · [Data and code](/data-and-code/)
+### [Learning Losses during the COVID-19 Pandemic: Evidence from Mexico](https://www.sciencedirect.com/science/article/pii/S0272775723001395?dgcid=author)
+*with Enrique Alasino, María José Ramírez, [Norbert Schady](https://www.worldbank.org/en/about/people/n/norbert-schady), and David Uribe* · *Economics of Education Review* 98, 2024
 
-### COVID-19 Learning Loss and Recovery: Panel Data Evidence from India
-*with Abhijeet Singh and Karthik Muralidharan* · Forthcoming, *Journal of Human Resources*
+[Final Manuscript](/pdfs/papers/GTO_Learning_Loss.pdf) · [Blog (Nexos, Spanish)](https://educacion.nexos.com.mx/perdidas-de-aprendizaje-durante-la-pandemia-y-ritmo-de-recuperacion-evidencia-de-guanajuato/)
 
-[Journal](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2) · [Data and code](/data-and-code/)
+::: {.callout-note collapse="true"}
+## Abstract
+This paper presents evidence of large learning losses and partial recovery in Guanajuato, Mexico, during and after the school closures related to the COVID-19 pandemic. Learning losses were estimated using administrative data from enrollment records and by comparing the results of a census-based standardized test administered to approximately 20,000 5th and 6th graders in: (a) March 2020 (a few weeks before school closed); (b) November 2021 (2 months after schools reopened); and (c) June of 2023 (21 months after schools re-opened and over three years after the pandemic started). On average, students performed 0.2 to 0.3 standard deviations lower in Spanish and math after schools reopened, equivalent to 0.66 to 0.87 years of schooling in Spanish and 0.87 to 1.05 years of schooling in math. By June of 2023, students were able to make up for 60% of the learning loss that built up during school closures but still scored 0.08–0.11 standard deviations below their pre-pandemic levels (equivalent to 0.23–0.36 years of schooling).
+:::
 
-### Preventing School Dropout: Experimental Evidence from Guatemala
-*with Melissa Adelman, Francisco Haimovich, and Emmanuel Vazquez* · Forthcoming, *Journal of Labor Economics*
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{alasino2024learning,
+  title={Learning losses during the COVID-19 pandemic: Evidence from Mexico},
+  author={Alasino, Enrique and Ram{\'i}rez, Mar{\'i}a Jos{\'e} and Romero, Mauricio and Schady, Norbert and Uribe, David},
+  journal={Economics of Education Review},
+  volume={98}, pages={102492}, year={2024},
+  doi={10.1016/j.econedurev.2023.102492}
+}
+```
+:::
 
-[Journal](https://doi.org/10.1086/739022)
+### [The Effect of School Grants on Test Scores: Experimental Evidence from Mexico](https://onlinelibrary.wiley.com/share/author/IM3BGF2HAJCTUQ8XBBVZ?target=10.1111/ecca.12523)
+*with [Juan Bedoya](https://ideas.repec.org/f/pbe909.html), [Rafael de Hoyos](https://scholar.google.com/citations?user=-pavGw8AAAAJ&hl=en), Marcela Silveyra, and [Monica Yanez-Pagans](https://ideas.repec.org/e/pya150.html)* · *Economica* 91(363), 2024
 
-### The Productivity of Public and Private Preschools (and Schools): Evidence from India
-*with Petter Berg and Abhijeet Singh* · Forthcoming, *Economic Journal*
+[Final Manuscript](/pdfs/papers/Grants_Test_Scores_Mexico.pdf) · [Online Appendix](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fecca.12523&file=ecca12523-sup-0001-OnlineAppendix.pdf)
 
-[Journal](https://doi.org/10.1093/ej/ueaf089) · [Data and code](/data-and-code/)
+::: {.callout-note collapse="true"}
+## Abstract
+We use a randomized experiment (across 200 public primary schools in Puebla, Mexico) to study the impact of providing schools with cash grants on student test scores. Treated schools received on average 16 USD per student each year for two years, an increase of 20% in public spending per child, after teacher salaries. Overall, the grants had no impact on student test scores. Lack of a treatment effect does not seem to be driven by poor implementation or a substitution away from other inputs (e.g. household expenditure).
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{bedoya2024effect,
+  title={The effect of school grants on test scores: Experimental evidence from Mexico},
+  author={Bedoya, Juan and de Hoyos, Rafael and Romero, Mauricio and Silveyra, Marcela and Yanez-Pagans, Monica},
+  journal={Economica},
+  volume={91}, number={363}, pages={1010--1036}, year={2024},
+  doi={10.1111/ecca.12523}
+}
+```
+:::
+
+### [Factorial Designs, Model Selection, and (Incorrect) Inference in Randomized Experiments](https://direct.mit.edu/rest/article-abstract/doi/10.1162/rest_a_01317/115272/Factorial-Designs-Model-Selection-and-Incorrect?redirectedFrom=fulltext)
+*with [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/) and [Kaspar Wuthrich](https://sites.google.com/site/wuethricheconomics/)* · *The Review of Economics and Statistics* 107(3), 2025
+
+[Published version](/pdfs/papers/rest_a_01317.pdf) · [Final Manuscript](/pdfs/papers/Forthcoming_ReStat_CrossCuts.pdf) · [Online Appendix](/pdfs/papers/Appendix_crosscuts.pdf) · [NBER WP No. 26562](https://www.nber.org/papers/w26562) · [Data and code](https://doi.org/10.7910/DVN/XG6U9H) · [WB Blog](https://blogs.worldbank.org/impactevaluations/be-careful-inference-2x2-experiments-and-other-cross-cutting-designs)
+
+::: {.callout-note collapse="true"}
+## Abstract
+Factorial designs are widely used to study multiple treatments in one experiment. While t-tests using a fully-saturated "long" model provide valid inferences, "short" model t-tests (that ignore interactions) yield higher power if interactions are zero, but incorrect inferences otherwise. Of 27 factorial experiments published in top-5 journals (2007–2017), 19 use the short model. After including interactions, over half of their results lose significance. Based on recent econometric advances, we show that power improvements over the long model are possible. We provide practical guidance for the design of new experiments and the analysis of completed experiments.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{muralidharan2025factorial,
+  title={Factorial designs, model selection, and (incorrect) inference in randomized experiments},
+  author={Muralidharan, Karthik and Romero, Mauricio and Wuthrich, Kaspar},
+  journal={The Review of Economics and Statistics},
+  volume={107}, number={3}, pages={597--613}, year={2025},
+  doi={10.1162/rest_a_01317}
+}
+```
+:::
+
+### [COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2)
+*with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/)* · Forthcoming, *Journal of Human Resources*
+
+[Final Manuscript](/pdfs/papers/Forthcoming_JHR_TNLL.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/covid-19-learning-loss-and-recovery-panel-data-evidence-india) · [NBER WP No. 30552](https://www.nber.org/papers/w30552) · [Data and code](https://doi.org/10.7910/DVN/XGY7CV)
+
+::: {.callout-note collapse="true"}
+## Abstract
+We use a panel survey of 19,000 primary-school-aged children in rural Tamil Nadu to study 'learning loss' after COVID-19-induced school closures, and the pace of recovery after schools reopened. Students tested in December 2021 (18 months after school closures) displayed learning deficits of 0.73 standard deviations in math and 0.34 in language compared to identically-aged students in the same villages in 2019. Two-thirds of this deficit was made up within 6 months after schools reopened. Further, while learning loss was regressive, recovery was progressive. A government-run after-school remediation program contributed 24% of the cohort-level recovery, likely aiding the progressive recovery.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{singh2024covid,
+  title={COVID-19 learning loss and recovery: Panel data evidence from India},
+  author={Singh, Abhijeet and Romero, Mauricio and Muralidharan, Karthik},
+  journal={Journal of Human Resources},
+  note={Forthcoming}, year={2024}
+}
+```
+:::
+
+### [Preventing School Dropout: Experimental Evidence from Guatemala](https://doi.org/10.1086/739022)
+*with [Melissa Adelman](https://blogs.worldbank.org/team/melissa-adelman), [Francisco Haimovich](http://franciscohaimovich.weebly.com/), and [Emmanuel Vazquez](https://www.cedlas.econo.unlp.edu.ar/wp/evazquez/)* · Forthcoming, *Journal of Labor Economics*
+
+[Final Manuscript](/pdfs/papers/ENTRE___GUATE.pdf) · [Earlier WP version](https://elibrary.worldbank.org/doi/abs/10.1596/1813-9450-9685) · [Code](https://doi.org/10.5281/zenodo.17119441)
+
+::: {.callout-note collapse="true"}
+## Abstract
+We evaluate a randomized dropout prevention program across 4,000 schools in Guatemala, where 30% of children leave school during the primary-to-secondary transition. Schools were assigned to receive a guidance manual and training; the manual, the training and a list of high-risk students; the manual, the training, the list, and behavioral nudges; or control. All treatments reduced dropout in the transition from primary to secondary by 1.2 percentage points from a 34% base, but effects faded after two years (i.e., there is no difference in the likelihood of being enrolled in secondary school after the first year). Still, the program increased years of schooling by 0.012, and its low cost (USD 2–3 per student) and successful large-scale implementation make it a promising, cost-effective approach to increasing schooling in resource-constrained contexts.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{adelman2024preventing,
+  title={Preventing school dropout: Experimental evidence from Guatemala},
+  author={Adelman, Melissa and Haimovich, Francisco and Romero, Mauricio and Vazquez, Emmanuel},
+  journal={Journal of Labor Economics},
+  note={Forthcoming}, year={2024}
+}
+```
+:::
+
+### [The Productivity of Public and Private Preschools (and Schools): Evidence from India](https://doi.org/10.1093/ej/ueaf089)
+*with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/)* · Forthcoming, *Economic Journal*
+
+[Final Manuscript](/pdfs/papers/TN_ECE_VA.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441)
+
+::: {.callout-note collapse="true"}
+## Abstract
+We study the relative productivity of private and public institutions at the preschool and primary school levels using panel data from 215 villages in Tamil Nadu. Private preschools show higher test score value-added in math and language (0.59–0.74 standard deviations) and outperform government providers in nearly all villages. This productivity difference explains 60% of the socioeconomic test score gap before school entry. These results contrast starkly with primary schooling, where we find no evidence of a private-sector premium in math and negative effects in local language. Test score value-added is positively correlated between private and government options in a village, both at the preschool and primary school levels. Quality is also correlated across levels; villages with more productive primary schools also tend to have more productive preschools. Our findings inform debates on achieving universal foundational skills and highlight the need to improve the quality of preschools available to lower-income families.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{berg2024productivity,
+  title={The productivity of public and private preschools (and schools): Evidence from India},
+  author={Berg, Petter and Romero, Mauricio and Singh, Abhijeet},
+  journal={The Economic Journal},
+  note={Forthcoming}, year={2024}
+}
+```
+:::
 
 ## Comments, conference proceedings, and others
 
-### How to Make Replication the Norm
-*with Paul Gertler and Sebastian Galiani* · *Nature* 554, 2018
+### [How to Make Replication the Norm](https://www.nature.com/articles/d41586-018-02108-9)
+*with [Paul Gertler](https://www.paulgertler.com/) and [Sebastian Galiani](https://econweb.umd.edu/~galiani/)* · *Nature* 554, 2018
 
-[Journal](https://www.nature.com/articles/d41586-018-02108-9)
+[Final Manuscript](/pdfs/papers/d41586-018-02108-9.pdf) · [NBER WP No. 23576](https://www.nber.org/papers/w23576) · [Data and code](http://econweb.umd.edu/~galiani/files/Replication%20NBER-Nature.zip)
 
-### Risk Adjustment Revisited using Machine Learning Techniques
-*with Álvaro Riascos and Natalia Serna* · *Proceedings Series of the Brazilian Society of Computational and Applied Mathematics* 6(2), 2018
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{gertler2018replication,
+  title={How to make replication the norm},
+  author={Gertler, Paul and Galiani, Sebastian and Romero, Mauricio},
+  journal={Nature}, volume={554}, number={7693}, pages={417--419}, year={2018},
+  doi={10.1038/d41586-018-02108-9}
+}
+```
+:::
 
-[Journal](https://proceedings.sbmac.org.br/sbmac/article/view/2216)
+### [Risk Adjustment Revisited using Machine Learning Techniques](https://proceedings.sbmac.org.br/sbmac/article/view/2216)
+*with [Álvaro Riascos](https://www.alvaroriascos.com/) and Natalia Serna* · *Proceedings Series of the Brazilian Society of Computational and Applied Mathematics* 6(2), 2018
+
+[Final Manuscript](/pdfs/papers/2216-4447-1-SM.pdf) · [Published Version](https://proceedings.sbmac.org.br/sbmac/article/view/2216)
+
+::: {.callout-note collapse="true"}
+## Abstract
+Risk adjustment is vital in health policy design. Risk adjustment defines the annual capitation payments to health insurers and is a key determinant of insolvency risk for health insurers. In this study we compare the current risk adjustment formula used by Colombia's Ministry of Health and Social Protection against alternative specifications that adjust for additional factors. We show that the current risk adjustment formula, which conditions on demographic factors and their interactions, can only predict 30% of total health expenditures in the upper quintile of the expenditure distribution. We also show the government's formula can improve significantly by conditioning ex ante on measures indicators of 29 long-term diseases. We contribute to the risk adjustment literature by estimating machine learning based models and showing non-parametric methodologies (e.g., boosted trees models) outperform linear regressions even when fitted in a smaller set of regressors.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{riascos2018risk,
+  title={Risk adjustment revisited using machine learning techniques},
+  author={Riascos, {\'A}lvaro and Romero, Mauricio and Serna, Natalia},
+  journal={Proceeding Series of the Brazilian Society of Computational and Applied Mathematics},
+  volume={6}, number={2}, year={2018}
+}
+```
+:::
 
 ## Non-economics peer-reviewed articles
 
-### On the Optimality of Answer-Copying Indices: Theory and Practice
-*with Álvaro Riascos and Diego Jara* · *Journal of Educational and Behavioral Statistics* 40(5), 2015
+### [On the Optimality of Answer-Copying Indices: Theory and Practice](https://journals.sagepub.com/doi/abs/10.3102/1076998615595628)
+*with [Álvaro Riascos](https://www.alvaroriascos.com/) and Diego Jara* · *Journal of Educational and Behavioral Statistics* 40(5), 2015
 
-[Journal](http://jeb.sagepub.com/content/40/5/435.abstract)
+[Final Manuscript](/pdfs/papers/IndexComparison_FinalDraft.pdf)
 
-### Misinformation About HIV and Negative Attitudes Toward Homosexuality and Same-Sex Couples' Rights: The Case of Colombia
-*with Federico Andrade-Rivas* · *International Journal of Public Opinion Research* 29(3), 2017
+::: {.callout-note collapse="true"}
+## Abstract
+Multiple-choice exams are frequently used as an efficient and objective method to assess learning, but they are more vulnerable to answer copying than tests based on open questions. Several statistical tests (known as indices in the literature) have been proposed to detect cheating; however, to the best of our knowledge, they all lack mathematical support that guarantees optimality in any sense. We partially fill this void by deriving the uniformly most powerful (UMP) test under the assumption that the response distribution is known. In practice, however, we must estimate a behavioral model that yields a response distribution for each question. As an application, we calculate the empirical type I and type II error rates for several indices that assume different behavioral models using simulations based on real data from 12 nationwide multiple-choice exams taken by fifth and ninth graders in Colombia. We find that the most powerful index among those studied, subject to the restriction of preserving the type I error, is one based on the work of Wollack and is superior to the index developed by Wesolowsky.
+:::
 
-[Journal](https://academic.oup.com/ijpor/article/2669468/Misinformation-About-HIV-and-Negative-Attitudes)
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{romero2015optimality,
+  title={On the optimality of answer-copying indices: Theory and practice},
+  author={Romero, Mauricio and Riascos, {\'A}lvaro and Jara, Diego},
+  journal={Journal of Educational and Behavioral Statistics},
+  volume={40}, number={5}, pages={435--453}, year={2015},
+  doi={10.3102/1076998615595628}
+}
+```
+:::
+
+### [Misinformation About HIV and Negative Attitudes Toward Homosexuality and Same-Sex Couples' Rights: The Case of Colombia](https://academic.oup.com/ijpor/article/2669468/Misinformation-About-HIV-and-Negative-Attitudes)
+*with [Federico Andrade-Rivas](https://ghrp.ubc.ca/about/students/federico-andrade-rivas-bio/)* · *International Journal of Public Opinion Research* 29(3), 2017
+
+[Final Manuscript](/pdfs/papers/HIV_FinalDraft.pdf)
+
+::: {.callout-note collapse="true"}
+## Abstract
+The rights of homosexuals and same-sex couples are currently the subject of debate on the public stage and in courtrooms around the world. This debate is often colored by prejudice and misconceptions regarding homosexuality, particularly in low- and middle-income countries. This study investigates the opinions of Colombian women about same-sex couples' rights and women's attitudes toward a homosexual child (maternal acceptance). Using a nationally representative data set, we find that younger, wealthier, and more educated Colombian women are more likely to support their homosexual child and approve of same-sex couples' rights, while women with misconceptions regarding the human immunodeficiency virus and homosexuality are less likely to be supportive of a homosexual child and less likely to approve of same-sex couples' rights.
+:::
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@article{andradeRivas2017misinformation,
+  title={Misinformation about HIV and negative attitudes toward homosexuality and same-sex couples' rights: The case of Colombia},
+  author={Andrade-Rivas, Federico and Romero, Mauricio},
+  journal={International Journal of Public Opinion Research},
+  volume={29}, number={3}, pages={426--448}, year={2017},
+  doi={10.1093/ijpor/edw009}
+}
+```
+:::
 
 ## Working papers
 
-### The Incidence of Affirmative Action: Evidence from Quotas in Private Schools in India
-*with Abhijeet Singh* · Revise and resubmit, *Review of Economic Studies*
+### [The Incidence of Affirmative Action: Evidence from Quotas in Private Schools in India](/pdfs/papers/CG_RTE_Draft.pdf)
+*with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/)* · Revise and resubmit, *Review of Economic Studies*
 
-[PDF](/pdfs/papers/CG_RTE_Draft.pdf)
+[Working Paper](/pdfs/papers/CG_RTE_Draft.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/incidence-affirmative-action-evidence-quotas-private-schools-india) · [Online Appendix](/pdfs/papers/CG_Preference_Tables.pdf)
 
-### Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico
-*with Erin Litzow, Bianca Cecato, and Tatiana Zarate-Barrera*
+::: {.callout-note collapse="true"}
+## Abstract
+The incidence of redistributive policies is central to whether they meet their stated goals. We study this in the context of one of the world's largest affirmative action programs in schooling: a 25% quota in all Indian private schools for students from disadvantaged groups. We use lottery-based estimates to show that, although students admitted under the quota attend more expensive and preferred schools on average, the distribution of program benefits is very regressive. Program applicants are concentrated among more-educated and better-off households. Consequently, 7.4% of the program spending accrues to the bottom socioeconomic quintile, compared to 24.3% to the top quintile. In total, two-thirds of the per-child cost of a quota seat is inframarginal for school choice. We use rich survey data to show that low application rates for poorer children are not driven by preferences and beliefs. Instead, information constraints and application frictions appear to be key. Finally, we use a randomized intervention to confirm the importance of these frictions and further demonstrate that alleviating a single constraint (e.g., information) may not reduce regressive selection, even if it boosts application rates substantially. Our results demonstrate how constraints facing potential applicants can make redistributive policies regressive in practice. Appropriate policy interventions must consider the joint incidence of these constraints to reduce regressivity.
+:::
 
-[PDF](https://github.com/ErinLitzow/MyFiles/blob/main/JMP_Litzow.pdf)
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@unpublished{singh_romero_affirmative,
+  title={The incidence of affirmative action: Evidence from quotas in private schools in India},
+  author={Singh, Abhijeet and Romero, Mauricio},
+  note={Working paper (revise and resubmit, Review of Economic Studies)}
+}
+```
+:::
+
+### [Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/main/JMP_Litzow.pdf)
+*with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecato](https://biancacecato.com/), and [Tatiana Zarate-Barrera](https://www.tatianazarate.com/)*
+
+::: {.callout-note collapse="true"}
+## BibTeX
+```bibtex
+@unpublished{litzow_toxic,
+  title={Toxic recycling: The cost of used lead-acid battery processing in Mexico},
+  author={Litzow, Erin and Cecato, Bianca and Romero, Mauricio and Zarate-Barrera, Tatiana},
+  note={Working paper}
+}
+```
+:::
 
 ## Work in progress
 
-- The long-term effects of admission to an elite high school *(with Enrique Seira and Rafael de Hoyos)*
-- Improving preschool services: Experimental evidence on a technology-aided intervention in India *(with Ajinkya Keskar, Abhijeet Singh, and Karthik Muralidharan)*
-- Designing Teacher Incentives for Scale: Experimental Evidence from Tanzania *(with Isaac Mbiti, Youdi Schipper, and Karina Gomez)*
-- Beyond the experiment: medium-run impacts of a teacher performance pay program in Tanzania *(with Isaac Mbiti, Youdi Schipper, and Karina Gomez)*
-- How much do we gain from personalization? Experimental evidence from Peru *(with Raphaelle Aulagnon, Julian Cristia, Nicolas Bottan, and Jose Luis Montiel)*
-- Air filters and student learning: Experimental evidence from Colombia *(with Santiago Saavedra and Michael Kremer)*
-- Mitigating learning losses during school closures by bridging the digital divide: Experimental evidence from India *(with Abhijeet Singh and Karthik Muralidharan)*
-- Preventing dropout using mentors and information: Experimental evidence from Guatemala *(with Martina Jakob, Carla Coccia, and Eric Edmonds)*
-- Targeted instruction with teachers: Experimental evidence from El Salvador *(with Martina Jakob and Carla Coccia)*
+- The long-term effects of admission to an elite high school *(with [Enrique Seira](http://www.enriqueseira.com/) and [Rafael de Hoyos](https://scholar.google.com/citations?user=-pavGw8AAAAJ&hl=en))*
+- Improving preschool services: Experimental evidence on a technology-aided intervention in India *(with [Ajinkya Keskar](https://www.ajinkyakeskar.com/), [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/), and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/))*
+- [Designing Teacher Incentives for Scale: Experimental Evidence from Tanzania](https://www.socialscienceregistry.org/trials/1009) *(with [Isaac Mbiti](https://sites.google.com/site/isaacmbiti/), Youdi Schipper, and Karina Gomez)*
+- Beyond the experiment: medium-run impacts of a teacher performance pay program in Tanzania *(with [Isaac Mbiti](https://sites.google.com/site/isaacmbiti/), Youdi Schipper, and Karina Gomez)*
+- [How much do we gain from personalization? Experimental evidence from Peru](https://www.socialscienceregistry.org/trials/12190) *(with [Raphaelle Aulagnon](https://sites.google.com/essec.edu/raphalleaulagnon/), [Julian Cristia](https://www.iadb.org/es/recursos-de-conocimiento/investigacion-en-el-bid/investigadores/julian-cristia), [Nicolas Bottan](https://www.nicolasbottan.com/), and [Jose Luis Montiel](https://joseluismontielolea.com/))*
+- [Air filters and student learning: Experimental evidence from Colombia](https://www.socialscienceregistry.org/trials/9881) *(with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra) and [Michael Kremer](https://michaelkremer.economics.uchicago.edu/))*
+- [Mitigating learning losses during school closures by bridging the digital divide: Experimental evidence from India](https://www.socialscienceregistry.org/trials/9722) *(with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/))*
+- [Preventing dropout using mentors and information: Experimental evidence from Guatemala](https://www.socialscienceregistry.org/trials/13889) *(with [Martina Jakob](https://www.martinajakob.net/), [Carla Coccia](https://www.vwi.unibe.ch/about_us/people/coccia_carla/index_eng.html), and [Eric Edmonds](https://sites.dartmouth.edu/eedmonds/))*
+- [Targeted instruction with teachers: Experimental evidence from El Salvador](https://www.socialscienceregistry.org/trials/15053) *(with [Martina Jakob](https://www.martinajakob.net/) and [Carla Coccia](https://www.vwi.unibe.ch/about_us/people/coccia_carla/index_eng.html))*
+
+## Policy and popular writing
+
+- [Will an RCT Change Anyone's Mind? Should It?](https://www.cgdev.org/blog/will-rct-change-anyones-mind-should-it) *(with [Justin Sandefur](https://www.cgdev.org/expert/justin-sandefur) and [Wayne Sandholtz](https://econweb.ucsd.edu/~wasandho/))* · CGD blog, 2017
+- [Ajuste de Riesgo y Solvencia de las Aseguradoras de Salud en Colombia](https://repositorio.uniandes.edu.co/handle/1992/8833) *(with [Álvaro Riascos](https://www.alvaroriascos.com/) and Natalia Serna)* · Universidad de los Andes, 2017
+- [Motivating teachers to improve learning: evidence from Tanzania](https://www.globaldev.blog/blog/motivating-teachers-improve-learning-evidence-tanzania) *(with [Isaac Mbiti](https://sites.google.com/site/isaacmbiti/), Youdi Schipper, and Aidan Eyakuze)* · GlobalDev, 2019
+- [Outsourcing Primary Education in Liberia Leads to Mixed Results](http://archive.ids.ac.uk/impactinit/resources/outsourcing-primary-education-liberia-leads-mixed-results.html) *(with Elizabeth Tofaris)* · The Impact Initiative, 2020
+- [Designing and Testing a Scalable Teacher Incentive Programme in Tanzania](https://riseprogramme.org/publications/designing-and-testing-scalable-teacher-incentive-programme-tanzania) *(with [Isaac Mbiti](https://sites.google.com/site/isaacmbiti/) and Youdi Schipper)* · RISE Insight Note, 2022
+- [Reversing losses in learning after Covid](https://www.hindustantimes.com/opinion/reversing-losses-in-learning-after-covid-101665584453601.html) *(with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/))* · Hindustan Times, 2022
+- [Preschool services in Tamil Nadu](https://riseprogramme.org/blog/preschool_services_Tamil_Nadu) *(with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/))* · RISE blog, 2022
+- [Pérdidas de aprendizaje durante la pandemia y ritmo de recuperación: evidencia de Guanajuato](https://educacion.nexos.com.mx/perdidas-de-aprendizaje-durante-la-pandemia-y-ritmo-de-recuperacion-evidencia-de-guanajuato/) *(with Enrique Alasino, María José Ramírez, and Norbert Schady)* · Nexos, 2024
+- [The economist improving education policy with evidence](https://boldscience.org/the-economist-improving-education-policy-with-evidence/) · Interview by Annie Brookman-Byrne for [BOLD](https://boldscience.org/)
 
 ## Resting papers
 
-### Benefit Plans, Insurer Competition, and Pharmaceutical Prices: Evidence from Colombia
+### [Benefit Plans, Insurer Competition, and Pharmaceutical Prices: Evidence from Colombia](/pdfs/papers/Romero_Pharma.pdf)
 
-[PDF](/pdfs/papers/Romero_Pharma.pdf)
+[Working Paper](/pdfs/papers/Romero_Pharma.pdf)
 
-### Using Instrumental Variables under Partial Observability of Endogenous Variables for Assessing Effects of Air Pollution on Health
-*with Tarik Benmarhnia and Prashant Bharadwaj*
+::: {.callout-note collapse="true"}
+## Abstract
+Public health benefit plans must choose what services are covered with public funds. This coverage choice may affect the prices of covered services through multiple channels. First, coverage reduces out-of-pocket expenditures, making consumers less sensitive to the cost of treatment. In an environment where suppliers have market power (as is often the case with pharmaceutical drugs) this could result in higher prices. The second channel is an increase in competition among drugs listed in the benefit plan with the same therapeutic properties, which could result in lower prices. Thus, the net effect on prices is unclear and depends on consumer sensitivity to prices and the level of competition among drugs. Using a difference-in-difference strategy, I study the effect of including a pharmaceutical drug in the national benefit plan of Colombia, a country with a competitive health insurance market in which all insurance companies offer the same plan (the national benefit plan) and charge the same premium. Drug prices decrease by 14% on average after they are listed in the benefit plan and sales increase by 123%. However, if a drug faces no competition and is listed in the benefit plan its price increases. Coverage also affects the prices of unlisted services: Within a therapeutic class, the prices of drugs which are not listed in the benefit plan decrease as the market share of competing drugs listed in the benefit plan increases. I conclude with a discussion of the role of financial incentives in health care markets.
+:::
 
-[PDF](/pdfs/papers/partialiv.pdf)
+### [Using Instrumental Variables under Partial Observability of Endogenous Variables for Assessing Effects of Air Pollution on Health](/pdfs/papers/partialiv.pdf)
+*with [Tarik Benmarhnia](http://profiles.ucsd.edu/tarik.benmarhnia) and [Prashant Bharadwaj](https://prbharadwaj.wordpress.com/)*
 
-### The Effect of Gold Mining on the Health of Newborns
-*with Santiago Saavedra*
+[Working Paper](/pdfs/papers/partialiv.pdf)
 
-[Abstract](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=BD8UfDoAAAAJ&citation_for_view=BD8UfDoAAAAJ:W7OEmFMy1HYC)
+::: {.callout-note collapse="true"}
+## Abstract
+This paper highlights a common issue with instrumental variables (IV) techniques in evaluating the impact of air pollution on health. Since pollutants are almost always produced alongside other pollutants, instrumenting a single endogenous pollutant requires additional assumptions for correct inference and interpretation. We clarify these assumptions and propose that researchers place more structure on the relationship between the instrument and all the relevant pollutants.
+:::
+
+### [The Effect of Gold Mining on the Health of Newborns](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=BD8UfDoAAAAJ&citation_for_view=BD8UfDoAAAAJ:W7OEmFMy1HYC)
+*with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra)*

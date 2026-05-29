@@ -32,5 +32,5 @@ Neighborhood-level air-quality reports from the *Air filters and student learnin
 
 Datasets compiled for my work on insurer competition and pharmaceutical prices in Colombia —
 SISMED pharmaceutical pricing (2006–2016), INVIMA drug registries, public benefit-plan
-legislation, and the IPS medical-provider directory — are available on request while they are
-migrated to a public data repository.
+legislation, and the IPS medical-provider directory — are being deposited in a public data
+repository (Zenodo); the DOI will be linked here. Available on request in the meantime.

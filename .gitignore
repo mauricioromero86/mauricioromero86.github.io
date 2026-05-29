@@ -12,6 +12,8 @@ public_html/
 /data-code.html
 /search.json
 /.nojekyll
+/courses/*.html
+/courses/site_libs/
 
 # OS / editor
 .DS_Store

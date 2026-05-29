@@ -1,6 +1,6 @@
 ---
 title: "Mauricio Romero"
-description: "Associate Professor of Economics at ITAM; Co-Editor, Journal of Development Economics. Development, education, and public economics."
+description: "Associate Professor of Economics at ITAM; Co-Editor, Journal of Development Economics."
 include-in-header: _includes/person-jsonld.html
 about:
   template: trestles

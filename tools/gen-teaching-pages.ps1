@@ -7,8 +7,7 @@ param(
 
 $display = @{
   "EcoIV"           = @{ slug="ecoiv";             name="Economía IV" }
-  "Microeconometria"= @{ slug="microeconometria";  name="Microeconometría Aplicada" }
-  "Inferencia"      = @{ slug="inferencia";        name="Inferencia Causal" }
+  "Microeconometria"= @{ slug="microeconometria";  name="Microeconometría Aplicada / Inferencia Causal" }
   "AnalisisEmpirico"= @{ slug="analisis-empirico"; name="Seminario de Análisis Empírico" }
   "FieldExperiments"= @{ slug="field-experiments"; name="Experimental Methods in Development Research" }
   "TeoJuegos201319" = @{ slug="game-theory-2013";  name="Game Theory (2013)" }
@@ -19,6 +18,8 @@ $display = @{
 
 New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 $rows = Import-Csv $Manifest
+# merge Inferencia Causal into Microeconometría Aplicada (one combined course)
+foreach ($r in $rows) { if ($r.Course -eq 'Inferencia') { $r.Course = 'Microeconometria' } }
 $map = @{}   # course -> slug (for teaching.qmd)
 
 foreach ($cg in ($rows | Group-Object Course)) {

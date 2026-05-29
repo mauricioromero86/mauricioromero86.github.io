@@ -6,6 +6,7 @@ project:
     - research.qmd
     - teaching.qmd
     - data-code.qmd
+    - cdmx.qmd
     - courses/*.qmd
 
 website:
@@ -27,6 +28,8 @@ website:
         href: teaching.qmd
       - text: "Data & Code"
         href: data-code.qmd
+      - text: "CDMX"
+        href: cdmx.qmd
       - icon: envelope
         href: "mailto:mtromero@itam.mx"
       - icon: google
