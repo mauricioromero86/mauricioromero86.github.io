@@ -1,0 +1,19 @@
+﻿Recovered 0 / 17 distinct PDF_MISSING files
+
+GONE  https://mauricio-romero.com/pdfs/EcoIV/PastExams/FirstMidterm/28sept2019.pdf
+GONE  https://mauricio-romero.com/pdfs/EcoIV/20211/Lecture17_2.pdf
+GONE  https://mauricio-romero.com/pdfs/EcoIV/20231/Temario.pdf
+GONE  https://mauricio-romero.com/pdfs/EcoIV/PastExams/FirstMidterm/Solucion_Parcial_1_2022_Primavera_Parte2.pdf
+GONE  https://mauricio-romero.com/pdfs/EcoIV/PastExams/FirstMidterm/Solucion_Parcial_1_2022_Otono_Parte2.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroIII201619/Taller5Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroIII201619/2010/parcial2-sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Taller1Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Taller2Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/TallerParcial1.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Taller3Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Taller4Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Taller5Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Quiz1Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Quiz2Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Quiz3Sol.pdf
+GONE  https://mauricio-romero.com/pdfs/MicroII201819/Quiz4Sol.pdf

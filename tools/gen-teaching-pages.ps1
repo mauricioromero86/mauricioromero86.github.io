@@ -26,6 +26,17 @@ $sharedSections = @{
   "MicroIII"  = @('Parciales Viejos y otros materiales de estudio')
 }
 
+# Per-course SEO descriptions (fallback to a generic line if a course is missing one).
+$descs = @{
+  "EcoIV"            = "Undergraduate microeconomics at ITAM: general equilibrium, monopoly, and price discrimination, with lecture slides, review sessions, and past exams."
+  "Microeconometria" = "Graduate applied microeconometrics and causal inference: randomized experiments, difference-in-differences, instrumental variables, regression discontinuity, and panel data, with slides and problem sets."
+  "AnalisisEmpirico" = "Empirical analysis seminar: reading and replicating applied microeconomics research, with lecture slides and assignments."
+  "FieldExperiments" = "Graduate course on experimental methods in development economics: designing, implementing, and analyzing randomized controlled trials."
+  "MicroIII"         = "Advanced microeconomic theory: general equilibrium and game theory, with lecture notes, problem sets, and past exams."
+  "MicroII"          = "Intermediate microeconomics: consumer and producer theory, market structure, and welfare, with problem sets and quizzes."
+  "TeoJuegos"        = "Game theory: static and dynamic games, Nash and subgame-perfect equilibrium, and applications, with lecture materials and past exams."
+}
+
 function FriendlyTerm([string]$course,[string]$term) {
   if ($term -match '^(\d{4})-1$') { return "Spring $($Matches[1])" }
   if ($term -match '^(\d{4})-2$') { return "Fall $($Matches[1])" }
@@ -84,7 +95,8 @@ foreach ($course in $display.Keys) {
   $sb = New-Object System.Text.StringBuilder
   [void]$sb.AppendLine("---")
   [void]$sb.AppendLine("title: `"$name`"")
-  [void]$sb.AppendLine("description: `"Course materials for $name, taught by Mauricio Romero.`"")
+  $desc = $descs[$course]; if (-not $desc) { $desc = "Course materials for $name, taught by Mauricio Romero." }
+  [void]$sb.AppendLine("description: `"$desc`"")
   [void]$sb.AppendLine("toc: true")
   [void]$sb.AppendLine("toc-location: right")
   [void]$sb.AppendLine("toc-depth: 3")

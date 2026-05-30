@@ -1,6 +1,6 @@
 ---
 title: "Experimental Methods in Development Research"
-description: "Course materials for Experimental Methods in Development Research, taught by Mauricio Romero."
+description: "Graduate course on experimental methods in development economics: designing, implementing, and analyzing randomized controlled trials."
 toc: true
 toc-location: right
 toc-depth: 3

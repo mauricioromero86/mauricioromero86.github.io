@@ -3,7 +3,7 @@ EXTERNAL         8
 NONPDF_MISSING   30
 NONPDF_OK        133
 PDF_MISSING      32
-PDF_OK           939
+PDF_OK           934
 
 ### NON-PDF / UNMAPPED files to UPLOAD (exist locally) ###
 EcoIV_20201_Sep2011_XI.png	<= public_html\pdfs\EcoIV\20201\Sep2011_XI.png

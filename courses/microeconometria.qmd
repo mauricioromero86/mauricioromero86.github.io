@@ -1,6 +1,6 @@
 ---
 title: "Microeconometría Aplicada / Inferencia Causal"
-description: "Course materials for Microeconometría Aplicada / Inferencia Causal, taught by Mauricio Romero."
+description: "Graduate applied microeconometrics and causal inference: randomized experiments, difference-in-differences, instrumental variables, regression discontinuity, and panel data, with slides and problem sets."
 toc: true
 toc-location: right
 toc-depth: 3

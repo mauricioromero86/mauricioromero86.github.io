@@ -141,12 +141,16 @@ We use a large-scale randomized experiment (across 1,198 public primary schools 
 ::: {.paper-head}
 ### 6. [Cross-Age Tutoring: Experimental Evidence from Kenya](https://www.journals.uchicago.edu/doi/10.1086/713940)
 
-[BibTeX](#bib-6){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-6" aria-expanded="false"}
+[Abstract](#abs-6){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-6" aria-expanded="false"} [BibTeX](#bib-6){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-6" aria-expanded="false"}
 :::
 
 with Lisa Chen and Noriko Magari · **Economic Development and Cultural Change** 70(3), 2022
 
 [Final Manuscript](/pdfs/papers/DraftYr2.pdf) · [Data and code](https://doi.org/10.7910/DVN/IGZJ2J)
+
+::: {#abs-6 .collapse .paper-panel}
+Interventions that tailor teaching to students' learning levels are among the most effective for improving learning, but teachers often lack the time to provide personalized instruction. Cross-age tutoring—in which older students tutor younger ones—is a low-cost alternative. We present results from a randomized controlled trial in more than 180 schools in Kenya (roughly 15,000 tutees and 15,000 tutors), in which schools were randomly assigned to implement a daily tutoring program in either English or mathematics. Math tutoring (relative to English tutoring) raised math test scores by 0.063σ (p = 0.068), with the largest effects for students in the middle of the ability distribution (0.13σ for the third quintile); English tutoring had no detectable effect on English scores. We find no evidence of effects—positive or negative—on the tutors themselves.
+:::
 
 ::: {#bib-6 .collapse .paper-panel}
 ```bibtex

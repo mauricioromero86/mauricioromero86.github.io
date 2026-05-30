@@ -1,6 +1,6 @@
 ---
 title: "Seminario de Análisis Empírico"
-description: "Course materials for Seminario de Análisis Empírico, taught by Mauricio Romero."
+description: "Empirical analysis seminar: reading and replicating applied microeconomics research, with lecture slides and assignments."
 toc: true
 toc-location: right
 toc-depth: 3

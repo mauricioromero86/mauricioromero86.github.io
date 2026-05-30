@@ -1,6 +1,6 @@
 ---
 title: "Intermediate Microeconomics"
-description: "Course materials for Intermediate Microeconomics, taught by Mauricio Romero."
+description: "Intermediate microeconomics: consumer and producer theory, market structure, and welfare, with problem sets and quizzes."
 toc: true
 toc-location: right
 toc-depth: 3

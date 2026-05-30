@@ -1,6 +1,6 @@
 ---
 title: "Advanced Microeconomics"
-description: "Course materials for Advanced Microeconomics, taught by Mauricio Romero."
+description: "Advanced microeconomic theory: general equilibrium and game theory, with lecture notes, problem sets, and past exams."
 toc: true
 toc-location: right
 toc-depth: 3

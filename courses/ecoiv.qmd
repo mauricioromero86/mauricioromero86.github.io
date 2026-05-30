@@ -1,6 +1,6 @@
 ---
 title: "Economía IV"
-description: "Course materials for Economía IV, taught by Mauricio Romero."
+description: "Undergraduate microeconomics at ITAM: general equilibrium, monopoly, and price discrimination, with lecture slides, review sessions, and past exams."
 toc: true
 toc-location: right
 toc-depth: 3

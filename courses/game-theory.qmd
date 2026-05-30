@@ -1,6 +1,6 @@
 ---
 title: "Game Theory"
-description: "Course materials for Game Theory, taught by Mauricio Romero."
+description: "Game theory: static and dynamic games, Nash and subgame-perfect equilibrium, and applications, with lecture materials and past exams."
 toc: true
 toc-location: right
 toc-depth: 3
