@@ -380,9 +380,57 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 </section>
 <section id="health-and-pharmaceutical-data-colombia" class="level2">
 <h2 class="anchored" data-anchor-id="health-and-pharmaceutical-data-colombia">Health and pharmaceutical data (Colombia)</h2>
-<p>Datasets compiled for my work on insurer competition and pharmaceutical prices in Colombia — SISMED pharmaceutical pricing (2006–2016), INVIMA drug registries, public benefit-plan legislation, and the IPS medical-provider directory — are being deposited in a public data repository (Zenodo); the DOI will be linked here. Available on request in the meantime.</p>
+<p>Datasets I compiled from Colombian government sources for my work on insurer competition and pharmaceutical prices. These are convenience copies of public information (originally published by the government in PDF and Excel); I cleaned and consolidated them into plain CSVs.</p>
+<section id="pharmaceutical-prices-sismed" class="level3">
+<h3 class="anchored" data-anchor-id="pharmaceutical-prices-sismed">Pharmaceutical prices (SISMED)</h3>
+<p>Reported prices in the SISMED system, one file per year:</p>
+<p><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2006.csv">2006</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2007.csv">2007</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2008.csv">2008</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2009.csv">2009</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2010.csv">2010</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2011.csv">2011</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2012.csv">2012</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2013.csv">2013</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2014.csv">2014</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2015.csv">2015</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2016.csv">2016</a></p>
+</section>
+<section id="drug-registry-invima" class="level3">
+<h3 class="anchored" data-anchor-id="drug-registry-invima">Drug registry (INVIMA)</h3>
+<p>Unique-code drug registries (March 2017) merged from INVIMA:</p>
+<ul>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_ListadoCodigoUnicoVigentesMar2017.csv">Active registrations (Vigentes)</a></li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_ListadoCodigoUnicoVencidosMar2017.csv">Expired (Vencidos)</a></li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_ListadoCodigoUnicoRenovaci_nMar2017.csv">In renewal (Renovación)</a></li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_ListadoCodigounicoOtrosEstadosMar2017.csv">Other statuses (Otros Estados)</a></li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_DataGenerico_Final.csv">General drug characteristics (March 2015)</a></li>
+</ul>
+</section>
+<section id="benefit-plan-legislation" class="level3">
+<h3 class="anchored" data-anchor-id="benefit-plan-legislation">Benefit-plan legislation</h3>
+<p>Official acts/resolutions defining the national benefit plan, with a plain-text CSV of the listed drugs where I extracted one:</p>
+<ul>
+<li>Acuerdo 228 de 2002 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2002_-_AC_228.pdf">PDF</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_AC228_2002_Bare.csv">Plain CSV</a></li>
+<li>Acuerdo 263 de 2004 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2004_-_AC_263.pdf">PDF</a></li>
+<li>Acuerdo 335 de 2006 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2006_-_AC_335.pdf">PDF</a></li>
+<li>Acuerdo 336 de 2006 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2006_-_AC_336.pdf">PDF</a></li>
+<li>Consolidated through 2007 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_Hasta2007.csv">Plain CSV</a></li>
+<li>Acuerdo 368 de 2007 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2007_-_AC_368.pdf">PDF</a></li>
+<li>Acuerdo 380 de 2007 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2007_-_AC_380.pdf">PDF</a></li>
+<li>Acuerdo 08 de 2009 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_AC08_2009_Bare.csv">Plain CSV</a></li>
+<li>Acuerdo 21 de 2011 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2011_-_AC_21.pdf">PDF</a></li>
+<li>Acuerdo 25 de 2011 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2011_-_AC_25.pdf">PDF</a></li>
+<li>Acuerdo 29 de 2011 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2011_-_AC_29.pdf">PDF</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2011-AC_29.csv">Plain CSV</a></li>
+<li>Resolución 5521 de 2013 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2013_-_RES_5521.pdf">PDF</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_Res5521_2013_Bare.csv">Plain CSV</a></li>
+<li>Resolución 5926 de 2014 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2014_-_RES_5926.pdf">PDF</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_Res5926_2014_Bare.csv">Plain CSV</a></li>
+<li>Resolución 5592 de 2015 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_2015_-_RES_5592.pdf">PDF</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_sismed_Res5592_2015_Bare.csv">Plain CSV</a></li>
+</ul>
+</section>
+<section id="medical-provider-directory-ips-reps" class="level3">
+<h3 class="anchored" data-anchor-id="medical-provider-directory-ips-reps">Medical-provider directory (IPS / REPS)</h3>
+<p>Colombia’s registry of health-service providers and their branches (from the public REPS registry, <code>prestadores.minsalud.gov.co</code>):</p>
+<ul>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_ips_Prestadores.csv">Providers (Prestadores)</a> — basic information for each provider</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_ips_Sedes.csv">Branches (Sedes)</a> — every branch of every provider</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_ips_Servicios.csv">Services (Servicios)</a> — services provided at each branch</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_ips_CapacidadInstalada.csv">Installed capacity (Capacidad Instalada)</a></li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/data_ips_SedesGeo.zip">Branch locations (shapefile)</a></li>
+</ul>
+<p><em>Source government portals: <a href="https://web.sispro.gov.co/">SISPRO</a>, <a href="https://www.invima.gov.co/consultas-registros-sanitarios">INVIMA registry</a>, <a href="https://prestadores.minsalud.gov.co/habilitacion/">REPS provider registry</a>.</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
