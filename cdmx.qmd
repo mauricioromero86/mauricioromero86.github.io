@@ -4,10 +4,9 @@ description: "A personal guide to Mexico City — neighborhoods, food, coffee, d
 toc: true
 toc-location: right
 toc-depth: 2
+aliases:
+  - /cdmx/
 ---
-
-A personal guide to Mexico City for visitors and seminar guests — the neighborhoods,
-food, coffee, drinks, and outdoor activities we recommend.
 
 ## Zona Centro
 

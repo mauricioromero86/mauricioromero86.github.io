@@ -94,7 +94,7 @@ Almost a third of the world's forest area is communally managed. In principle, t
 
 with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra) · **European Economic Review** 138, 2021
 
-[Final Manuscript](/pdfs/papers/1-s2.0-S0014292121001768-main.pdf) · [Code](https://dataverse.harvard.edu/dataverse/illegal_mining)
+[Final Manuscript](/pdfs/papers/1-s2.0-S0014292121001768-main.pdf) · [Data and code](https://doi.org/10.7910/DVN/NML0MG)
 
 ::: {#abs-4 .collapse .paper-panel}
 Achieving a fair distribution of resources is one of the goals of fiscal policy. To this end, governments often transfer tax resources from richer to more marginalized areas. In the context of mining in Colombia, we study whether lower transfers to the locality where the taxed economic activity takes place dampen local authorities' incentives to curb tax evasion. Using machine learning predictions on satellite imagery to identify mines allows us to overcome the challenge of measuring evasion. Employing difference-in-differences strategies, we find that reducing the share of revenue transferred back to mining municipalities leads to an increase in illegal mining. This result highlights the difficulties inherent in adequately redistributing tax revenues.
@@ -120,7 +120,7 @@ Achieving a fair distribution of resources is one of the goals of fiscal policy.
 
 with [Juan Bedoya](https://ideas.repec.org/f/pbe909.html), [Rafael de Hoyos](https://scholar.google.com/citations?user=-pavGw8AAAAJ&hl=en), Marcela Silveyra, and [Monica Yanez-Pagans](https://ideas.repec.org/e/pya150.html) · **Journal of Development Economics** 154, 2022
 
-[Final Manuscript](/pdfs/papers/PEC_Management_004.pdf) · [Code](https://doi.org/10.7910/DVN/7SDWNS) · [Original WP](https://hdl.handle.net/10986/35108)
+[Final Manuscript](/pdfs/papers/PEC_Management_004.pdf) · [Data and code](https://doi.org/10.7910/DVN/7SDWNS) · [Original WP](https://hdl.handle.net/10986/35108)
 
 ::: {#abs-5 .collapse .paper-panel}
 We use a large-scale randomized experiment (across 1,198 public primary schools in Mexico) to study the impact of providing schools directly with high-quality managerial training by professional trainers vis-à-vis through a cascade-style "train the trainer" model. The training focused on improving principals' capacities to collect and use data to monitor students' basic numeracy and literacy skills and to provide feedback to teachers on their instruction and pedagogical practices. After two years, the direct training improved schools' managerial capacity by 0.13 standard deviations (p-value 0.018) (relative to "train the trainer" schools), but had no meaningful impact on student test scores (we can rule out an effect greater than 0.08 standard deviations at the 95% level).
@@ -146,7 +146,7 @@ We use a large-scale randomized experiment (across 1,198 public primary schools 
 
 with Lisa Chen and Noriko Magari · **Economic Development and Cultural Change** 70(3), 2022
 
-[Final Manuscript](/pdfs/papers/DraftYr2.pdf) · [Code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IGZJ2J)
+[Final Manuscript](/pdfs/papers/DraftYr2.pdf) · [Data and code](https://doi.org/10.7910/DVN/IGZJ2J)
 
 ::: {#bib-6 .collapse .paper-panel}
 ```bibtex
@@ -322,7 +322,7 @@ We use a panel survey of 19,000 primary-school-aged children in rural Tamil Nadu
 
 with [Melissa Adelman](https://blogs.worldbank.org/team/melissa-adelman), [Francisco Haimovich](http://franciscohaimovich.weebly.com/), and [Emmanuel Vazquez](https://www.cedlas.econo.unlp.edu.ar/wp/evazquez/) · Forthcoming, **Journal of Labor Economics**
 
-[Final Manuscript](/pdfs/papers/ENTRE___GUATE.pdf) · [Earlier WP version](https://elibrary.worldbank.org/doi/abs/10.1596/1813-9450-9685) · [Code](https://doi.org/10.5281/zenodo.17119441)
+[Final Manuscript](/pdfs/papers/ENTRE___GUATE.pdf) · [Earlier WP version](https://elibrary.worldbank.org/doi/abs/10.1596/1813-9450-9685) · [Data and code](https://doi.org/10.7910/DVN/WHPHER)
 
 ::: {#abs-13 .collapse .paper-panel}
 We evaluate a randomized dropout prevention program across 4,000 schools in Guatemala, where 30% of children leave school during the primary-to-secondary transition. Schools were assigned to receive a guidance manual and training; the manual, the training and a list of high-risk students; the manual, the training, the list, and behavioral nudges; or control. All treatments reduced dropout in the transition from primary to secondary by 1.2 percentage points from a 34% base, but effects faded after two years (i.e., there is no difference in the likelihood of being enrolled in secondary school after the first year). Still, the program increased years of schooling by 0.012, and its low cost (USD 2–3 per student) and successful large-scale implementation make it a promising, cost-effective approach to increasing schooling in resource-constrained contexts.
@@ -372,7 +372,7 @@ We study the relative productivity of private and public institutions at the pre
 
 with [Paul Gertler](https://www.paulgertler.com/) and [Sebastian Galiani](https://econweb.umd.edu/~galiani/) · **Nature** 554, 2018
 
-[Final Manuscript](/pdfs/papers/d41586-018-02108-9.pdf) · [NBER WP No. 23576](https://www.nber.org/papers/w23576) · [Data and code](http://econweb.umd.edu/~galiani/files/Replication%20NBER-Nature.zip)
+[Final Manuscript](/pdfs/papers/d41586-018-02108-9.pdf) · [NBER WP No. 23576](https://www.nber.org/papers/w23576) · [Data and code](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/replicationData_ReplicationNBERNature.zip) · [Mirror](http://econweb.umd.edu/~galiani/files/Replication%20NBER-Nature.zip)
 
 ::: {#bib-15 .collapse .paper-panel}
 ```bibtex
@@ -420,7 +420,7 @@ Risk adjustment is vital in health policy design. Risk adjustment defines the an
 
 with [Álvaro Riascos](https://www.alvaroriascos.com/) and Diego Jara · **Journal of Educational and Behavioral Statistics** 40(5), 2015
 
-[Final Manuscript](/pdfs/papers/IndexComparison_FinalDraft.pdf)
+[Final Manuscript](/pdfs/papers/IndexComparison_FinalDraft.pdf) · [Code](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/replicationData_RCode_CopyIndex.rar)
 
 ::: {#abs-17 .collapse .paper-panel}
 Multiple-choice exams are frequently used as an efficient and objective method to assess learning, but they are more vulnerable to answer copying than tests based on open questions. Several statistical tests (known as indices in the literature) have been proposed to detect cheating; however, to the best of our knowledge, they all lack mathematical support that guarantees optimality in any sense. We partially fill this void by deriving the uniformly most powerful (UMP) test under the assumption that the response distribution is known. In practice, however, we must estimate a behavioral model that yields a response distribution for each question. As an application, we calculate the empirical type I and type II error rates for several indices that assume different behavioral models using simulations based on real data from 12 nationwide multiple-choice exams taken by fifth and ninth graders in Colombia. We find that the most powerful index among those studied, subject to the restriction of preserving the type I error, is one based on the work of Wollack and is superior to the index developed by Wesolowsky.
@@ -539,7 +539,7 @@ with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecat
 ::: {.paper-head}
 ### [Benefit Plans, Insurer Competition, and Pharmaceutical Prices: Evidence from Colombia](/pdfs/papers/Romero_Pharma.pdf)
 
-[Abstract](#abs-21){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-21" aria-expanded="false"}
+[Abstract](#abs-21){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-21" aria-expanded="false"} [BibTeX](#bib-21){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-21" aria-expanded="false"}
 :::
 
 [Working Paper](/pdfs/papers/Romero_Pharma.pdf)
@@ -548,10 +548,20 @@ with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecat
 Public health benefit plans must choose what services are covered with public funds. This coverage choice may affect the prices of covered services through multiple channels. First, coverage reduces out-of-pocket expenditures, making consumers less sensitive to the cost of treatment. In an environment where suppliers have market power (as is often the case with pharmaceutical drugs) this could result in higher prices. The second channel is an increase in competition among drugs listed in the benefit plan with the same therapeutic properties, which could result in lower prices. Thus, the net effect on prices is unclear and depends on consumer sensitivity to prices and the level of competition among drugs. Using a difference-in-difference strategy, I study the effect of including a pharmaceutical drug in the national benefit plan of Colombia, a country with a competitive health insurance market in which all insurance companies offer the same plan (the national benefit plan) and charge the same premium. Drug prices decrease by 14% on average after they are listed in the benefit plan and sales increase by 123%. However, if a drug faces no competition and is listed in the benefit plan its price increases. Coverage also affects the prices of unlisted services: Within a therapeutic class, the prices of drugs which are not listed in the benefit plan decrease as the market share of competing drugs listed in the benefit plan increases. I conclude with a discussion of the role of financial incentives in health care markets.
 :::
 
+::: {#bib-21 .collapse .paper-panel}
+```bibtex
+@unpublished{romero_pharma,
+  title={Benefit plans, insurer competition, and pharmaceutical prices: Evidence from Colombia},
+  author={Romero, Mauricio},
+  note={Working paper}
+}
+```
+:::
+
 ::: {.paper-head}
 ### [Using Instrumental Variables under Partial Observability of Endogenous Variables for Assessing Effects of Air Pollution on Health](/pdfs/papers/partialiv.pdf)
 
-[Abstract](#abs-22){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-22" aria-expanded="false"}
+[Abstract](#abs-22){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-22" aria-expanded="false"} [BibTeX](#bib-22){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-22" aria-expanded="false"}
 :::
 
 with [Tarik Benmarhnia](http://profiles.ucsd.edu/tarik.benmarhnia) and [Prashant Bharadwaj](https://prbharadwaj.wordpress.com/)
@@ -562,5 +572,18 @@ with [Tarik Benmarhnia](http://profiles.ucsd.edu/tarik.benmarhnia) and [Prashant
 This paper highlights a common issue with instrumental variables (IV) techniques in evaluating the impact of air pollution on health. Since pollutants are almost always produced alongside other pollutants, instrumenting a single endogenous pollutant requires additional assumptions for correct inference and interpretation. We clarify these assumptions and propose that researchers place more structure on the relationship between the instrument and all the relevant pollutants.
 :::
 
+::: {#bib-22 .collapse .paper-panel}
+```bibtex
+@unpublished{romero_partialiv,
+  title={Using instrumental variables under partial observability of endogenous variables for assessing effects of air pollution on health},
+  author={Benmarhnia, Tarik and Bharadwaj, Prashant and Romero, Mauricio},
+  note={Working paper}
+}
+```
+:::
+
+::: {.paper-head}
 ### [The Effect of Gold Mining on the Health of Newborns](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=BD8UfDoAAAAJ&citation_for_view=BD8UfDoAAAAJ:W7OEmFMy1HYC)
+:::
+
 with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra)

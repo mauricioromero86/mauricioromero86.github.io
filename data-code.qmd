@@ -21,6 +21,10 @@ Replication data and code for my published work are archived in public repositor
 - **Cross-Age Tutoring (Kenya)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/IGZJ2J)
 - **Factorial Designs, Model Selection, and Inference** — [Harvard Dataverse](https://doi.org/10.7910/DVN/XG6U9H)
 - **COVID-19 Learning Loss and Recovery (India)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/XGY7CV)
+- **Preventing School Dropout (Guatemala)** — [Harvard Dataverse](https://doi.org/10.7910/DVN/WHPHER)
+- **The Productivity of Public and Private Preschools (India)** — [Zenodo](https://doi.org/10.5281/zenodo.17119441)
+- **How to Make Replication the Norm (Nature)** — [Replication package](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/replicationData_ReplicationNBERNature.zip)
+- **On the Optimality of Answer-Copying Indices** — [R code](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/data-archive/replicationData_RCode_CopyIndex.rar)
 
 ## Interactive tools
 
