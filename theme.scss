@@ -1,0 +1,135 @@
+/*-- scss:defaults --*/
+
+// Fonts: Newsreader (serif headings + wordmark), IBM Plex Sans (body), IBM Plex Mono (code)
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap');
+
+$font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace !default;
+$headings-font-family:   "Newsreader", Georgia, "Times New Roman", serif !default;
+$headings-font-weight:   500 !default;
+
+$font-size-base:   1.05rem !default;
+$line-height-base: 1.65 !default;
+$border-radius:    6px !default;
+$link-decoration:  none !default;
+
+// palette hooks (overridden in theme-light/theme-dark)
+$mr-muted:    #6b6b6b !default;
+$mr-hairline: #e6e4df !default;
+$mr-code-bg:  #f5f4f1 !default;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// ---- Headings -------------------------------------------------------------
+h1, h2, h3, h4, h5 { font-family: $headings-font-family; line-height: 1.25; }
+h1 { font-weight: 500; letter-spacing: -0.01em; }
+h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 2.8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid $mr-hairline;
+}
+h3 { font-weight: 500; font-size: 1.22rem; margin-top: 1.7rem; }
+
+// muted, smaller meta line right under a paper title (the *with … · Journal* line)
+h3 + p { color: $mr-muted; font-size: 0.95rem; margin-bottom: 0.4rem; }
+h3 + p em { font-style: normal; }
+h3 + p a { color: $mr-muted; }
+h3 + p a:hover { color: $link-color; }
+
+// ---- Links ----------------------------------------------------------------
+a { color: $link-color; text-decoration: none; transition: color .15s ease; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+// ---- Navbar ---------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $mr-hairline;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: 0.01em;
+}
+.navbar .nav-link { font-size: 0.95rem; letter-spacing: 0.01em; }
+.navbar .nav-link.active { box-shadow: inset 0 -2px 0 currentColor; }
+
+// ---- Homepage (about: trestles) ------------------------------------------
+.quarto-about-trestles .about-entity .about-name { font-family: $headings-font-family; }
+.quarto-about-trestles { animation: mr-fade 0.7s ease both; }
+@keyframes mr-fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+// understated text links (not buttons) in the about block
+.about-links { gap: 0.3rem 1.4rem !important; }
+.about-links .about-link {
+  border: none !important;
+  padding: 0 !important;
+  color: $link-color !important;
+  font-size: 0.95rem;
+  background: none !important;
+}
+.about-links .about-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+// ---- Abstract / BibTeX callouts -> minimal disclosure toggles -------------
+.callout.callout-style-default {
+  border: none;
+  border-left: none !important;
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+  margin: 0.4rem 0 1.1rem;
+}
+.callout.callout-style-default > .callout-header {
+  background: none !important;
+  border: none;
+  padding: 0.15rem 0;
+  opacity: 1;
+}
+.callout .callout-icon-container { display: none !important; }
+.callout.callout-style-default .callout-title-container {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: $link-color;
+}
+.callout.callout-style-default .callout-body-container {
+  padding: 0.5rem 0 0.2rem;
+  font-size: 0.96rem;
+  color: $mr-muted;
+}
+.callout.callout-style-default .callout-body-container p:last-child { margin-bottom: 0; }
+// collapse chevron: small + muted
+.callout .callout-toggle { color: $mr-muted; }
+
+// ---- Code / BibTeX blocks -------------------------------------------------
+div.sourceCode, pre {
+  background: $mr-code-bg !important;
+  border: 1px solid $mr-hairline;
+  border-radius: $border-radius;
+}
+code { font-family: $font-family-monospace; }
+:not(pre) > code { background: $mr-code-bg; padding: 0.1em 0.35em; border-radius: 4px; }
+pre code { font-size: 0.82rem; line-height: 1.5; }
+
+// ---- In-page TOC (right) --------------------------------------------------
+nav[role="doc-toc"] > ul > li > a, .sidebar nav[role="doc-toc"] a {
+  font-size: 0.85rem;
+  color: $mr-muted;
+}
+nav[role="doc-toc"] a:hover, nav[role="doc-toc"] .active { color: $link-color; }
+
+// horizontal rules as hairlines
+hr { border-top: 1px solid $mr-hairline; opacity: 1; }
+
+// list spacing in dense link/section pages
+.quarto-title-block .quarto-title .title { font-weight: 500; }

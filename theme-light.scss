@@ -1,0 +1,17 @@
+/*-- scss:defaults --*/
+
+$body-bg:      #fdfdfc;   // warm white
+$body-color:   #1c1c1c;   // near-black ink
+$primary:      #27496d;   // restrained ink-navy accent
+$link-color:   #27496d;
+$border-color: #e6e4df;   // hairline
+
+// component palette hooks (consumed by theme.scss rules)
+$mr-muted:    #6b6b6b;
+$mr-hairline: #e6e4df;
+$mr-code-bg:  #f5f4f1;
+
+// navbar (seamless with page)
+$navbar-bg: #fdfdfc;
+$navbar-fg: #1c1c1c;
+$navbar-hl: #27496d;

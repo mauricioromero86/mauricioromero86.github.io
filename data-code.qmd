@@ -1,6 +1,9 @@
 ---
 title: "Data & Code"
 description: "Datasets, replication packages, and interactive tools from Mauricio Romero's research."
+toc: true
+toc-location: right
+toc-depth: 2
 aliases:
   - /data-and-code/
 ---

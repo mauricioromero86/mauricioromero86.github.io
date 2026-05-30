@@ -1,6 +1,9 @@
 ---
 title: "Research"
 description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
+toc: true
+toc-location: right
+toc-depth: 2
 aliases:
   - /research/
 ---

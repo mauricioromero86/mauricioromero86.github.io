@@ -38,9 +38,8 @@ website:
 format:
   html:
     theme:
-      - litera
-      - styles.scss
+      light: [theme.scss, theme-light.scss]
+      dark: [theme.scss, theme-dark.scss]
+    page-layout: article
     toc: false
-    page-layout: full
-    grid:
-      body-width: 900px
+    back-to-top-navigation: true

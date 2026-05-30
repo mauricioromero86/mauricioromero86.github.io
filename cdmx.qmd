@@ -1,6 +1,9 @@
 ---
 title: "Things to do in CDMX"
 description: "A personal guide to Mexico City — neighborhoods, food, coffee, drinks, and outdoor activities — for visitors and seminar guests."
+toc: true
+toc-location: right
+toc-depth: 2
 ---
 
 A personal guide to Mexico City for visitors and seminar guests — the neighborhoods,

@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+
+$body-bg:      #121417;   // deep ink
+$body-color:   #e7e4dd;   // warm off-white
+$primary:      #9bb8d8;   // lifted navy accent
+$link-color:   #9bb8d8;
+$border-color: #2b2f36;   // hairline
+
+$mr-muted:    #9aa0a6;
+$mr-hairline: #2b2f36;
+$mr-code-bg:  #1b1e22;
+
+$navbar-bg: #121417;
+$navbar-fg: #e7e4dd;
+$navbar-hl: #9bb8d8;
+
+/*-- scss:rules --*/
+
+// keep code/BibTeX tokens legible on the dark code surface
+pre code span { color: #c9d1d9 !important; }
