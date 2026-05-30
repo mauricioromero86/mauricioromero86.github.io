@@ -138,6 +138,9 @@ div.sourceCode, pre {
 code { font-family: $font-family-monospace; }
 :not(pre) > code { background: $mr-code-bg; padding: 0.1em 0.35em; border-radius: 4px; }
 pre code { font-size: 0.82rem; line-height: 1.5; }
+// long BibTeX/URL lines scroll within the block, never widen the page (all viewports)
+pre { overflow-x: auto; }
+pre code { white-space: pre; }
 
 // ---- In-page TOC (right) --------------------------------------------------
 nav[role="doc-toc"] > ul > li > a, .sidebar nav[role="doc-toc"] a {
@@ -151,3 +154,19 @@ hr { border-top: 1px solid $mr-hairline; opacity: 1; }
 
 // list spacing in dense link/section pages
 .quarto-title-block .quarto-title .title { font-weight: 500; }
+
+// ---- Tap targets (all viewports) -----------------------------------------
+// give the Abstract/BibTeX toggles a comfortable hit area without changing how they read
+.paper-toggle { padding: 0.35rem 0; line-height: 1; }
+
+// ---- Mobile (phones) ------------------------------------------------------
+@media (max-width: 576px) {
+  body { font-size: 1rem; }
+  h2 { margin-top: 1.9rem; padding-top: 1rem; font-size: 1.35rem; }
+  h3 { margin-top: 1.2rem; }
+  // title row: let Abstract/BibTeX wrap onto their own tight line under the title
+  .paper-head { gap: 0.1rem 0.6rem; margin-top: 1.3rem; }
+  .paper-head h3 { flex: 1 1 100%; }
+  // a touch more space between stacked link items so they're easy to tap
+  main li { margin-bottom: 0.15rem; }
+}

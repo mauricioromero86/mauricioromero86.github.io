@@ -48,12 +48,6 @@ toc-depth: 3
 - [Quiz 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201419_Quiz2.pdf)
 - [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201419_Quiz2Sol.pdf)
 
-### Parciales Viejos y otros materiales de estudio
-
-- [Parcial 1 (2013-19)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial1.pdf)
-- [Parcial 2 (2013-19)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2b.pdf)
-- [Solución al Parcial 2 (2013-19)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2bSol.pdf)
-
 ### Parciales
 
 - [Parcial 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201419_Parcial1.pdf)
@@ -109,4 +103,10 @@ toc-depth: 3
 - [Distribución de notas del parcial 2.](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2Distr.pdf)
 - [Distribución de notas finales.](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_NotaFinal.pdf)
 - [Distribución de notas de Banner.](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_DistrBanner.pdf)
+
+## Parciales Viejos y otros materiales de estudio
+
+- [Parcial 1 (2013-19)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial1.pdf)
+- [Parcial 2 (2013-19)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2b.pdf)
+- [Solución al Parcial 2 (2013-19)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/TeoJuegos201319_Parcial2bSol.pdf)
 

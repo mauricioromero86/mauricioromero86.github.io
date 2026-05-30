@@ -18,6 +18,14 @@ $display = @{
   "TeoJuegos"        = @{ slug="game-theory";       name="Game Theory" }
 }
 
+# Sections that repeat across terms (past-exam banks): emit ONCE at the page bottom as the
+# union across all terms (deduped by URL, recent-term label wins), instead of per term.
+$sharedSections = @{
+  "EcoIV"     = @('Exámenes viejos de Eco-IV')
+  "TeoJuegos" = @('Parciales Viejos y otros materiales de estudio')
+  "MicroIII"  = @('Parciales Viejos y otros materiales de estudio')
+}
+
 function FriendlyTerm([string]$course,[string]$term) {
   if ($term -match '^(\d{4})-1$') { return "Spring $($Matches[1])" }
   if ($term -match '^(\d{4})-2$') { return "Fall $($Matches[1])" }
@@ -68,22 +76,51 @@ foreach ($course in $display.Keys) {
   [void]$sb.AppendLine("[← All teaching](../teaching.html)")
   [void]$sb.AppendLine("")
 
+  $shared = @(); if ($sharedSections.ContainsKey($course)) { $shared = $sharedSections[$course] }
+  # accumulate shared-section rows across all terms (recent-first), deduped by URL
+  $sharedRows = [ordered]@{}   # section -> ordered map url -> item
+  foreach ($s in $shared) { $sharedRows[$s] = [ordered]@{} }
+
   foreach ($term in $terms) {
     $tr = $cr | Where-Object { $_.Term -eq $term }
     $friendly = FriendlyTerm $course $term
-    [void]$sb.AppendLine("## $friendly")
-    [void]$sb.AppendLine("")
     # sections in first-seen order
     $secOrder = @(); $seen = @{}
     foreach ($x in $tr) { $s = $x.Section; if (-not $seen.ContainsKey($s)) { $seen[$s]=$true; $secOrder += $s } }
-    foreach ($sec in $secOrder) {
-      if ($sec) { [void]$sb.AppendLine("### $sec"); [void]$sb.AppendLine("") }
-      foreach ($it in ($tr | Where-Object { $_.Section -eq $sec })) {
-        $label = $it.Label -replace '\]','\]'   # escape ] in label
-        [void]$sb.AppendLine("- [$label]($($it.Url))")
-      }
+    # non-shared sections for this term (so we don't print an empty term header)
+    $termSecs = $secOrder | Where-Object { $shared -notcontains $_ }
+
+    if ($termSecs.Count -gt 0) {
+      [void]$sb.AppendLine("## $friendly")
       [void]$sb.AppendLine("")
+      foreach ($sec in $termSecs) {
+        if ($sec) { [void]$sb.AppendLine("### $sec"); [void]$sb.AppendLine("") }
+        foreach ($it in ($tr | Where-Object { $_.Section -eq $sec })) {
+          $label = $it.Label -replace '\]','\]'   # escape ] in label
+          [void]$sb.AppendLine("- [$label]($($it.Url))")
+        }
+        [void]$sb.AppendLine("")
+      }
     }
+    # stash shared-section rows (dedupe by URL; first occurrence = most-recent term wins)
+    foreach ($sec in ($secOrder | Where-Object { $shared -contains $_ })) {
+      foreach ($it in ($tr | Where-Object { $_.Section -eq $sec })) {
+        if (-not $sharedRows[$sec].Contains($it.Url)) { $sharedRows[$sec][$it.Url] = $it }
+      }
+    }
+  }
+
+  # emit each shared section ONCE at the page bottom, as a top-level (##) section
+  foreach ($sec in $shared) {
+    $items = $sharedRows[$sec].Values
+    if (-not $items -or @($items).Count -eq 0) { continue }
+    [void]$sb.AppendLine("## $sec")
+    [void]$sb.AppendLine("")
+    foreach ($it in $items) {
+      $label = $it.Label -replace '\]','\]'
+      [void]$sb.AppendLine("- [$label]($($it.Url))")
+    }
+    [void]$sb.AppendLine("")
   }
 
   $path = Join-Path $OutDir "$slug.qmd"
