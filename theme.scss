@@ -37,11 +37,19 @@ h2 {
 }
 h3 { font-weight: 500; font-size: 1.22rem; margin-top: 1.7rem; }
 
+// paper title row: title on the left, Abstract/BibTeX toggles pushed to the right
+.paper-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  flex-wrap: wrap; gap: 0.15rem 1.25rem; margin-top: 1.8rem;
+}
+.paper-head h3 { margin-top: 0; flex: 1 1 70%; }
+.paper-head > p { margin: 0; flex: 0 0 auto; white-space: nowrap; }
+
 // muted, smaller meta line right under a paper title (the *with … · Journal* line)
-h3 + p { color: $mr-muted; font-size: 0.95rem; margin-bottom: 0.4rem; }
-h3 + p em { font-style: normal; }
-h3 + p a { color: $mr-muted; }
-h3 + p a:hover { color: $link-color; }
+.paper-head + p { color: $mr-muted; font-size: 0.95rem; margin-bottom: 0.4rem; }
+.paper-head + p em { font-style: normal; }
+.paper-head + p a { color: $mr-muted; }
+.paper-head + p a:hover { color: $link-color; }
 
 // ---- Links ----------------------------------------------------------------
 a { color: $link-color; text-decoration: none; transition: color .15s ease; }
@@ -54,10 +62,10 @@ main p a:not(.paper-toggle), main li a {
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
-main h3 + p a { text-decoration: none; }
-main h3 + p a:hover { text-decoration: underline; }
+main .paper-head + p a { text-decoration: none; }
+main .paper-head + p a:hover { text-decoration: underline; }
 // bold journal in the meta line stays full-ink so it stands out from the muted line
-h3 + p strong { color: $body-color; }
+.paper-head + p strong { color: $body-color; }
 
 // ---- Navbar ---------------------------------------------------------------
 .navbar {
@@ -112,7 +120,7 @@ h3 + p strong { color: $body-color; }
 .paper-toggle:hover { opacity: 0.65; }
 
 .paper-panel {
-  margin: 0.6rem 0 1.3rem;
+  margin: 0.45rem 0 0.9rem;
   padding: 0.1rem 0 0.1rem 1rem;
   border-left: 2px solid $mr-hairline;
   font-size: 0.95rem;

@@ -44,6 +44,6 @@ format:
     toc: false
     back-to-top-navigation: true
     grid:
-      body-width: 960px
-      margin-width: 240px
+      body-width: 1040px
+      margin-width: 200px
       sidebar-width: 220px
