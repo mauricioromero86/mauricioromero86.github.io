@@ -189,7 +189,6 @@ toc-depth: 3
 - [Taller 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller1.pdf)
 - [Examen 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Examen1.pdf)
 - [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller2.pdf)
-- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller2.pdf)
 
 ## Fall 2021
 
