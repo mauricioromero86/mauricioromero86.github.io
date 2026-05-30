@@ -2,226 +2,121 @@
   {
     "objectID": "courses/microeconometria.html",
     "href": "courses/microeconometria.html",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
     "section": "",
-    "text": "â† All teaching"
+    "text": "← All teaching"
   },
   {
-    "objectID": "courses/microeconometria.html#section",
-    "href": "courses/microeconometria.html#section",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
-    "section": "20261",
-    "text": "20261\n\nSyllabus_20261.pdf"
+    "objectID": "courses/microeconometria.html#spring-2026",
+    "href": "courses/microeconometria.html#spring-2026",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
+    "section": "Spring 2026",
+    "text": "Spring 2026\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 1 - Intro to R\nLecture 2 - Working with data in R\nLecture 3 - Basics of programming\nLecture 4 - Stats review\nLecture 5 - Summarizing data\nLecture 6 - Potential outcomes and the experimental ideal\nLecture 7 - OLS review\nLecture 8 - Beyond the basics of OLS\nLecture 9 - Panel Data\nLecture 10 - Difference-in-Differences\nLecture 11 - Instrumental Variables\nLecture 12 - Regression Discontinuity\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 12"
   },
   {
-    "objectID": "courses/microeconometria.html#section-1",
-    "href": "courses/microeconometria.html#section-1",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
-    "section": "20252",
-    "text": "20252\n\nLecture 0 - Course Admin.pdf\nLecture 1 - Introduction to R.pdf\nLecture 10 - Diff in Diff.pdf\nLecture 11 - IV.pdf\nLecture 12 - RDD.pdf\nLecture 13 - DID, IV, RDD implementation.pdf\nLecture 2 - Working with data in R.pdf\nLecture 3 - Basics of programming.pdf\nLecture 4 - Statistics Review.pdf\nLecture 5 - Summarizing data.pdf\nLecture 6 - Potential outcomes and the experimental ideal.pdf\nLecture 7 - OLS review.pdf\nLecture 8 - Beyond basics of OLS.pdf\nLecture 9 - Panel Data.pdf\nSyllabus_20252.pdf"
+    "objectID": "courses/microeconometria.html#fall-2025",
+    "href": "courses/microeconometria.html#fall-2025",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
+    "section": "Fall 2025",
+    "text": "Fall 2025\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 1 - Intro to R\nLecture 2 - Working with data in R\nLecture 3 - Basics of programming\nLecture 4 - Stats review\nLecture 5 - Summarizing data\nLecture 6 - Potential outcomes and the experimental ideal\nLecture 7 - OLS review\nLecture 8 - Beyond the basics of OLS\nLecture 9 - Panel Data\nLecture 10 - Difference-in-Differences\nLecture 11 - Instrumental Variables\nLecture 12 - Regression Discontinuity\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 12"
   },
   {
-    "objectID": "courses/microeconometria.html#section-2",
-    "href": "courses/microeconometria.html#section-2",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
-    "section": "20232",
-    "text": "20232\n\nDifference_in_Difference__Examples.pdf\nExamen1.pdf\nLecture 0 - Course Admin.pdf\nLecture 1 - Introduction to R.pdf\nLecture 10 - Diff in Diff.pdf\nLecture 11 - IV.pdf\nLecture 12 - RDD.pdf\nLecture 13 - DID, IV, RDD implementation.pdf\nLecture 2 - Working with data in R.pdf\nLecture 3 - Basics of programming.pdf\nLecture 4 - Statistics Review.pdf\nLecture 5 - Summarizing data.pdf\nLecture 6 - Potential outcomes and the experimental ideal.pdf\nLecture 7 - OLS review.pdf\nLecture 8 - Beyond basics of OLS.pdf\nLecture 9 - Panel Data.pdf\nSyllabus_20232.pdf\nTaller1.pdf\nTaller2.pdf\nTallerExamen2.pdf"
+    "objectID": "courses/microeconometria.html#fall-2023",
+    "href": "courses/microeconometria.html#fall-2023",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
+    "section": "Fall 2023",
+    "text": "Fall 2023\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 0 - Admin\nnative LaTeX file\nLecture 1 - Intro to R\nnative LaTeX file\nLecture 2 - Working with data in R\nnative LaTeX file\nLecture 3 - Basics of programming\nnative LaTeX file\nLecture 4 - Stats review\nnative LaTeX file\nLecture 5 - Summarizing data\nnative LaTeX file\nLecture 6 - Potential outcomes and the experimental ideal\nnative LaTeX file\nLecture 7 - OLS review\nnative LaTeX file\nLecture 8 - Beyond the basics of OLS\nnative LaTeX file\nLecture 9 - Panel Data\nnative LaTeX file\nLecture 10 - Difference-in-Differences\nnative LaTeX file\nLecture 10B - Difference-in-Differences Examples\nLecture 11 - Instrumental Variables\nnative LaTeX file\nLecture 12 - Regression Discontinuity\nnative LaTeX file\nLecture 13 - Implementing the methods\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 12\nLecture 13 (implementation)\n\n\n\nProject/Homework\n\nExamen 1\nTaller 1\nSolución\nTaller 2\nSolución\nTaller Examen 2 (no hay que entregarlo)"
   },
   {
-    "objectID": "courses/microeconometria.html#section-3",
-    "href": "courses/microeconometria.html#section-3",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
-    "section": "20231",
-    "text": "20231\n\nExamen1.pdf\nLecture 0 - Course Admin.pdf\nLecture 1 - Introduction to R.pdf\nLecture 10 - Diff in Diff.pdf\nLecture 11 - IV.pdf\nLecture 12 - RDD.pdf\nLecture 2 - Working with data in R.pdf\nLecture 3 - Basics of programming.pdf\nLecture 4 - Statistics Review.pdf\nLecture 5 - Summarizing data.pdf\nLecture 6 - Potential outcomes and the experimental ideal.pdf\nLecture 7 - OLS review.pdf\nLecture 8 - Beyond basics of OLS.pdf\nLecture 9 - Panel Data.pdf\nSyllabus_20231.pdf\nTaller1.pdf\nTaller2.pdf\nTaller3.pdf"
+    "objectID": "courses/microeconometria.html#spring-2023",
+    "href": "courses/microeconometria.html#spring-2023",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
+    "section": "Spring 2023",
+    "text": "Spring 2023\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 0 - Admin\nnative LaTeX file\nLecture 1 - Intro to R\nnative LaTeX file\nLecture 2 - Working with data in R\nnative LaTeX file\nLecture 3 - Basics of programming\nnative LaTeX file\nLecture 4 - Stats review\nnative LaTeX file\nLecture 5 - Summarizing data\nnative LaTeX file\nLecture 6 - Potential outcomes and the experimental ideal\nnative LaTeX file\nLecture 7 - OLS review\nnative LaTeX file\nLecture 8 - Beyond the basics of OLS\nnative LaTeX file\nLecture 9 - Panel Data\nnative LaTeX file\nLecture 10 - Difference-in-Differences\nnative LaTeX file\nLecture 11 - Instrumental Variables\nnative LaTeX file\nLecture 12 - Regression Discontinuity\nnative LaTeX file\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 12\n\n\n\nProject/Homework\n\nTaller 1\nExamen 1\nTaller 2\nTaller 3"
   },
   {
-    "objectID": "courses/microeconometria.html#section-4",
-    "href": "courses/microeconometria.html#section-4",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
-    "section": "20212",
-    "text": "20212\n\nExamen1.pdf\nExamen2.pdf\nLecture 0 - Course Admin.pdf\nLecture 1 - Introduction to R.pdf\nLecture 10 - Diff in Diff.pdf\nLecture 10 - Notes.pdf\nLecture 11 - IV.pdf\nLecture 11 - Notes.pdf\nLecture 12 - Notes.pdf\nLecture 12 - RDD.pdf\nLecture 2 - Working with data in R.pdf\nLecture 3 - Basics of programming.pdf\nLecture 4 - Statistics Review.pdf\nLecture 5 - Summarizing data.pdf\nLecture 6 - Notes.pdf\nLecture 6 - Potential outcomes and the experimental ideal.pdf\nLecture 7 - Notes.pdf\nLecture 7 - OLS review.pdf\nLecture 8 - Beyond basics of OLS.pdf\nLecture 8 - Notes.pdf\nLecture 9 - Notes.pdf\nLecture 9 - Panel Data.pdf\nSyllabus_20212.pdf\nTaller1.pdf\nTaller2.pdf\nTaller3.pdf\nTallerExamen2.pdf\nTallerExamen3.pdf"
+    "objectID": "courses/microeconometria.html#fall-2021",
+    "href": "courses/microeconometria.html#fall-2021",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
+    "section": "Fall 2021",
+    "text": "Fall 2021\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 0 - Admin\nnative LaTeX file\nLecture 1 - Intro to R\nnative LaTeX file\nLecture 2 - Working with data in R\nnative LaTeX file\nLecture 3 - Basics of programming\nnative LaTeX file\nLecture 4 - Stats review\nnative LaTeX file\nLecture 5 - Summarizing data\nnative LaTeX file\nLecture 6 - Potential outcomes and the experimental ideal\nnative LaTeX file\nSlides with notes\nLecture 7 - OLS review\nnative LaTeX file\nSlides with notes\nLecture 8 - Beyond the basics of OLS\nnative LaTeX file\nSlides with notes\nLecture 9 - Panel Data\nnative LaTeX file\nSlides with notes\nLecture 10 - Difference-in-Differences\nnative LaTeX file\nSlides with notes\nLecture 11 - Instrumental Variables\nnative LaTeX file\nSlides with notes\nLecture 12 - Regression Discontinuity\nnative LaTeX file\nSlides with notes\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 12\n\n\n\nProject/Homework\n\nTaller 1\nExamen 1\nTaller 2\nTaller de preparación examen 2 (no hay que entregarlo)\nExamen 2\nTaller 3\nTaller de preparación examen 3 (no hay que entregarlo)"
   },
   {
-    "objectID": "courses/microeconometria.html#section-5",
-    "href": "courses/microeconometria.html#section-5",
-    "title": "MicroeconometrÃ­a Aplicada / Inferencia Causal",
-    "section": "20202",
-    "text": "20202\n\nExamen1.pdf\nExamen2.pdf\nExamen3.pdf\nLecture 0 - Course Admin.pdf\nLecture 1 - Introduction to R.pdf\nLecture 10 - Diff in Diff.pdf\nLecture 10 - Notes.pdf\nLecture 11 - IV.pdf\nLecture 11 - Notes.pdf\nLecture 12 - Notes.pdf\nLecture 12 - RDD.pdf\nLecture 2 - Working with data in R.pdf\nLecture 3 - Basics of programming.pdf\nLecture 4 - Statistics Review.pdf\nLecture 5 - Summarizing data.pdf\nLecture 6 - Notes.pdf\nLecture 6 - Potential outcomes and the experimental ideal.pdf\nLecture 7 - Notes.pdf\nLecture 7 - OLS review.pdf\nLecture 8 - Beyond basics of OLS.pdf\nLecture 8 - Notes.pdf\nLecture 9 - Notes.pdf\nLecture 9 - Panel Data.pdf\npol.6.4.71.pdf\nSyllabus_20202.pdf\nTaller1.pdf\nTaller2.pdf\nTaller3.pdf\nTallerEstudiParcial.pdf\nTallerExamen3.pdf\nCV-ENG.pdf"
+    "objectID": "courses/microeconometria.html#fall-2020",
+    "href": "courses/microeconometria.html#fall-2020",
+    "title": "Microeconometría Aplicada / Inferencia Causal",
+    "section": "Fall 2020",
+    "text": "Fall 2020\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 0 - Admin\nnative LaTeX file\nLecture 1 - Intro to R\nnative LaTeX file\nLecture 2 - Working with data in R\nnative LaTeX file\nLecture 3 - Basics of programming\nnative LaTeX file\nLecture 4 - Stats review\nnative LaTeX file\nLecture 5 - Summarizing data\nnative LaTeX file\nLecture 6 - Potential outcomes and the experimental ideal\nnative LaTeX file\nSlides with notes\nLecture 7 - OLS review\nnative LaTeX file\nSlides with notes\nLecture 8 - Beyond the basics of OLS\nnative LaTeX file\nSlides with notes\nLecture 9 - Panel Data\nnative LaTeX file\nSlides with notes\nLecture 10 - Difference-in-Differences\nnative LaTeX file\nSlides with notes\nLecture 11 - Instrumental Variables\nnative LaTeX file\nSlides with notes\nLecture 12 - Regression Discontinuity\nnative LaTeX file\nSlides with notes\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 12\n\n\n\nProject/Homework\n\nTaller 1\nExamen 1\nTaller 2\nTaller preparación para el Examen 2 (no hay que entregarlo)\nExamen 2\nTaller 3\nBosch y Campos-Vázquez (2014)\nTaller preparación para el Examen 3 (no hay que entregarlo)\nExamen 3"
   },
   {
     "objectID": "courses/micro-ii.html",
     "href": "courses/micro-ii.html",
     "title": "Intermediate Microeconomics",
     "section": "",
-    "text": "â† All teaching\n\nNotas.pdf\nParcial1.pdf\nParcial2.pdf\nParcial2Sol.pdf\nQuiz1.pdf\nQuiz2.pdf\nQuiz3.pdf\nQuiz4.pdf\nSolQuiz1.pdf\nSolQuiz3.pdf\nSolQuiz4.pdf\nSolucionTaller6.pdf\nSolucionTaller7.pdf\nSyllabus.pdf\nTaller1.pdf\nTaller2.pdf\nTaller3.pdf\nTaller4.pdf\nTaller5.pdf\nTaller6.pdf\nTaller7.pdf\nTaller8.pdf"
+    "text": "← All teaching"
   },
   {
-    "objectID": "courses/game-theory-2013.html",
-    "href": "courses/game-theory-2013.html",
-    "title": "Game Theory (2013)",
+    "objectID": "courses/micro-ii.html#summer-2018",
+    "href": "courses/micro-ii.html#summer-2018",
+    "title": "Intermediate Microeconomics",
+    "section": "Summer 2018",
+    "text": "Summer 2018\n\nSyllabus\n\nSyllabus\n\n\n\nNotas de Clase\n\nNotas de clase. Versión 30/05/2018\n\n\n\nTalleres\n\nTaller 1\nSolución\nTaller 2\nTaller 3\nTaller 4\nTaller 5\nTaller Parcial 2\nTaller 2\nTaller 3\nTaller 2\nTaller 3\nTaller 4\nTaller 5\nTaller Parcial 2\nTaller 4\nTaller 5\nTaller 6\nSolución\nTaller 7\nSolución\nTaller 8\n\n\n\nQuices\n\nQuiz 1\nSolución\nQuiz 2\nQuiz 3\nSolución\nQuiz 4\nSolución\nQuiz 1\nQuiz 2\nQuiz 3\nQuiz 4\n\n\n\nParciales\n\nParcial 1\nParcial 2\nSolución"
+  },
+  {
+    "objectID": "courses/field-experiments.html",
+    "href": "courses/field-experiments.html",
+    "title": "Experimental Methods in Development Research",
     "section": "",
-    "text": "â† All teaching\n\nDistrBanner.pdf\nNotaFinal.pdf\nNotas.pdf\nParcial1.pdf\nParcial1Distr.pdf\nParcial2b.pdf\nParcial2bSol.pdf\nParcial2Distr.pdf\nSyllabusTeoJuegos201319.pdf\nTaller 1.pdf\nTaller 2.pdf\nTaller 3.pdf\nTaller1.pdf\nTaller10.pdf\nTaller10Sol.pdf\nTaller11.pdf\nTaller11Sol.pdf\nTaller1Sol.pdf\nTaller2.pdf\nTaller2Sol.pdf\nTaller3.pdf\nTaller3Sol.pdf\nTaller4.pdf\nTaller4Sol.pdf\nTaller5.pdf\nTaller5Sol.pdf\nTaller6.pdf\nTaller6Sol.pdf\nTaller7.pdf\nTaller7Sol.pdf\nTaller8.pdf\nTaller8Sol.pdf\nTaller9.pdf\nTaller9Sol.pdf\nTaller9Sol1.pdf\nTaller9Sol2.pdf\nTallerP.pdf\nTallerParcial.pdf"
+    "text": "← All teaching"
   },
   {
-    "objectID": "courses/ecoiv.html",
-    "href": "courses/ecoiv.html",
-    "title": "EconomÃ­a IV",
+    "objectID": "courses/field-experiments.html#spring-2020",
+    "href": "courses/field-experiments.html#spring-2020",
+    "title": "Experimental Methods in Development Research",
+    "section": "Spring 2020",
+    "text": "Spring 2020\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 1- Introduction\nLecture 2 - Power, Blocking, and Stratification\nLecture 3 - Beyond the Basics (randomization inference, extensive vs intensive margin, and factorial designs)\nLecture 4 - Treatment effect heterogeneity\nLecture 5 - Spillovers\nLecture 6 - Practical, theoretical, and ethical considerations\nLecture 7 - Education RCTs\n\n\n\nCode\n\nCode 01 - Basics of Power Calculations\nCode 02 - Simulated Power Curve\nCode 03 - Formula vs Simulated Power\nCode 04 - Simulated Power in a complicated scenario\nData\nCode 05 - Randomization Inference\nCode 06 - Lee Bounds\n\n\n\nProject/Homework\n\nHere are the homework instructions\nschool_info\nstudent\nschool_data"
+  },
+  {
+    "objectID": "courses/analisis-empirico.html",
+    "href": "courses/analisis-empirico.html",
+    "title": "Seminario de Análisis Empírico",
     "section": "",
-    "text": "â† All teaching"
+    "text": "← All teaching"
   },
   {
-    "objectID": "courses/ecoiv.html#pastexams",
-    "href": "courses/ecoiv.html#pastexams",
-    "title": "EconomÃ­a IV",
-    "section": "PastExams",
-    "text": "PastExams\n\n10dic2018.pdf\n10nov2018.pdf\n11nov2017.pdf\n12nov2016A.pdf\n16dic2019.pdf\n18abr2020.pdf\n18dic2017.pdf\n1oct2016A.pdf\n1oct2016AOPCION2.pdf\n21abr2018.pdf\n21may2018.pdf\n22abr2017.pdf\n27abr2019.pdf\n27mayo2019.pdf\n28sep2019.pdf\n29mayo2017.pdf\n29sep2018.pdf\n2mar2019.pdf\n30sept2017.pdf\n3mar2018.pdf\n3mar2018-2.pdf\n4mar2017.pdf\n5dic2016A.pdf\n7mar2020.pdf\n9nov2019.pdf\nDic2020.pdf\nDic2021.pdf\nFeb2021.pdf\nMayo2020.pdf\nMayo2021.pdf\nNov2020.pdf\nSep2020.pdf\nSep2021.pdf\nSolucion_Nov2021_2.pdf\nSolucion_Parcial_1_2022_Otono.pdf\nSolucion_Parcial_1_2022_Primavera.pdf\nSolucion_Parcial_2_20192.pdf\nSolucion_Parcial_2_20201.pdf\nSolucion_Sep2021.pdf\nSolucionAbril2021.pdf\nSolucionDic2019.pdf\nSolucionDic2021.pdf\nSolucionFeb2020_1.pdf\nSolucionFeb2020_2.pdf\nSolucionMarzo2020.pdf"
+    "objectID": "courses/analisis-empirico.html#spring-2026",
+    "href": "courses/analisis-empirico.html#spring-2026",
+    "title": "Seminario de Análisis Empírico",
+    "section": "Spring 2026",
+    "text": "Spring 2026\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 1 - Intro to R\nLecture 2 - Working with data in R\nLecture 3 - Basics of programming\nLecture 4 - Stats review\nLecture 5 - Summarizing data\nLecture 6 - Potential outcomes and the experimental ideal\n\n\n\nR Code\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6"
   },
   {
-    "objectID": "courses/ecoiv.html#section",
-    "href": "courses/ecoiv.html#section",
-    "title": "EconomÃ­a IV",
-    "section": "20252",
-    "text": "20252\n\nLecture1.pdf\nLecture10.pdf\nLecture11.pdf\nLecture12.pdf\nLecture13.pdf\nLecture14.pdf\nLecture15.pdf\nLecture16.pdf\nLecture17.pdf\nLecture18.pdf\nLecture19.pdf\nLecture19_short.pdf\nLecture2.pdf\nLecture20.pdf\nLecture3.pdf\nLecture4.pdf\nLecture5.pdf\nLecture6.pdf\nLecture7.pdf\nLecture8.pdf\nLecture8-9.pdf\nLecture9.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-1",
-    "href": "courses/ecoiv.html#section-1",
-    "title": "EconomÃ­a IV",
-    "section": "20232",
-    "text": "20232\n\nLecture1.pdf\nLecture10.pdf\nLecture11.pdf\nLecture12.pdf\nLecture13.pdf\nLecture14.pdf\nLecture15.pdf\nLecture16.pdf\nLecture17.pdf\nLecture18.pdf\nLecture19.pdf\nLecture19_short.pdf\nLecture2.pdf\nLecture20.pdf\nLecture3.pdf\nLecture4.pdf\nLecture5.pdf\nLecture6.pdf\nLecture7.pdf\nLecture8.pdf\nLecture8-9.pdf\nLecture9.pdf\nRepasoParcial1.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-2",
-    "href": "courses/ecoiv.html#section-2",
-    "title": "EconomÃ­a IV",
-    "section": "20231",
-    "text": "20231\n\nLecture1.pdf\nLecture1_1.pdf\nLecture10.pdf\nLecture10_1.pdf\nLecture11.pdf\nLecture11_1.pdf\nLecture12.pdf\nLecture12_1.pdf\nLecture13.pdf\nLecture13_1.pdf\nLecture14.pdf\nLecture14_1.pdf\nLecture15.pdf\nLecture15_1.pdf\nLecture16.pdf\nLecture16_1.pdf\nLecture17.pdf\nLecture18.pdf\nLecture19.pdf\nLecture19_short.pdf\nLecture2.pdf\nLecture2_1.pdf\nLecture20.pdf\nLecture3.pdf\nLecture3_1.pdf\nLecture4.pdf\nLecture4_1.pdf\nLecture5.pdf\nLecture5_1.pdf\nLecture6.pdf\nLecture6_1.pdf\nLecture7.pdf\nLecture7_1.pdf\nLecture8.pdf\nLecture8_9_1.pdf\nLecture8-9.pdf\nLecture9.pdf\nQuiz1_2022.pdf\nRepaso_Parcial2_1.pdf\nRepaso_Parcial2_2.pdf\nRepaso_Parcial3_1.pdf\nRepaso_Parcial4_1.pdf\nRepaso_Parcial5_1.pdf\nSolucion_Parcial_1_2022_Otono_Parte2.pdf\nSolucion_Parcial_1_2022_Primavera_Parte2.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-3",
-    "href": "courses/ecoiv.html#section-3",
-    "title": "EconomÃ­a IV",
-    "section": "20221",
-    "text": "20221\n\nDic2021.pdf\nLecture1.pdf\nLecture1_1.pdf\nLecture1_2.pdf\nLecture10.pdf\nLecture10_1.pdf\nLecture10_2.pdf\nLecture11.pdf\nLecture11_1.pdf\nLecture11_2.pdf\nLecture12.pdf\nLecture12_1.pdf\nLecture12_2.pdf\nLecture13.pdf\nLecture13_1.pdf\nLecture13_2.pdf\nLecture14.pdf\nLecture14_1.pdf\nLecture14_2.pdf\nLecture15.pdf\nLecture15_1.pdf\nLecture15_2.pdf\nLecture16.pdf\nLecture16_1.pdf\nLecture16_2.pdf\nLecture17.pdf\nLecture17_1.pdf\nLecture17_2.pdf\nLecture18.pdf\nLecture18_1.pdf\nLecture18_2.pdf\nLecture19.pdf\nLecture19_1.pdf\nLecture19_2.pdf\nLecture19_short.pdf\nLecture2.pdf\nLecture2_1.pdf\nLecture2_2.pdf\nLecture20.pdf\nLecture20_1.pdf\nLecture20_2.pdf\nLecture3.pdf\nLecture3_1.pdf\nLecture3_2.pdf\nLecture4.pdf\nLecture4_1.pdf\nLecture4_2.pdf\nLecture5.pdf\nLecture5_1.pdf\nLecture5_2.pdf\nLecture6.pdf\nLecture6_1.pdf\nLecture6_2.pdf\nLecture7.pdf\nLecture7_1.pdf\nLecture7_2.pdf\nLecture8-9.pdf\nLecture8-9_1.pdf\nLecture8-9_2.pdf\nRepasoParcial_1A_1.pdf\nRepasoParcial_1A_2.pdf\nRepasoParcial_1B_1.pdf\nRepasoParcial_1B_2.pdf\nRepasoParcial_2A_1.pdf\nRepasoParcial_2A_2.pdf\nRepasoParcial_2B_1.pdf\nRepasoParcial_2B_2.pdf\nRepasoParcial_2C_1.pdf\nRepasoParcial_2C_2.pdf\nSolucionDic2021.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-4",
-    "href": "courses/ecoiv.html#section-4",
-    "title": "EconomÃ­a IV",
-    "section": "20211",
-    "text": "20211\n\nLecture1.pdf\nLecture1_1.pdf\nLecture1_2.pdf\nLecture10.pdf\nLecture10_1.pdf\nLecture10_2.pdf\nLecture11.pdf\nLecture11_1.pdf\nLecture11_2.pdf\nLecture12.pdf\nLecture12_1.pdf\nLecture12_2.pdf\nLecture13.pdf\nLecture13_1.pdf\nLecture13_2.pdf\nLecture14.pdf\nLecture14_1.pdf\nLecture14_2.pdf\nLecture15.pdf\nLecture15_1.pdf\nLecture15_2.pdf\nLecture16.pdf\nLecture16_1.pdf\nLecture16_2.pdf\nLecture17.pdf\nLecture17_1.pdf\nLecture18.pdf\nLecture18_1.pdf\nLecture18_2.pdf\nLecture19.pdf\nLecture19_1.pdf\nLecture19_2.pdf\nLecture2.pdf\nLecture2_1.pdf\nLecture2_2.pdf\nLecture20.pdf\nLecture20_1.pdf\nLecture20_2.pdf\nLecture3.pdf\nLecture3_1.pdf\nLecture3_2.pdf\nLecture4.pdf\nLecture4_1.pdf\nLecture4_2.pdf\nLecture5.pdf\nLecture5_1.pdf\nLecture5_2.pdf\nLecture6.pdf\nLecture6_1.pdf\nLecture6_2.pdf\nLecture7.pdf\nLecture7_1.pdf\nLecture7_2.pdf\nLecture8.pdf\nLecture8_1.pdf\nLecture8_2.pdf\nLecture8-9.pdf\nLecture9.pdf\nRepasoFinalA_1.pdf\nRepasoFinalA_2.pdf\nRepasoFinalB_1.pdf\nRepasoFinalB_2.pdf\nRepasoParcial_1A_1.pdf\nRepasoParcial_1A_2.pdf\nRepasoParcial_1B_1.pdf\nRepasoParcial_1B_2.pdf\nRepasoParcial_1C_1.pdf\nRepasoParcial_1C_2.pdf\nRepasoParcial_1D_1.pdf\nRepasoParcial_1D_2.pdf\nRepasoParcial_2A_1.pdf\nRepasoParcial_2A_2.pdf\nRepasoParcial_2B_1.pdf\nRepasoParcial_2B_2.pdf\nRepasoParcial_2C_1.pdf\nRepasoParcial_2C_2.pdf\nSolucionParcial2.pdf\nSolucionParcialFeb2020_1.pdf\nSolucionParcialFeb2020_2.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-5",
-    "href": "courses/ecoiv.html#section-5",
-    "title": "EconomÃ­a IV",
-    "section": "20201",
-    "text": "20201\n\nLecture1.pdf\nLecture10.pdf\nLecture11.pdf\nLecture11_Notas.pdf\nLecture12.pdf\nLecture12_Notas.pdf\nLecture13.pdf\nLecture13_Notas.pdf\nLecture13_Notas2.pdf\nLecture14.pdf\nLecture14_Notas.pdf\nLecture15.pdf\nLecture15_Notas.pdf\nLecture16.pdf\nLecture16_Notas.pdf\nLecture17.pdf\nLecture17_Notas.pdf\nLecture18.pdf\nLecture18_Notas.pdf\nLecture19.pdf\nLecture19_Notas.pdf\nLecture19_short.pdf\nLecture2.pdf\nLecture20.pdf\nLecture3.pdf\nLecture4.pdf\nLecture5.pdf\nLecture6.pdf\nLecture7.pdf\nLecture8.pdf\nLecture9.pdf\nRepaso_1_Finalv3.pdf\nRepaso_1_Parcial1.pdf\nRepaso_1_Parcial2.pdf\nRepaso_2_Final.pdf\nRepaso_2_Parcial1.pdf\nRepaso_2_Parcial2.pdf\nRepaso_3_Final.pdf\nRepaso_3_Parcial1.pdf\nRepaso_3_Parcial2.pdf\nRepaso_4_Parcial1.pdf\nSept_2011_XI.pdf\nSolucion Parcial 1.pdf\nSolucion_Parcial_2_20192.pdf\nSolucion_Parcial_2_20201.pdf\nSolucionParcial1.pdf\nSolucionParcial2.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-6",
-    "href": "courses/ecoiv.html#section-6",
-    "title": "EconomÃ­a IV",
-    "section": "20192",
-    "text": "20192\n\nLecture1.pdf\nLecture10.pdf\nLecture11.pdf\nLecture12.pdf\nLecture13.pdf\nLecture14.pdf\nLecture15.pdf\nLecture16.pdf\nLecture17.pdf\nLecture18.pdf\nLecture19.pdf\nLecture2.pdf\nLecture20.pdf\nLecture3.pdf\nLecture4.pdf\nLecture5.pdf\nLecture6.pdf\nLecture7.pdf\nLecture8.pdf\nLecture9.pdf\nRepaso_1_Final_4pm.pdf\nRepaso_1_Final_530pm.pdf\nRepaso_1_Parcial1_4pm.pdf\nRepaso_1_Parcial1_530pm.pdf\nRepaso_1_Parcial2_4pm.pdf\nRepaso_1_Parcial2_530pm.pdf\nRepaso_2_Final_4pm.pdf\nRepaso_2_Final_530pm.pdf\nRepaso_2_Parcial1_4pm.pdf\nRepaso_2_Parcial1_530pm.pdf\nRepaso_2_Parcial2_4pm.pdf\nRepaso_2_Parcial2_530pm.pdf\nRepaso_3_Final_4pm.pdf\nRepaso_3_Final_530pm.pdf\nRepaso_3_Parcial2_4pm.pdf\nRepaso_3_Parcial2_530pm.pdf\nRepaso_4_Final_4pm.pdf\nRepaso_4_Final_530pm.pdf\nSolucion_Parcial2_4pm.pdf\nSolucion_Parcial2_530pm.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "courses/ecoiv.html#section-7",
-    "href": "courses/ecoiv.html#section-7",
-    "title": "EconomÃ­a IV",
-    "section": "20191",
-    "text": "20191\n\nLecture1.pdf\nLecture10.pdf\nLecture11.pdf\nLecture12.pdf\nLecture13.pdf\nLecture14.pdf\nLecture15.pdf\nLecture16.pdf\nLecture17.pdf\nLecture18.pdf\nLecture19.pdf\nLecture2.pdf\nLecture20.pdf\nLecture3.pdf\nLecture4.pdf\nLecture5.pdf\nLecture6.pdf\nLecture7.pdf\nLecture8.pdf\nLecture9.pdf\nTemario.pdf\nNotas.pdf\nResumen_ParcialFinal.pdf\nTaller_EqGeneral.pdf\nTemario.pdf"
-  },
-  {
-    "objectID": "cdmx.html",
-    "href": "cdmx.html",
-    "title": "Things to do in CDMX",
+    "objectID": "data-code.html",
+    "href": "data-code.html",
+    "title": "Data & Code",
     "section": "",
-    "text": "A personal guide to Mexico City for visitors and seminar guests — the neighborhoods, food, coffee, drinks, and outdoor activities we recommend."
+    "text": "Replication data and code for my published work are archived in public repositories:\n\nInputs, Incentives, and Complementarities (QJE 2019) — KiuFunza Tanzania data: Harvard Dataverse\nOutsourcing Education / Beyond Short-term Learning Gains (Liberia) — Harvard Dataverse · Zenodo\nDesigning Teacher Performance Pay (Tanzania) — Zenodo\nCommunal Property Rights and Deforestation — Harvard Dataverse\nLocal Incentives and National Tax Evasion (Colombia) — Harvard Dataverse\nDirect vs Indirect Management Training (Mexico) — Harvard Dataverse\nCross-Age Tutoring (Kenya) — Harvard Dataverse\nFactorial Designs, Model Selection, and Inference — Harvard Dataverse\nCOVID-19 Learning Loss and Recovery (India) — Harvard Dataverse"
   },
   {
-    "objectID": "cdmx.html#zona-centro",
-    "href": "cdmx.html#zona-centro",
-    "title": "Things to do in CDMX",
-    "section": "Zona Centro",
-    "text": "Zona Centro\nWe recommend spending a morning or day in the city center — ideally on a weekday, when it is less crowded. Start at the Zócalo (the main plaza) and walk to Palacio Nacional (the presidential office). You can walk in (bring a photo ID) to see the Diego Rivera murals — really, really nice. The entrance is here. (Update Feb 2023: you now need to book in advance via email.) An optional side-trip is Templo Mayor, the Aztec ruins in the middle of the city — or just grab a coffee here, which has a nice terrace view of the ruins.\nNext, stroll to Bellas Artes. Go into the building in front (a Sears) and head to the café on the 6th floor for a gorgeous view of Bellas Artes and the Alameda. Walk around Alameda Central. If you want more murals, visit this tiny museum holding a single, huge Diego Rivera mural.\nIf you still have energy, walk to the Monumento a la Revolución and/or Uber to the Museo de Antropología. There, skip the history-of-humans section and go straight to the pre-Hispanic (Aztec/Mayan) halls toward the back of the first floor. From the museum it is a short walk into Bosque de Chapultepec, the biggest park in the city (bigger than Central Park). We love the city view from the Castle (Museum of National History) and this fountain.\nFood\n\nYucatán food, great cochinita pibil — Coox Hanal\nMezcalería — Bósforo (next door there’s a great restaurant with no name and no Google Maps listing)\nAzul Histórico — traditional Mexican food in a beautiful setting"
-  },
-  {
-    "objectID": "cdmx.html#zona-coyoacán-san-ángel",
-    "href": "cdmx.html#zona-coyoacán-san-ángel",
-    "title": "Things to do in CDMX",
-    "section": "Zona Coyoacán / San Ángel",
-    "text": "Zona Coyoacán / San Ángel\nAnother good day is exploring the colonial neighborhoods of San Ángel and Coyoacán (where the intellectual elite lives — think Frida and Diego). If you want to visit Frida’s house, do this route in reverse and buy tickets online as early as possible — it’s the one attraction in the city that is always packed. This is a great Saturday activity: you’ll see what a typical Mexican family does on a weekend.\nHave breakfast here (go to the left-side door — the left restaurant is nicer for breakfast). Then stroll to the Bazar del Sábado — THE place for high-quality Mexican handicrafts (pricier, but much better quality). Then do this exact walk to Coyoacán: https://goo.gl/maps/rXbicz4t9hfDV7FG9. The best churros in the city are shortly after the start, here. Stop along the way at the cultural centers and coffee shops. At the end, sit on a bench in the park near the wolf fountain and watch Mexican life in all its glory."
-  },
-  {
-    "objectID": "cdmx.html#zona-condesa-roma",
-    "href": "cdmx.html#zona-condesa-roma",
-    "title": "Things to do in CDMX",
-    "section": "Zona Condesa / Roma",
-    "text": "Zona Condesa / Roma\nExplore the neighborhood you’re staying in — a stroll across the parks and plazas of Condesa and Roma is a great way to spend a day. Sample walk: https://goo.gl/maps/43qaiieQ2sMetGrq7.\nRestaurants\n\nJapanese (Kura): https://g.page/izakayakura?share\nTasting menu that will ruin all other food for you — get a reservation (Lorea): https://g.page/loreamx?share\nMexican-Yucateca, our go-to for a good meal without overpaying (La Capital): https://goo.gl/maps/gxUFf6tSRfK7LhM96\nGood tacos: Chetito; El Parnita during the day and Páramo at night; for street tacos try El Güero (bistek)\nMediterranean: https://goo.gl/maps/ZoY5mfQSheCaFTtY8\nGood Mexican place: https://goo.gl/maps/KGeR4xPN4KGduofr5\nMore good Mexican food: https://goo.gl/maps/biX5hqbEF4uJN49b8\nCeviche / seafood: https://goo.gl/maps/vFv21GDDgYPDAGL69\n\nTaco stands\n\nEl Comal Oculto — outstanding tacos, quesadillas, and all kinds of antojitos\nHole-in-the-wall Arab-style tacos, our personal favorite: https://goo.gl/maps/HPem8vz44HFoZovG7\nhttps://goo.gl/maps/GzDqGu88ZCopJnD48\nTaquería Álvaro Obregón\n\nCoffee shops & bakeries\n\nSaint — great bread and coffee\nRosetta — great coffee, pastries, and bread\nTout Chocolat\nBlend Station\nEl Péndulo — several locations: one, another\nCentro Galera\nCycling coffee shops: Giro Central and Galibier Cycling House\n\nDrinks\n\nReally nice rooftop: https://goo.gl/maps/BsTXGSJeBY1qeGx16\nGreat mezcal bar: https://goo.gl/maps/bmJWw95iNYPYouPX7\nGreat mezcal bar #2: https://goo.gl/maps/VBv7kwpgD5H5yCop6\nGreat pulque bar: https://goo.gl/maps/NLiPKVBmcxQQZYeA7"
-  },
-  {
-    "objectID": "cdmx.html#assorted-tips",
-    "href": "cdmx.html#assorted-tips",
-    "title": "Things to do in CDMX",
-    "section": "Assorted tips",
-    "text": "Assorted tips\n\nOn Mondays most museums and attractions are closed — a good day to visit Teotihuacán. Book a tour or just Uber there (good drop-off spot). Beyond the Pyramids of the Sun and Moon, stroll the museum and make the trek to the Templo de Quetzalcóatl.\nFor Xochimilco, no need to book ahead (unless you want a kayak tour or similar). This is a good spot to Uber to; prices are posted and fixed."
-  },
-  {
-    "objectID": "cdmx.html#outdoor-activities",
-    "href": "cdmx.html#outdoor-activities",
-    "title": "Things to do in CDMX",
-    "section": "Outdoor activities",
-    "text": "Outdoor activities\nIf you’re an outdoor enthusiast, CDMX has a lot to offer — hiking, road and mountain biking, and rock climbing. A few nearby hikes:\n\nDesierto de los Leones — lots of hiking and mountain biking (weekend MTB rental). Good parking/trailhead; the taco/quesadilla stand at the start is great — try the “Taco sin llorar”.\nAjusco — the tallest mountain within the city, in a protected alpine forest. Short but steep; great views on a clear day. We park here and hike from there.\nThis ejido has many hiking and mountain-biking trails.\nMount Tláloc — a wonderful all-day hike, usually started from Río Frío. The summit has the ruins of an Aztec observatory.\nRock climbing: Los Dinamos (sport, trad, and bouldering), bouldering in Salazar, and great sport climbing in Jilotepec.\nPaso de Cortés."
-  },
-  {
-    "objectID": "cdmx.html#our-google-maps-lists",
-    "href": "cdmx.html#our-google-maps-lists",
-    "title": "Things to do in CDMX",
-    "section": "Our Google Maps lists",
-    "text": "Our Google Maps lists\n\nRestaurants we like\nBars we like\nTaco places we like\nPlaces with rooftops"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "data-code.html#replication-packages",
+    "href": "data-code.html#replication-packages",
+    "title": "Data & Code",
     "section": "",
-    "text": "Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · Materials\n\n\n\nFall 2020, Fall 2021, Spring 2023, Fall 2023, Fall 2025, Spring 2026 · Materials\n\n\n\nSpring 2026 · Materials"
+    "text": "Replication data and code for my published work are archived in public repositories:\n\nInputs, Incentives, and Complementarities (QJE 2019) — KiuFunza Tanzania data: Harvard Dataverse\nOutsourcing Education / Beyond Short-term Learning Gains (Liberia) — Harvard Dataverse · Zenodo\nDesigning Teacher Performance Pay (Tanzania) — Zenodo\nCommunal Property Rights and Deforestation — Harvard Dataverse\nLocal Incentives and National Tax Evasion (Colombia) — Harvard Dataverse\nDirect vs Indirect Management Training (Mexico) — Harvard Dataverse\nCross-Age Tutoring (Kenya) — Harvard Dataverse\nFactorial Designs, Model Selection, and Inference — Harvard Dataverse\nCOVID-19 Learning Loss and Recovery (India) — Harvard Dataverse"
   },
   {
-    "objectID": "teaching.html#itam",
-    "href": "teaching.html#itam",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · Materials\n\n\n\nFall 2020, Fall 2021, Spring 2023, Fall 2023, Fall 2025, Spring 2026 · Materials\n\n\n\nSpring 2026 · Materials"
+    "objectID": "data-code.html#interactive-tools",
+    "href": "data-code.html#interactive-tools",
+    "title": "Data & Code",
+    "section": "Interactive tools",
+    "text": "Interactive tools\n\nAir quality in Bogotá\nNeighborhood-level air-quality reports from the Air filters and student learning project (150 Bogotá schools):\nAntonio Nariño · Barrios Unidos · Bosa · Ciudad Bolívar · Engativá · Fontibón · Kennedy · Mártires · Puente Aranda · Rafael Uribe Uribe · San Cristóbal · Santa Fe · Suba · Tunjuelito · Usaquén · Usme"
   },
   {
-    "objectID": "teaching.html#university-of-bern",
-    "href": "teaching.html#university-of-bern",
-    "title": "Teaching",
-    "section": "University of Bern",
-    "text": "University of Bern\n\nExperimental Methods in Development Research\nSpring 2020 · Materials"
-  },
-  {
-    "objectID": "teaching.html#universidad-de-los-andes",
-    "href": "teaching.html#universidad-de-los-andes",
-    "title": "Teaching",
-    "section": "Universidad de los Andes",
-    "text": "Universidad de los Andes\n\nAdvanced Microeconomics\nSummer 2016 · Materials\n\n\nGame Theory\nSummer 2013, Summer 2014 · Materials (2013) · Materials (2014)\n\n\nCalculus I\n2009"
-  },
-  {
-    "objectID": "teaching.html#universidad-del-rosario",
-    "href": "teaching.html#universidad-del-rosario",
-    "title": "Teaching",
-    "section": "Universidad del Rosario",
-    "text": "Universidad del Rosario\n\nIntermediate Microeconomics\nSummer 2018 · Materials\n\n\nMathematical Economics\n2011"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mauricio Romero",
-    "section": "",
-    "text": "Associate Professor of Economics at ITAM · Co-Editor at the Journal of Development Economics\nI was born and raised in Colombia, where I earned a B.A. in economics (summa cum laude) and a B.A. in mathematics (cum laude) from Universidad de los Andes. I received my Ph.D. in economics from the University of California, San Diego.\nI hold affiliations at the Jameel Poverty Action Lab (J-PAL), Innovations for Poverty Action (IPA), Experiments in Governance and Politics (EGAP), the Center for Global Development (CGD), the Bureau for Research and Economic Analysis of Development (BREAD), and the Institute for Labor Economics (IZA).\nI am a Jacobs Foundation Research Fellow (2024–2026 cohort) and currently serve on the Executive Committee of LACEA (2024–2027).\nMy work focuses on the bottlenecks that impede high-quality government provision of education, health care, and environmental protection. In conjunction with my empirical research agenda, I work on methodological issues in applied econometrics and statistics."
+    "objectID": "data-code.html#health-and-pharmaceutical-data-colombia",
+    "href": "data-code.html#health-and-pharmaceutical-data-colombia",
+    "title": "Data & Code",
+    "section": "Health and pharmaceutical data (Colombia)",
+    "text": "Health and pharmaceutical data (Colombia)\nDatasets compiled for my work on insurer competition and pharmaceutical prices in Colombia — SISMED pharmaceutical pricing (2006–2016), INVIMA drug registries, public benefit-plan legislation, and the IPS medical-provider directory — are being deposited in a public data repository (Zenodo); the DOI will be linked here. Available on request in the meantime."
   },
   {
     "objectID": "research.html",
@@ -280,94 +175,192 @@
     "text": "Resting papers\n\nBenefit Plans, Insurer Competition, and Pharmaceutical Prices: Evidence from Colombia\nAbstract\n\nWorking Paper\n\nPublic health benefit plans must choose what services are covered with public funds. This coverage choice may affect the prices of covered services through multiple channels. First, coverage reduces out-of-pocket expenditures, making consumers less sensitive to the cost of treatment. In an environment where suppliers have market power (as is often the case with pharmaceutical drugs) this could result in higher prices. The second channel is an increase in competition among drugs listed in the benefit plan with the same therapeutic properties, which could result in lower prices. Thus, the net effect on prices is unclear and depends on consumer sensitivity to prices and the level of competition among drugs. Using a difference-in-difference strategy, I study the effect of including a pharmaceutical drug in the national benefit plan of Colombia, a country with a competitive health insurance market in which all insurance companies offer the same plan (the national benefit plan) and charge the same premium. Drug prices decrease by 14% on average after they are listed in the benefit plan and sales increase by 123%. However, if a drug faces no competition and is listed in the benefit plan its price increases. Coverage also affects the prices of unlisted services: Within a therapeutic class, the prices of drugs which are not listed in the benefit plan decrease as the market share of competing drugs listed in the benefit plan increases. I conclude with a discussion of the role of financial incentives in health care markets.\n\n\nUsing Instrumental Variables under Partial Observability of Endogenous Variables for Assessing Effects of Air Pollution on Health\nAbstract\n\nwith Tarik Benmarhnia and Prashant Bharadwaj\nWorking Paper\n\nThis paper highlights a common issue with instrumental variables (IV) techniques in evaluating the impact of air pollution on health. Since pollutants are almost always produced alongside other pollutants, instrumenting a single endogenous pollutant requires additional assumptions for correct inference and interpretation. We clarify these assumptions and propose that researchers place more structure on the relationship between the instrument and all the relevant pollutants.\n\n\nThe Effect of Gold Mining on the Health of Newborns\nwith Santiago Saavedra"
   },
   {
-    "objectID": "data-code.html",
-    "href": "data-code.html",
-    "title": "Data & Code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mauricio Romero",
     "section": "",
-    "text": "Replication data and code for my published work are archived in public repositories:\n\nInputs, Incentives, and Complementarities (QJE 2019) — KiuFunza Tanzania data: Harvard Dataverse\nOutsourcing Education / Beyond Short-term Learning Gains (Liberia) — Harvard Dataverse · Zenodo\nDesigning Teacher Performance Pay (Tanzania) — Zenodo\nCommunal Property Rights and Deforestation — Harvard Dataverse\nLocal Incentives and National Tax Evasion (Colombia) — Harvard Dataverse\nDirect vs Indirect Management Training (Mexico) — Harvard Dataverse\nCross-Age Tutoring (Kenya) — Harvard Dataverse\nFactorial Designs, Model Selection, and Inference — Harvard Dataverse\nCOVID-19 Learning Loss and Recovery (India) — Harvard Dataverse"
+    "text": "Associate Professor of Economics at ITAM · Co-Editor at the Journal of Development Economics\nI was born and raised in Colombia, where I earned a B.A. in economics (summa cum laude) and a B.A. in mathematics (cum laude) from Universidad de los Andes. I received my Ph.D. in economics from the University of California, San Diego.\nI hold affiliations at the Jameel Poverty Action Lab (J-PAL), Innovations for Poverty Action (IPA), Experiments in Governance and Politics (EGAP), the Center for Global Development (CGD), the Bureau for Research and Economic Analysis of Development (BREAD), and the Institute for Labor Economics (IZA).\nI am a Jacobs Foundation Research Fellow (2024–2026 cohort) and currently serve on the Executive Committee of LACEA (2024–2027).\nMy work focuses on the bottlenecks that impede high-quality government provision of education, health care, and environmental protection. In conjunction with my empirical research agenda, I work on methodological issues in applied econometrics and statistics."
   },
   {
-    "objectID": "data-code.html#replication-packages",
-    "href": "data-code.html#replication-packages",
-    "title": "Data & Code",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Replication data and code for my published work are archived in public repositories:\n\nInputs, Incentives, and Complementarities (QJE 2019) — KiuFunza Tanzania data: Harvard Dataverse\nOutsourcing Education / Beyond Short-term Learning Gains (Liberia) — Harvard Dataverse · Zenodo\nDesigning Teacher Performance Pay (Tanzania) — Zenodo\nCommunal Property Rights and Deforestation — Harvard Dataverse\nLocal Incentives and National Tax Evasion (Colombia) — Harvard Dataverse\nDirect vs Indirect Management Training (Mexico) — Harvard Dataverse\nCross-Age Tutoring (Kenya) — Harvard Dataverse\nFactorial Designs, Model Selection, and Inference — Harvard Dataverse\nCOVID-19 Learning Loss and Recovery (India) — Harvard Dataverse"
+    "text": "Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · Materials\n\n\n\nFall 2020, Fall 2021, Spring 2023, Fall 2023, Fall 2025, Spring 2026 · Materials\n\n\n\nSpring 2026 · Materials"
   },
   {
-    "objectID": "data-code.html#interactive-tools",
-    "href": "data-code.html#interactive-tools",
-    "title": "Data & Code",
-    "section": "Interactive tools",
-    "text": "Interactive tools\n\nAir quality in Bogotá\nNeighborhood-level air-quality reports from the Air filters and student learning project (150 Bogotá schools):\nAntonio Nariño · Barrios Unidos · Bosa · Ciudad Bolívar · Engativá · Fontibón · Kennedy · Mártires · Puente Aranda · Rafael Uribe Uribe · San Cristóbal · Santa Fe · Suba · Tunjuelito · Usaquén · Usme"
-  },
-  {
-    "objectID": "data-code.html#health-and-pharmaceutical-data-colombia",
-    "href": "data-code.html#health-and-pharmaceutical-data-colombia",
-    "title": "Data & Code",
-    "section": "Health and pharmaceutical data (Colombia)",
-    "text": "Health and pharmaceutical data (Colombia)\nDatasets compiled for my work on insurer competition and pharmaceutical prices in Colombia — SISMED pharmaceutical pricing (2006–2016), INVIMA drug registries, public benefit-plan legislation, and the IPS medical-provider directory — are being deposited in a public data repository (Zenodo); the DOI will be linked here. Available on request in the meantime."
-  },
-  {
-    "objectID": "courses/analisis-empirico.html",
-    "href": "courses/analisis-empirico.html",
-    "title": "Seminario de AnÃ¡lisis EmpÃ­rico",
+    "objectID": "teaching.html#itam",
+    "href": "teaching.html#itam",
+    "title": "Teaching",
     "section": "",
-    "text": "â† All teaching"
+    "text": "Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 · Materials\n\n\n\nFall 2020, Fall 2021, Spring 2023, Fall 2023, Fall 2025, Spring 2026 · Materials\n\n\n\nSpring 2026 · Materials"
   },
   {
-    "objectID": "courses/analisis-empirico.html#section",
-    "href": "courses/analisis-empirico.html#section",
-    "title": "Seminario de AnÃ¡lisis EmpÃ­rico",
-    "section": "202601",
-    "text": "202601\n\nSyllabus_202601.pdf"
+    "objectID": "teaching.html#university-of-bern",
+    "href": "teaching.html#university-of-bern",
+    "title": "Teaching",
+    "section": "University of Bern",
+    "text": "University of Bern\n\nExperimental Methods in Development Research\nSpring 2020 · Materials"
   },
   {
-    "objectID": "courses/field-experiments.html",
-    "href": "courses/field-experiments.html",
-    "title": "Experimental Methods in Development Research",
+    "objectID": "teaching.html#universidad-de-los-andes",
+    "href": "teaching.html#universidad-de-los-andes",
+    "title": "Teaching",
+    "section": "Universidad de los Andes",
+    "text": "Universidad de los Andes\n\nAdvanced Microeconomics\nSummer 2016 · Materials\n\n\nGame Theory\nSummer 2013, Summer 2014 · Materials\n\n\nCalculus I\n2009"
+  },
+  {
+    "objectID": "teaching.html#universidad-del-rosario",
+    "href": "teaching.html#universidad-del-rosario",
+    "title": "Teaching",
+    "section": "Universidad del Rosario",
+    "text": "Universidad del Rosario\n\nIntermediate Microeconomics\nSummer 2018 · Materials\n\n\nMathematical Economics\n2011"
+  },
+  {
+    "objectID": "cdmx.html",
+    "href": "cdmx.html",
+    "title": "Things to do in CDMX",
     "section": "",
-    "text": "â† All teaching"
+    "text": "A personal guide to Mexico City for visitors and seminar guests — the neighborhoods, food, coffee, drinks, and outdoor activities we recommend."
   },
   {
-    "objectID": "courses/field-experiments.html#bern2020",
-    "href": "courses/field-experiments.html#bern2020",
-    "title": "Experimental Methods in Development Research",
-    "section": "Bern2020",
-    "text": "Bern2020\n\nComputerProject.pdf\nLecture 1 - Introduction.pdf\nLecture 2 - Power, Blocking, Stratification.pdf\nLecture 3 - Beyond the basics.pdf\nLecture 4 - Treatment Effects Heterogeneity.pdf\nLecture 5 - Spillovers.pdf\nLecture 6 - Practical, theoretical, and ethical considerations.pdf\nLecture 7 - Education RCTs.pdf\nSyllabus.pdf"
+    "objectID": "cdmx.html#zona-centro",
+    "href": "cdmx.html#zona-centro",
+    "title": "Things to do in CDMX",
+    "section": "Zona Centro",
+    "text": "Zona Centro\nWe recommend spending a morning or day in the city center — ideally on a weekday, when it is less crowded. Start at the Zócalo (the main plaza) and walk to Palacio Nacional (the presidential office). You can walk in (bring a photo ID) to see the Diego Rivera murals — really, really nice. The entrance is here. (Update Feb 2023: you now need to book in advance via email.) An optional side-trip is Templo Mayor, the Aztec ruins in the middle of the city — or just grab a coffee here, which has a nice terrace view of the ruins.\nNext, stroll to Bellas Artes. Go into the building in front (a Sears) and head to the café on the 6th floor for a gorgeous view of Bellas Artes and the Alameda. Walk around Alameda Central. If you want more murals, visit this tiny museum holding a single, huge Diego Rivera mural.\nIf you still have energy, walk to the Monumento a la Revolución and/or Uber to the Museo de Antropología. There, skip the history-of-humans section and go straight to the pre-Hispanic (Aztec/Mayan) halls toward the back of the first floor. From the museum it is a short walk into Bosque de Chapultepec, the biggest park in the city (bigger than Central Park). We love the city view from the Castle (Museum of National History) and this fountain.\nFood\n\nYucatán food, great cochinita pibil — Coox Hanal\nMezcalería — Bósforo (next door there’s a great restaurant with no name and no Google Maps listing)\nAzul Histórico — traditional Mexican food in a beautiful setting"
   },
   {
-    "objectID": "courses/game-theory-2014.html",
-    "href": "courses/game-theory-2014.html",
-    "title": "Game Theory (2014)",
+    "objectID": "cdmx.html#zona-coyoacán-san-ángel",
+    "href": "cdmx.html#zona-coyoacán-san-ángel",
+    "title": "Things to do in CDMX",
+    "section": "Zona Coyoacán / San Ángel",
+    "text": "Zona Coyoacán / San Ángel\nAnother good day is exploring the colonial neighborhoods of San Ángel and Coyoacán (where the intellectual elite lives — think Frida and Diego). If you want to visit Frida’s house, do this route in reverse and buy tickets online as early as possible — it’s the one attraction in the city that is always packed. This is a great Saturday activity: you’ll see what a typical Mexican family does on a weekend.\nHave breakfast here (go to the left-side door — the left restaurant is nicer for breakfast). Then stroll to the Bazar del Sábado — THE place for high-quality Mexican handicrafts (pricier, but much better quality). Then do this exact walk to Coyoacán: https://goo.gl/maps/rXbicz4t9hfDV7FG9. The best churros in the city are shortly after the start, here. Stop along the way at the cultural centers and coffee shops. At the end, sit on a bench in the park near the wolf fountain and watch Mexican life in all its glory."
+  },
+  {
+    "objectID": "cdmx.html#zona-condesa-roma",
+    "href": "cdmx.html#zona-condesa-roma",
+    "title": "Things to do in CDMX",
+    "section": "Zona Condesa / Roma",
+    "text": "Zona Condesa / Roma\nExplore the neighborhood you’re staying in — a stroll across the parks and plazas of Condesa and Roma is a great way to spend a day. Sample walk: https://goo.gl/maps/43qaiieQ2sMetGrq7.\nRestaurants\n\nJapanese (Kura): https://g.page/izakayakura?share\nTasting menu that will ruin all other food for you — get a reservation (Lorea): https://g.page/loreamx?share\nMexican-Yucateca, our go-to for a good meal without overpaying (La Capital): https://goo.gl/maps/gxUFf6tSRfK7LhM96\nGood tacos: Chetito; El Parnita during the day and Páramo at night; for street tacos try El Güero (bistek)\nMediterranean: https://goo.gl/maps/ZoY5mfQSheCaFTtY8\nGood Mexican place: https://goo.gl/maps/KGeR4xPN4KGduofr5\nMore good Mexican food: https://goo.gl/maps/biX5hqbEF4uJN49b8\nCeviche / seafood: https://goo.gl/maps/vFv21GDDgYPDAGL69\n\nTaco stands\n\nEl Comal Oculto — outstanding tacos, quesadillas, and all kinds of antojitos\nHole-in-the-wall Arab-style tacos, our personal favorite: https://goo.gl/maps/HPem8vz44HFoZovG7\nhttps://goo.gl/maps/GzDqGu88ZCopJnD48\nTaquería Álvaro Obregón\n\nCoffee shops & bakeries\n\nSaint — great bread and coffee\nRosetta — great coffee, pastries, and bread\nTout Chocolat\nBlend Station\nEl Péndulo — several locations: one, another\nCentro Galera\nCycling coffee shops: Giro Central and Galibier Cycling House\n\nDrinks\n\nReally nice rooftop: https://goo.gl/maps/BsTXGSJeBY1qeGx16\nGreat mezcal bar: https://goo.gl/maps/bmJWw95iNYPYouPX7\nGreat mezcal bar #2: https://goo.gl/maps/VBv7kwpgD5H5yCop6\nGreat pulque bar: https://goo.gl/maps/NLiPKVBmcxQQZYeA7"
+  },
+  {
+    "objectID": "cdmx.html#assorted-tips",
+    "href": "cdmx.html#assorted-tips",
+    "title": "Things to do in CDMX",
+    "section": "Assorted tips",
+    "text": "Assorted tips\n\nOn Mondays most museums and attractions are closed — a good day to visit Teotihuacán. Book a tour or just Uber there (good drop-off spot). Beyond the Pyramids of the Sun and Moon, stroll the museum and make the trek to the Templo de Quetzalcóatl.\nFor Xochimilco, no need to book ahead (unless you want a kayak tour or similar). This is a good spot to Uber to; prices are posted and fixed."
+  },
+  {
+    "objectID": "cdmx.html#outdoor-activities",
+    "href": "cdmx.html#outdoor-activities",
+    "title": "Things to do in CDMX",
+    "section": "Outdoor activities",
+    "text": "Outdoor activities\nIf you’re an outdoor enthusiast, CDMX has a lot to offer — hiking, road and mountain biking, and rock climbing. A few nearby hikes:\n\nDesierto de los Leones — lots of hiking and mountain biking (weekend MTB rental). Good parking/trailhead; the taco/quesadilla stand at the start is great — try the “Taco sin llorar”.\nAjusco — the tallest mountain within the city, in a protected alpine forest. Short but steep; great views on a clear day. We park here and hike from there.\nThis ejido has many hiking and mountain-biking trails.\nMount Tláloc — a wonderful all-day hike, usually started from Río Frío. The summit has the ruins of an Aztec observatory.\nRock climbing: Los Dinamos (sport, trad, and bouldering), bouldering in Salazar, and great sport climbing in Jilotepec.\nPaso de Cortés."
+  },
+  {
+    "objectID": "cdmx.html#our-google-maps-lists",
+    "href": "cdmx.html#our-google-maps-lists",
+    "title": "Things to do in CDMX",
+    "section": "Our Google Maps lists",
+    "text": "Our Google Maps lists\n\nRestaurants we like\nBars we like\nTaco places we like\nPlaces with rooftops"
+  },
+  {
+    "objectID": "courses/ecoiv.html",
+    "href": "courses/ecoiv.html",
+    "title": "Economía IV",
     "section": "",
-    "text": "â† All teaching\n\nCV-ENG.pdf\nDistrBanner.pdf\nNotas.pdf\nParcial1.pdf\nParcial1Distr.pdf\nParcial2.pdf\nParcial2Distr.pdf\nParcial2Sol.pdf\nQuiz1.pdf\nQuiz1Sol.pdf\nQuiz2.pdf\nQuiz2Sol.pdf\nSyllabusTeoJuegos201419.pdf\nTaller1.pdf\nTaller10.pdf\nTaller10Sol.pdf\nTaller1Sol.pdf\nTaller2.pdf\nTaller2Sol.pdf\nTaller3.pdf\nTaller3Sol.pdf\nTaller4.pdf\nTaller4Sol.pdf\nTaller5.pdf\nTaller5Sol.pdf\nTaller6.pdf\nTaller6Sol.pdf\nTaller7.pdf\nTaller7Sol.pdf\nTaller8.pdf\nTaller8Sol.pdf\nTaller9.pdf\nTaller9Sol.pdf"
+    "text": "← All teaching"
+  },
+  {
+    "objectID": "courses/ecoiv.html#fall-2025",
+    "href": "courses/ecoiv.html#fall-2025",
+    "title": "Economía IV",
+    "section": "Fall 2025",
+    "text": "Fall 2025\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nLecture 8/9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-Otoño\nPrimer Parcial 2017-Primavera\nPrimer Parcial 2017- Otoño\nPrimer Parcial 2018-Primavera\nPrimer Parcial 2018-Otoño\nPrimer Parcial 2019-Primavera\nPrimer Parcial 2020-Primavera\nSolución\nPrimer Parcial 2020-Otoño\nPrimer Parcial 2021-Primavera (con solución)\nPrimer Parcial 2021-Otoño\nSolución\nPrimer Parcial 2022 - Primavera (solución de algunos ejercicios)\nPrimer Parcial 2022 - Otoño (solución de algunos ejercicios)\nSegundo Parcial 2016-Otoño\nSegundo Parcial 2017-Primavera\nSegundo Parcial 2017-Otoño\nSegundo Parcial 2018-Primavera\nSegundo Parcial 2018-Otoño\nSegundo Parcial 2019-Primavera\nSegundo Parcial 2019-Otoño\nSolución\nSegundo Parcial 2020-Primavera\nSolución\nSegundo Parcial 2020-Otoño\nSegundo Parcial 2021-Primavera (con solución)\nSegundo Parcial 2021-Otoño (con solución)\nFinal 2016-Otoño\nFinal 2017-Primavera\nFinal 2017-Otoño\nFinal 2018-Primavera\nFinal 2018-Otoño\nFinal 2019-Primavera\nFinal 2019-Otoño\nSolución\nFinal 2020-Primavera\nFinal 2020-Otoño\nFinal 2021-Primavera\nFinal 2021-Otoño\nSolución"
+  },
+  {
+    "objectID": "courses/ecoiv.html#fall-2023",
+    "href": "courses/ecoiv.html#fall-2023",
+    "title": "Economía IV",
+    "section": "Fall 2023",
+    "text": "Fall 2023\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nLecture 8/9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nClases de repaso\n\nSolución Examen 1 de 2023-1\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-Otoño\nPrimer Parcial 2017-Primavera\nPrimer Parcial 2017- Otoño\nPrimer Parcial 2018-Primavera\nPrimer Parcial 2018-Otoño\nPrimer Parcial 2019-Primavera\nPrimer Parcial 2020-Primavera\nSolución\nPrimer Parcial 2020-Otoño\nPrimer Parcial 2021-Primavera (con solución)\nPrimer Parcial 2021-Otoño\nSolución\nPrimer Parcial 2022 - Primavera (solución de algunos ejercicios)\nPrimer Parcial 2022 - Otoño (solución de algunos ejercicios)\nSegundo Parcial 2016-Otoño\nSegundo Parcial 2017-Primavera\nSegundo Parcial 2017-Otoño\nSegundo Parcial 2018-Primavera\nSegundo Parcial 2018-Otoño\nSegundo Parcial 2019-Primavera\nSegundo Parcial 2019-Otoño\nSolución\nSegundo Parcial 2020-Primavera\nSolución\nSegundo Parcial 2020-Otoño\nSegundo Parcial 2021-Primavera (con solución)\nSegundo Parcial 2021-Otoño (con solución)\nFinal 2016-Otoño\nFinal 2017-Primavera\nFinal 2017-Otoño\nFinal 2018-Primavera\nFinal 2018-Otoño\nFinal 2019-Primavera\nFinal 2019-Otoño\nSolución\nFinal 2020-Primavera\nFinal 2020-Otoño\nFinal 2021-Primavera\nFinal 2021-Otoño\nSolución"
+  },
+  {
+    "objectID": "courses/ecoiv.html#spring-2023",
+    "href": "courses/ecoiv.html#spring-2023",
+    "title": "Economía IV",
+    "section": "Spring 2023",
+    "text": "Spring 2023\n\nEquilibrio General\n\nLecture 1\nNotas de clase\nLecture 2\nNotas de clase\nLecture 3\nNotas de clase\nLecture 4\nNotas de clase\nLecture 5\nNotas de clase\nLecture 6\nNotas de clase\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nNotas de clase\nLecture 8/9\nNotas de clase\nLecture 10\nNotas de clase\nLecture 11\nNotas de clase\nLecture 12\nNotas de clase\nLecture 13\nNotas de clase\nLecture 14\nNotas de clase\nLecture 15\nNotas de clase\nLecture 16\nNotas de clase\nLecture 17\nLecture 18\nLecture 19\nLecture 20\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nClases de repaso\n\nQuiz 1 - 2022\nRepaso Parcial 2 - Feb 14 2023\nRepaso Parcial 2 - Feb 16 2023\nRepaso Parcial 3 - Marzo 09 2023\nRepaso Parcial 4 - Marzo 30 2023\nRepaso Parcial 5 - Abril 25 2023\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-Otoño\nPrimer Parcial 2017-Primavera\nPrimer Parcial 2017- Otoño\nPrimer Parcial 2018-Primavera\nPrimer Parcial 2018-Otoño\nPrimer Parcial 2019-Primavera\nPrimer Parcial 2020-Primavera\nSolución\nPrimer Parcial 2020-Otoño\nPrimer Parcial 2021-Primavera (con solución)\nPrimer Parcial 2021-Otoño\nSolución\nPrimer Parcial 2022 - Primavera (solución de algunos ejercicios)\nPrimer Parcial 2022 - Otoño (solución de algunos ejercicios)\nSegundo Parcial 2016-Otoño\nSegundo Parcial 2017-Primavera\nSegundo Parcial 2017-Otoño\nSegundo Parcial 2018-Primavera\nSegundo Parcial 2018-Otoño\nSegundo Parcial 2019-Primavera\nSegundo Parcial 2019-Otoño\nSolución\nSegundo Parcial 2020-Primavera\nSolución\nSegundo Parcial 2020-Otoño\nSegundo Parcial 2021-Primavera (con solución)\nSegundo Parcial 2021-Otoño (con solución)\nFinal 2016-Otoño\nFinal 2017-Primavera\nFinal 2017-Otoño\nFinal 2018-Primavera\nFinal 2018-Otoño\nFinal 2019-Primavera\nFinal 2019-Otoño\nSolución\nFinal 2020-Primavera\nFinal 2020-Otoño\nFinal 2021-Primavera\nFinal 2021-Otoño\nSolución"
+  },
+  {
+    "objectID": "courses/ecoiv.html#spring-2022",
+    "href": "courses/ecoiv.html#spring-2022",
+    "title": "Economía IV",
+    "section": "Spring 2022",
+    "text": "Spring 2022\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 2\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 3\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 4\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 5\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 6\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 8/9\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 10\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 11\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 12\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 13\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 14\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 15\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 16\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 17\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 18\nDiapo\nsitivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 19\nDiapo\ns\nitivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 20\nDiapo\ns\nitivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nClases de repaso\n\nPrimer Parcial 2021-Otoño\nSolución\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nSolución\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nSolución\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-Otoño\nPrimer Parcial 2017-Primavera\nPrimer Parcial 2017- Otoño\nPrimer Parcial 2018-Primavera\nPrimer Parcial 2018-Otoño\nPrimer Parcial 2019-Primavera\nPrimer Parcial 2020-Primavera\nSolución\nPrimer Parcial 2020-Otoño\nPrimer Parcial 2021-Primavera (con solución)\nPrimer Parcial 2021-Otoño\nSolución\nSegundo Parcial 2016-Otoño\nSegundo Parcial 2017-Primavera\nSegundo Parcial 2017-Otoño\nSegundo Parcial 2018-Primavera\nSegundo Parcial 2018-Otoño\nSegundo Parcial 2019-Primavera\nSegundo Parcial 2019-Otoño\nSolución\nSegundo Parcial 2020-Primavera\nSolución\nSegundo Parcial 2020-Otoño\nSegundo Parcial 2021-Primavera (con solución)\nSegundo Parcial 2021-Otoño (con solución)\nFinal 2016-Otoño\nFinal 2017-Primavera\nFinal 2017-Otoño\nFinal 2018-Primavera\nFinal 2018-Otoño\nFinal 2019-Primavera\nFinal 2019-Otoño\nSolución\nFinal 2020-Primavera\nFinal 2020-Otoño\nFinal 2021-Primavera\nFinal 2021-Otoño\nSolución"
+  },
+  {
+    "objectID": "courses/ecoiv.html#spring-2021",
+    "href": "courses/ecoiv.html#spring-2021",
+    "title": "Economía IV",
+    "section": "Spring 2021",
+    "text": "Spring 2021\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 2\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 3\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 4\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 5\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 6\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 8/9\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 10\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 11\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 12\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 13\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 14\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 15\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 16\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 17\nDiapositivas con notas (2:30 PM)\nLecture 18\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 19\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\nLecture 20\nDiapositivas con notas (2:30 PM)\nDiapositivas con notas (4:00 PM)\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nClases de repaso\n\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nNotas\nNotas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nSolución Parcial 2 (Abril de 2021)\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\nDiapositivas con notas\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-2\nPrimer Parcial 2017-1\nPrimer Parcial 2017-2\nPrimer Parcial 2018-1\nPrimer Parcial 2018-2\nPrimer Parcial 2019-1\nPrimer Parcial 2020-1\nPrimer Parcial 2020-2\nSegundo Parcial 2016-2\nSegundo Parcial 2017-1\nSegundo Parcial 2017-2\nSegundo Parcial 2018-1\nSegundo Parcial 2018-2\nSegundo Parcial 2019-1\nSegundo Parcial 2019-2\nSegundo Parcial 2020-1\nSegundo Parcial 2020-2\nFinal 2016-2\nFinal 2017-1\nFinal 2017-2\nFinal 2018-1\nFinal 2018-2\nFinal 2019-1\nFinal 2019-2\nFinal 2020-1\nFinal 2020-2"
+  },
+  {
+    "objectID": "courses/ecoiv.html#spring-2020",
+    "href": "courses/ecoiv.html#spring-2020",
+    "title": "Economía IV",
+    "section": "Spring 2020",
+    "text": "Spring 2020\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nDiapositivas con notas\nLecture 12\nDiapositivas con notas\nLecture 13\nDiapositivas con notas\nDiapositivas con notas actualizadas\nLecture 14\nDiapositivas con notas\nLecture 15\nDiapositivas con notas\nLecture 16\nDiapositivas con notas\nLecture 17\nDiapositivas con notas\nLecture 18\nDiapositivas con notas\nLecture 19\nDiapositivas con notas\nLecture 20\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nClases de repaso\n\nParcial 1 - Repaso 1\nParcial 1 - Repaso 2\nParcial 1 - Repaso 3\nParcial 1 - Repaso 4\nPregunta del examen de Sept de 2011\nRespuesta\nSolución Parcial 1 - Marzo 7 de 2020\nParcial 2 - Repaso 1\nParcial 2 - Repaso 2 (solución parcial 2 de otoño 2019)\nParcial 2 - Repaso 3\nParcial 2 - Repaso 4\nSolución Parcial 2 - Abril 18 de 2020\nFinal - Repaso 1\nFinal - Repaso 2\nFinal - Repaso 3 (solución final de otoño 2019)\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-2\nPrimer Parcial 2017-1\nPrimer Parcial 2017-2\nPrimer Parcial 2018-1\nPrimer Parcial 2018-2\nPrimer Parcial 2019-1\nSegundo Parcial 2016-2\nSegundo Parcial 2017-1\nSegundo Parcial 2017-2\nSegundo Parcial 2018-1\nSegundo Parcial 2018-2\nSegundo Parcial 2019-1\nSegundo Parcial 2019-2\nFinal 2016-2\nFinal 2017-1\nFinal 2017-2\nFinal 2018-1\nFinal 2018-2\nFinal 2019-1\nFinal 2019-2"
+  },
+  {
+    "objectID": "courses/ecoiv.html#fall-2019",
+    "href": "courses/ecoiv.html#fall-2019",
+    "title": "Economía IV",
+    "section": "Fall 2019",
+    "text": "Fall 2019\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\n\n\n\nNotas de Clase\n\nNotas de clase de Álvaro Riascos y Andrés Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nClases de repaso\n\nRepaso Parcial 1 - a\nRepaso Parcial 1 - b\nRepaso Parcial 1 - c\nRepaso Parcial 1 - d\nRepaso Parcial 2 - a\nRepaso Parcial 2 - b\nRepaso Parcial 2 - c\nRepaso Parcial 2 - d\nRepaso Parcial 2 - e\nRepaso Parcial 2 - f\nSolución Parcial 2 - a\nSolución Parcial 2 -b\nRepaso Final - a\nRepaso Final - b\nRepaso Final - c\nRepaso Final - d\nRepaso Final - e\nRepaso Final - f\nRepaso Final - g\nRepaso Final - h\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-2\nPrimer Parcial 2017-1\nPrimer Parcial 2017-2\nPrimer Parcial 2018-1\nPrimer Parcial 2018-2\nPrimer Parcial 2019-1\nSegundo Parcial 2016-2\nSegundo Parcial 2017-1\nSegundo Parcial 2017-2\nSegundo Parcial 2018-1\nSegundo Parcial 2018-2\nSegundo Parcial 2019-1\nFinal 2016-2\nFinal 2017-1\nFinal 2017-2\nFinal 2018-1\nFinal 2018-2\nFinal 2019-1"
+  },
+  {
+    "objectID": "courses/ecoiv.html#spring-2019",
+    "href": "courses/ecoiv.html#spring-2019",
+    "title": "Economía IV",
+    "section": "Spring 2019",
+    "text": "Spring 2019\n\nSyllabus\n\nSyllabus\n\n\n\nEquilibrio General\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\n\n\n\nMonopolio y discriminación de precios\n\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\n\n\n\nNotas de Clase\n\nNotas de clase de Alvaro Riascos y Andres Carvajal (Equilibrio general)\nNotas de clase de Marcela Eslava (Teoría de Juegos)\nResumen del curso\nNotas de clase de Teoría de Juegos\nTaller de equilibrio general\n\n\n\nExámenes viejos de Eco-IV\n\nPrimer Parcial 2016-2\nPrimer Parcial 2017-1\nPrimer Parcial 2017-2\nPrimer Parcial 2018-1\nPrimer Parcial 2018-2\nPrimer Parcial 2019-1\nSegundo Parcial 2016-2\nSegundo Parcial 2017-1\nSegundo Parcial 2017-2\nSegundo Parcial 2018-1\nSegundo Parcial 2018-2\nSegundo Parcial 2019-1\nFinal 2016-2\nFinal 2017-1\nFinal 2017-2\nFinal 2018-1\nFinal 2018-2\nFinal 2019-1"
+  },
+  {
+    "objectID": "courses/game-theory.html",
+    "href": "courses/game-theory.html",
+    "title": "Game Theory",
+    "section": "",
+    "text": "← All teaching"
+  },
+  {
+    "objectID": "courses/game-theory.html#summer-2014",
+    "href": "courses/game-theory.html#summer-2014",
+    "title": "Game Theory",
+    "section": "Summer 2014",
+    "text": "Summer 2014\n\nSyllabus\n\nSyllabus\n\n\n\nNotas de Clase\n\nNotas de clase. Versión 04/06/2014\n\n\n\nTalleres\n\nTaller 1\nSolución\nTaller 2\nSolución\nTaller 3\nSolución\nTaller 4\nSolución\nTaller 5\nSolución\nTaller 6\nSolución\nTaller 7\nSolución\nTaller 8\nSolución\nTaller 9\nSolución\nTaller 10\nSolución\n\n\n\nQuices\n\nQuiz 1\nSolución\nQuiz 2\nSolución\n\n\n\nParciales Viejos y otros materiales de estudio\n\nParcial 1 (2013-19)\nParcial 2 (2013-19)\nSolución al Parcial 2 (2013-19)\n\n\n\nParciales\n\nParcial 1\nDistribución de notas del parcial 1\nParcial 2\nSolución al Parcial 2\nDistribución de notas del parcial 2\nDistribución de notas de Banner."
+  },
+  {
+    "objectID": "courses/game-theory.html#summer-2013",
+    "href": "courses/game-theory.html#summer-2013",
+    "title": "Game Theory",
+    "section": "Summer 2013",
+    "text": "Summer 2013\n\nSyllabus\n\nSyllabus\n\n\n\nNotas de Clase\n\nNotas de clase. Versión 15/07/2013\n\n\n\nTalleres\n\nTaller 1\nSolución\nTaller 2\nSolución\nTaller 3\nSolución\nTaller 4\nSolución\nTaller 5\nSolución\nTaller 6\nSolución\nTaller 7\nSolución\nTaller Preparación para el Parcial 1\nTaller 8\nSolución\nTaller 9\nSolución correcta.\nTaller 10\nSolución\nTaller 11\nSolución\nTaller Preparación para el Parcial 2\n\n\n\nParciales\n\nParcial 1\nDistribución de notas del parcial 1\nParcial 2\nSolución al Parcial 2\nDistribución de notas del parcial 2.\nDistribución de notas finales.\nDistribución de notas de Banner."
   },
   {
     "objectID": "courses/micro-iii.html",
     "href": "courses/micro-iii.html",
     "title": "Advanced Microeconomics",
     "section": "",
-    "text": "â† All teaching"
+    "text": "← All teaching"
   },
   {
-    "objectID": "courses/micro-iii.html#section",
-    "href": "courses/micro-iii.html#section",
+    "objectID": "courses/micro-iii.html#summer-2016",
+    "href": "courses/micro-iii.html#summer-2016",
     "title": "Advanced Microeconomics",
-    "section": "2012",
-    "text": "2012\n\nparcial1.pdf\nparcial1-sol.pdf\nparcial2.pdf\nparcial2-sol.pdf\nquiz1.pdf\nquiz2.pdf\nquiz3.pdf\nquiz4.pdf\nquiz5.pdf\ntaller1.pdf\ntaller1-sol.pdf\ntaller2.pdf\ntaller2-sol.pdf\ntaller3.pdf\ntaller3-sol.pdf\ntaller4.pdf\ntaller4-sol.pdf\ntaller5.pdf\ntaller5-sol.pdf"
-  },
-  {
-    "objectID": "courses/micro-iii.html#section-1",
-    "href": "courses/micro-iii.html#section-1",
-    "title": "Advanced Microeconomics",
-    "section": "2011",
-    "text": "2011\n\nparcial1.pdf\nparcial1-sol.pdf\nparcial2.pdf\nparcial2-sol.pdf\nquiz1.pdf\nquiz2.pdf\nquiz3.pdf\nquiz4.pdf\ntaller1.pdf\ntaller1-sol.pdf\ntaller2.pdf\ntaller2-sol.pdf\ntaller3.pdf\ntaller3-sol.pdf\ntaller4.pdf\ntaller4-sol.pdf\ntaller5.pdf\ntaller5-sol.pdf"
-  },
-  {
-    "objectID": "courses/micro-iii.html#section-2",
-    "href": "courses/micro-iii.html#section-2",
-    "title": "Advanced Microeconomics",
-    "section": "2010",
-    "text": "2010\n\nParcial2.pdf\nquiz2.pdf\nquiz4.pdf\nquiz8.pdf\nsolpto2parcial.pdf\ntaller1.pdf\ntaller10.pdf\ntaller10a-sol.pdf\ntaller10-sol.pdf\ntaller2.pdf\ntaller2-sol.pdf\ntaller4.pdf\ntaller4-sol.pdf\ntaller5.pdf\ntaller5-sol.pdf\ntaller6.pdf\ntaller6-sol.pdf\ntaller8.pdf\ntaller8-sol.pdf\nnotas_micro.pdf\nParcial1.pdf\nParcial1Sol.pdf\nproblemascompilados.pdf\nQuiz1.pdf\nQuiz1Sol.pdf\nQuiz2.pdf\nQuiz2Sol.pdf\nQuiz3.pdf\nQuiz3Sol.pdf\nQuiz4.pdf\nQuiz4Sol.pdf\nQuiz5.pdf\nQuiz5Sol.pdf\nSyllabus.pdf\nTaller1.pdf\nTaller1Sol.pdf\nTaller2.pdf\nTaller3.pdf\nTaller3Sol.pdf\nTaller4.pdf\nTaller4Sol.pdf\nTaller5.pdf\nTallerParcial1.pdf\nTallerParcial2.pdf"
+    "section": "Summer 2016",
+    "text": "Summer 2016\n\nSyllabus\n\nSyllabus\n\n\n\nNotas de Clase\n\nNotas de clase de Alvaro Riascos y Andres Carvajal\n\n\n\nTalleres\n\nTaller 1\nSolución\nTaller 2\nTaller Parcial 1\nTaller 3\nSolución\nTaller 4\nSolución\nTaller 5\nTaller Parcial 2\n\n\n\nQuices\n\nQuiz 1\nSolución\nQuiz 2\nSolución\nQuiz 3\nSolución\nQuiz 4\nSolución\nQuiz 5\nSolución\n\n\n\nParciales\n\nParcial 1\nSolución\n\n\n\nParciales Viejos y otros materiales de estudio\n\nProblemas Compilados Varios\nParcial 1 (2012-19)\nParcial 1 - Solución (2012-19)\nParcial 2 (2012-19)\nParcial 2 - Solución (2012-19)\nTaller 1 (2012-19)\nTaller 1 - Solución (2012-19)\nTaller 2 (2012-19)\nTaller 2 - Solución (2012-19)\nTaller 3 (2012-19)\nTaller 3 - Solución (2012-19)\nTaller 4 (2012-19)\nTaller 4 - Solución (2012-19)\nTaller 5 (2012-19)\nTaller 5 - Solución (2012-19)\nQuiz 1 (2012-19)\nQuiz 2 (2012-19)\nQuiz 3 (2012-19)\nQuiz 4 (2012-19)\nQuiz 5 (2012-19)\nParcial 1 (2011-19)\nParcial 1 - Solución (2011-19)\nParcial 2 (2011-19)\nParcial 2 - Solución (2011-19)\nTaller 1 (2011-19)\nTaller 1 - Solución (2011-19)\nTaller 2 (2011-19)\nTaller 2 - Solución (2011-19)\nTaller 3 (2011-19)\nTaller 3 - Solución (2011-19)\nTaller 4 (2011-19)\nTaller 4 - Solución (2011-19)\nTaller 5 (2011-19)\nTaller 5 - Solución (2011-19)\nQuiz 1 (2011-19)\nQuiz 2 (2011-19)\nQuiz 3 (2011-19)\nQuiz 4 (2011-19)\nParcial 1 - Solución al pto 2 (2010-10)\nParcial 2 (2010-10)\nParcial 2 (2010-10)\nTaller 1 (2010-10)\nTaller 2 (2010-10)\nTaller 2 - Solución (2010-10)\nTaller 4 (2010-10)\nTaller 4 - Solución (2010-10)\nTaller 5 (2010-10)\nTaller 5 - Solución (2010-10)\nTaller 6 (2010-10)\nTaller 6 - Solución (2010-10)\nTaller 8 (2010-10)\nTaller 8 - Solución (2010-10)\nTaller 10 (2010-10)\nTaller 10 - Solución (2010-10)\nQuiz 2 (2010-10)\nQuiz 4 (2010-10)\nQuiz 8 (2010-10)"
   }
 ]
