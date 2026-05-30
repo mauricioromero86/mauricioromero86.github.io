@@ -43,3 +43,7 @@ format:
     page-layout: article
     toc: false
     back-to-top-navigation: true
+    grid:
+      body-width: 960px
+      margin-width: 240px
+      sidebar-width: 220px

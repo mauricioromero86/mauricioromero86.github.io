@@ -47,6 +47,18 @@ h3 + p a:hover { color: $link-color; }
 a { color: $link-color; text-decoration: none; transition: color .15s ease; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 
+// content links are underlined by default so they're obviously clickable
+// (navbar, about-page links, paper toggles, and the muted meta line stay clean)
+main p a:not(.paper-toggle), main li a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+main h3 + p a { text-decoration: none; }
+main h3 + p a:hover { text-decoration: underline; }
+// bold journal in the meta line stays full-ink so it stands out from the muted line
+h3 + p strong { color: $body-color; }
+
 // ---- Navbar ---------------------------------------------------------------
 .navbar {
   border-bottom: 1px solid $mr-hairline;
@@ -78,38 +90,36 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoratio
 }
 .about-links .about-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
-// ---- Abstract / BibTeX callouts -> minimal disclosure toggles -------------
-.callout.callout-style-default {
-  border: none;
-  border-left: none !important;
-  border-radius: 0;
-  box-shadow: none;
-  background: none;
-  margin: 0.4rem 0 1.1rem;
-}
-.callout.callout-style-default > .callout-header {
-  background: none !important;
-  border: none;
-  padding: 0.15rem 0;
-  opacity: 1;
-}
-.callout .callout-icon-container { display: none !important; }
-.callout.callout-style-default .callout-title-container {
+// ---- Abstract / BibTeX inline toggles + panels ---------------------------
+.paper-toggle {
+  display: inline-block;
   font-family: $font-family-sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
-  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  font-size: 0.7rem;
   font-weight: 600;
   color: $link-color;
+  text-decoration: none !important;
+  cursor: pointer;
 }
-.callout.callout-style-default .callout-body-container {
-  padding: 0.5rem 0 0.2rem;
-  font-size: 0.96rem;
+.paper-toggle::after {
+  content: " \203A";          // chevron
+  display: inline-block;
+  margin-left: 0.15em;
+  transition: transform 0.15s ease;
+}
+.paper-toggle[aria-expanded="true"]::after { transform: rotate(90deg); }
+.paper-toggle:hover { opacity: 0.65; }
+
+.paper-panel {
+  margin: 0.6rem 0 1.3rem;
+  padding: 0.1rem 0 0.1rem 1rem;
+  border-left: 2px solid $mr-hairline;
+  font-size: 0.95rem;
   color: $mr-muted;
 }
-.callout.callout-style-default .callout-body-container p:last-child { margin-bottom: 0; }
-// collapse chevron: small + muted
-.callout .callout-toggle { color: $mr-muted; }
+.paper-panel > p:last-child { margin-bottom: 0; }
+.paper-panel div.sourceCode, .paper-panel pre { margin-bottom: 0; }
 
 // ---- Code / BibTeX blocks -------------------------------------------------
 div.sourceCode, pre {
