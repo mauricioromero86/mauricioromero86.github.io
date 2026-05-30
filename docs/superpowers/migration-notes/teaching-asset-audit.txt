@@ -1,0 +1,176 @@
+### RELEASE ASSETS (teaching-archive) ###
+asset_count: 540
+
+### TSV: unique hrefs by host ###
+      8 economia.uniandes.edu.co
+   1134 mauricio-romero.com
+
+### LOCAL EXISTENCE of mauricio-romero.com/pdfs/* files referenced ###
+     33 MISS: 1
+    774 OK: 1
+
+### MISSING list (first 40) ###
+MISS pdfs/EcoIV/20211/Lecture17_2.pdf
+MISS pdfs/EcoIV/20231/Temario.pdf
+MISS pdfs/EcoIV/PastExams/FirstMidterm/28sept2019.pdf
+MISS pdfs/EcoIV/PastExams/FirstMidterm/Solucion_Parcial_1_2022_Otono_Parte2.pdf
+MISS pdfs/EcoIV/PastExams/FirstMidterm/Solucion_Parcial_1_2022_Primavera_Parte2.pdf
+MISS pdfs/Inferencia/20252/Lecture 1 - Introduction to R.tex
+MISS pdfs/Inferencia/20252/Lecture 10 - Diff in Diff.tex
+MISS pdfs/Inferencia/20252/Lecture 11 - IV.tex
+MISS pdfs/Inferencia/20252/Lecture 12 - RDD.tex
+MISS pdfs/Inferencia/20252/Lecture 2 - Working with data in R.tex
+MISS pdfs/Inferencia/20252/Lecture 3 - Basics of programming.tex
+MISS pdfs/Inferencia/20252/Lecture 4 - Statistics Review.tex
+MISS pdfs/Inferencia/20252/Lecture 5 - Summarizing data.tex
+MISS pdfs/Inferencia/20252/Lecture 6 - Potential outcomes and the experimental ideal.tex
+MISS pdfs/Inferencia/20252/Lecture 7 - OLS review.tex
+MISS pdfs/Inferencia/20252/Lecture 8 - Beyond basics of OLS.tex
+MISS pdfs/Inferencia/20252/Lecture 9 - Panel Data.tex
+MISS pdfs/Microeconometria/20202/Lecture%2012%20-%20Notes.pdf
+MISS pdfs/Microeconometria/20202/Lecture%208%20-%20Notes.pdf
+MISS pdfs/Microeconometria/20202/Lecture%209%20-%20Notes.pdf
+MISS pdfs/Microeconometria/20212/Lecture%209%20-%20Notes.pdf
+MISS pdfs/MicroII201819/Quiz1Sol.pdf
+MISS pdfs/MicroII201819/Quiz2Sol.pdf
+MISS pdfs/MicroII201819/Quiz3Sol.pdf
+MISS pdfs/MicroII201819/Quiz4Sol.pdf
+MISS pdfs/MicroII201819/Taller1Sol.pdf
+MISS pdfs/MicroII201819/Taller2Sol.pdf
+MISS pdfs/MicroII201819/Taller3Sol.pdf
+MISS pdfs/MicroII201819/Taller4Sol.pdf
+MISS pdfs/MicroII201819/Taller5Sol.pdf
+MISS pdfs/MicroII201819/TallerParcial1.pdf
+MISS pdfs/MicroIII201619/2010/parcial2-sol.pdf
+MISS pdfs/MicroIII201619/Taller5Sol.pdf
+
+### NON-PDF referenced (R/csv/tex/etc) ###
+https://mauricio-romero.com/pdfs/EcoIV/20201/Sep2011_XI.png
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Code 01 - Basics of Power Calculations.R
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Code 02 - Simulated Power Curve.R
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Code 03 - Formula vs Simulated Power.R
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Code 04 - Simulated Power in a complicated scenario.R
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Code 05 - Randomization Inference.R
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Code 06 - Lee Bounds.R
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Data/Afghanistan/Adolescent_Blind.csv
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Data/School_Data.csv
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Data/school_info.csv
+https://mauricio-romero.com/pdfs/FieldExperiments/Bern2020/Data/Student.csv
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class1.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class12.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class2.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class3.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class4.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class5.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class6.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class7.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class8.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Class9.R
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 1 - Introduction to R.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 10 - Diff in Diff.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 11 - IV.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 12 - RDD.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 2 - Working with data in R.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 3 - Basics of programming.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 4 - Statistics Review.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 5 - Summarizing data.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 6 - Potential outcomes and the experimental ideal.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 7 - OLS review.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 8 - Beyond basics of OLS.tex
+https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 9 - Panel Data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class1.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class12.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class2.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class3.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class4.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class5.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class6.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class7.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class8.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Class9.R
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 0 - Course Admin.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 1 - Introduction to R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 10 - Diff in Diff.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 11 - IV.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 12 - RDD.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 2 - Working with data in R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 3 - Basics of programming.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 4 - Statistics Review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 5 - Summarizing data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 6 - Potential outcomes and the experimental ideal.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 7 - OLS review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 8 - Beyond basics of OLS.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20202/Lecture 9 - Panel Data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class1.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class12.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class2.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class3.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class4.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class5.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class6.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class7.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class8.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Class9.R
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 0 - Course Admin.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 1 - Introduction to R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 10 - Diff in Diff.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 11 - IV.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 12 - RDD.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 2 - Working with data in R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 3 - Basics of programming.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 4 - Statistics Review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 5 - Summarizing data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 6 - Potential outcomes and the experimental ideal.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 7 - OLS review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 8 - Beyond basics of OLS.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20212/Lecture 9 - Panel Data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class1.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class12.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class2.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class3.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class4.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class5.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class6.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class7.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class8.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Class9.R
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 0 - Course Admin.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 1 - Introduction to R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 10 - Diff in Diff.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 11 - IV.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 12 - RDD.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 2 - Working with data in R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 3 - Basics of programming.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 4 - Statistics Review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 5 - Summarizing data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 6 - Potential outcomes and the experimental ideal.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 7 - OLS review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 8 - Beyond basics of OLS.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20231/Lecture 9 - Panel Data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class_Implementation.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class1.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class12.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class2.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class3.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class4.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class5.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class6.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class7.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class8.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Class9.R
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 0 - Course Admin.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 1 - Introduction to R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 10 - Diff in Diff.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 11 - IV.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 12 - RDD.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 2 - Working with data in R.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 3 - Basics of programming.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 4 - Statistics Review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 5 - Summarizing data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 6 - Potential outcomes and the experimental ideal.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 7 - OLS review.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 8 - Beyond basics of OLS.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/Lecture 9 - Panel Data.tex
+https://mauricio-romero.com/pdfs/Microeconometria/20232/solucionT1.html
+https://mauricio-romero.com/pdfs/Microeconometria/20232/solucionT2.html
+https://mauricio-romero.com/pdfs/MicroII201819/SolucionTaller1.docx

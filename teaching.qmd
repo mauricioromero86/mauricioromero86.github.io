@@ -30,7 +30,7 @@ Spring 2020 · [Materials](courses/field-experiments.html)
 Summer 2016 · [Materials](courses/micro-iii.html)
 
 ### Game Theory
-Summer 2013, Summer 2014 · [Materials (2013)](courses/game-theory-2013.html) · [Materials (2014)](courses/game-theory-2014.html)
+Summer 2013, Summer 2014 · [Materials](courses/game-theory.html)
 
 ### Calculus I
 2009

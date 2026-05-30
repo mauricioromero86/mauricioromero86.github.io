@@ -1,12 +1,34 @@
-﻿---
-title: "Seminario de AnÃ¡lisis EmpÃ­rico"
-description: "Course materials for Seminario de AnÃ¡lisis EmpÃ­rico, taught by Mauricio Romero."
+---
+title: "Seminario de Análisis Empírico"
+description: "Course materials for Seminario de Análisis Empírico, taught by Mauricio Romero."
+toc: true
+toc-location: right
+toc-depth: 3
 ---
 
-[â† All teaching](../teaching.html)
+[← All teaching](../teaching.html)
 
-## 202601
+## Spring 2026
 
-- [Syllabus_202601.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202601_Syllabus_202601.pdf)
+### Syllabus
 
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202601_Syllabus_202601.pdf)
+
+### Slides
+
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+
+### R Code
+
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class6.R)
 

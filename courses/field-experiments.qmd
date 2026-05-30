@@ -1,20 +1,43 @@
-﻿---
+---
 title: "Experimental Methods in Development Research"
 description: "Course materials for Experimental Methods in Development Research, taught by Mauricio Romero."
+toc: true
+toc-location: right
+toc-depth: 3
 ---
 
-[â† All teaching](../teaching.html)
+[← All teaching](../teaching.html)
 
-## Bern2020
+## Spring 2020
 
-- [ComputerProject.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_ComputerProject.pdf)
-- [Lecture 1 - Introduction.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_1_-_Introduction.pdf)
-- [Lecture 2 - Power, Blocking, Stratification.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_2_-_Power__Blocking__Stratification.pdf)
-- [Lecture 3 - Beyond the basics.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_3_-_Beyond_the_basics.pdf)
-- [Lecture 4 - Treatment Effects Heterogeneity.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_4_-_Treatment_Effects_Heterogeneity.pdf)
-- [Lecture 5 - Spillovers.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_5_-_Spillovers.pdf)
-- [Lecture 6 - Practical, theoretical, and ethical considerations.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_6_-_Practical__theoretical__and_ethical_considerations.pdf)
-- [Lecture 7 - Education RCTs.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_7_-_Education_RCTs.pdf)
-- [Syllabus.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Syllabus.pdf)
+### Syllabus
 
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Syllabus.pdf)
+
+### Slides
+
+- [Lecture 1- Introduction](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_1_-_Introduction.pdf)
+- [Lecture 2 - Power, Blocking, and Stratification](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_2_-_Power__Blocking__Stratification.pdf)
+- [Lecture 3 - Beyond the Basics (randomization inference, extensive vs intensive margin, and factorial designs)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_3_-_Beyond_the_basics.pdf)
+- [Lecture 4 - Treatment effect heterogeneity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_4_-_Treatment_Effects_Heterogeneity.pdf)
+- [Lecture 5 - Spillovers](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_5_-_Spillovers.pdf)
+- [Lecture 6 - Practical, theoretical, and ethical considerations](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_6_-_Practical__theoretical__and_ethical_considerations.pdf)
+- [Lecture 7 - Education RCTs](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Lecture_7_-_Education_RCTs.pdf)
+
+### Code
+
+- [Code 01 - Basics of Power Calculations](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Code_01_-_Basics_of_Power_Calculations.R)
+- [Code 02 - Simulated Power Curve](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Code_02_-_Simulated_Power_Curve.R)
+- [Code 03 - Formula vs Simulated Power](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Code_03_-_Formula_vs_Simulated_Power.R)
+- [Code 04 - Simulated Power in a complicated scenario](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Code_04_-_Simulated_Power_in_a_complicated_scenario.R)
+- [Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Data_Afghanistan_Adolescent_Blind.csv)
+- [Code 05 - Randomization Inference](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Code_05_-_Randomization_Inference.R)
+- [Code 06 - Lee Bounds](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Code_06_-_Lee_Bounds.R)
+
+### Project/Homework
+
+- [Here are the homework instructions](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_ComputerProject.pdf)
+- [school_info](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Data_school_info.csv)
+- [student](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Data_Student.csv)
+- [school_data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/FieldExperiments_Bern2020_Data_School_Data.csv)
 

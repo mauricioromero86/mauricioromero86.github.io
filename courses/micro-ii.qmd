@@ -1,31 +1,64 @@
-﻿---
+---
 title: "Intermediate Microeconomics"
 description: "Course materials for Intermediate Microeconomics, taught by Mauricio Romero."
+toc: true
+toc-location: right
+toc-depth: 3
 ---
 
-[â† All teaching](../teaching.html)
+[← All teaching](../teaching.html)
 
-- [Notas.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Notas.pdf)
-- [Parcial1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Parcial1.pdf)
-- [Parcial2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Parcial2.pdf)
-- [Parcial2Sol.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Parcial2Sol.pdf)
-- [Quiz1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz1.pdf)
-- [Quiz2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz2.pdf)
-- [Quiz3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz3.pdf)
-- [Quiz4.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz4.pdf)
-- [SolQuiz1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolQuiz1.pdf)
-- [SolQuiz3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolQuiz3.pdf)
-- [SolQuiz4.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolQuiz4.pdf)
-- [SolucionTaller6.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolucionTaller6.pdf)
-- [SolucionTaller7.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolucionTaller7.pdf)
-- [Syllabus.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Syllabus.pdf)
-- [Taller1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller1.pdf)
-- [Taller2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller2.pdf)
-- [Taller3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller3.pdf)
-- [Taller4.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller4.pdf)
-- [Taller5.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller5.pdf)
-- [Taller6.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller6.pdf)
-- [Taller7.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller7.pdf)
-- [Taller8.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller8.pdf)
+## Summer 2018
 
+### Syllabus
+
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Syllabus.pdf)
+
+### Notas de Clase
+
+- [Notas de clase. Versión 30/05/2018](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Notas.pdf)
+
+### Talleres
+
+- [Taller 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller1.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolucionTaller1.docx)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller2.pdf)
+- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller3.pdf)
+- [Taller 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller4.pdf)
+- [Taller 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller5.pdf)
+- [Taller Parcial 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroIII201619_TallerParcial2.pdf)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller2.pdf)
+- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller3.pdf)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller2.pdf)
+- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller3.pdf)
+- [Taller 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller4.pdf)
+- [Taller 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller5.pdf)
+- [Taller Parcial 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroIII201619_TallerParcial2.pdf)
+- [Taller 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller4.pdf)
+- [Taller 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller5.pdf)
+- [Taller 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller6.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolucionTaller6.pdf)
+- [Taller 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller7.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolucionTaller7.pdf)
+- [Taller 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Taller8.pdf)
+
+### Quices
+
+- [Quiz 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz1.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolQuiz1.pdf)
+- [Quiz 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz2.pdf)
+- [Quiz 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz3.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolQuiz3.pdf)
+- [Quiz 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz4.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_SolQuiz3.pdf)
+- [Quiz 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz1.pdf)
+- [Quiz 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz2.pdf)
+- [Quiz 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz3.pdf)
+- [Quiz 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Quiz4.pdf)
+
+### Parciales
+
+- [Parcial 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Parcial1.pdf)
+- [Parcial 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Parcial2.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/MicroII201819_Parcial2Sol.pdf)
 

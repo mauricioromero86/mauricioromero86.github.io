@@ -1,0 +1,156 @@
+### STATUS COUNTS ###
+EXTERNAL         8
+NONPDF_MISSING   30
+NONPDF_OK        133
+PDF_MISSING      32
+PDF_OK           939
+
+### NON-PDF / UNMAPPED files to UPLOAD (exist locally) ###
+EcoIV_20201_Sep2011_XI.png	<= public_html\pdfs\EcoIV\20201\Sep2011_XI.png
+FieldExperiments_Bern2020_Code_01_-_Basics_of_Power_Calculations.R	<= public_html\pdfs\FieldExperiments\Bern2020\Code 01 - Basics of Power Calculations.R
+FieldExperiments_Bern2020_Code_02_-_Simulated_Power_Curve.R	<= public_html\pdfs\FieldExperiments\Bern2020\Code 02 - Simulated Power Curve.R
+FieldExperiments_Bern2020_Code_03_-_Formula_vs_Simulated_Power.R	<= public_html\pdfs\FieldExperiments\Bern2020\Code 03 - Formula vs Simulated Power.R
+FieldExperiments_Bern2020_Code_04_-_Simulated_Power_in_a_complicated_scenario.R	<= public_html\pdfs\FieldExperiments\Bern2020\Code 04 - Simulated Power in a complicated scenario.R
+FieldExperiments_Bern2020_Code_05_-_Randomization_Inference.R	<= public_html\pdfs\FieldExperiments\Bern2020\Code 05 - Randomization Inference.R
+FieldExperiments_Bern2020_Code_06_-_Lee_Bounds.R	<= public_html\pdfs\FieldExperiments\Bern2020\Code 06 - Lee Bounds.R
+FieldExperiments_Bern2020_Data_Afghanistan_Adolescent_Blind.csv	<= public_html\pdfs\FieldExperiments\Bern2020\Data\Afghanistan\Adolescent_Blind.csv
+FieldExperiments_Bern2020_Data_School_Data.csv	<= public_html\pdfs\FieldExperiments\Bern2020\Data\School_Data.csv
+FieldExperiments_Bern2020_Data_school_info.csv	<= public_html\pdfs\FieldExperiments\Bern2020\Data\school_info.csv
+FieldExperiments_Bern2020_Data_Student.csv	<= public_html\pdfs\FieldExperiments\Bern2020\Data\Student.csv
+Inferencia_20252_Class1.R	<= public_html\pdfs\Inferencia\20252\Class1.R
+Inferencia_20252_Class12.R	<= public_html\pdfs\Inferencia\20252\Class12.R
+Inferencia_20252_Class2.R	<= public_html\pdfs\Inferencia\20252\Class2.R
+Inferencia_20252_Class3.R	<= public_html\pdfs\Inferencia\20252\Class3.R
+Inferencia_20252_Class4.R	<= public_html\pdfs\Inferencia\20252\Class4.R
+Inferencia_20252_Class5.R	<= public_html\pdfs\Inferencia\20252\Class5.R
+Inferencia_20252_Class6.R	<= public_html\pdfs\Inferencia\20252\Class6.R
+Inferencia_20252_Class7.R	<= public_html\pdfs\Inferencia\20252\Class7.R
+Inferencia_20252_Class8.R	<= public_html\pdfs\Inferencia\20252\Class8.R
+Inferencia_20252_Class9.R	<= public_html\pdfs\Inferencia\20252\Class9.R
+Microeconometria_20202_Class1.R	<= public_html\pdfs\Microeconometria\20202\Class1.R
+Microeconometria_20202_Class12.R	<= public_html\pdfs\Microeconometria\20202\Class12.R
+Microeconometria_20202_Class2.R	<= public_html\pdfs\Microeconometria\20202\Class2.R
+Microeconometria_20202_Class3.R	<= public_html\pdfs\Microeconometria\20202\Class3.R
+Microeconometria_20202_Class4.R	<= public_html\pdfs\Microeconometria\20202\Class4.R
+Microeconometria_20202_Class5.R	<= public_html\pdfs\Microeconometria\20202\Class5.R
+Microeconometria_20202_Class6.R	<= public_html\pdfs\Microeconometria\20202\Class6.R
+Microeconometria_20202_Class7.R	<= public_html\pdfs\Microeconometria\20202\Class7.R
+Microeconometria_20202_Class8.R	<= public_html\pdfs\Microeconometria\20202\Class8.R
+Microeconometria_20202_Class9.R	<= public_html\pdfs\Microeconometria\20202\Class9.R
+Microeconometria_20202_Lecture_0_-_Course_Admin.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 0 - Course Admin.tex
+Microeconometria_20202_Lecture_1_-_Introduction_to_R.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 1 - Introduction to R.tex
+Microeconometria_20202_Lecture_10_-_Diff_in_Diff.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 10 - Diff in Diff.tex
+Microeconometria_20202_Lecture_11_-_IV.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 11 - IV.tex
+Microeconometria_20202_Lecture_12_-_RDD.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 12 - RDD.tex
+Microeconometria_20202_Lecture_2_-_Working_with_data_in_R.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 2 - Working with data in R.tex
+Microeconometria_20202_Lecture_3_-_Basics_of_programming.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 3 - Basics of programming.tex
+Microeconometria_20202_Lecture_4_-_Statistics_Review.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 4 - Statistics Review.tex
+Microeconometria_20202_Lecture_5_-_Summarizing_data.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 5 - Summarizing data.tex
+Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 6 - Potential outcomes and the experimental ideal.tex
+Microeconometria_20202_Lecture_7_-_OLS_review.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 7 - OLS review.tex
+Microeconometria_20202_Lecture_8_-_Beyond_basics_of_OLS.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 8 - Beyond basics of OLS.tex
+Microeconometria_20202_Lecture_9_-_Panel_Data.tex	<= public_html\pdfs\Microeconometria\20202\Lecture 9 - Panel Data.tex
+Microeconometria_20212_Class1.R	<= public_html\pdfs\Microeconometria\20212\Class1.R
+Microeconometria_20212_Class12.R	<= public_html\pdfs\Microeconometria\20212\Class12.R
+Microeconometria_20212_Class2.R	<= public_html\pdfs\Microeconometria\20212\Class2.R
+Microeconometria_20212_Class3.R	<= public_html\pdfs\Microeconometria\20212\Class3.R
+Microeconometria_20212_Class4.R	<= public_html\pdfs\Microeconometria\20212\Class4.R
+Microeconometria_20212_Class5.R	<= public_html\pdfs\Microeconometria\20212\Class5.R
+Microeconometria_20212_Class6.R	<= public_html\pdfs\Microeconometria\20212\Class6.R
+Microeconometria_20212_Class7.R	<= public_html\pdfs\Microeconometria\20212\Class7.R
+Microeconometria_20212_Class8.R	<= public_html\pdfs\Microeconometria\20212\Class8.R
+Microeconometria_20212_Class9.R	<= public_html\pdfs\Microeconometria\20212\Class9.R
+Microeconometria_20212_Lecture_0_-_Course_Admin.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 0 - Course Admin.tex
+Microeconometria_20212_Lecture_1_-_Introduction_to_R.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 1 - Introduction to R.tex
+Microeconometria_20212_Lecture_10_-_Diff_in_Diff.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 10 - Diff in Diff.tex
+Microeconometria_20212_Lecture_11_-_IV.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 11 - IV.tex
+Microeconometria_20212_Lecture_12_-_RDD.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 12 - RDD.tex
+Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 2 - Working with data in R.tex
+Microeconometria_20212_Lecture_3_-_Basics_of_programming.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 3 - Basics of programming.tex
+Microeconometria_20212_Lecture_4_-_Statistics_Review.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 4 - Statistics Review.tex
+Microeconometria_20212_Lecture_5_-_Summarizing_data.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 5 - Summarizing data.tex
+Microeconometria_20212_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 6 - Potential outcomes and the experimental ideal.tex
+Microeconometria_20212_Lecture_7_-_OLS_review.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 7 - OLS review.tex
+Microeconometria_20212_Lecture_8_-_Beyond_basics_of_OLS.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 8 - Beyond basics of OLS.tex
+Microeconometria_20212_Lecture_9_-_Panel_Data.tex	<= public_html\pdfs\Microeconometria\20212\Lecture 9 - Panel Data.tex
+Microeconometria_20231_Class1.R	<= public_html\pdfs\Microeconometria\20231\Class1.R
+Microeconometria_20231_Class12.R	<= public_html\pdfs\Microeconometria\20231\Class12.R
+Microeconometria_20231_Class2.R	<= public_html\pdfs\Microeconometria\20231\Class2.R
+Microeconometria_20231_Class3.R	<= public_html\pdfs\Microeconometria\20231\Class3.R
+Microeconometria_20231_Class4.R	<= public_html\pdfs\Microeconometria\20231\Class4.R
+Microeconometria_20231_Class5.R	<= public_html\pdfs\Microeconometria\20231\Class5.R
+Microeconometria_20231_Class6.R	<= public_html\pdfs\Microeconometria\20231\Class6.R
+Microeconometria_20231_Class7.R	<= public_html\pdfs\Microeconometria\20231\Class7.R
+Microeconometria_20231_Class8.R	<= public_html\pdfs\Microeconometria\20231\Class8.R
+Microeconometria_20231_Class9.R	<= public_html\pdfs\Microeconometria\20231\Class9.R
+Microeconometria_20231_Lecture_0_-_Course_Admin.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 0 - Course Admin.tex
+Microeconometria_20231_Lecture_1_-_Introduction_to_R.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 1 - Introduction to R.tex
+Microeconometria_20231_Lecture_10_-_Diff_in_Diff.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 10 - Diff in Diff.tex
+Microeconometria_20231_Lecture_11_-_IV.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 11 - IV.tex
+Microeconometria_20231_Lecture_12_-_RDD.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 12 - RDD.tex
+Microeconometria_20231_Lecture_2_-_Working_with_data_in_R.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 2 - Working with data in R.tex
+Microeconometria_20231_Lecture_3_-_Basics_of_programming.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 3 - Basics of programming.tex
+Microeconometria_20231_Lecture_4_-_Statistics_Review.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 4 - Statistics Review.tex
+Microeconometria_20231_Lecture_5_-_Summarizing_data.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 5 - Summarizing data.tex
+Microeconometria_20231_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 6 - Potential outcomes and the experimental ideal.tex
+Microeconometria_20231_Lecture_7_-_OLS_review.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 7 - OLS review.tex
+Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 8 - Beyond basics of OLS.tex
+Microeconometria_20231_Lecture_9_-_Panel_Data.tex	<= public_html\pdfs\Microeconometria\20231\Lecture 9 - Panel Data.tex
+Microeconometria_20232_Class_Implementation.R	<= public_html\pdfs\Microeconometria\20232\Class_Implementation.R
+Microeconometria_20232_Class1.R	<= public_html\pdfs\Microeconometria\20232\Class1.R
+Microeconometria_20232_Class12.R	<= public_html\pdfs\Microeconometria\20232\Class12.R
+Microeconometria_20232_Class2.R	<= public_html\pdfs\Microeconometria\20232\Class2.R
+Microeconometria_20232_Class3.R	<= public_html\pdfs\Microeconometria\20232\Class3.R
+Microeconometria_20232_Class4.R	<= public_html\pdfs\Microeconometria\20232\Class4.R
+Microeconometria_20232_Class5.R	<= public_html\pdfs\Microeconometria\20232\Class5.R
+Microeconometria_20232_Class6.R	<= public_html\pdfs\Microeconometria\20232\Class6.R
+Microeconometria_20232_Class7.R	<= public_html\pdfs\Microeconometria\20232\Class7.R
+Microeconometria_20232_Class8.R	<= public_html\pdfs\Microeconometria\20232\Class8.R
+Microeconometria_20232_Class9.R	<= public_html\pdfs\Microeconometria\20232\Class9.R
+Microeconometria_20232_Lecture_0_-_Course_Admin.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 0 - Course Admin.tex
+Microeconometria_20232_Lecture_1_-_Introduction_to_R.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 1 - Introduction to R.tex
+Microeconometria_20232_Lecture_10_-_Diff_in_Diff.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 10 - Diff in Diff.tex
+Microeconometria_20232_Lecture_11_-_IV.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 11 - IV.tex
+Microeconometria_20232_Lecture_12_-_RDD.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 12 - RDD.tex
+Microeconometria_20232_Lecture_2_-_Working_with_data_in_R.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 2 - Working with data in R.tex
+Microeconometria_20232_Lecture_3_-_Basics_of_programming.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 3 - Basics of programming.tex
+Microeconometria_20232_Lecture_4_-_Statistics_Review.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 4 - Statistics Review.tex
+Microeconometria_20232_Lecture_5_-_Summarizing_data.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 5 - Summarizing data.tex
+Microeconometria_20232_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 6 - Potential outcomes and the experimental ideal.tex
+Microeconometria_20232_Lecture_7_-_OLS_review.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 7 - OLS review.tex
+Microeconometria_20232_Lecture_8_-_Beyond_basics_of_OLS.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 8 - Beyond basics of OLS.tex
+Microeconometria_20232_Lecture_9_-_Panel_Data.tex	<= public_html\pdfs\Microeconometria\20232\Lecture 9 - Panel Data.tex
+Microeconometria_20232_solucionT1.html	<= public_html\pdfs\Microeconometria\20232\solucionT1.html
+Microeconometria_20232_solucionT2.html	<= public_html\pdfs\Microeconometria\20232\solucionT2.html
+MicroII201819_SolucionTaller1.docx	<= public_html\pdfs\MicroII201819\SolucionTaller1.docx
+
+### MISSING (no local file; link will be dropped) ###
+PDF_MISSING	https://mauricio-romero.com/pdfs/EcoIV/20211/Lecture17_2.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/EcoIV/20231/Temario.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/EcoIV/PastExams/FirstMidterm/28sept2019.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/EcoIV/PastExams/FirstMidterm/Solucion_Parcial_1_2022_Otono_Parte2.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/EcoIV/PastExams/FirstMidterm/Solucion_Parcial_1_2022_Primavera_Parte2.pdf
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 1 - Introduction to R.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 10 - Diff in Diff.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 11 - IV.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 12 - RDD.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 2 - Working with data in R.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 3 - Basics of programming.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 4 - Statistics Review.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 5 - Summarizing data.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 6 - Potential outcomes and the experimental ideal.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 7 - OLS review.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 8 - Beyond basics of OLS.tex
+NONPDF_MISSING	https://mauricio-romero.com/pdfs/Inferencia/20252/Lecture 9 - Panel Data.tex
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Quiz1Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Quiz2Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Quiz3Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Quiz4Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Taller1Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Taller2Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Taller3Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Taller4Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/Taller5Sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroII201819/TallerParcial1.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroIII201619/2010/parcial2-sol.pdf
+PDF_MISSING	https://mauricio-romero.com/pdfs/MicroIII201619/Taller5Sol.pdf

@@ -1,140 +1,325 @@
-﻿---
-title: "MicroeconometrÃ­a Aplicada / Inferencia Causal"
-description: "Course materials for MicroeconometrÃ­a Aplicada / Inferencia Causal, taught by Mauricio Romero."
+---
+title: "Microeconometría Aplicada / Inferencia Causal"
+description: "Course materials for Microeconometría Aplicada / Inferencia Causal, taught by Mauricio Romero."
+toc: true
+toc-location: right
+toc-depth: 3
 ---
 
-[â† All teaching](../teaching.html)
+[← All teaching](../teaching.html)
 
-## 20261
+## Spring 2026
 
-- [Syllabus_20261.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20261_Syllabus_20261.pdf)
+### Syllabus
 
-## 20252
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20261_Syllabus_20261.pdf)
 
-- [Lecture 0 - Course Admin.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_0_-_Course_Admin.pdf)
-- [Lecture 1 - Introduction to R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
-- [Lecture 10 - Diff in Diff.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
-- [Lecture 11 - IV.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Lecture_11_-_IV.pdf)
-- [Lecture 12 - RDD.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
-- [Lecture 13 - DID, IV, RDD implementation.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_13_-_DID__IV__RDD_implementation.pdf)
-- [Lecture 2 - Working with data in R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
-- [Lecture 3 - Basics of programming.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
-- [Lecture 4 - Statistics Review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
-- [Lecture 5 - Summarizing data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
-- [Lecture 6 - Potential outcomes and the experimental ideal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
-- [Lecture 7 - OLS review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
-- [Lecture 8 - Beyond basics of OLS.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
-- [Lecture 9 - Panel Data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
-- [Syllabus_20252.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Syllabus_20252.pdf)
+### Slides
 
-## 20232
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [Lecture 7 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [Lecture 8 - Beyond the basics of OLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [Lecture 9 - Panel Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
+- [Lecture 10 - Difference-in-Differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [Lecture 11 - Instrumental Variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Lecture_11_-_IV.pdf)
+- [Lecture 12 - Regression Discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
 
-- [Difference_in_Difference__Examples.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Difference_in_Difference__Examples.pdf)
-- [Examen1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Examen1.pdf)
-- [Lecture 0 - Course Admin.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_0_-_Course_Admin.pdf)
-- [Lecture 1 - Introduction to R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
-- [Lecture 10 - Diff in Diff.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
-- [Lecture 11 - IV.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
-- [Lecture 12 - RDD.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
-- [Lecture 13 - DID, IV, RDD implementation.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_13_-_DID__IV__RDD_implementation.pdf)
-- [Lecture 2 - Working with data in R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
-- [Lecture 3 - Basics of programming.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
-- [Lecture 4 - Statistics Review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
-- [Lecture 5 - Summarizing data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
-- [Lecture 6 - Potential outcomes and the experimental ideal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
-- [Lecture 7 - OLS review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
-- [Lecture 8 - Beyond basics of OLS.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
-- [Lecture 9 - Panel Data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
-- [Syllabus_20232.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Syllabus_20232.pdf)
-- [Taller1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Taller1.pdf)
-- [Taller2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Taller2.pdf)
-- [TallerExamen2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_TallerExamen2.pdf)
+### R Code
 
-## 20231
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class6.R)
+- [Lecture 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class7.R)
+- [Lecture 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class8.R)
+- [Lecture 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class9.R)
+- [Lecture 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class12.R)
 
-- [Examen1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Examen1.pdf)
-- [Lecture 0 - Course Admin.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_0_-_Course_Admin.pdf)
-- [Lecture 1 - Introduction to R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
-- [Lecture 10 - Diff in Diff.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
-- [Lecture 11 - IV.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
-- [Lecture 12 - RDD.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
-- [Lecture 2 - Working with data in R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
-- [Lecture 3 - Basics of programming.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
-- [Lecture 4 - Statistics Review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
-- [Lecture 5 - Summarizing data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
-- [Lecture 6 - Potential outcomes and the experimental ideal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
-- [Lecture 7 - OLS review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
-- [Lecture 8 - Beyond basics of OLS.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
-- [Lecture 9 - Panel Data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
-- [Syllabus_20231.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Syllabus_20231.pdf)
-- [Taller1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller1.pdf)
-- [Taller2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller2.pdf)
-- [Taller3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller3.pdf)
+## Fall 2025
 
-## 20212
+### Syllabus
 
-- [Examen1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Examen1.pdf)
-- [Examen2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Examen2.pdf)
-- [Lecture 0 - Course Admin.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_0_-_Course_Admin.pdf)
-- [Lecture 1 - Introduction to R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
-- [Lecture 10 - Diff in Diff.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
-- [Lecture 10 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_10_-_Notes.pdf)
-- [Lecture 11 - IV.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
-- [Lecture 11 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_11_-_Notes.pdf)
-- [Lecture 12 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_12_-_Notes.pdf)
-- [Lecture 12 - RDD.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
-- [Lecture 2 - Working with data in R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
-- [Lecture 3 - Basics of programming.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
-- [Lecture 4 - Statistics Review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
-- [Lecture 5 - Summarizing data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
-- [Lecture 6 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_6_-_Notes.pdf)
-- [Lecture 6 - Potential outcomes and the experimental ideal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
-- [Lecture 7 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_7_-_Notes.pdf)
-- [Lecture 7 - OLS review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
-- [Lecture 8 - Beyond basics of OLS.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_8_-_Beyond_basics_of_OLS.pdf)
-- [Lecture 8 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_8_-_Notes.pdf)
-- [Lecture 9 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_9_-_Notes.pdf)
-- [Lecture 9 - Panel Data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Panel_Data.pdf)
-- [Syllabus_20212.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Syllabus_20212.pdf)
-- [Taller1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Taller1.pdf)
-- [Taller2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Taller2.pdf)
-- [Taller3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Taller3.pdf)
-- [TallerExamen2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_TallerExamen2.pdf)
-- [TallerExamen3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_TallerExamen3.pdf)
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Syllabus_20252.pdf)
 
-## 20202
+### Slides
 
-- [Examen1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Examen1.pdf)
-- [Examen2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Examen2.pdf)
-- [Examen3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Examen3.pdf)
-- [Lecture 0 - Course Admin.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_0_-_Course_Admin.pdf)
-- [Lecture 1 - Introduction to R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_1_-_Introduction_to_R.pdf)
-- [Lecture 10 - Diff in Diff.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
-- [Lecture 10 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Notes.pdf)
-- [Lecture 11 - IV.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
-- [Lecture 11 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_Notes.pdf)
-- [Lecture 12 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_Notes.pdf)
-- [Lecture 12 - RDD.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
-- [Lecture 2 - Working with data in R.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_2_-_Working_with_data_in_R.pdf)
-- [Lecture 3 - Basics of programming.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_3_-_Basics_of_programming.pdf)
-- [Lecture 4 - Statistics Review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_4_-_Statistics_Review.pdf)
-- [Lecture 5 - Summarizing data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
-- [Lecture 6 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Notes.pdf)
-- [Lecture 6 - Potential outcomes and the experimental ideal.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
-- [Lecture 7 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_Notes.pdf)
-- [Lecture 7 - OLS review.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
-- [Lecture 8 - Beyond basics of OLS.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_8_-_Beyond_basics_of_OLS.pdf)
-- [Lecture 8 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_8_-_Notes.pdf)
-- [Lecture 9 - Notes.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Notes.pdf)
-- [Lecture 9 - Panel Data.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Panel_Data.pdf)
-- [pol.6.4.71.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_pol.6.4.71.pdf)
-- [Syllabus_20202.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Syllabus_20202.pdf)
-- [Taller1.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller1.pdf)
-- [Taller2.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller2.pdf)
-- [Taller3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller3.pdf)
-- [TallerEstudiParcial.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_TallerEstudiParcial.pdf)
-- [TallerExamen3.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_TallerExamen3.pdf)
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [Lecture 7 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [Lecture 8 - Beyond the basics of OLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [Lecture 9 - Panel Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
+- [Lecture 10 - Difference-in-Differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [Lecture 11 - Instrumental Variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Lecture_11_-_IV.pdf)
+- [Lecture 12 - Regression Discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
 
-- [CV-ENG.pdf](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_CV-ENG.pdf)
+### R Code
 
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class6.R)
+- [Lecture 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class7.R)
+- [Lecture 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class8.R)
+- [Lecture 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class9.R)
+- [Lecture 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20252_Class12.R)
+
+## Fall 2023
+
+### Syllabus
+
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Syllabus_20232.pdf)
+
+### Slides
+
+- [Lecture 0 - Admin](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_0_-_Course_Admin.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_0_-_Course_Admin.tex)
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_1_-_Introduction_to_R.tex)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_2_-_Working_with_data_in_R.tex)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_3_-_Basics_of_programming.tex)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_4_-_Statistics_Review.tex)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_5_-_Summarizing_data.tex)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex)
+- [Lecture 7 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_7_-_OLS_review.tex)
+- [Lecture 8 - Beyond the basics of OLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_8_-_Beyond_basics_of_OLS.tex)
+- [Lecture 9 - Panel Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_9_-_Panel_Data.tex)
+- [Lecture 10 - Difference-in-Differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_10_-_Diff_in_Diff.tex)
+- [Lecture 10B - Difference-in-Differences Examples](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Difference_in_Difference__Examples.pdf)
+- [Lecture 11 - Instrumental Variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_11_-_IV.tex)
+- [Lecture 12 - Regression Discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_12_-_RDD.tex)
+- [Lecture 13 - Implementing the methods](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Lecture_13_-_DID__IV__RDD_implementation.pdf)
+
+### R Code
+
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class6.R)
+- [Lecture 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class7.R)
+- [Lecture 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class8.R)
+- [Lecture 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class9.R)
+- [Lecture 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class12.R)
+- [Lecture 13 (implementation)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Class_Implementation.R)
+
+### Project/Homework
+
+- [Examen 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Examen1.pdf)
+- [Taller 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Taller1.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_solucionT1.html)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_Taller2.pdf)
+- [Solución](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_solucionT2.html)
+- [Taller Examen 2 (no hay que entregarlo)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20232_TallerExamen2.pdf)
+
+## Spring 2023
+
+### Syllabus
+
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Syllabus_20231.pdf)
+
+### Slides
+
+- [Lecture 0 - Admin](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_0_-_Course_Admin.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_0_-_Course_Admin.tex)
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_1_-_Introduction_to_R.tex)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_2_-_Working_with_data_in_R.tex)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_3_-_Basics_of_programming.tex)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_4_-_Statistics_Review.tex)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_5_-_Summarizing_data.tex)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex)
+- [Lecture 7 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_7_-_OLS_review.tex)
+- [Lecture 8 - Beyond the basics of OLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_8_-_Beyond_basics_of_OLS.tex)
+- [Lecture 9 - Panel Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_9_-_Panel_Data.tex)
+- [Lecture 10 - Difference-in-Differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_10_-_Diff_in_Diff.tex)
+- [Lecture 11 - Instrumental Variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_11_-_IV.tex)
+- [Lecture 12 - Regression Discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Lecture_12_-_RDD.tex)
+
+### R Code
+
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class6.R)
+- [Lecture 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class7.R)
+- [Lecture 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class8.R)
+- [Lecture 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class9.R)
+- [Lecture 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Class12.R)
+
+### Project/Homework
+
+- [Taller 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller1.pdf)
+- [Examen 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Examen1.pdf)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller2.pdf)
+- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20231_Taller2.pdf)
+
+## Fall 2021
+
+### Syllabus
+
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Syllabus_20212.pdf)
+
+### Slides
+
+- [Lecture 0 - Admin](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_0_-_Course_Admin.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_0_-_Course_Admin.tex)
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_1_-_Introduction_to_R.tex)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_2_-_Working_with_data_in_R.tex)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_3_-_Basics_of_programming.tex)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_4_-_Statistics_Review.tex)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_5_-_Summarizing_data.tex)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_9_-_Notes.pdf)
+- [Lecture 7 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_7_-_OLS_review.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_7_-_Notes.pdf)
+- [Lecture 8 - Beyond the basics of OLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_8_-_Beyond_basics_of_OLS.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_8_-_Notes.pdf)
+- [Lecture 9 - Panel Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Panel_Data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_9_-_Panel_Data.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_8_-_Notes.pdf)
+- [Lecture 10 - Difference-in-Differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_10_-_Diff_in_Diff.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_10_-_Notes.pdf)
+- [Lecture 11 - Instrumental Variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_11_-_IV.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_11_-_Notes.pdf)
+- [Lecture 12 - Regression Discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_12_-_RDD.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Lecture_12_-_Notes.pdf)
+
+### R Code
+
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class6.R)
+- [Lecture 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class7.R)
+- [Lecture 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class8.R)
+- [Lecture 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class9.R)
+- [Lecture 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Class12.R)
+
+### Project/Homework
+
+- [Taller 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Taller1.pdf)
+- [Examen 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Examen1.pdf)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Taller2.pdf)
+- [Taller de preparación examen 2 (no hay que entregarlo)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_TallerExamen2.pdf)
+- [Examen 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Examen2.pdf)
+- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_Taller3.pdf)
+- [Taller de preparación examen 3 (no hay que entregarlo)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20212_TallerExamen3.pdf)
+
+## Fall 2020
+
+### Syllabus
+
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Syllabus_20202.pdf)
+
+### Slides
+
+- [Lecture 0 - Admin](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_0_-_Course_Admin.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_0_-_Course_Admin.tex)
+- [Lecture 1 - Intro to R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_1_-_Introduction_to_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_1_-_Introduction_to_R.tex)
+- [Lecture 2 - Working with data in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_2_-_Working_with_data_in_R.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_2_-_Working_with_data_in_R.tex)
+- [Lecture 3 - Basics of programming](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_3_-_Basics_of_programming.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_3_-_Basics_of_programming.tex)
+- [Lecture 4 - Stats review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_4_-_Statistics_Review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_4_-_Statistics_Review.tex)
+- [Lecture 5 - Summarizing data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_5_-_Summarizing_data.tex)
+- [Lecture 6 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_6_-_Potential_outcomes_and_the_experimental_ideal.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Notes.pdf)
+- [Lecture 7 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_7_-_OLS_review.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Notes.pdf)
+- [Lecture 8 - Beyond the basics of OLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_8_-_Beyond_basics_of_OLS.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_8_-_Beyond_basics_of_OLS.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_8_-_Notes.pdf)
+- [Lecture 9 - Panel Data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Panel_Data.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Panel_Data.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_9_-_Notes.pdf)
+- [Lecture 10 - Difference-in-Differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Diff_in_Diff.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_10_-_Notes.pdf)
+- [Lecture 11 - Instrumental Variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_IV.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_11_-_Notes.pdf)
+- [Lecture 12 - Regression Discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.pdf)
+- [native LaTeX file](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_RDD.tex)
+- [Slides with notes](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Lecture_12_-_Notes.pdf)
+
+### R Code
+
+- [Lecture 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class1.R)
+- [Lecture 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class2.R)
+- [Lecture 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class3.R)
+- [Lecture 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class4.R)
+- [Lecture 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class5.R)
+- [Lecture 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class6.R)
+- [Lecture 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class7.R)
+- [Lecture 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class8.R)
+- [Lecture 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class9.R)
+- [Lecture 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Class12.R)
+
+### Project/Homework
+
+- [Taller 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller1.pdf)
+- [Examen 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Examen1.pdf)
+- [Taller 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller2.pdf)
+- [Taller preparación para el Examen 2 (no hay que entregarlo)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_TallerEstudiParcial.pdf)
+- [Examen 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Examen2.pdf)
+- [Taller 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Taller3.pdf)
+- [Bosch y Campos-Vázquez (2014)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_pol.6.4.71.pdf)
+- [Taller preparación para el Examen 3 (no hay que entregarlo)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_TallerExamen3.pdf)
+- [Examen 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Microeconometria_20202_Examen3.pdf)
 

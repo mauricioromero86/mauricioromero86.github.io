@@ -1,0 +1,28 @@
+==== AnalisisEmpirico (19) ====
+  [Spring 2026] n=19  secs: Syllabus | Slides | R Code
+==== EcoIV (639) ====
+  [2019-1] n=44  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Exámenes viejos de Eco-IV
+  [2019-2] n=64  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Clases de repaso | Exámenes viejos de Eco-IV
+  [2020-1] n=72  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Clases de repaso | Exámenes viejos de Eco-IV
+  [2021-1] n=111  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Clases de repaso | Exámenes viejos de Eco-IV
+  [2022-1] n=122  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Clases de repaso | Exámenes viejos de Eco-IV
+  [2023-1] n=89  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Clases de repaso | Exámenes viejos de Eco-IV
+  [2023-2] n=69  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Clases de repaso | Exámenes viejos de Eco-IV
+  [2025-2] n=68  secs: Syllabus | Equilibrio General | Monopolio y discriminación de precios | Notas de Clase | Exámenes viejos de Eco-IV
+==== FieldExperiments (19) ====
+  [Spring 2020] n=19  secs: Syllabus | Slides | Code | Project/Homework
+==== Inferencia (70) ====
+  [Fall 2025] n=35  secs: Syllabus | Slides | R Code
+  [Spring 2026] n=35  secs: Syllabus | Slides | R Code
+==== Microeconometria (191) ====
+  [Fall 2020] n=53  secs: Syllabus | Slides | R Code | Project/Homework
+  [Fall 2021] n=51  secs: Syllabus | Slides | R Code | Project/Homework
+  [Spring 2023] n=41  secs: Syllabus | Slides | R Code | Project/Homework
+  [Fall 2023] n=46  secs: Syllabus | Slides | R Code | Project/Homework
+==== MicroII (53) ====
+  [2018-19] n=53  secs: Syllabus | Notas de Clase | Talleres | Quices | Parciales
+==== MicroIII (83) ====
+  [2016-19] n=83  secs: Syllabus | Notas de Clase | Talleres | Quices | Parciales | Parciales Viejos y otros materiales de estudio
+==== TeoJuegos (68) ====
+  [2013-19] n=33  secs: Syllabus | Notas de Clase | Talleres | Parciales
+  [2014-19] n=35  secs: Syllabus | Notas de Clase | Talleres | Quices | Parciales Viejos y otros materiales de estudio | Parciales
