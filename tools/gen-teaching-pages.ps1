@@ -47,6 +47,23 @@ function TermKey([string]$friendly) {
   return 0
 }
 
+# Make unhelpful annotated-slide / repaso labels self-describing by deriving the lecture
+# number and section/group from the asset filename. The original site labeled every annotated
+# deck "Diapositivas con notas (2:30 PM)/(4:00 PM)", so under each lecture you got three
+# indistinguishable links. We only rewrite that known-unhelpful family; any other label is
+# returned untouched. Group 1 = 2:30 PM section, Group 2 = 4:00 PM section.
+function PrettyLabel([string]$label, [string]$url) {
+  if ($label -notmatch '^Diapositivas con notas') { return $label }
+  $f = ($url -split '/')[-1]
+  if ($f -match '_Lecture([0-9]+(?:-[0-9]+)?)_1\.pdf$')      { return "Lecture $($Matches[1]) — annotated, Group 1 (2:30 PM)" }
+  if ($f -match '_Lecture([0-9]+(?:-[0-9]+)?)_2\.pdf$')      { return "Lecture $($Matches[1]) — annotated, Group 2 (4:00 PM)" }
+  if ($f -match '_Lecture([0-9]+(?:-[0-9]+)?)_Notas2\.pdf$') { return "Lecture $($Matches[1]) — annotated (updated)" }
+  if ($f -match '_Lecture([0-9]+(?:-[0-9]+)?)_Notas\.pdf$')  { return "Lecture $($Matches[1]) — annotated" }
+  if ($f -match '_RepasoParcial_([0-9])([A-D])_([0-9])\.pdf$') { return "Repaso Parcial $($Matches[1]) — sesión $($Matches[2]) (parte $($Matches[3]))" }
+  if ($f -match '_RepasoFinal([A-D])_([0-9])\.pdf$')          { return "Repaso Final — sesión $($Matches[1]) (parte $($Matches[2]))" }
+  return $label
+}
+
 New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 $rows = Import-Csv $Resolved -Encoding UTF8
 foreach ($r in $rows) { if ($r.Course -eq 'Inferencia') { $r.Course = 'Microeconometria' } }
@@ -96,7 +113,7 @@ foreach ($course in $display.Keys) {
       foreach ($sec in $termSecs) {
         if ($sec) { [void]$sb.AppendLine("### $sec"); [void]$sb.AppendLine("") }
         foreach ($it in ($tr | Where-Object { $_.Section -eq $sec })) {
-          $label = $it.Label -replace '\]','\]'   # escape ] in label
+          $label = (PrettyLabel $it.Label $it.Url) -replace '\]','\]'   # beautify + escape ]
           [void]$sb.AppendLine("- [$label]($($it.Url))")
         }
         [void]$sb.AppendLine("")
@@ -117,7 +134,7 @@ foreach ($course in $display.Keys) {
     [void]$sb.AppendLine("## $sec")
     [void]$sb.AppendLine("")
     foreach ($it in $items) {
-      $label = $it.Label -replace '\]','\]'
+      $label = (PrettyLabel $it.Label $it.Url) -replace '\]','\]'
       [void]$sb.AppendLine("- [$label]($($it.Url))")
     }
     [void]$sb.AppendLine("")
