@@ -295,20 +295,46 @@ Factorial designs are widely used to study multiple treatments in one experiment
 :::
 
 ::: {.paper-head}
-### 12. [COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2)
+### 12. [The Productivity of Public and Private Preschools (and Schools): Evidence from India](https://doi.org/10.1093/ej/ueaf089)
 
 [Abstract](#abs-12){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-12" aria-expanded="false"} [BibTeX](#bib-12){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-12" aria-expanded="false"}
+:::
+
+with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · **Economic Journal** 136(676), 2026
+
+[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441)
+
+::: {#abs-12 .collapse .paper-panel}
+We study the relative productivity of private and public institutions at the preschool and primary school levels using panel data from 215 villages in Tamil Nadu. Private preschools show higher test score value-added in math and language (0.59–0.74 standard deviations) and outperform government providers in nearly all villages. This productivity difference explains 60% of the socioeconomic test score gap before school entry. These results contrast starkly with primary schooling, where we find no evidence of a private-sector premium in math and negative effects in local language. Test score value-added is positively correlated between private and government options in a village, both at the preschool and primary school levels. Quality is also correlated across levels; villages with more productive primary schools also tend to have more productive preschools. Our findings inform debates on achieving universal foundational skills and highlight the need to improve the quality of preschools available to lower-income families.
+:::
+
+::: {#bib-12 .collapse .paper-panel}
+```bibtex
+@article{berg2026productivity,
+  title={The productivity of public and private preschools (and schools): Evidence from India},
+  author={Berg, Petter and Romero, Mauricio and Singh, Abhijeet},
+  journal={The Economic Journal},
+  volume={136}, number={676}, pages={1254--1279}, year={2026},
+  doi={10.1093/ej/ueaf089}
+}
+```
+:::
+
+::: {.paper-head}
+### 13. [COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2)
+
+[Abstract](#abs-13){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-13" aria-expanded="false"} [BibTeX](#bib-13){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-13" aria-expanded="false"}
 :::
 
 with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/) · Forthcoming, **Journal of Human Resources**
 
 [Final Manuscript](/pdfs/papers/Forthcoming_JHR_TNLL.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/covid-19-learning-loss-and-recovery-panel-data-evidence-india) · [NBER WP No. 30552](https://www.nber.org/papers/w30552) · [Data and code](https://doi.org/10.7910/DVN/XGY7CV)
 
-::: {#abs-12 .collapse .paper-panel}
+::: {#abs-13 .collapse .paper-panel}
 We use a panel survey of 19,000 primary-school-aged children in rural Tamil Nadu to study 'learning loss' after COVID-19-induced school closures, and the pace of recovery after schools reopened. Students tested in December 2021 (18 months after school closures) displayed learning deficits of 0.73 standard deviations in math and 0.34 in language compared to identically-aged students in the same villages in 2019. Two-thirds of this deficit was made up within 6 months after schools reopened. Further, while learning loss was regressive, recovery was progressive. A government-run after-school remediation program contributed 24% of the cohort-level recovery, likely aiding the progressive recovery.
 :::
 
-::: {#bib-12 .collapse .paper-panel}
+::: {#bib-13 .collapse .paper-panel}
 ```bibtex
 @article{singh2024covid,
   title={COVID-19 learning loss and recovery: Panel data evidence from India},
@@ -319,51 +345,25 @@ We use a panel survey of 19,000 primary-school-aged children in rural Tamil Nadu
 :::
 
 ::: {.paper-head}
-### 13. [Preventing School Dropout: Experimental Evidence from Guatemala](https://doi.org/10.1086/739022)
+### 14. [Preventing School Dropout: Experimental Evidence from Guatemala](https://doi.org/10.1086/739022)
 
-[Abstract](#abs-13){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-13" aria-expanded="false"} [BibTeX](#bib-13){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-13" aria-expanded="false"}
+[Abstract](#abs-14){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-14" aria-expanded="false"} [BibTeX](#bib-14){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-14" aria-expanded="false"}
 :::
 
 with [Melissa Adelman](https://blogs.worldbank.org/team/melissa-adelman), [Francisco Haimovich](http://franciscohaimovich.weebly.com/), and [Emmanuel Vazquez](https://www.cedlas.econo.unlp.edu.ar/wp/evazquez/) · Forthcoming, **Journal of Labor Economics**
 
 [Final Manuscript](/pdfs/papers/ENTRE___GUATE.pdf) · [Earlier WP version](https://elibrary.worldbank.org/doi/abs/10.1596/1813-9450-9685) · [Data and code](https://doi.org/10.7910/DVN/WHPHER)
 
-::: {#abs-13 .collapse .paper-panel}
+::: {#abs-14 .collapse .paper-panel}
 We evaluate a randomized dropout prevention program across 4,000 schools in Guatemala, where 30% of children leave school during the primary-to-secondary transition. Schools were assigned to receive a guidance manual and training; the manual, the training and a list of high-risk students; the manual, the training, the list, and behavioral nudges; or control. All treatments reduced dropout in the transition from primary to secondary by 1.2 percentage points from a 34% base, but effects faded after two years (i.e., there is no difference in the likelihood of being enrolled in secondary school after the first year). Still, the program increased years of schooling by 0.012, and its low cost (USD 2–3 per student) and successful large-scale implementation make it a promising, cost-effective approach to increasing schooling in resource-constrained contexts.
 :::
 
-::: {#bib-13 .collapse .paper-panel}
+::: {#bib-14 .collapse .paper-panel}
 ```bibtex
 @article{adelman2024preventing,
   title={Preventing school dropout: Experimental evidence from Guatemala},
   author={Adelman, Melissa and Haimovich, Francisco and Romero, Mauricio and Vazquez, Emmanuel},
   journal={Journal of Labor Economics}, note={Forthcoming}, year={2024}
-}
-```
-:::
-
-::: {.paper-head}
-### 14. [The Productivity of Public and Private Preschools (and Schools): Evidence from India](https://doi.org/10.1093/ej/ueaf089)
-
-[Abstract](#abs-14){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-14" aria-expanded="false"} [BibTeX](#bib-14){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-14" aria-expanded="false"}
-:::
-
-with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · **Economic Journal** 136(676), 2026
-
-[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441)
-
-::: {#abs-14 .collapse .paper-panel}
-We study the relative productivity of private and public institutions at the preschool and primary school levels using panel data from 215 villages in Tamil Nadu. Private preschools show higher test score value-added in math and language (0.59–0.74 standard deviations) and outperform government providers in nearly all villages. This productivity difference explains 60% of the socioeconomic test score gap before school entry. These results contrast starkly with primary schooling, where we find no evidence of a private-sector premium in math and negative effects in local language. Test score value-added is positively correlated between private and government options in a village, both at the preschool and primary school levels. Quality is also correlated across levels; villages with more productive primary schools also tend to have more productive preschools. Our findings inform debates on achieving universal foundational skills and highlight the need to improve the quality of preschools available to lower-income families.
-:::
-
-::: {#bib-14 .collapse .paper-panel}
-```bibtex
-@article{berg2026productivity,
-  title={The productivity of public and private preschools (and schools): Evidence from India},
-  author={Berg, Petter and Romero, Mauricio and Singh, Abhijeet},
-  journal={The Economic Journal},
-  volume={136}, number={676}, pages={1254--1279}, year={2026},
-  doi={10.1093/ej/ueaf089}
 }
 ```
 :::
