@@ -41,6 +41,11 @@ Trigger to revisit: an annual renewal charge you no longer want to pay, or Blueh
 closure. Given that paper PDFs are cited by their `mauricio-romero.com/pdfs/papers/...` URLs,
 **the default recommendation is to keep the domain (A or B), not drop it (C).**
 
+> **Chosen path: Playbook B → Cloudflare Registrar.** Transfer the domain off Bluehost to
+> Cloudflare (~$10/yr, at cost) so it's decoupled from the host being decommissioned. **Do the
+> transfer before cancelling Bluehost hosting** — you need the Bluehost account active to get the
+> transfer auth code.
+
 ---
 
 ## 3. Playbook A — Keep the domain (status quo)
@@ -56,33 +61,61 @@ closure. Given that paper PDFs are cited by their `mauricio-romero.com/pdfs/pape
 
 ---
 
-## 4. Playbook B — Decouple the registrar from Bluehost (recommended, keeps the domain)
+## 4. Playbook B — Transfer to Cloudflare Registrar (CHOSEN PATH, keeps the domain)
 
-**Why:** removes the last tie to the host you're leaving, and renewals are usually cheaper
-elsewhere. You keep the domain and the site is unaffected.
+**Why:** removes the last tie to Bluehost (the host being shut down) and drops the renewal to
+~$10/yr at cost. You keep the domain; the site is unaffected; all citation links keep working.
 
-### Registrar options (the "advise me")
+> **Cloudflare wrinkle:** Cloudflare Registrar only registers domains whose **DNS is already on
+> Cloudflare**. So the order is *add to Cloudflare DNS first → then transfer the registration*,
+> not the other way around. Steps below are in the correct order.
 
-| Registrar | ~Renewal /yr (.com) | DNS | Trade-off |
-|-----------|--------------------|-----|-----------|
-| **Cloudflare Registrar** | ~$10–11 (at cost, zero markup) | **Must** use Cloudflare DNS | Cheapest long-term; one-time nameserver move. Best if you want lowest cost forever. |
-| **Porkbun** / **Namecheap** | ~$10–12 | Registrar-provided DNS (or any) | Simplest mental model; keep DNS where the registrar puts it. Good middle ground. |
-| **Stay at Bluehost (domain-only)** | ~$18–21 | Bluehost DNS | Simplest now, but pricier and keeps a Bluehost tie. **Not recommended long-term.** |
+### Registrar options considered (for the record)
 
-**Recommendation:** Cloudflare Registrar if you're comfortable moving nameservers (best price +
-clean DNS UI); Porkbun if you want the least fuss. Either fully decouples you from Bluehost.
+| Registrar | ~Renewal /yr (.com) | DNS | Note |
+|-----------|--------------------|-----|------|
+| **Cloudflare Registrar** ← chosen | ~$10–11 (at cost, zero markup) | **Must** use Cloudflare DNS | Cheapest long-term; one-time nameserver move. |
+| Porkbun / Namecheap | ~$10–12 | Registrar-provided DNS | Simpler (no nameserver move), slightly pricier. |
+| Stay at Bluehost (domain-only) | ~$18–21 | Bluehost DNS | Keeps a Bluehost tie; not recommended. |
 
-### Transfer mechanics (do this **while the Bluehost account is still active**)
+### Step-by-step (do all of this **while the Bluehost account is still active**)
 
-1. In Bluehost: **unlock** the domain (clear `client transfer prohibited`) and **request the
-   EPP / auth code**. Confirm the domain is **>60 days** past its creation/last transfer (it is).
-2. At the new registrar: start an inbound transfer, paste the auth code, pay (a transfer normally
-   **adds one year** to the expiry — you don't lose the prepaid time).
-3. Approve the transfer email; it completes in a few days.
-4. Re-create DNS at the new registrar: the **four A records** + **`www` CNAME** from Playbook A
-   (and, if Cloudflare, set the GitHub Pages records there).
-5. Verify `https://mauricio-romero.com` still serves the site and HTTPS is valid.
-6. Only **after** the transfer is confirmed, cancel Bluehost hosting.
+**Phase 1 — Move DNS to Cloudflare (no registration change yet; site keeps working):**
+
+1. Create a free **Cloudflare** account → **Add a site** → `mauricio-romero.com`. Cloudflare scans
+   existing DNS and assigns you **two Cloudflare nameservers** (e.g. `xxx.ns.cloudflare.com`).
+2. In Cloudflare DNS, set the **GitHub Pages records** (these are the cutover records — same as
+   Playbook A):
+   - `A  @  185.199.108.153`
+   - `A  @  185.199.109.153`
+   - `A  @  185.199.110.153`
+   - `A  @  185.199.111.153`
+   - `CNAME  www  mauricioromero86.github.io`
+   - **Set each record's proxy status to "DNS only" (grey cloud), NOT proxied (orange).**
+     GitHub Pages provisions its own HTTPS cert; Cloudflare's proxy interferes with that. Grey
+     cloud = Cloudflare is just authoritative DNS, traffic goes straight to GitHub.
+3. In **Bluehost**, change the domain's **nameservers** to the two Cloudflare nameservers from
+   step 1. Wait for propagation (minutes to a few hours). The site keeps resolving throughout.
+
+**Phase 2 — Transfer the registration to Cloudflare:**
+
+4. In **Bluehost**: **unlock** the domain (clear `client transfer prohibited`) and **request the
+   EPP / auth code**. (Domain is well past the 60-day post-creation window, so it's eligible.)
+5. In **Cloudflare → Registrar → Transfer Domains**: select `mauricio-romero.com`, paste the auth
+   code, pay. A transfer **adds one year** to the expiry — you don't lose prepaid time.
+6. **Approve the confirmation email** (sent to the domain's registrant address). Completes in up to
+   ~5 days; Bluehost may let you "accept" it to speed it up.
+
+**Phase 3 — Finish the site cutover + retire Bluehost:**
+
+7. Tell Claude the domain is live on Cloudflare → Claude re-adds the `CNAME` file
+   (`mauricio-romero.com`) to the repo and enables **Enforce HTTPS** in GitHub Pages settings once
+   the cert provisions (can take a few hours after DNS resolves).
+8. Verify `https://mauricio-romero.com` and `https://www.mauricio-romero.com` both serve the site
+   with a valid cert; spot-check a paper PDF link.
+9. Submit `https://mauricio-romero.com/sitemap.xml` to Google Search Console.
+10. **Only now** cancel Bluehost **hosting** — the domain already lives at Cloudflare, so nothing
+    is at risk.
 
 No repo changes needed — `site-url` and `CNAME` stay `mauricio-romero.com`.
 
