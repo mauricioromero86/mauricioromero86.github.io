@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    # CV is linked only from the navbar/button config, which Quarto's resource
+    # scanner does not follow — declare it explicitly so it lands in _site/gh-pages.
+    - pdfs/Mauricio-Romero-CV.pdf
   render:
     - index.qmd
     - research.qmd

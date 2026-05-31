@@ -155,6 +155,11 @@ hr { border-top: 1px solid $mr-hairline; opacity: 1; }
 // list spacing in dense link/section pages
 .quarto-title-block .quarto-title .title { font-weight: 500; }
 
+// Hide the auto-rendered grey page subtitle (Quarto title-block description) on all
+// viewports. The `description:` front-matter is kept so it still feeds the meta
+// description + og:description + twitter:description tags.
+#title-block-header .description { display: none; }
+
 // ---- Tap targets (all viewports) -----------------------------------------
 // give the Abstract/BibTeX toggles a comfortable hit area without changing how they read
 .paper-toggle { padding: 0.35rem 0; line-height: 1; }
