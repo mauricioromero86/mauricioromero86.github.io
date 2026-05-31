@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-description: "Courses and teaching materials by Mauricio Romero at ITAM and elsewhere."
+description-meta: "Courses and teaching materials by Mauricio Romero at ITAM and elsewhere."
 toc: true
 toc-location: right
 toc-depth: 2
