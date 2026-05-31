@@ -68,7 +68,7 @@ In 2016, the Liberian government delegated management of 93 randomly selected pu
 
 with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra) · **Journal of Development Studies** 57(6), 2021
 
-[Final Manuscript](/pdfs/papers/Communal%20Property%20Rights%20and%20Deforestation.pdf) · [Data and code](https://doi.org/10.7910/DVN/YMWIAR)
+[Final Manuscript](/pdfs/papers/RomeroSaavedra_CommunalLands.pdf) · [Data and code](https://doi.org/10.7910/DVN/YMWIAR)
 
 ::: {#abs-3 .collapse .paper-panel}
 Almost a third of the world's forest area is communally managed. In principle, this arrangement could lead to a 'tragedy of the commons' and therefore more deforestation. But it may be easier to monitor outsiders' deforestation of land owned by a community rather than an individual. We present a theoretical framework to examine these trade-offs and empirically study the effect of communal titling on deforestation in Colombia. Our empirical approach uses a differences-in-discontinuities strategy that compares areas just outside and inside a title, before and after titling. We find that deforestation decreased in communal areas after titling, especially in small communities, which is consistent with the model's predictions. We also find evidence of positive spillovers: titling reduced deforestation in nearby areas outside the title (and thus our estimates are a lower bound of the total effects of communal titling on deforestation).
@@ -348,9 +348,9 @@ We evaluate a randomized dropout prevention program across 4,000 schools in Guat
 [Abstract](#abs-14){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-14" aria-expanded="false"} [BibTeX](#bib-14){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-14" aria-expanded="false"}
 :::
 
-with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · Forthcoming, **Economic Journal**
+with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · **Economic Journal** 136(676), 2026
 
-[Final Manuscript](/pdfs/papers/TN_ECE_VA.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441)
+[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441)
 
 ::: {#abs-14 .collapse .paper-panel}
 We study the relative productivity of private and public institutions at the preschool and primary school levels using panel data from 215 villages in Tamil Nadu. Private preschools show higher test score value-added in math and language (0.59–0.74 standard deviations) and outperform government providers in nearly all villages. This productivity difference explains 60% of the socioeconomic test score gap before school entry. These results contrast starkly with primary schooling, where we find no evidence of a private-sector premium in math and negative effects in local language. Test score value-added is positively correlated between private and government options in a village, both at the preschool and primary school levels. Quality is also correlated across levels; villages with more productive primary schools also tend to have more productive preschools. Our findings inform debates on achieving universal foundational skills and highlight the need to improve the quality of preschools available to lower-income families.
@@ -358,10 +358,12 @@ We study the relative productivity of private and public institutions at the pre
 
 ::: {#bib-14 .collapse .paper-panel}
 ```bibtex
-@article{berg2024productivity,
+@article{berg2026productivity,
   title={The productivity of public and private preschools (and schools): Evidence from India},
   author={Berg, Petter and Romero, Mauricio and Singh, Abhijeet},
-  journal={The Economic Journal}, note={Forthcoming}, year={2024}
+  journal={The Economic Journal},
+  volume={136}, number={676}, pages={1254--1279}, year={2026},
+  doi={10.1093/ej/ueaf089}
 }
 ```
 :::
@@ -495,14 +497,14 @@ The incidence of redistributive policies is central to whether they meet their s
 :::
 
 ::: {.paper-head}
-### [Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/main/JMP_Litzow.pdf)
+### [Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/master/JMP_Litzow.pdf)
 
 [BibTeX](#bib-20){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-20" aria-expanded="false"}
 :::
 
 with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecato](https://biancacecato.com/), and [Tatiana Zarate-Barrera](https://www.tatianazarate.com/)
 
-[Working Paper](https://github.com/ErinLitzow/MyFiles/blob/main/JMP_Litzow.pdf)
+[Working Paper](https://github.com/ErinLitzow/MyFiles/blob/master/JMP_Litzow.pdf)
 
 ::: {#bib-20 .collapse .paper-panel}
 ```bibtex
