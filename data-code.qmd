@@ -1,6 +1,6 @@
 ---
 title: "Data & Code"
-description-meta: "Datasets, replication packages, and interactive tools from Mauricio Romero's research."
+description: "Datasets, replication packages, and interactive tools from Mauricio Romero's research."
 toc: true
 toc-location: right
 toc-depth: 2

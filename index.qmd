@@ -5,6 +5,7 @@ include-in-header: _includes/person-jsonld.html
 about:
   template: trestles
   image: img/headshot.jpg
+  image-alt: "Mauricio Romero, Associate Professor of Economics at ITAM"
   image-shape: rounded
   links:
     - icon: file-earmark-pdf

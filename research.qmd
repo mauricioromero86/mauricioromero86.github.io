@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description-meta: "Publications and working papers by Mauricio Romero in development, education, and public economics."
+description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
 toc: false
 aliases:
   - /research/

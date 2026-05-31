@@ -13,10 +13,12 @@ website:
   title: "Mauricio Romero"
   description: "Mauricio Romero — Associate Professor of Economics at ITAM. Development, education, and public economics."
   site-url: "https://mauricio-romero.com"
-  image: img/headshot.jpg
+  image: "https://mauricio-romero.com/img/headshot.jpg"
   open-graph: true
   twitter-card:
     card-style: summary_large_image
+    creator: "@marome1"
+    site: "@marome1"
   google-analytics: "G-JM6020WT15"
   favicon: img/favicon.png
   navbar:
@@ -42,6 +44,9 @@ format:
     theme:
       light: [theme.scss, theme-light.scss]
       dark: [theme.scss, theme-dark.scss]
+    include-in-header: _includes/website-jsonld.html
+    filters:
+      - filters/seo-meta.lua
     page-layout: article
     toc: false
     back-to-top-navigation: true
