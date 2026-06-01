@@ -451,15 +451,94 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 </section>
 <section id="outdoor-activities" class="level2">
 <h2 class="anchored" data-anchor-id="outdoor-activities">Outdoor activities</h2>
-<p>If you’re an outdoor enthusiast, CDMX has a lot to offer — hiking, road and mountain biking, and rock climbing. A few nearby hikes:</p>
-<ul>
-<li><strong>Desierto de los Leones</strong> — lots of hiking and mountain biking (weekend MTB rental). <a href="https://goo.gl/maps/uz7cwSWaxD8AYzyM9">Good parking/trailhead</a>; the taco/quesadilla stand at the start is great — try the “Taco sin llorar”.</li>
-<li><strong>Ajusco</strong> — the tallest mountain within the city, in a protected alpine forest. Short but steep; great views on a clear day. We park <a href="https://goo.gl/maps/1r7WZARHm4nGHB769">here</a> and hike from there.</li>
-<li><a href="https://goo.gl/maps/uRCTFxiTRAbuwK3t7">This ejido</a> has many hiking and mountain-biking trails.</li>
-<li><strong>Mount Tláloc</strong> — a wonderful all-day hike, usually started from <a href="https://goo.gl/maps/hvLskZQNVNyShMKFA">Río Frío</a>. The summit has the ruins of an Aztec observatory.</li>
-<li><strong>Rock climbing</strong>: <a href="https://goo.gl/maps/iq8E7RL6YwVFQXA7A">Los Dinamos</a> (sport, trad, and bouldering), bouldering in <a href="https://goo.gl/maps/yS976EWMRfhMBLfA7">Salazar</a>, and great sport climbing in <a href="https://goo.gl/maps/rFczCMQeqTm891Kd9">Jilotepec</a>.</li>
-<li>Paso de Cortés.</li>
-</ul>
+<p>If you’re an outdoor enthusiast, CDMX has a lot to offer — hiking, road and mountain biking, and rock climbing. Below are a few of our favourites, with the actual GPS tracks. The maps load as you scroll; tap one to zoom in, or grab the GPX file / open the activity on Strava.</p>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-gpx@1.7.0/gpx.min.js"></script>
+<style>
+  .hike-map  { height: 320px; margin: 0.6rem 0 0.25rem; border-radius: 8px; border: 1px solid #ddd; }
+  .hike-meta { font-size: 0.85rem; color: #666; margin: 0 0 1.5rem; }
+  .hike-meta a { white-space: nowrap; }
+  .strava-credit { font-size: 0.8rem; color: #888; margin-top: 1.5rem; }
+</style>
+<script>
+  function addHike(id, gpx) {
+    var el = document.getElementById(id);
+    if (!el || !window.L) return;
+    var io = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        obs.disconnect();
+        var map = L.map(id, { scrollWheelZoom: false });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          { maxZoom: 17, attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+        new L.GPX(gpx, {
+          async: true,
+          marker_options: { startIconUrl: '', endIconUrl: '', shadowUrl: '' },
+          polyline_options: { color: '#fc4c02', weight: 4, opacity: 0.9 }
+        }).on('loaded', function (ev) {
+          map.fitBounds(ev.target.getBounds(), { padding: [12, 12] });
+        }).on('error', function () { el.style.display = 'none'; }).addTo(map);
+      });
+    }, { rootMargin: '250px' });
+    io.observe(el);
+  }
+</script>
+<section id="hiking" class="level3">
+<h3 class="anchored" data-anchor-id="hiking">Hiking</h3>
+<p><strong>Desierto de los Leones</strong> — lots of hiking and mountain biking (weekend MTB rental). <a href="https://goo.gl/maps/uz7cwSWaxD8AYzyM9">Good parking/trailhead</a>; the taco/quesadilla stand at the start is great — try the “Taco sin llorar”.</p>
+<div id="map-desierto-leones" class="hike-map"></div>
+<p class="hike-meta">Hike · 13.8 km · +290 m · <a href="./hikes/desierto-leones.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/6059697924">View on Strava</a></p>
+<script>addHike('map-desierto-leones', '/hikes/desierto-leones.gpx');</script>
+<p><strong>Ajusco</strong> — the tallest mountain within the city, in a protected alpine forest. Short but steep; great views on a clear day. We park <a href="https://goo.gl/maps/1r7WZARHm4nGHB769">here</a> and hike from there.</p>
+<div id="map-ajusco" class="hike-map"></div>
+<p class="hike-meta">Hike · 7.4 km · +831 m · <a href="./hikes/ajusco.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/3574490625">View on Strava</a></p>
+<script>addHike('map-ajusco', '/hikes/ajusco.gpx');</script>
+<p><a href="https://goo.gl/maps/uRCTFxiTRAbuwK3t7">This ejido</a> has many hiking and mountain-biking trails. Nearby, <a href="https://goo.gl/maps/iq8E7RL6YwVFQXA7A">Los Dinamos</a> — a string of forested canyons along the Magdalena river — is another favourite; here is one of our hikes there.</p>
+<div id="map-dinamos" class="hike-map"></div>
+<p class="hike-meta">Hike · 7.2 km · +309 m · <a href="./hikes/dinamos.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/3747554976">View on Strava</a></p>
+<script>addHike('map-dinamos', '/hikes/dinamos.gpx');</script>
+<p><strong>Mount Tláloc</strong> — a wonderful all-day hike, usually started from <a href="https://goo.gl/maps/hvLskZQNVNyShMKFA">Río Frío</a>. The summit has the ruins of an Aztec observatory.</p>
+<div id="map-tlaloc" class="hike-map"></div>
+<p class="hike-meta">Hike · 20.8 km · +1263 m · <a href="./hikes/tlaloc.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/4676919478">View on Strava</a></p>
+<script>addHike('map-tlaloc', '/hikes/tlaloc.gpx');</script>
+<p><strong>Paso de Cortés</strong> — the saddle between the Popocatépetl and Iztaccíhuatl volcanoes: pine forest, alpine meadows, and natural springs (<em>manantiales</em>).</p>
+<div id="map-paso-cortes" class="hike-map"></div>
+<p class="hike-meta">Hike · 12.4 km · +425 m · <a href="./hikes/paso-cortes.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/9824439134">View on Strava</a></p>
+<script>addHike('map-paso-cortes', '/hikes/paso-cortes.gpx');</script>
+<p><strong>Iztaccíhuatl</strong> — for the ambitious: the 5,230 m summit of Mexico’s third-highest peak, a two-day objective from La Joya. Real altitude and snow near the top — not a casual hike.</p>
+<div id="map-iztaccihuatl" class="hike-map"></div>
+<p class="hike-meta">Hike · 10.6 km · +713 m (summit day) · <a href="./hikes/iztaccihuatl.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/4987584471">View on Strava</a></p>
+<script>addHike('map-iztaccihuatl', '/hikes/iztaccihuatl.gpx');</script>
+</section>
+<section id="cycling" class="level3">
+<h3 class="anchored" data-anchor-id="cycling">Cycling</h3>
+<p>Road cycling around CDMX is superb once you climb out of the valley. Three of our favourite long days:</p>
+<p><strong>Otomí</strong> — a long climb into the sierra west of the city.</p>
+<div id="map-otomi" class="hike-map"></div>
+<p class="hike-meta">Ride · 104.6 km · +2262 m · <a href="./hikes/otomi.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/2571120184">View on Strava</a></p>
+<script>addHike('map-otomi', '/hikes/otomi.gpx');</script>
+<p><strong>La Volta</strong> — a big loop down toward the Morelos side.</p>
+<div id="map-volta" class="hike-map"></div>
+<p class="hike-meta">Ride · 131.6 km · +2466 m · <a href="./hikes/volta.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/3086782073">View on Strava</a></p>
+<script>addHike('map-volta', '/hikes/volta.gpx');</script>
+<p><strong>Lagunas de Zempoala</strong> — over the sierra to the alpine lakes on the Morelos border.</p>
+<div id="map-zempoala" class="hike-map"></div>
+<p class="hike-meta">Ride · 105.7 km · +2667 m · <a href="./hikes/zempoala.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/3260163495">View on Strava</a></p>
+<script>addHike('map-zempoala', '/hikes/zempoala.gpx');</script>
+</section>
+<section id="mountain-biking" class="level3">
+<h3 class="anchored" data-anchor-id="mountain-biking">Mountain biking</h3>
+<p><strong>MTB</strong> — singletrack and fire roads in the forests above the city (Desierto de los Leones / La Marquesa).</p>
+<div id="map-mtb-loop" class="hike-map"></div>
+<p class="hike-meta">Ride · 33.5 km · +1243 m · <a href="./hikes/mtb-loop.gpx" download="">Download GPX</a> · <a href="https://www.strava.com/activities/4243833610">View on Strava</a></p>
+<script>addHike('map-mtb-loop', '/hikes/mtb-loop.gpx');</script>
+</section>
+<section id="rock-climbing" class="level3">
+<h3 class="anchored" data-anchor-id="rock-climbing">Rock climbing</h3>
+<p><a href="https://goo.gl/maps/iq8E7RL6YwVFQXA7A">Los Dinamos</a> (sport, trad, and bouldering), bouldering in <a href="https://goo.gl/maps/yS976EWMRfhMBLfA7">Salazar</a>, and great sport climbing in <a href="https://goo.gl/maps/rFczCMQeqTm891Kd9">Jilotepec</a>.</p>
+<p class="strava-credit">Powered by <a href="https://www.strava.com">Strava</a>.</p>
+</section>
 </section>
 <section id="our-google-maps-lists" class="level2">
 <h2 class="anchored" data-anchor-id="our-google-maps-lists">Our Google Maps lists</h2>
