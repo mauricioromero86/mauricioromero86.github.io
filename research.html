@@ -81,9 +81,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-18eeef7e313107c10b6b051a6734352e.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-710ffeea2ad95a0d80e0a690a222354c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d38951e4ee8d6074bc51f66032a45ea1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-710ffeea2ad95a0d80e0a690a222354c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-54a3976e1f54a6689130e12f42a1b617.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-cfd3dd0aa5ac498a5d85276dea81919f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-54a3976e1f54a6689130e12f42a1b617.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -120,6 +120,15 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 </script>
+<!-- iOS home-screen icon (Quarto wires favicon, not this) -->
+<link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+
+<!-- Fonts: preconnect + a single non-blocking <link> beats the SCSS @import (which
+     blocks render until the CSS downloads, then discovers the font request). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap">
+
 <!-- Machine-readable index of papers + CV (https://llmstxt.org). Site-wide so
      agents can discover it from any page. Each entry links a clean Markdown
      version of a paper; PDFs are layout, the .md is what an LLM reads. -->
@@ -153,17 +162,17 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 
 <meta property="og:title" content="Research – Mauricio Romero">
 <meta property="og:description" content="Publications and working papers by Mauricio Romero in development, education, and public economics.">
-<meta property="og:image" content="https://mauricio-romero.com/img/headshot.jpg">
+<meta property="og:image" content="https://mauricio-romero.com/img/og-card.png">
 <meta property="og:site_name" content="Mauricio Romero">
 <meta name="twitter:title" content="Research – Mauricio Romero">
 <meta name="twitter:description" content="Publications and working papers by Mauricio Romero in development, education, and public economics.">
-<meta name="twitter:image" content="https://mauricio-romero.com/img/headshot.jpg">
+<meta name="twitter:image" content="https://mauricio-romero.com/img/og-card.png">
 <meta name="twitter:creator" content="@marome1">
 <meta name="twitter:site" content="@marome1">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -368,7 +377,7 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=BD8UfDoAAAAJ"> <i class="bi bi-google" role="img">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=BD8UfDoAAAAJ"> <i class="bi bi-mortarboard" role="img" aria-label="Google Scholar">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -384,7 +393,21 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#publications-peer-reviewed" id="toc-publications-peer-reviewed" class="nav-link active" data-scroll-target="#publications-peer-reviewed">Publications (peer-reviewed)</a></li>
+  <li><a href="#comments-conference-proceedings-and-others" id="toc-comments-conference-proceedings-and-others" class="nav-link" data-scroll-target="#comments-conference-proceedings-and-others">Comments, conference proceedings, and others</a></li>
+  <li><a href="#non-economics-peer-reviewed-articles" id="toc-non-economics-peer-reviewed-articles" class="nav-link" data-scroll-target="#non-economics-peer-reviewed-articles">Non-economics peer-reviewed articles</a></li>
+  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working papers</a></li>
+  <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in progress</a></li>
+  <li><a href="#policy-and-popular-writing" id="toc-policy-and-popular-writing" class="nav-link" data-scroll-target="#policy-and-popular-writing">Policy and popular writing</a></li>
+  <li><a href="#resting-papers" id="toc-resting-papers" class="nav-link" data-scroll-target="#resting-papers">Resting papers</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -1253,6 +1276,19 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Mauricio Romero</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a> · <a href="https://github.com/mauricioromero86">source</a></p>
+</div>
+  </div>
+</footer>
 
 
 
