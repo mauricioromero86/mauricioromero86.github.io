@@ -29,3 +29,7 @@ profile_pic.jpg
 
 # Stray Quarto temp files
 *.tmp.*
+
+# Python bytecode cache (tools/)
+__pycache__/
+*.pyc

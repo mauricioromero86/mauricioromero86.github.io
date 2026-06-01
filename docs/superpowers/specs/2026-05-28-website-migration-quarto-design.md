@@ -39,7 +39,7 @@ eventually dropped.
 | GitHub account | `mauricioromero86` (the bare `mauricioromero` username is taken by another user, so `mauricioromero.github.io` is unavailable) |
 | Test URL | `mauricioromero86.github.io` (user-site repo, serves at root `/`) |
 | Domain cutover | Launch on `mauricioromero86.github.io` first → verify → point DNS to Pages. Add redirect on old Bluehost site during transition until host/domain lapses |
-| SEO/AI | Full SEO per Google starter guide + AI optimization guide (see SEO section). No `llms.txt` / special AI markup (Google explicitly advises against it) |
+| SEO/AI | Full SEO per Google starter guide + AI optimization guide (see SEO section). **Revised 2026-05-31:** a root `llms.txt` + per-paper machine-readable `.pdf.md` twins **are** maintained (owner opted into Quentin André's "legible to machines" approach); no other AI-specific markup |
 
 ## Site structure
 
@@ -113,8 +113,12 @@ live in the WordPress DB (`maurico8_WPFIY`) / media library. Current SEO is dyna
 
 Implements Google's SEO Starter Guide and AI Optimization Guide. Both reward the
 same fundamentals (crawlable semantic HTML, clear structure, helpful content);
-the AI guide explicitly advises **against** `llms.txt`, AI-specific markup, content
-chunking, and over-reliance on structured data — so none of those are used.
+the AI guide advises against most AI-specific markup, content chunking, and
+over-reliance on structured data — so none of those are used. **Exception (added
+2026-05-31):** a root `llms.txt` and machine-readable `.pdf.md` twins of each paper
+*are* published, following Quentin André's "legible to machines" approach (owner
+request). Google's crawlers may ignore `llms.txt`, but it is cheap and used by other
+agents; see CLAUDE.md "Machine-readable papers". No other AI-specific markup is added.
 
 | Item | Implementation in Quarto |
 |------|--------------------------|
@@ -130,8 +134,9 @@ chunking, and over-reliance on structured data — so none of those are used.
 | Mobile / performance | responsive Bootstrap theme + compressed PDFs → strong Core Web Vitals |
 | Verification | Google Search Console: verify custom domain at cutover, submit `sitemap.xml` |
 
-Explicitly NOT done (per Google's AI guide): `llms.txt`, AI-specific markup,
-content chunking, keyword stuffing, inauthentic backlink building.
+Explicitly NOT done (per Google's AI guide): AI-specific markup beyond `llms.txt`,
+content chunking, keyword stuffing, inauthentic backlink building. *(`llms.txt` +
+per-paper `.pdf.md` twins are maintained as a deliberate exception — see above.)*
 
 ## Deployment
 

@@ -1,0 +1,14 @@
+# Dependencies for the machine-readable-paper pipeline (tools/pdf-to-md.py).
+# Only needed locally when (re)generating paper Markdown; NOT used by CI.
+#
+#   pip install -r requirements-md.txt
+#
+# marker-pdf pulls torch + Surya models (~several GB on first run) and is the
+# highest-quality scientific-PDF -> Markdown converter (equations as LaTeX,
+# tables, multi-column). The optional --use-llm refinement pass additionally
+# needs an LLM API key (e.g. GEMINI_API_KEY) at runtime.
+#
+# pandoc is used only for the LaTeX-source path (--engine pandoc) and is a
+# system package (https://pandoc.org/installing.html), not a pip dependency.
+
+marker-pdf>=1.2.0
