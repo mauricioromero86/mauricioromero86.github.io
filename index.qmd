@@ -45,7 +45,3 @@ I am a [Jacobs Foundation Research Fellow](https://jacobsfoundation.org/fellows/
 My work focuses on the bottlenecks that impede high-quality government provision of education,
 health care, and environmental protection. In conjunction with my empirical research agenda, I
 work on methodological issues in applied econometrics and statistics.
-
-::: {.text-muted style="font-size:0.85em;"}
-[CV](pdfs/Mauricio-Romero-CV.pdf) · [CV (Markdown, for LLMs)](pdfs/Mauricio-Romero-CV.pdf.md) — machine-readable versions of my papers are linked on the [Research](research.qmd) page and indexed in [llms.txt](llms.txt).
-:::
