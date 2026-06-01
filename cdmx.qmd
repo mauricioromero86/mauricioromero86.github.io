@@ -241,6 +241,101 @@ Road cycling around CDMX is superb once you climb out of the valley. Three of ou
 <p class="strava-credit">Powered by <a href="https://www.strava.com">Strava</a>.</p>
 ```
 
+## Day trips from CDMX
+
+Beyond the city, a wealth of mountains, lakes, and *pueblos mágicos* sit within a couple of hours'
+drive. A few we keep going back to — with the GPS tracks for the hikes.
+
+### Pueblos mágicos
+
+**Tepoztlán** — a magic town about an hour south, under the cliffs of the Tepozteco: a lively
+weekend market, mezcal, artisanal ice cream, and a steep climb to the
+[Tepozteco pyramid](https://www.google.com/maps/search/?api=1&query=Pir%C3%A1mide+del+Tepozteco).
+Our hike above town:
+
+```{=html}
+<div id="map-tepozteco" class="hike-map"></div>
+<p class="hike-meta">Hike · 6.9 km · +298 m · <a href="/hikes/tepozteco.gpx" download>Download GPX</a> · <a href="https://www.strava.com/activities/8748622575">View on Strava</a></p>
+<script>addHike('map-tepozteco', '/hikes/tepozteco.gpx');</script>
+```
+
+**Malinalco** — about 1.5 h southwest; a rare Aztec temple carved straight into the mountainside
+([Cuauhtinchán](https://www.google.com/maps/search/?api=1&query=Zona+Arqueol%C3%B3gica+de+Malinalco)),
+plus an ahuehuete-shaded river and good weekend food.
+
+**Valle de Bravo** — about 2.5 h west; a lake town with sailing, paragliding off the surrounding
+sierra, and pine forests — the classic CDMX weekend escape.
+[Google Maps](https://www.google.com/maps/search/?api=1&query=Valle+de+Bravo).
+
+### Mountains & nature
+
+**Nevado de Toluca** — drive almost into the crater of an extinct volcano (~4,200 m) and walk to its
+two alpine lakes. Cold and high, but very accessible.
+
+```{=html}
+<div id="map-nevado-toluca" class="hike-map"></div>
+<p class="hike-meta">Hike · 13.0 km · +1094 m · <a href="/hikes/nevado-toluca.gpx" download>Download GPX</a> · <a href="https://www.strava.com/activities/1972960281">View on Strava</a></p>
+<script>addHike('map-nevado-toluca', '/hikes/nevado-toluca.gpx');</script>
+```
+
+**La Malinche** — a 4,461 m volcano in a pine-oak forest; a popular acclimatisation hike with a long
+but non-technical summit day.
+
+```{=html}
+<div id="map-la-malinche" class="hike-map"></div>
+<p class="hike-meta">Hike · 13.4 km · +1441 m · <a href="/hikes/la-malinche.gpx" download>Download GPX</a> · <a href="https://www.strava.com/activities/3043406910">View on Strava</a></p>
+<script>addHike('map-la-malinche', '/hikes/la-malinche.gpx');</script>
+```
+
+**Mineral del Chico** — a pueblo mágico in the pine forests of El Chico National Park (Hidalgo, ~2 h);
+hiking, rock climbing, and trout for lunch.
+
+```{=html}
+<div id="map-mineral-del-chico" class="hike-map"></div>
+<p class="hike-meta">Hike · 9.8 km · +628 m · <a href="/hikes/mineral-del-chico.gpx" download>Download GPX</a> · <a href="https://www.strava.com/activities/3063353811">View on Strava</a></p>
+<script>addHike('map-mineral-del-chico', '/hikes/mineral-del-chico.gpx');</script>
+```
+
+**Monarch butterfly sanctuary** — roughly **November–March**, millions of monarchs winter in the
+oyamel forests west of the city. We hiked up at Cerro Pelón; it is unforgettable.
+
+```{=html}
+<div id="map-cerro-pelon" class="hike-map"></div>
+<p class="hike-meta">Hike · 10.5 km · +780 m · <a href="/hikes/cerro-pelon.gpx" download>Download GPX</a> · <a href="https://www.strava.com/activities/4941772989">View on Strava</a></p>
+<script>addHike('map-cerro-pelon', '/hikes/cerro-pelon.gpx');</script>
+```
+
+**Pico de Orizaba** — for mountaineers only: Mexico's highest peak (5,636 m), ~4–5 h away. Glacier
+travel and real altitude — a serious objective, not a day hike.
+
+```{=html}
+<div id="map-pico-orizaba" class="hike-map"></div>
+<p class="hike-meta">Hike · 9.5 km · +1386 m · <a href="/hikes/pico-orizaba.gpx" download>Download GPX</a> · <a href="https://www.strava.com/activities/1983192998">View on Strava</a></p>
+<script>addHike('map-pico-orizaba', '/hikes/pico-orizaba.gpx');</script>
+```
+
+## Visiting with kids
+
+We have two small kids, so we've road-tested the city with toddlers in tow. A few things that work:
+
+- **Bosque de Chapultepec** — beyond the museums, the park has the free
+  [Zoológico](https://www.google.com/maps/search/?api=1&query=Zool%C3%B3gico+de+Chapultepec),
+  rowboats on the lake, and the
+  [Papalote Museo del Niño](https://www.google.com/maps/search/?api=1&query=Papalote+Museo+del+Ni%C3%B1o),
+  a hands-on children's science museum.
+- **Parque México & Parque España** (Condesa) — leafy neighbourhood parks with playgrounds, right
+  where most visitors stay; easy to pair with a coffee.
+- **Xochimilco** — the colourful *trajinera* boats (see Assorted tips above) are a hit with kids.
+- **Desierto de los Leones** — easy forest trails and weekend bike rental make it a great first
+  "mountain" outing for little legs (it's where ours learned to ride).
+- Bigger outings:
+  [Acuario Inbursa](https://www.google.com/maps/search/?api=1&query=Acuario+Inbursa) (Polanco),
+  [Kidzania](https://www.google.com/maps/search/?api=1&query=KidZania+Cuicuilco), and
+  [Granja las Américas](https://www.google.com/maps/search/?api=1&query=Granja+Las+Am%C3%A9ricas)
+  are reliable kid-magnets.
+- For what's on **this week**, we rely on [Karamanduka](https://karamanduka.substack.com), a weekly
+  newsletter of family and kid plans around CDMX.
+
 ## Our Google Maps lists
 
 - [Restaurants we like](https://goo.gl/maps/2GSU4JT7tg4NHcFi7)

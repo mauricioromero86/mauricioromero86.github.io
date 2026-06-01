@@ -198,5 +198,125 @@
         -99.294592
       ]
     ]
+  },
+  {
+    "slug": "nevado-toluca",
+    "id": 1972960281,
+    "label": "Nevado de Toluca",
+    "type": "Hike",
+    "distance_km": 13,
+    "elev_m": 1094,
+    "date": "2018-11-18",
+    "points": 239,
+    "bounds": [
+      [
+        19.101836,
+        -99.789884
+      ],
+      [
+        19.131396,
+        -99.767585
+      ]
+    ]
+  },
+  {
+    "slug": "la-malinche",
+    "id": 3043406910,
+    "label": "La Malinche",
+    "type": "Hike",
+    "distance_km": 13.4,
+    "elev_m": 1441,
+    "date": "2020-01-25",
+    "points": 293,
+    "bounds": [
+      [
+        19.230988,
+        -98.042445
+      ],
+      [
+        19.279245,
+        -98.031148
+      ]
+    ]
+  },
+  {
+    "slug": "mineral-del-chico",
+    "id": 3063353811,
+    "label": "Mineral del Chico",
+    "type": "Hike",
+    "distance_km": 9.8,
+    "elev_m": 628,
+    "date": "2020-02-01",
+    "points": 232,
+    "bounds": [
+      [
+        20.186968,
+        -98.72116
+      ],
+      [
+        20.206981,
+        -98.705855
+      ]
+    ]
+  },
+  {
+    "slug": "cerro-pelon",
+    "id": 4941772989,
+    "label": "Cerro Pelón (monarchs)",
+    "type": "Hike",
+    "distance_km": 10.5,
+    "elev_m": 780,
+    "date": "2021-03-13",
+    "points": 277,
+    "bounds": [
+      [
+        19.365039,
+        -100.288167
+      ],
+      [
+        19.39089,
+        -100.268085
+      ]
+    ]
+  },
+  {
+    "slug": "tepozteco",
+    "id": 8748622575,
+    "label": "Tepozteco (Tepoztlán)",
+    "type": "Hike",
+    "distance_km": 6.9,
+    "elev_m": 298,
+    "date": "2023-03-20",
+    "points": 169,
+    "bounds": [
+      [
+        19.002465,
+        -99.079967
+      ],
+      [
+        19.013589,
+        -99.064886
+      ]
+    ]
+  },
+  {
+    "slug": "pico-orizaba",
+    "id": 1983192998,
+    "label": "Pico de Orizaba",
+    "type": "Hike",
+    "distance_km": 9.5,
+    "elev_m": 1386,
+    "date": "2018-11-24",
+    "points": 289,
+    "bounds": [
+      [
+        19.030215,
+        -97.271743
+      ],
+      [
+        19.057954,
+        -97.268611
+      ]
+    ]
   }
 ]
