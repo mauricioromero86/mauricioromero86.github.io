@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "desierto-leones",
+    "id": 6059697924,
+    "label": "Desierto de los Leones",
+    "type": "Hike",
+    "distance_km": 13.8,
+    "elev_m": 290,
+    "date": "2021-10-03",
+    "points": 296,
+    "bounds": [
+      [
+        19.284898,
+        -99.335113
+      ],
+      [
+        19.323001,
+        -99.312825
+      ]
+    ]
+  },
+  {
+    "slug": "ajusco",
+    "id": 3574490625,
+    "label": "Ajusco (summit)",
+    "type": "Hike",
+    "distance_km": 7.4,
+    "elev_m": 831,
+    "date": "2020-06-06",
+    "points": 201,
+    "bounds": [
+      [
+        19.207519,
+        -99.267835
+      ],
+      [
+        19.228903,
+        -99.25654
+      ]
+    ]
+  },
+  {
+    "slug": "tlaloc",
+    "id": 4676919478,
+    "label": "Mount Tláloc",
+    "type": "Hike",
+    "distance_km": 20.8,
+    "elev_m": 1263,
+    "date": "2021-01-24",
+    "points": 514,
+    "bounds": [
+      [
+        19.361158,
+        -98.719045
+      ],
+      [
+        19.412612,
+        -98.676724
+      ]
+    ]
+  },
+  {
+    "slug": "paso-cortes",
+    "id": 9824439134,
+    "label": "Paso de Cortés",
+    "type": "Hike",
+    "distance_km": 12.4,
+    "elev_m": 425,
+    "date": "2023-09-10",
+    "points": 209,
+    "bounds": [
+      [
+        19.087301,
+        -98.652023
+      ],
+      [
+        19.126405,
+        -98.632692
+      ]
+    ]
+  },
+  {
+    "slug": "iztaccihuatl",
+    "id": 4987584471,
+    "label": "Iztaccíhuatl (summit)",
+    "type": "Hike",
+    "distance_km": 10.6,
+    "elev_m": 713,
+    "date": "2021-03-21",
+    "points": 264,
+    "bounds": [
+      [
+        19.133269,
+        -98.652454
+      ],
+      [
+        19.176159,
+        -98.635781
+      ]
+    ]
+  },
+  {
+    "slug": "dinamos",
+    "id": 3747554976,
+    "label": "Los Dinamos (ejido)",
+    "type": "Hike",
+    "distance_km": 7.2,
+    "elev_m": 309,
+    "date": "2020-07-11",
+    "points": 152,
+    "bounds": [
+      [
+        19.262053,
+        -99.302023
+      ],
+      [
+        19.275421,
+        -99.289036
+      ]
+    ]
+  },
+  {
+    "slug": "otomi",
+    "id": 2571120184,
+    "label": "Otomí",
+    "type": "Ride",
+    "distance_km": 104.6,
+    "elev_m": 2262,
+    "date": "2019-07-28",
+    "points": 1385,
+    "bounds": [
+      [
+        19.513415,
+        -99.592842
+      ],
+      [
+        19.57623,
+        -99.396217
+      ]
+    ]
+  },
+  {
+    "slug": "volta",
+    "id": 3086782073,
+    "label": "La Volta",
+    "type": "Ride",
+    "distance_km": 131.6,
+    "elev_m": 2466,
+    "date": "2020-02-09",
+    "points": 803,
+    "bounds": [
+      [
+        18.951536,
+        -99.586534
+      ],
+      [
+        19.282239,
+        -99.371161
+      ]
+    ]
+  },
+  {
+    "slug": "zempoala",
+    "id": 3260163495,
+    "label": "Lagunas de Zempoala",
+    "type": "Ride",
+    "distance_km": 105.7,
+    "elev_m": 2667,
+    "date": "2020-04-05",
+    "points": 1115,
+    "bounds": [
+      [
+        18.912842,
+        -99.486822
+      ],
+      [
+        19.07957,
+        -99.276105
+      ]
+    ]
+  },
+  {
+    "slug": "mtb-loop",
+    "id": 4243833610,
+    "label": "MTB loop",
+    "type": "Ride",
+    "distance_km": 33.5,
+    "elev_m": 1243,
+    "date": "2020-10-25",
+    "points": 505,
+    "bounds": [
+      [
+        19.243444,
+        -99.335076
+      ],
+      [
+        19.323102,
+        -99.294592
+      ]
+    ]
+  }
+]
