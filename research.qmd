@@ -593,9 +593,3 @@ This paper highlights a common issue with instrumental variables (IV) techniques
 :::
 
 with [Santiago Saavedra](https://sites.google.com/view/santiago-saavedra)
-
----
-
-::: {.text-muted style="font-size:0.85em;"}
-Each paper above links a **[Markdown]** version for language models to read. A machine-readable index of all papers and my CV is at [llms.txt](/llms.txt).
-:::
