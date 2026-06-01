@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
 
-// Fonts: Newsreader (serif headings + wordmark), IBM Plex Sans (body), IBM Plex Mono (code)
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap');
-
+// Fonts: Newsreader (serif headings + wordmark), IBM Plex Sans (body), IBM Plex Mono (code).
+// The @font-face <link> + preconnect hints live in _includes/website-jsonld.html so the
+// fonts load without blocking on this stylesheet first (faster first paint, no FOUT).
 $font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
 $font-family-monospace:  "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace !default;
 $headings-font-family:   "Newsreader", Georgia, "Times New Roman", serif !default;
@@ -151,6 +151,17 @@ nav[role="doc-toc"] a:hover, nav[role="doc-toc"] .active { color: $link-color; }
 
 // horizontal rules as hairlines
 hr { border-top: 1px solid $mr-hairline; opacity: 1; }
+
+// ---- Page footer ----------------------------------------------------------
+.nav-footer {
+  border-top: 1px solid $mr-hairline;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: $mr-muted;
+}
+.nav-footer a { color: $mr-muted; }
+.nav-footer a:hover { color: $link-color; }
 
 // list spacing in dense link/section pages
 .quarto-title-block .quarto-title .title { font-weight: 500; }

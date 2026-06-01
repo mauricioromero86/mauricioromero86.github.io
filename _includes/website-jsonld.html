@@ -1,3 +1,12 @@
+<!-- iOS home-screen icon (Quarto wires favicon, not this) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+<!-- Fonts: preconnect + a single non-blocking <link> beats the SCSS @import (which
+     blocks render until the CSS downloads, then discovers the font request). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+
 <!-- Machine-readable index of papers + CV (https://llmstxt.org). Site-wide so
      agents can discover it from any page. Each entry links a clean Markdown
      version of a paper; PDFs are layout, the .md is what an LLM reads. -->

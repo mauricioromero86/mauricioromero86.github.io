@@ -8,6 +8,10 @@ project:
     # Hike/ride GPX tracks (CDMX page) are referenced from raw-HTML map blocks the
     # scanner does not follow — declare the folder so the .gpx files publish.
     - hikes/*.gpx
+    # OG card + apple-touch-icon are referenced only via absolute URLs (website.image,
+    # raw-HTML <link>), which the resource scanner does not follow — declare them.
+    - img/og-card.png
+    - img/apple-touch-icon.png
   render:
     - index.qmd
     - research.qmd
@@ -20,7 +24,7 @@ website:
   title: "Mauricio Romero"
   description: "Mauricio Romero — Associate Professor of Economics at ITAM. Development, education, and public economics."
   site-url: "https://mauricio-romero.com"
-  image: "https://mauricio-romero.com/img/headshot.jpg"
+  image: "https://mauricio-romero.com/img/og-card.png"
   open-graph: true
   twitter-card:
     card-style: summary_large_image
@@ -28,6 +32,9 @@ website:
     site: "@marome1"
   google-analytics: "G-JM6020WT15"
   favicon: img/favicon.png
+  page-footer:
+    left: "© 2026 Mauricio Romero"
+    right: "Built with [Quarto](https://quarto.org) · [source](https://github.com/mauricioromero86)"
   navbar:
     title: "Mauricio Romero"
     right:
@@ -43,8 +50,9 @@ website:
         href: cdmx.qmd
       - icon: envelope
         href: "mailto:mtromero@itam.mx"
-      - icon: google
+      - icon: mortarboard
         href: "https://scholar.google.com/citations?user=BD8UfDoAAAAJ"
+        aria-label: "Google Scholar"
 
 format:
   html:
