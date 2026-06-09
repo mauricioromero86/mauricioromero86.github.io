@@ -19,6 +19,7 @@ project:
     - data-code.qmd
     - cdmx.qmd
     - courses/*.qmd
+    - 404.qmd
 
 website:
   title: "Mauricio Romero"

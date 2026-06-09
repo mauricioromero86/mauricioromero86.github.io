@@ -1,0 +1,19 @@
+---
+title: "404 — Page Not Found"
+description: "The page you requested doesn't exist."
+search: false
+sitemap: false
+include-in-header:
+  text: '<meta name="robots" content="noindex">'
+---
+
+This page doesn't exist — it may have moved when the site migrated from WordPress to its current setup.
+
+Try one of these instead:
+
+- [Home](/)
+- [Research](/research.html) — publications and working papers
+- [Teaching](/teaching.html) — courses and materials
+- [Data & Code](/data-code.html) — datasets and replication packages
+
+If you reached this from an old link to a lecture PDF, teaching materials now live in the [course pages](/teaching.html).
