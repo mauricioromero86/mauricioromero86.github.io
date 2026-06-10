@@ -10,7 +10,8 @@ academic site that is editable as plain Markdown in git, with: a CV, links to pu
 papers and working papers, teaching material, and links to datasets. Nothing more — keep
 scope tight.
 
-The site does not exist yet. The full design is in
+The site is live at `https://mauricio-romero.com` (custom domain cut over; GA4
+`G-JM6020WT15`). The locked design decisions are in
 `docs/superpowers/specs/2026-05-28-website-migration-quarto-design.md` — **read it before
 making structural decisions**; it records every locked decision and the rationale.
 
@@ -35,7 +36,8 @@ about a paper's title, coauthors, venue, or link, the CV `.tex` wins.
 
 Four sections mirroring the current live site: Bio/CV (`index.qmd`), Research
 (`research.qmd` — publications + working papers), Data & Code (`data-code.qmd`),
-Teaching (`teaching.qmd`). Publications are **hand-written per-entry Markdown blocks**
+Teaching (`teaching.qmd`), plus post-launch additions: a CDMX visitor guide (`cdmx.qmd`),
+course pages under `courses/`, and a branded `404.qmd`. Publications are **hand-written per-entry Markdown blocks**
 (no `.bib` pipeline). Theme: clean academic Bootswatch (default `litera`/`cosmo`) +
 light `styles.scss`.
 
@@ -45,9 +47,10 @@ and hosts the migrated `polucion/` maps in-repo. `Map_IPS.html` is omitted (defe
 
 ## Machine-readable papers (LLM-legible versions)
 
-Every paper served at `/pdfs/papers/<name>.pdf` also has a clean **Markdown twin** at
+Papers served at `/pdfs/papers/<name>.pdf` get a clean **Markdown twin** at
 `/pdfs/papers/<name>.pdf.md` (Quentin André's "append `.md` to the URL" convention,
-https://quentinandre.net/posts/legible-to-machines/). PDFs are layout instructions, not
+https://quentinandre.net/posts/legible-to-machines/). Coverage as of 2026-06-10: 21 of 33
+PDFs have twins; the rest are mostly appendices/supplements (backfill with `--all` is optional). PDFs are layout instructions, not
 text; the `.md` is what LLMs actually read. Each `.md` has YAML front matter
 (title, authors, venue, year, **real DOI**, canonical URLs) + the full converted body.
 
@@ -126,7 +129,7 @@ python tools/gen-llms-txt.py          # regenerate root llms.txt index (CV + pap
   marked Dropbox-ignored (`Set-Content -Path .quarto -Stream com.dropbox.ignored -Value 1`).
   Keep them ignored; if a render exits 1 only on a `_freeze`/temp `remove (os error 32)`, the
   HTML still built — re-run after the ignore propagates.
-- **Render scope:** `_quarto.yml` has an explicit `project: render:` list of the 4 pages.
+- **Render scope:** `_quarto.yml` has an explicit `project: render:` list (`index`, `research`, `teaching`, `data-code`, `cdmx`, `courses/*.qmd`, `404`).
   Without it Quarto walks the whole tree (incl. `public_html/`) and tries to execute
   teaching `.qmd` files. Do not remove the render list.
 
