@@ -17,14 +17,12 @@ completed.
   *Source matches regex*:
   `chatgpt\.com|chat\.openai\.com|perplexity\.ai|claude\.ai|gemini\.google\.com|copilot\.microsoft\.com`
   Lets you track what share of visits come from AI assistants.
-- [ ] **Wikidata item** — no item with ORCID `0000-0003-4652-593X` exists
-  (checked 2026-06-10). Create one at <https://www.wikidata.org> ("Mauricio
-  Romero", economist): statements for ORCID (P496), Google Scholar ID
-  (P1960, `BD8UfDoAAAAJ`), employer ITAM (P108), official website (P856),
-  RePEc Short-ID (P2428, `pro605`). Then add the resulting
-  `https://www.wikidata.org/wiki/Q<id>` URL to the `sameAs` arrays in
-  `_includes/person-jsonld.html` (Wikidata is a primary entity source for
-  LLM knowledge graphs).
+- [x] **Wikidata item** — created 2026-06-11:
+  [Q140170702](https://www.wikidata.org/wiki/Q140170702) (verified: ORCID
+  P496, Scholar P1960 `BD8UfDoAAAAJ`, employer ITAM P108, website P856,
+  RePEc P2428 `pro605`). Added to the `sameAs` arrays in
+  `_includes/person-jsonld.html`, `_includes/website-jsonld.html`, and the
+  research-page Person node (`tools/gen-research-jsonld.py`).
 - [ ] **Validate structured data post-deploy** — paste
   `https://mauricio-romero.com/research.html` and the homepage into
   <https://validator.schema.org> and Google's Rich Results Test; expect

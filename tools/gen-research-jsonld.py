@@ -39,6 +39,7 @@ PERSON_NODE = {
     "sameAs": [
         "https://orcid.org/0000-0003-4652-593X",
         "https://scholar.google.com/citations?user=BD8UfDoAAAAJ",
+        "https://www.wikidata.org/wiki/Q140170702",
     ],
 }
 
