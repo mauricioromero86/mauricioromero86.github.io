@@ -61,6 +61,7 @@ MD_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 DOI_RE = re.compile(r"doi\s*=\s*\{([^}]+)\}", re.IGNORECASE)
 YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 VENUE_RE = re.compile(r"\*\*(.+?)\*\*")
+BIBTEX_YEAR_RE = re.compile(r"year\s*=\s*\{((?:19|20)\d{2})\}", re.IGNORECASE)
 
 
 def _decode_pdf_path(encoded: str) -> str:
@@ -88,6 +89,9 @@ class Paper:
     doi: str = ""
     abstract: str = ""
     extra_pdfs: list[str] = field(default_factory=list)  # appendices, etc.
+    journal_url: str = ""        # external target of the title link (journal page)
+    coauthors: list[str] = field(default_factory=list)   # plain coauthor names
+    bibtex_year: str = ""        # year={...} from the BibTeX block (fallback)
 
     @property
     def pdf_url(self) -> str:
@@ -148,8 +152,23 @@ def _extract_abstract(entry: str) -> str:
     return re.sub(r"\s+", " ", m.group(1)).strip()
 
 
+def _parse_coauthors(raw_line: str) -> list[str]:
+    """Coauthor names from a raw byline line (before `_strip_md`).
+
+    Only lines of the form ``with [A](url), B, and [C](url) · **Venue** ...``
+    carry coauthors; the segment before the first `` · `` is the name list.
+    Solo-author entries (no leading ``with ``) return an empty list.
+    """
+    if not raw_line.startswith("with "):
+        return []
+    seg = raw_line.split(" · ")[0][len("with "):]
+    seg = MD_LINK_RE.sub(r"\1", seg).strip().rstrip(",")
+    parts = re.split(r",\s+and\s+|\s+and\s+|,\s+", seg)
+    return [p.strip() for p in parts if p.strip()]
+
+
 def _extract_byline_venue_year(entry: str):
-    """Return (byline, venue, year) from the first prose line after the head."""
+    """Return (byline, venue, year, coauthors) from the first prose line after the head."""
     # The byline is the first non-empty, non-div, non-link-row paragraph after
     # the closing `:::` of the paper-head.
     after_head = entry.split(":::", 2)
@@ -172,8 +191,8 @@ def _extract_byline_venue_year(entry: str):
         venue = venue_m.group(1).strip() if venue_m else ""
         year_m = YEAR_RE.search(line)
         year = year_m.group(0) if year_m else ""
-        return byline, venue, year
-    return "", "", ""
+        return byline, venue, year, _parse_coauthors(line)
+    return "", "", "", []
 
 
 def parse_papers(qmd_path: Path = RESEARCH_QMD) -> list[Paper]:
@@ -214,10 +233,20 @@ def parse_papers(qmd_path: Path = RESEARCH_QMD) -> list[Paper]:
                 primary = found[0][1]
 
         extra = [pdf for _, pdf in found if pdf != primary]
-        byline, venue, year = _extract_byline_venue_year(entry)
+        byline, venue, year, coauthors = _extract_byline_venue_year(entry)
         doi_m = DOI_RE.search(entry)
         doi = doi_m.group(1).strip() if doi_m else ""
         abstract = _extract_abstract(entry)
+
+        # External journal link = the title's own link target (must be read off
+        # the raw title line; `_strip_md` discards it). Local PDFs don't count.
+        journal_url = ""
+        tlink = MD_LINK_RE.search(tm.group(1))
+        if tlink and not tlink.group(2).startswith("/pdfs/"):
+            journal_url = tlink.group(2)
+
+        by_m = BIBTEX_YEAR_RE.search(entry)
+        bibtex_year = by_m.group(1) if by_m else ""
 
         papers.append(
             Paper(
@@ -230,6 +259,9 @@ def parse_papers(qmd_path: Path = RESEARCH_QMD) -> list[Paper]:
                 doi=doi,
                 abstract=abstract,
                 extra_pdfs=extra,
+                journal_url=journal_url,
+                coauthors=coauthors,
+                bibtex_year=bibtex_year,
             )
         )
     return papers
@@ -242,7 +274,12 @@ def main(argv=None) -> int:
     for p in papers:
         flag = "" if p.pdf_path.exists() else "  [PDF MISSING]"
         has_md = "md" if p.md_path.exists() else "--"
-        print(f"[{has_md}] {p.pdf:<45} {p.year:>4}  doi={p.doi or '-'}{flag}")
+        yr = p.year or (f"b{p.bibtex_year}" if p.bibtex_year else "")
+        jurl = "url" if p.journal_url else "---"
+        print(
+            f"[{has_md}] {p.pdf:<45} {yr:>5}  doi={p.doi or '-':<32} "
+            f"[{jurl}] coauth={len(p.coauthors)}{flag}"
+        )
         if not p.pdf_path.exists():
             missing.append(p.pdf)
     print(f"\n{len(papers)} papers parsed; {len(missing)} with missing PDFs.")

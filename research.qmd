@@ -1,6 +1,8 @@
 ---
 title: "Research"
 description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
+date-modified: 2026-06-10
+include-in-header: _includes/research-jsonld.html
 toc: true
 toc-location: right
 toc-depth: 2
