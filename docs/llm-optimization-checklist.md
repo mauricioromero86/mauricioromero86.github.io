@@ -7,26 +7,23 @@ completed.
 
 ## One-time setup
 
-- [ ] **Bing Webmaster Tools** — <https://www.bing.com/webmasters>. Verify
-  `mauricio-romero.com` (fastest: "Import from Google Search Console"), then
-  submit `https://mauricio-romero.com/sitemap.xml`. ChatGPT's web search is
-  Bing-backed, so Bing indexing directly affects ChatGPT citations.
-  Optionally enable **IndexNow** for instant recrawl pings.
-- [ ] **GA4 channel group for LLM referrals** — GA4 Admin → Data display →
-  Channel groups → create custom channel **"LLM Referrals"** with condition
-  *Source matches regex*:
-  `chatgpt\.com|chat\.openai\.com|perplexity\.ai|claude\.ai|gemini\.google\.com|copilot\.microsoft\.com`
-  Lets you track what share of visits come from AI assistants.
+- [x] **Bing Webmaster Tools** — done 2026-06-12: site verified, sitemap
+  submitted. (ChatGPT's web search is Bing-backed, so Bing indexing directly
+  affects ChatGPT citations.)
+- [x] **GA4 channel group for LLM referrals** — done 2026-06-12: custom
+  channel **"LLM Referrals"** with *Source matches regex*
+  `chatgpt\.com|chat\.openai\.com|perplexity\.ai|claude\.ai|gemini\.google\.com|copilot\.microsoft\.com`.
+  Review its share of traffic in the periodic checks below.
 - [x] **Wikidata item** — created 2026-06-11:
   [Q140170702](https://www.wikidata.org/wiki/Q140170702) (verified: ORCID
   P496, Scholar P1960 `BD8UfDoAAAAJ`, employer ITAM P108, website P856,
   RePEc P2428 `pro605`). Added to the `sameAs` arrays in
   `_includes/person-jsonld.html`, `_includes/website-jsonld.html`, and the
   research-page Person node (`tools/gen-research-jsonld.py`).
-- [ ] **Validate structured data post-deploy** — paste
-  `https://mauricio-romero.com/research.html` and the homepage into
-  <https://validator.schema.org> and Google's Rich Results Test; expect
-  ScholarlyArticle ×21 + Person/ProfilePage with no errors.
+- [x] **Validate structured data post-deploy** — done 2026-06-12 via
+  <https://validator.schema.org> / Google Rich Results Test on the homepage
+  and `research.html` (ScholarlyArticle ×21 + Person/ProfilePage). Re-check
+  after the next paper is added.
 
 ## Periodic (monthly-ish)
 
