@@ -4,9 +4,59 @@ description: "Graduate applied microeconometrics and causal inference: randomize
 toc: true
 toc-location: right
 toc-depth: 3
+aliases:
+  - /teaching/inferencia-causal-otono-2026/
 ---
 
 [← All teaching](../teaching.html)
+
+## Fall 2026
+
+*Tentative — subject to change during the term.*
+
+### Syllabus
+
+- [Syllabus](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Syllabus_20262.pdf)
+
+### Slides
+
+- [Lecture 1 - Potential outcomes and the experimental ideal](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture1_PotentialOutcomes.pdf)
+- [Lecture 2 - OLS review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture2_OLS_Review.pdf)
+- [Lecture 3 - OLS and causality](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture3_OLS_and_Causality.pdf)
+- [Lecture 4 - Panel data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture4_PanelData.pdf)
+- [Lecture 5 - Difference-in-differences](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture5_DiD.pdf)
+- [Lecture 5B - Difference-in-differences: recent advances](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture5B_DiD_Advances.pdf)
+- [Lecture 5C - Difference-in-differences: applications](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture5C_DiD_Examples.pdf)
+- [Lecture 6 - Instrumental variables / 2SLS](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture6_IV.pdf)
+- [Lecture 7 - Regression discontinuity](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture7_RDD.pdf)
+- [Lecture 7B - Regression discontinuity: extensions](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture7B_RDD_Extensions.pdf)
+- [Lecture 8 - Matching](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture8_Matching.pdf)
+- [Lecture 9 - Synthetic control](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture9_SyntheticControl.pdf)
+- [Lecture 10 - Advanced instrumental variables](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture10_AdvancedIV.pdf)
+- [Lecture 11 - Machine learning and causal inference](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture11_ML_Causal.pdf)
+- [Lecture 12 - Non-linear models](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture12_NonLinear.pdf)
+- [Lecture 13 - Partial identification](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Lecture13_PartialID.pdf)
+
+### R Code
+
+- [Class 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class1.R)
+- [Class 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class2.R)
+- [Class 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class3.R)
+- [Class 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class4.R)
+- [Class 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class5.R)
+- [Class 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class6.R)
+- [Class 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class7.R)
+- [Class 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class8.R)
+- [Class 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class9.R)
+- [Class 10](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class10.R)
+- [Class 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class12.R)
+
+### Problem Sets
+
+- [Problem Set 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_ProblemSet1.pdf)
+- [Problem Set 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_ProblemSet2.pdf)
+- [Problem Set 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_ProblemSet3.pdf)
+
 
 ## Spring 2026
 
