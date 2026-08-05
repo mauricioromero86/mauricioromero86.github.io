@@ -307,7 +307,7 @@ Factorial designs are widely used to study multiple treatments in one experiment
 
 with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · **Economic Journal** 136(676), 2026
 
-[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441) · [Markdown](/pdfs/papers/ueaf089.pdf.md)
+[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441) · [VoxDev article](https://voxdev.org/topic/education/does-private-preschool-really-give-children-head-start) · [Markdown](/pdfs/papers/ueaf089.pdf.md)
 
 ::: {#abs-12 .collapse .paper-panel}
 We study the relative productivity of private and public institutions at the preschool and primary school levels using panel data from 215 villages in Tamil Nadu. Private preschools show higher test score value-added in math and language (0.59–0.74 standard deviations) and outperform government providers in nearly all villages. This productivity difference explains 60% of the socioeconomic test score gap before school entry. These results contrast starkly with primary schooling, where we find no evidence of a private-sector premium in math and negative effects in local language. Test score value-added is positively correlated between private and government options in a village, both at the preschool and primary school levels. Quality is also correlated across levels; villages with more productive primary schools also tend to have more productive preschools. Our findings inform debates on achieving universal foundational skills and highlight the need to improve the quality of preschools available to lower-income families.
@@ -543,6 +543,8 @@ with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecat
 - [Reversing losses in learning after Covid](https://www.hindustantimes.com/opinion/reversing-losses-in-learning-after-covid-101665584453601.html) *(with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/))* · Hindustan Times, 2022
 - [Preschool services in Tamil Nadu](https://riseprogramme.org/blog/preschool_services_Tamil_Nadu) *(with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/))* · RISE blog, 2022
 - [Pérdidas de aprendizaje durante la pandemia y ritmo de recuperación: evidencia de Guanajuato](https://educacion.nexos.com.mx/perdidas-de-aprendizaje-durante-la-pandemia-y-ritmo-de-recuperacion-evidencia-de-guanajuato/) *(with Enrique Alasino, María José Ramírez, and Norbert Schady)* · Nexos, 2024
+- [Aire limpio para aprender](https://economia.uniandes.edu.co/es/publicaciones/voces/aire-limpio-para-aprender) · Voces, Universidad de los Andes, 2026
+- [Does private preschool really give children a head start?](https://voxdev.org/topic/education/does-private-preschool-really-give-children-head-start) *(with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/))* · VoxDev, 2026
 - [The economist improving education policy with evidence](https://boldscience.org/the-economist-improving-education-policy-with-evidence/) · Interview by Annie Brookman-Byrne for [BOLD](https://boldscience.org/)
 
 ## Resting papers
