@@ -171,7 +171,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 |  |  |
 |:---|:---|
-| 2026 | University of Washington, Universidad Carlos III de Madrid (UC3M), Universidad de Chile (Departamento de Economía, FEN), Universidad de Chile (Centro de Economía Aplicada, DII) |
+| 2026 | University of Washington, Universidad Carlos III de Madrid (UC3M), Universidad de Chile (Departamento de Economía, FEN), Universidad de Chile (Centro de Economía Aplicada, DII), University of Texas Rio Grande Valley (UTRGV) |
 | 2025 | Universidad de los Andes (Colombia), PUC-Chile, Universidad de los Andes (Chile), Universidad EIA, Banco de la Republica de Colombia, University of Illinois Urbana-Champaign, CIDE |
 | 2024 | Universidad Javeriana, Universidad del Rosario |
 | 2023 | El Colegio de Mexico, Dartmouth College, Institute for International Economic Studies (IIES), Stockholm School of Economics, University of Zurich |
@@ -187,6 +187,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 |  |  |
 |:---|:---|
+| 2026 | AAEA Experimental Economics Section Summer Workshop |
 | 2025 | Desafíos de la Educación en México (COLMEX), How should we transform school instruction to address the needs of all students? Within-class learning variability in low- and middle-income countries? (NYU), Texas Development Economics Workshop (TXDW) |
 | 2024 | VIII Congreso de Economia Colombiana |
 | 2023 | IIMA-RISE Research Conference on Education Economics, LACEA-LAMES |
@@ -200,7 +201,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 ### Referee Service
 
-*Journal of Educational and Behavioral Statistics*, *Economic Development and Cultural Change*, *Journal of Comparative Economics*, *The Economic Journal*, *Journal of Human Resources*, *Environment and Development Economics*, *American Economic Journal: Applied Economics*, *The Review of Economics and Statistics*, *American Economic Review*, *Review of Economic Studies*, *Quarterly Journal of Economics*, *Journal of Development Economics*, *American Economic Journal: Economic Policy*, *Experimental Economics*, *Journal of Public Economic*, *American Economic Review: Insights*, *Journal of the European Economic Association*, *Economics of Education Review*, *Health Economics*
+*Journal of Educational and Behavioral Statistics*, *Economic Development and Cultural Change*, *Journal of Comparative Economics*, *The Economic Journal*, *Journal of Human Resources*, *Environment and Development Economics*, *American Economic Journal: Applied Economics*, *The Review of Economics and Statistics*, *American Economic Review*, *Review of Economic Studies*, *Quarterly Journal of Economics*, *Journal of Development Economics*, *American Economic Journal: Economic Policy*, *Experimental Economics*, *Journal of Public Economics*, *American Economic Review: Insights*, *Journal of the European Economic Association*, *Economics of Education Review*, *Health Economics*, *Nature*, *Journal of Political Economy*, *World Bank Economic Review*, *Journal of Labor Economics*, *European Economic Review*
 
 |  |  |
 |:---|:---|
