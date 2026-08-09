@@ -21,52 +21,6 @@ aliases:
 ### Slides
 
 - [Lecture 1 - Where data comes from: surveys, administrative records, and big data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture01_Data_Sources.pdf)
-- [Lecture 2 - LLMs as a chat assistant](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture02_LLM_Chat.pdf)
-- [Lecture 3 - R fundamentals](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture03_R_Fundamentals.pdf)
-- [Lecture 4 - Importing and cleaning data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04_Data_Import_Clean.pdf)
-- [Lecture 5 - Transforming, joining, and reshaping data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture05_Transform_Join_Reshape.pdf)
-- [Lecture 6 - Programming: functions, iteration, and conditionals](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture06_Programming.pdf)
-- [Lecture 7 - Data visualization with ggplot2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture07_Visualization_ggplot2.pdf)
-- [Lecture 8 - GIS: spatial data and maps in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture08_GIS_Spatial.pdf)
-- [Lecture 9 - Correlation vs. causality I: selection bias and DAGs](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture09_Causality_I_DAGs.pdf)
-- [Lecture 10 - Correlation vs. causality II: the counterfactual](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture10_Causality_II_Counterfactual.pdf)
-- [Lecture 11 - Experiments: the gold standard](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture11_Experiments_RCT.pdf)
-- [Lecture 12 - Agentic LLMs: reproducible AI-assisted workflows](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture12_Agentic_LLMs.pdf)
-
-### R Code
-
-- [Class 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class1.R)
-- [Class 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class3.R)
-- [Class 4](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4.R)
-- [Class 5](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class5.R)
-- [Class 6](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class6.R)
-- [Class 7](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class7.R)
-- [Class 8](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class8.R)
-- [Class 9](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class9.R)
-- [Class 10](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class10.R)
-- [Class 11](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class11.R)
-
-### Problem Sets
-
-- [Homework 1 - Data sources](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW01_data_sources.pdf)
-- [Homework 2 - Setup and LLM critique](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW02_setup_llm_critique.pdf)
-- [Homework 3 - R fundamentals](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW03_r_fundamentals.pdf)
-- [Homework 4 - Cleaning and logs](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW04_clean_log.pdf)
-- [Homework 5 - Joining and matching](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW05_join_match.pdf)
-- [Homework 6 - Functions and iteration](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW06_functions_iteration.pdf)
-- [Homework 7 - Visualization](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW07_visualization.pdf)
-- [Homework 8 - Choropleth maps](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW08_choropleth.pdf)
-- [Homework 9 - DAGs](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW09_dag.pdf)
-- [Homework 10 - The counterfactual](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW10_counterfactual.pdf)
-- [Homework 11 - Balance and ATE](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW11_balance_ate.pdf)
-- [Final project brief (data blog)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Project_Brief.pdf)
-
-### Data
-
-- [Homework 1 data - SESNSP incidence extract (CSV)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_datos_tarea01_sesnsp_extracto.csv)
-- [Homework 1 data - SESNSP national by crime (CSV)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_datos_tarea01_sesnsp_nacional_por_delito.csv)
-- [Homework 1 data - ENVIPE bulletin (PDF)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_datos_tarea01_envipe_comunicado.pdf)
-- [Homework 1 data - ENVIPE sample design (PDF)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_datos_tarea01_envipe_diseno_muestral.pdf)
 
 
 ## Spring 2026

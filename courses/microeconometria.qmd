@@ -51,12 +51,6 @@ aliases:
 - [Class 10](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class10.R)
 - [Class 12](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_Class12.R)
 
-### Problem Sets
-
-- [Problem Set 1](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_ProblemSet1.pdf)
-- [Problem Set 2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_ProblemSet2.pdf)
-- [Problem Set 3](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/Inferencia_20262_ProblemSet3.pdf)
-
 
 ## Spring 2026
 
