@@ -319,7 +319,7 @@
     "href": "courses/analisis-empirico.html#fall-2026",
     "title": "Seminario de Análisis Empírico",
     "section": "Fall 2026",
-    "text": "Fall 2026\nTentative — subject to change during the term.\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 1 - Where data comes from: surveys, administrative records, and big data\n\n\n\nProblem Sets\n\nHomework 1 - Where data comes from"
+    "text": "Fall 2026\nTentative — subject to change during the term.\n\nSyllabus\n\nSyllabus\n\n\n\nSlides\n\nLecture 1 - Where data comes from: surveys, administrative records, and big data\nLecture 2 - Your AI chat partner: LLMs as a chatbot\n\n\n\nProblem Sets\n\nHomework 1 - Where data comes from\n\n\n\nData\nThe running example for the course. Neither analysis file sits ready-made on a portal: both were cut from the national releases by the build script, so you can rebuild either one.\n\nmunicipios_clean.csv — 2,469 municipios: population, schooling, illiteracy, poverty rates\nenigh_hogares_raw.csv — 91,414 households: income, household size, state, survey weight\nconeval_pobreza.csv — CONEVAL poverty indicators, for the join exercises\nbuild_data_real.R — the script that produces all three\nRead me first — provenance, attribution, and what to read before you compute anything\n\nSources: INEGI, Censo de Población y Vivienda 2020 · INEGI, ENIGH 2024 · CONEVAL, Medición de la pobreza municipal 2020. Accessed 2026-08-16. Nothing in these files is simulated or imputed."
   },
   {
     "objectID": "courses/analisis-empirico.html#spring-2026",

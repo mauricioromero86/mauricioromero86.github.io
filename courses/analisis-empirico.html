@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-c7e68cbf4fd09285039b7e9a23f813c3.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-702f6a9e3e6c5b7398d38ea086536f71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-db3bf90d698f86e206e6e97ac8ed0a6e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-702f6a9e3e6c5b7398d38ea086536f71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ae52de6f1e6da134d870e913c66f8502.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a34994bc38bf69ba3a0b0082d051d081.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ae52de6f1e6da134d870e913c66f8502.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -373,6 +373,7 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
   <li><a href="#syllabus" id="toc-syllabus" class="nav-link" data-scroll-target="#syllabus">Syllabus</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#problem-sets" id="toc-problem-sets" class="nav-link" data-scroll-target="#problem-sets">Problem Sets</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   </ul></li>
   <li><a href="#spring-2026" id="toc-spring-2026" class="nav-link" data-scroll-target="#spring-2026">Spring 2026</a>
   <ul class="collapse">
@@ -425,6 +426,7 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="slides">Slides</h3>
 <ul>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture01_Data_Sources.pdf">Lecture 1 - Where data comes from: surveys, administrative records, and big data</a></li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture02_LLM_Chat.pdf">Lecture 2 - Your AI chat partner: LLMs as a chatbot</a></li>
 </ul>
 </section>
 <section id="problem-sets" class="level3">
@@ -432,6 +434,18 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 <ul>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW01_data_sources.pdf">Homework 1 - Where data comes from</a></li>
 </ul>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>The running example for the course. Neither analysis file sits ready-made on a portal: both were cut from the national releases by the build script, so you can rebuild either one.</p>
+<ul>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_municipios_clean.csv"><code>municipios_clean.csv</code></a> — 2,469 municipios: population, schooling, illiteracy, poverty rates</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_enigh_hogares_raw.csv"><code>enigh_hogares_raw.csv</code></a> — 91,414 households: income, household size, state, survey weight</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_pobreza.csv"><code>coneval_pobreza.csv</code></a> — CONEVAL poverty indicators, for the join exercises</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_build_data_real.R"><code>build_data_real.R</code></a> — the script that produces all three</li>
+<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_data_README.md">Read me first</a> — provenance, attribution, and what to read before you compute anything</li>
+</ul>
+<p>Sources: INEGI, <a href="https://www.inegi.org.mx/programas/ccpv/2020/">Censo de Población y Vivienda 2020</a> · INEGI, <a href="https://www.inegi.org.mx/programas/enigh/nc/2024/">ENIGH 2024</a> · CONEVAL, <a href="https://www.coneval.org.mx/Medicion/Paginas/Pobreza-municipio-2010-2020.aspx">Medición de la pobreza municipal 2020</a>. Accessed 2026-08-16. Nothing in these files is simulated or imputed.</p>
 </section>
 </section>
 <section id="spring-2026" class="level2">
