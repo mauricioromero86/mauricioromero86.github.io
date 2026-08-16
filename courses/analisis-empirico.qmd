@@ -21,10 +21,27 @@ aliases:
 ### Slides
 
 - [Lecture 1 - Where data comes from: surveys, administrative records, and big data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture01_Data_Sources.pdf)
+- [Lecture 2 - Your AI chat partner: LLMs as a chatbot](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture02_LLM_Chat.pdf)
 
 ### Problem Sets
 
 - [Homework 1 - Where data comes from](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW01_data_sources.pdf)
+
+### Data
+
+The running example for the course. Neither analysis file sits ready-made on a portal:
+both were cut from the national releases by the build script, so you can rebuild either one.
+
+- [`municipios_clean.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_municipios_clean.csv) — 2,469 municipios: population, schooling, illiteracy, poverty rates
+- [`enigh_hogares_raw.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_enigh_hogares_raw.csv) — 91,414 households: income, household size, state, survey weight
+- [`coneval_pobreza.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_pobreza.csv) — CONEVAL poverty indicators, for the join exercises
+- [`build_data_real.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_build_data_real.R) — the script that produces all three
+- [Read me first](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_data_README.md) — provenance, attribution, and what to read before you compute anything
+
+Sources: INEGI, [Censo de Población y Vivienda 2020](https://www.inegi.org.mx/programas/ccpv/2020/) ·
+INEGI, [ENIGH 2024](https://www.inegi.org.mx/programas/enigh/nc/2024/) ·
+CONEVAL, [Medición de la pobreza municipal 2020](https://www.coneval.org.mx/Medicion/Paginas/Pobreza-municipio-2010-2020.aspx).
+Accessed 2026-08-16. Nothing in these files is simulated or imputed.
 
 
 ## Spring 2026
