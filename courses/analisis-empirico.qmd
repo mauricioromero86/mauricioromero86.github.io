@@ -23,6 +23,7 @@ aliases:
 - [Lecture 1 - Where data comes from: surveys, administrative records, and big data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture01_Data_Sources.pdf)
 - [Lecture 2 - Your AI chat partner: LLMs as a chatbot](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture02_LLM_Chat.pdf)
 - [Lecture 3 - R fundamentals](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture03_R_Fundamentals.pdf)
+- [Lecture 4 - Data in R I: import and clean](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04_Data_Import_Clean.pdf)
 
 ### R Code
 
@@ -31,6 +32,7 @@ Each script reproduces every output printed on the matching slides. They read
 contains `data/`.
 
 - [Lecture 3 - `Class3.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class3.R)
+- [Lecture 4 - `Class4.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4.R)
 
 ### Problem Sets
 
@@ -46,6 +48,7 @@ both were cut from the national releases by the build script, so you can rebuild
 - [`enigh_hogares_raw.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_enigh_hogares_raw.csv) — 91,414 households: income, household size, state, survey weight
 - [`coneval_pobreza.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_pobreza.csv) — CONEVAL poverty indicators, for the join exercises
 - [`build_data_real.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_build_data_real.R) — the script that produces all three
+- [`coneval_municipal_2020_raw.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_municipal_2020_raw.csv) — 2,469 × 37, the CONEVAL release **uncleaned**: this is the file Lecture 4 cleans on screen
 - [Read me first](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_data_README.md) — provenance, attribution, and what to read before you compute anything
 
 Sources: INEGI, [Censo de Población y Vivienda 2020](https://www.inegi.org.mx/programas/ccpv/2020/) ·
