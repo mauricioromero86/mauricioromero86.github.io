@@ -25,6 +25,7 @@ aliases:
 - [Lecture 3 - R fundamentals](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture03_R_Fundamentals.pdf)
 - [Lecture 4 - Data in R I: import and clean](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04_Data_Import_Clean.pdf)
 - [Lecture 5 - Data in R II: transform, join, reshape](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture05_Transform_Join_Reshape.pdf)
+- [Lecture 6 - Programming: functions, conditionals, iteration](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture06_Programming.pdf)
 
 ### R Code
 
@@ -35,6 +36,7 @@ contains `data/`.
 - [Lecture 3 - `Class3.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class3.R)
 - [Lecture 4 - `Class4.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4.R)
 - [Lecture 5 - `Class5.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class5.R)
+- [Lecture 6 - `Class6.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class6.R)
 
 ### Problem Sets
 
