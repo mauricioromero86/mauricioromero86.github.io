@@ -483,7 +483,7 @@ The rights of homosexuals and same-sex couples are currently the subject of deba
 [Abstract](#abs-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-19" aria-expanded="false"} [BibTeX](#bib-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-19" aria-expanded="false"}
 :::
 
-with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · Revise and resubmit, **Review of Economic Studies**
+with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · Conditionally accepted, **Review of Economic Studies**
 
 [Working Paper](/pdfs/papers/CG_RTE_Draft.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/incidence-affirmative-action-evidence-quotas-private-schools-india) · [Online Appendix](/pdfs/papers/CG_Preference_Tables.pdf) · [Markdown](/pdfs/papers/CG_RTE_Draft.pdf.md)
 
@@ -496,7 +496,7 @@ The incidence of redistributive policies is central to whether they meet their s
 @unpublished{singh_romero_affirmative,
   title={The incidence of affirmative action: Evidence from quotas in private schools in India},
   author={Singh, Abhijeet and Romero, Mauricio},
-  note={Working paper (revise and resubmit, Review of Economic Studies)}
+  note={Working paper (conditionally accepted, Review of Economic Studies)}
 }
 ```
 :::
