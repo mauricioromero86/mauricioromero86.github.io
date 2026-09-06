@@ -23,15 +23,16 @@ aliases:
 - [Lecture 1 - Where data comes from: surveys, administrative records, and big data](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture01_Data_Sources.pdf)
 - [Lecture 2 - Your AI chat partner: LLMs as a chatbot](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture02_LLM_Chat.pdf)
 - [Lecture 3 - R fundamentals](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture03_R_Fundamentals.pdf)
-- [Lecture 4 - Data in R I: import and clean](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04_Data_Import_Clean.pdf)
-- [Lecture 5 - Data in R II: transform, join, reshape](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture05_Transform_Join_Reshape.pdf)
-- [Lecture 6 - Programming: functions, conditionals, iteration](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture06_Programming.pdf)
+- [Lecture 4 - Data in R: import, clean, transform, join](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04_Import_Clean_Transform_Join.pdf)
+- [Lecture 5 - Programming in R: for loops, if statements, and functions](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture05_Programming.pdf)
+- [Lecture 6 - Scientific figures with ggplot2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture06_Visualization_ggplot2.pdf)
 
 ### R Code
 
-Each script reproduces every output printed on the matching slides. They read
-`data/municipios_clean.csv` by a relative path, so run them from the folder that
-contains `data/`.
+Each script reproduces every output printed on the matching slides. `Class3.R`,
+`Class4.R` and `Class6.R` read the data files listed below by relative paths, so run
+them from the folder that contains `data/`; `Class6.R` writes its figures to a
+`Figures/` folder it creates. `Class5.R` needs no data file.
 
 - [Lecture 3 - `Class3.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class3.R)
 - [Lecture 4 - `Class4.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4.R)
