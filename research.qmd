@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
-date-modified: 2026-06-10
+date-modified: 2026-09-09
 include-in-header: _includes/research-jsonld.html
 toc: true
 toc-location: right
@@ -507,7 +507,7 @@ The incidence of redistributive policies is central to whether they meet their s
 [BibTeX](#bib-20){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-20" aria-expanded="false"}
 :::
 
-with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecato](https://biancacecato.com/), and [Tatiana Zarate-Barrera](https://www.tatianazarate.com/)
+with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecato](https://biancacecato.com/), and [Tatiana Zarate-Barrera](https://www.tatianazarate.com/) · Reject and resubmit, **Review of Economics and Statistics**
 
 [Working Paper](https://github.com/ErinLitzow/MyFiles/blob/master/JMP_Litzow.pdf)
 
@@ -516,7 +516,7 @@ with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecat
 @unpublished{litzow_toxic,
   title={Toxic recycling: The cost of used lead-acid battery processing in Mexico},
   author={Litzow, Erin and Cecato, Bianca and Romero, Mauricio and Zarate-Barrera, Tatiana},
-  note={Working paper}
+  note={Working paper (reject and resubmit, Review of Economics and Statistics)}
 }
 ```
 :::

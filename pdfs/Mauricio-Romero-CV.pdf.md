@@ -94,7 +94,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 ## WORKING PAPERS
 
 “[The incidence of affirmative action: Evidence from quotas in private schools in India](https://mauricio-romero.com/pdfs/papers/CG_RTE_Draft.pdf)”. Joint with Abhijeet Singh. **Conditionally accepted at the Review of Economic Studies**
-“[Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/3b9ae0b96b478b61aff952943ab6f80a0a4513d2/JMP_Litzow.pdf)” Joint with Erin Litzow, Bianca Cecato, and Tatiana Zarate-Barrera
+“[Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/3b9ae0b96b478b61aff952943ab6f80a0a4513d2/JMP_Litzow.pdf)” Joint with Erin Litzow, Bianca Cecato, and Tatiana Zarate-Barrera. **Reject and resubmit at the Review of Economics and Statistics**
 
 ## RESEARCH IN PROGRESS
 
