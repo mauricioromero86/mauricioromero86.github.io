@@ -47,42 +47,22 @@ them from the folder that contains `data/`; `Class6.R` writes its figures to a
 
 Three guided 90-minute practices use the **one-year Partnership Schools for Liberia
 evaluation** to build an analysis dataset, reproduce figures, and fit published
-models. A separate 45-minute GIS extension maps county coverage. These are
-standalone, ungraded practices outside the numbered lectures; no homework is attached.
+models. A separate 45-minute GIS extension maps county coverage.
 
-**[Download the complete AER workshop (.zip)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_Liberia_PSL_AER.zip)** — all four scripts and slide decks,
-data, the student guide, recovery files and reference outputs (12.3 MB).
+**[Download the complete AER workshop (.zip)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_Liberia_PSL_AER.zip)** — the four scripts,
+the background slides, data, the student guide and reference outputs.
 
-Extract the whole ZIP and open **Class4B_AER.Rproj**. Install tidyverse and haven
-before starting; the GIS extension also needs sf. Run short chunks alongside
-the instructor, then adapt the code during the exercises. Everything runs offline
-after package installation. The separate scripts below use the data included in the ZIP.
+[Background slides (PDF)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER.pdf) cover the program, the experiment and the data. The practice itself is in the scripts.
 
-| Practice | Prerequisites | Time | Materials |
+| Practice | Prerequisites | Time | Script |
 |---|---|---:|---|
-| A · Build the dataset | Importing, cleaning and joins | 90 min | [Slides](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER.pdf) · [R script](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER.R) |
-| B · Reproduce figures | Visualization | 90 min | [Slides](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER_Figures.pdf) · [R script](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER_Figures.R) |
-| C · Models and randomization inference | Programming and experiments | 90 min | [Slides](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER_RI.pdf) · [R script](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER_RI.R) |
-| GIS · Map county coverage | Spatial data | 45 min | [Slides](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER_GIS.pdf) · [R script](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER_GIS.R) |
+| 1 · Build the dataset | Importing, cleaning and joins | 90 min | [Class4B_1_Dataset.R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_1_Dataset.R) |
+| 2 · Reproduce figures | Visualization | 90 min | [Class4B_2_Figures.R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_2_Figures.R) |
+| 3 · Models and randomization inference | Programming and experiments | 90 min | [Class4B_3_RI.R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_3_RI.R) |
+| 4 · Map county coverage | Spatial data | 45 min | [Class4B_4_GIS.R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_4_GIS.R) |
 
 Study: Romero, Sandefur and Sandholtz (2020),
 [*American Economic Review* 110(2)](https://doi.org/10.1257/aer.20181478).
-I am a coauthor of the study. The [AER replication package](https://doi.org/10.7910/DVN/5OPIYU)
-is licensed CC0 1.0. The county boundaries retain their separate
-[CC BY-NC-SA 3.0 US license](https://creativecommons.org/licenses/by-nc-sa/3.0/us/);
-source details and license notices are included in the workshop.
-
-<details>
-<summary>Earlier three-year endline edition</summary>
-
-The [earlier workshop ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_Liberia_PSL.zip)
-remains available as an archive. Use its own scripts and data rather than combining
-files from the two editions. Its data come from the
-[three-year endline replication package](https://zenodo.org/records/5579799),
-licensed CC BY 4.0, for Romero and Sandefur (2022),
-[*Economic Journal* 132(644)](https://doi.org/10.1093/ej/ueab087).
-
-</details>
 
 ### Problem Sets
 
