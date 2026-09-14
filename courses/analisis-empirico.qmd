@@ -27,6 +27,10 @@ aliases:
 - [Lecture 5 - Programming in R: for loops, if statements, and functions](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture05_Programming.pdf)
 - [Lecture 6 - Scientific figures with ggplot2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture06_Visualization_ggplot2.pdf)
 
+### Examples of empirical work
+
+- [Improving Learning Outcomes in Africa (PDF)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Examples_ExperimentosEduMasBonus.pdf)
+
 ### R Code
 
 Each script reproduces every output printed on the matching slides. `Class3.R`,
