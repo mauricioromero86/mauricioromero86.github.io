@@ -454,52 +454,46 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 </section>
 <section id="practice-session" class="level3">
 <h3 class="anchored" data-anchor-id="practice-session">Practice sessions</h3>
-<p>Three guided 90-minute practices use the <strong>one-year Partnership Schools for Liberia evaluation</strong> to build an analysis dataset, reproduce figures, and fit published models. A separate 45-minute GIS extension maps county coverage. These are standalone, ungraded practices outside the numbered lectures; no homework is attached.</p>
-<p><strong><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_Liberia_PSL_AER.zip">Download the complete AER workshop (.zip)</a></strong> — all four scripts and slide decks, data, the student guide, recovery files and reference outputs (12.3 MB).</p>
-<p>Extract the whole ZIP and open <strong>Class4B_AER.Rproj</strong>. Install tidyverse and haven before starting; the GIS extension also needs sf. Run short chunks alongside the instructor, then adapt the code during the exercises. Everything runs offline after package installation. The separate scripts below use the data included in the ZIP.</p>
+<p>Three guided 90-minute practices use the <strong>one-year Partnership Schools for Liberia evaluation</strong> to build an analysis dataset, reproduce figures, and fit published models. A separate 45-minute GIS extension maps county coverage.</p>
+<p><strong><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_Liberia_PSL_AER.zip">Download the complete AER workshop (.zip)</a></strong> — the four scripts, the background slides, data, the student guide and reference outputs.</p>
+<p><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER.pdf">Background slides (PDF)</a> cover the program, the experiment and the data. The practice itself is in the scripts.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Practice</th>
 <th>Prerequisites</th>
 <th style="text-align: right;">Time</th>
-<th>Materials</th>
+<th>Script</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>A · Build the dataset</td>
+<td>1 · Build the dataset</td>
 <td>Importing, cleaning and joins</td>
 <td style="text-align: right;">90 min</td>
-<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER.pdf">Slides</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER.R">R script</a></td>
+<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_1_Dataset.R">Class4B_1_Dataset.R</a></td>
 </tr>
 <tr class="even">
-<td>B · Reproduce figures</td>
+<td>2 · Reproduce figures</td>
 <td>Visualization</td>
 <td style="text-align: right;">90 min</td>
-<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER_Figures.pdf">Slides</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER_Figures.R">R script</a></td>
+<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_2_Figures.R">Class4B_2_Figures.R</a></td>
 </tr>
 <tr class="odd">
-<td>C · Models and randomization inference</td>
+<td>3 · Models and randomization inference</td>
 <td>Programming and experiments</td>
 <td style="text-align: right;">90 min</td>
-<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER_RI.pdf">Slides</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER_RI.R">R script</a></td>
+<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_3_RI.R">Class4B_3_RI.R</a></td>
 </tr>
 <tr class="even">
-<td>GIS · Map county coverage</td>
+<td>4 · Map county coverage</td>
 <td>Spatial data</td>
 <td style="text-align: right;">45 min</td>
-<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture04B_Liberia_PSL_AER_GIS.pdf">Slides</a> · <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_AER_GIS.R">R script</a></td>
+<td><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_4_GIS.R">Class4B_4_GIS.R</a></td>
 </tr>
 </tbody>
 </table>
-<p>Study: Romero, Sandefur and Sandholtz (2020), <a href="https://doi.org/10.1257/aer.20181478"><em>American Economic Review</em> 110(2)</a>. I am a coauthor of the study. The <a href="https://doi.org/10.7910/DVN/5OPIYU">AER replication package</a> is licensed CC0 1.0. The county boundaries retain their separate <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC BY-NC-SA 3.0 US license</a>; source details and license notices are included in the workshop.</p>
-<details>
-<summary>
-Earlier three-year endline edition
-</summary>
-<p>The <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4B_Liberia_PSL.zip">earlier workshop ZIP</a> remains available as an archive. Use its own scripts and data rather than combining files from the two editions. Its data come from the <a href="https://zenodo.org/records/5579799">three-year endline replication package</a>, licensed CC BY 4.0, for Romero and Sandefur (2022), <a href="https://doi.org/10.1093/ej/ueab087"><em>Economic Journal</em> 132(644)</a>.</p>
-</details>
+<p>Study: Romero, Sandefur and Sandholtz (2020), <a href="https://doi.org/10.1257/aer.20181478"><em>American Economic Review</em> 110(2)</a>.</p>
 </section>
 <section id="problem-sets" class="level3">
 <h3 class="anchored" data-anchor-id="problem-sets">Problem Sets</h3>
