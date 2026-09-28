@@ -35,7 +35,7 @@ aliases:
 ### R Code
 
 Each script reproduces every output printed on the matching slides. `Class3.R`,
-`Class4.R` and `Class6.R` read the data files listed below by relative paths, so run
+`Class4.R` and `Class6.R` read the [data files listed below](#data) by relative paths, so run
 them from the folder that contains `data/`; `Class6.R` writes its figures to a
 `Figures/` folder it creates. `Class5.R` needs no data file.
 
@@ -78,17 +78,20 @@ Study: Romero, Sandefur and Sandholtz (2020),
 
 ### Data
 
-The running example for the course. Neither analysis file sits ready-made on a portal:
-both were cut from the national releases by the build script, so you can rebuild either one.
+- **Lecture 6 — [Municipal data (CSV)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_municipios_clean.csv):** population, schooling, illiteracy, and poverty rates for 2,469 municipios. Save the file as `data/municipios_clean.csv` (remove the download's `AnalisisEmpirico_202602_` prefix).
+- **Lecture 7 — [Spatial data and scripts (ZIP)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture07_materials.zip):** municipal and alcaldía boundaries, poverty, ECOBICI stations and flows, elevation, and air quality. Extract the ZIP and keep its folder structure; the input files are in `data/L07/teaching/`. The bundle also includes the scripts, lecture PDF, and data documentation.
 
-- [`municipios_clean.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_municipios_clean.csv) — 2,469 municipios: population, schooling, illiteracy, poverty rates
+Run the scripts from the folder that contains `data/` (and `Rcode/` for Lecture 7).
+
+Other course data and preparation scripts:
+
 - [`enigh_hogares_raw.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_enigh_hogares_raw.csv) — 91,414 households: income, household size, state, survey weight
 - [`coneval_pobreza.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_pobreza.csv) — CONEVAL poverty indicators, for the join exercises
 - [`build_data_real.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_build_data_real.R) — the script that produces all three
 - [`coneval_municipal_2020_raw.csv`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_municipal_2020_raw.csv) — 2,469 × 37, the CONEVAL release **uncleaned**: this is the file Lecture 4 cleans on screen
 - [Read me first](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_data_README.md) — provenance, attribution, and what to read before you compute anything
 
-Sources: INEGI, [Censo de Población y Vivienda 2020](https://www.inegi.org.mx/programas/ccpv/2020/) ·
+Sources for the municipal and ENIGH files: INEGI, [Censo de Población y Vivienda 2020](https://www.inegi.org.mx/programas/ccpv/2020/) ·
 INEGI, [ENIGH 2024](https://www.inegi.org.mx/programas/enigh/nc/2024/) ·
 CONEVAL, [Medición de la pobreza municipal 2020](https://www.coneval.org.mx/Medicion/Paginas/Pobreza-municipio-2010-2020.aspx).
 Accessed 2026-08-16. Nothing in these files is simulated or imputed.
