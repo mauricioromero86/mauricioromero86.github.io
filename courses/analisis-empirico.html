@@ -445,7 +445,7 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 </section>
 <section id="r-code" class="level3">
 <h3 class="anchored" data-anchor-id="r-code">R Code</h3>
-<p>Each script reproduces every output printed on the matching slides. <code>Class3.R</code>, <code>Class4.R</code> and <code>Class6.R</code> read the data files listed below by relative paths, so run them from the folder that contains <code>data/</code>; <code>Class6.R</code> writes its figures to a <code>Figures/</code> folder it creates. <code>Class5.R</code> needs no data file.</p>
+<p>Each script reproduces every output printed on the matching slides. <code>Class3.R</code>, <code>Class4.R</code> and <code>Class6.R</code> read the <a href="#data">data files listed below</a> by relative paths, so run them from the folder that contains <code>data/</code>; <code>Class6.R</code> writes its figures to a <code>Figures/</code> folder it creates. <code>Class5.R</code> needs no data file.</p>
 <ul>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class3.R">Lecture 3 - <code>Class3.R</code></a></li>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class4.R">Lecture 4 - <code>Class4.R</code></a></li>
@@ -510,16 +510,20 @@ gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
 </section>
 <section id="data" class="level3">
 <h3 class="anchored" data-anchor-id="data">Data</h3>
-<p>The running example for the course. Neither analysis file sits ready-made on a portal: both were cut from the national releases by the build script, so you can rebuild either one.</p>
 <ul>
-<li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_municipios_clean.csv"><code>municipios_clean.csv</code></a> — 2,469 municipios: population, schooling, illiteracy, poverty rates</li>
+<li><strong>Lecture 6 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_municipios_clean.csv">Municipal data (CSV)</a>:</strong> population, schooling, illiteracy, and poverty rates for 2,469 municipios. Save the file as <code>data/municipios_clean.csv</code> (remove the download’s <code>AnalisisEmpirico_202602_</code> prefix).</li>
+<li><strong>Lecture 7 — <a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture07_materials.zip">Spatial data and scripts (ZIP)</a>:</strong> municipal and alcaldía boundaries, poverty, ECOBICI stations and flows, elevation, and air quality. Extract the ZIP and keep its folder structure; the input files are in <code>data/L07/teaching/</code>. The bundle also includes the scripts, lecture PDF, and data documentation.</li>
+</ul>
+<p>Run the scripts from the folder that contains <code>data/</code> (and <code>Rcode/</code> for Lecture 7).</p>
+<p>Other course data and preparation scripts:</p>
+<ul>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_enigh_hogares_raw.csv"><code>enigh_hogares_raw.csv</code></a> — 91,414 households: income, household size, state, survey weight</li>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_pobreza.csv"><code>coneval_pobreza.csv</code></a> — CONEVAL poverty indicators, for the join exercises</li>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_build_data_real.R"><code>build_data_real.R</code></a> — the script that produces all three</li>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_coneval_municipal_2020_raw.csv"><code>coneval_municipal_2020_raw.csv</code></a> — 2,469 × 37, the CONEVAL release <strong>uncleaned</strong>: this is the file Lecture 4 cleans on screen</li>
 <li><a href="https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_data_README.md">Read me first</a> — provenance, attribution, and what to read before you compute anything</li>
 </ul>
-<p>Sources: INEGI, <a href="https://www.inegi.org.mx/programas/ccpv/2020/">Censo de Población y Vivienda 2020</a> · INEGI, <a href="https://www.inegi.org.mx/programas/enigh/nc/2024/">ENIGH 2024</a> · CONEVAL, <a href="https://www.coneval.org.mx/Medicion/Paginas/Pobreza-municipio-2010-2020.aspx">Medición de la pobreza municipal 2020</a>. Accessed 2026-08-16. Nothing in these files is simulated or imputed.</p>
+<p>Sources for the municipal and ENIGH files: INEGI, <a href="https://www.inegi.org.mx/programas/ccpv/2020/">Censo de Población y Vivienda 2020</a> · INEGI, <a href="https://www.inegi.org.mx/programas/enigh/nc/2024/">ENIGH 2024</a> · CONEVAL, <a href="https://www.coneval.org.mx/Medicion/Paginas/Pobreza-municipio-2010-2020.aspx">Medición de la pobreza municipal 2020</a>. Accessed 2026-08-16. Nothing in these files is simulated or imputed.</p>
 </section>
 </section>
 <section id="spring-2026" class="level2">
