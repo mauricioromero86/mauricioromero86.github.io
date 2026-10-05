@@ -27,8 +27,8 @@ aliases:
 - [Lecture 5 - Programming in R: for loops, if statements, and functions](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture05_Programming.pdf)
 - [Lecture 6 - Scientific figures with ggplot2](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture06_Visualization_ggplot2.pdf)
 - [Lecture 7 - Spatial data, maps, and analysis in R](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture07_GIS_Spatial.pdf)
-
-- [Lecture 11 - Agentic AI: seven projects](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture11_Agentic_LLMs.pdf)
+- [Lecture 8 - Correlation, causality, and the counterfactual](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture08_Causality_II_Counterfactual.pdf)
+- [Lecture 9 - Randomized experiments and randomization inference](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture09_Experiments_RCT.pdf)
 
 ### Examples of empirical work
 
@@ -37,7 +37,7 @@ aliases:
 ### R Code
 
 Each script reproduces every output printed on the matching slides. `Class3.R`,
-`Class4.R` and `Class6.R` read the [data files listed below](#data) by relative paths, so run
+`Class4.R`, `Class6.R` and `Class8.R` read the [data files listed below](#data) by relative paths, so run
 them from the folder that contains `data/`; `Class6.R` writes its figures to a
 `Figures/` folder it creates. `Class5.R` needs no data file.
 
@@ -46,25 +46,12 @@ them from the folder that contains `data/`; `Class6.R` writes its figures to a
 - [Lecture 5 - `Class5.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class5.R)
 - [Lecture 6 - `Class6.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class6.R)
 - [Lecture 7 - R scripts and data (.zip)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture07_materials.zip)
+- [Lecture 8 - `Class8.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class8.R)
+- [Lecture 9 - `Class9.R`](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Class9.R)
+
+`Class8.R` and `Class9.R` require `tidyverse` and create their output folders.
 
 The Lecture 7 download includes the PDF, scripts, and data. Extract the folder and run the scripts from the folder that contains `Rcode/` and `data/`.
-
-### Lecture 11: agentic AI projects {#l11-projects}
-
-[Download all seven starters (.zip)](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_all-starters.zip)
-
-Each ZIP is standalone. Extract it and open one numbered project folder as the workspace. Begin with its README and dependency check. Antigravity is the main interface; labeled Claude Code and Codex alternatives are included.
-
-| Project | Task | Download |
-|---|---|---|
-| 01 — Debug and verify | Repair a weighted mean and run independent checks. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_01-debug-and-verify.zip) |
-| 02 — Project instructions and rules | Produce a municipal table and figure; test instructions across conversations. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_02-project-instructions.zip) |
-| 03 — Your voice | Derive a writing guide from published samples and test its transfer. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_03-your-voice.zip) |
-| 04 — Reusable skills | Apply one municipal-summary procedure to two inputs. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_04-reusable-skill.zip) |
-| 05 — Reviewer profiles | Reconcile separate code and claims reviews, then verify the repair. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_05-reviewer-profiles.zip) |
-| 06 — Event hooks | Observe automatic checks detect a regression and confirm its repair. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_06-event-hooks.zip) |
-| 07 — Walras | Build and verify an equilibrium solver and a local Shiny interface. | [ZIP](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_L11_07-walras.zip) |
-
 
 ### Practice sessions {#practice-session}
 
