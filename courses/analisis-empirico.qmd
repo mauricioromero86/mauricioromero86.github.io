@@ -89,7 +89,7 @@ Study: Romero, Sandefur and Sandholtz (2020),
 - [Homework 5 - ECOBICI station imbalances](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW05_figuras.pdf)
 - [Homework 6 - Air pollution during ECOBICI trips](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW06_ecobici_contaminacion.pdf)
 - [Homework 7 - Headlines and selection bias](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW07_selection_bias.pdf)
-- [Homework 12 - Randomization inference](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW12_randomization_inference.pdf)
+- [Homework 8 - Randomization inference](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_HW08_randomization_inference.pdf)
 
 ### Data
 
