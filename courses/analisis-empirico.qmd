@@ -31,6 +31,7 @@ aliases:
 - [Lecture 9 - Randomized experiments and randomization inference](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture09_Experiments_RCT.pdf)
 
 - [Lecture 11A - Antigravity works in your project; you check the result](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture11A_Agent_Loop.pdf)
+- [Lecture 11B - Project instructions and review](https://github.com/mauricioromero86/mauricioromero86.github.io/releases/download/teaching-archive/AnalisisEmpirico_202602_Lecture11B_Project_Instructions.pdf)
 
 ### Lecture 11: preparation {#lecture-11-preparation}
 
