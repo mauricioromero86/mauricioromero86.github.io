@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Podcasts, videos, tutorials, and research workflows for Seminario de Análisis Empírico at ITAM.">
+
+<title>AI for empirical work – Mauricio Romero</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-3fb015fe29e2aa47f4b31bc06eadf888.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-17812692d38a5d9cd013d8514434377f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-3fb015fe29e2aa47f4b31bc06eadf888.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-41c4ec2e2cb74f48907b54cfd1d663ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-128e902db004ef7e43e248a32f4656dd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-41c4ec2e2cb74f48907b54cfd1d663ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JM6020WT15"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JM6020WT15', { 'anonymize_ip': true});
+</script>
+<!-- iOS home-screen icon (Quarto wires favicon, not this) -->
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+
+<!-- Fonts: preconnect + a single non-blocking <link> beats the SCSS @import (which
+     blocks render until the CSS downloads, then discovers the font request). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap">
+
+<!-- Machine-readable index of papers + CV (https://llmstxt.org). Site-wide so
+     agents can discover it from any page. Each entry links a clean Markdown
+     version of a paper; PDFs are layout, the .md is what an LLM reads. -->
+<link rel="alternate" type="text/markdown" href="https://mauricio-romero.com/llms.txt" title="llms.txt — machine-readable index of papers and CV">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Mauricio Romero",
+  "alternateName": "Mauricio Romero — Economics, ITAM",
+  "url": "https://mauricio-romero.com",
+  "inLanguage": "en",
+  "publisher": {
+    "@id": "https://mauricio-romero.com/#person",
+    "@type": "Person",
+    "name": "Mauricio Romero",
+    "url": "https://mauricio-romero.com",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=BD8UfDoAAAAJ",
+      "https://twitter.com/marome1",
+      "https://bsky.app/profile/marome1.bsky.social",
+      "https://orcid.org/0000-0003-4652-593X",
+      "https://www.wikidata.org/wiki/Q140170702"
+    ]
+  }
+}
+</script>
+<link rel="canonical" href="https://mauricio-romero.com/courses/analisis-empirico-ai-resources.html">
+<meta property="og:url" content="https://mauricio-romero.com/courses/analisis-empirico-ai-resources.html">
+<meta property="og:type" content="website">
+
+
+<meta property="og:title" content="AI for empirical work – Mauricio Romero">
+<meta property="og:description" content="Podcasts, videos, tutorials, and research workflows for Seminario de Análisis Empírico at ITAM.">
+<meta property="og:image" content="https://mauricio-romero.com/img/og-card.png">
+<meta property="og:site_name" content="Mauricio Romero">
+<meta name="twitter:title" content="AI for empirical work – Mauricio Romero">
+<meta name="twitter:description" content="Podcasts, videos, tutorials, and research workflows for Seminario de Análisis Empírico at ITAM.">
+<meta name="twitter:image" content="https://mauricio-romero.com/img/og-card.png">
+<meta name="twitter:creator" content="@marome1">
+<meta name="twitter:site" content="@marome1">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Mauricio Romero</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../data-code.html"> 
+<span class="menu-text">Data &amp; Code</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cdmx.html"> 
+<span class="menu-text">CDMX</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:mtromero@itam.mx"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=BD8UfDoAAAAJ"> <i class="bi bi-mortarboard" role="img" aria-label="Google Scholar">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#start-here" id="toc-start-here" class="nav-link active" data-scroll-target="#start-here">Start here</a></li>
+  <li><a href="#understanding-ai" id="toc-understanding-ai" class="nav-link" data-scroll-target="#understanding-ai">Understanding AI and using it well</a></li>
+  <li><a href="#learning" id="toc-learning" class="nav-link" data-scroll-target="#learning">Learning, reading, and studying</a></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">Data analysis and research demonstrations</a></li>
+  <li><a href="#writing-and-verification" id="toc-writing-and-verification" class="nav-link" data-scroll-target="#writing-and-verification">Writing, project instructions, and verification</a></li>
+  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates">Templates, collections, and larger workflows</a></li>
+  <li><a href="#theory" id="toc-theory" class="nav-link" data-scroll-target="#theory">Theory and mathematical reasoning</a></li>
+  <li><a href="#podcasts" id="toc-podcasts" class="nav-link" data-scroll-target="#podcasts">Podcasts and broader implications</a></li>
+  <li><a href="#resource-notes" id="toc-resource-notes" class="nav-link" data-scroll-target="#resource-notes">Resource notes</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI for empirical work</h1>
+</div>
+
+<div>
+  <div class="description">
+    Podcasts, videos, tutorials, and research workflows for Seminario de Análisis Empírico at ITAM.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="analisis-empirico.html#ai-resources">← Seminario de Análisis Empírico</a></p>
+<p><strong>Seminario de Análisis Empírico · Fall 2026</strong></p>
+<p>These 54 resources cover using AI, learning, empirical research, writing, and verification. <strong>★ marks eight starting points.</strong> The remaining entries are optional; advanced references are labeled.</p>
+<p>Use the course’s desktop and RStudio setup for practical work. Technical demonstrations can be watched for their approach. Older resources retain useful examples, while their model, pricing, and interface discussions reflect their publication dates.</p>
+<section id="start-here" class="level2">
+<h2 class="anchored" data-anchor-id="start-here">Start here</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Goal</th>
+<th>Resource</th>
+<th>Suggested part</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>See practical uses</td>
+<td><a href="#ai-1">1. Karpathy: How I use LLMs</a></td>
+<td>31:00–1:14:02</td>
+</tr>
+<tr class="even">
+<td>Use AI to learn</td>
+<td><a href="#ai-9">9. The Mollicks: AI for Students</a></td>
+<td>Short video</td>
+</tr>
+<tr class="odd">
+<td>Study with your sources</td>
+<td><a href="#ai-11">11. NotebookLM study guide</a></td>
+<td>Select one reading and try a study activity</td>
+</tr>
+<tr class="even">
+<td>Work with an agent</td>
+<td><a href="#ai-14">14. Panjwani: Codex Desktop</a></td>
+<td>7:25–12:39 and 15:50–47:21</td>
+</tr>
+<tr class="odd">
+<td>Go from data to a figure</td>
+<td><a href="#ai-16">16. Goldsmith-Pinkham: Data Analysis</a></td>
+<td>22:24–35:20</td>
+</tr>
+<tr class="even">
+<td>Use AI for writing and thinking</td>
+<td><a href="#ai-25">25. Goldsmith-Pinkham: Writing &amp; Thinking</a></td>
+<td>1:27–18:12 and 35:37–43:42</td>
+</tr>
+<tr class="odd">
+<td>Structure the work</td>
+<td><a href="#ai-32">32. Matray: Core Workflow</a></td>
+<td>Worked R example</td>
+</tr>
+<tr class="even">
+<td>Check the result</td>
+<td><a href="#ai-33">33. Matray: Common Failures</a></td>
+<td>Failure examples and verification checks</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="understanding-ai" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-ai">Understanding AI and using it well</h2>
+<ol type="1">
+<li><p><span id="ai-1"></span>★ <strong>Karpathy — <a href="https://www.youtube.com/watch?v=EWvNQjAaOHw">How I use LLMs</a></strong> · Video. Practical demonstrations of search, documents, data analysis, and artifacts. Suggested excerpt: <strong>31:00–1:14:02</strong>.</p></li>
+<li><p><span id="ai-2"></span><strong>Karpathy — <a href="https://www.youtube.com/watch?v=LCEmiRjPEtQ">Software Is Changing (Again)</a></strong> · Talk. Natural-language programming, partial autonomy, and human–AI collaboration.</p></li>
+<li><p><span id="ai-3"></span><strong>Karpathy — <a href="https://www.youtube.com/watch?v=7xTGNNLPyMI">Deep Dive into LLMs like ChatGPT</a></strong> · Long video. Training, tokens, hallucinations, and uneven capabilities.</p></li>
+<li><p><span id="ai-4"></span><strong>Ethan Mollick — <a href="https://www.ted.com/talks/ethan_mollick_ai_s_productivity_paradox_and_what_it_means_for_you">AI’s productivity paradox</a></strong> · TED talk. An accessible introduction with demonstrations.</p></li>
+<li><p><span id="ai-5"></span><strong>Mollick — <a href="https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to">15 Times to Use AI, and 5 Not to</a></strong> · Essay. Choosing tasks for which you can evaluate the output.</p></li>
+<li><p><span id="ai-6"></span><strong>Gábor Békés — <a href="https://gabors-data-analysis.com/courses/da-w-ai-2025/da-w-ai-01-llm-course.html">Data Analysis with AI: Concepts</a></strong> · Open slides. Concepts, context, applications, and failure modes.</p></li>
+<li><p><span id="ai-7"></span><strong>Jascha Sohl-Dickstein — <a href="https://slideslive.com/39064423/advice-for-a-young-investigator-in-the-first-and-last-days-of-the-anthropocene">Advice for a Young Investigator in the First and Last Days of the Anthropocene</a></strong> · Talk. Research and career choices under forecasts of rapid AI progress. A related <a href="https://x.com/ecommartinez/status/2111755238327628202">Spanish-language X post</a> discusses this topic; the recording version in that post has not been confirmed.</p></li>
+</ol>
+</section>
+<section id="learning" class="level2">
+<h2 class="anchored" data-anchor-id="learning">Learning, reading, and studying</h2>
+<ol start="8" type="1">
+<li><p><span id="ai-8"></span><strong>Ethan and Lilach Mollick — <a href="https://www.youtube.com/watch?v=wbGKfAPlZVA">Prompting AI</a></strong> · Video. Specifying tasks, supplying context, and iterating.</p></li>
+<li><p><span id="ai-9"></span>★ <strong>The Mollicks — <a href="https://www.youtube.com/watch?v=ZorvXYUZtRg">AI for Students</a></strong> · Video. Using AI for tutoring and learning while checking its responses.</p></li>
+<li><p><span id="ai-10"></span><strong>Wharton — <a href="https://gail.wharton.upenn.edu/prompt-library/">Prompt Library</a></strong> · Reusable examples. Prompts to inspect, adapt, and test.</p></li>
+<li><p><span id="ai-11"></span>★ <strong>Google — <a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-student-features/">Six Ways to Use NotebookLM to Master Any Subject</a></strong> · Illustrated guide. Source-based study, quizzes, flashcards, and explanations.</p></li>
+<li><p><span id="ai-12"></span><strong>Hannah Fry — <a href="https://www.youtube.com/watch?v=mccQdu5afZw">Inside NotebookLM</a></strong> · Interview. How a source-based research assistant works.</p></li>
+<li><p><span id="ai-13"></span><strong>Hannah Fry and Irina Jurenka — <a href="https://www.youtube.com/watch?v=Mfl_WBxxamI">AI in the Classroom</a></strong> · Interview. Learning, engagement, cheating, and dependency. Suggested excerpt: <strong>29:43–39:42</strong>.</p></li>
+</ol>
+</section>
+<section id="data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="data-analysis">Data analysis and research demonstrations</h2>
+<ol start="14" type="1">
+<li><p><span id="ai-14"></span>★ <strong>Aniket Panjwani — <a href="https://www.youtube.com/watch?v=j7d5rs0iMlE">Codex Desktop Course</a></strong> · Video course. Suggested excerpts: <strong>7:25–12:39</strong> and <strong>15:50–47:21</strong>, approximately 37 minutes of desktop demonstrations. The <a href="https://www.aieconomist.io/guides/codex-for-economists">economist viewing guide</a> maps the longer course.</p></li>
+<li><p><span id="ai-15"></span><strong>Panjwani / VoxDev — <a href="https://www.youtube.com/watch?v=YPv9BqweQIo">AI Agents for Economic Research</a></strong> · Webinar. Research tasks, project organization, reusable instructions, and verification.</p></li>
+<li><p><span id="ai-16"></span>★ <strong>Paul Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=Rp17XUPxa4I">Data Analysis</a></strong> · Demonstration. Census housing data to cleaned data and R figures. <strong>22:24–35:20</strong> focuses on plotting.</p></li>
+<li><p><span id="ai-17"></span><strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=wqLZrKdevHs">Web Scraping</a></strong> · Technical demonstration. Turning SEC filings into structured data about tariff-risk disclosures.</p></li>
+<li><p><span id="ai-18"></span><strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=4uwI1-9DafU">Large Datasets</a></strong> · Advanced demonstration. Mortgage data, harmonization, DuckDB, and Parquet.</p></li>
+<li><p><span id="ai-19"></span><strong>Békés — <a href="https://gabors-data-analysis.com/ai-course/da-knowledge/creating-graphs.html">Creating Graphs</a></strong> · Worked tutorial. RStudio, descriptive earnings graphs, codebooks, and improving an initial request.</p></li>
+<li><p><span id="ai-20"></span><strong>Anton Korinek — <a href="https://voxdev.org/topic/generative-ai-economic-research-low-and-middle-income-countries">Generative AI for Economic Research in Low- and Middle-Income Countries</a></strong> · Webinar and slides. Examples spanning tutoring, writing, coding, and analysis.</p></li>
+<li><p><span id="ai-21"></span><strong>Scott Cunningham and Caitlin Myers — <a href="https://www.youtube.com/watch?v=1nndJc19rMo">The Odd Couple, Episode 1</a></strong> · Research session. Watch researchers develop a project with AI. The eventual econometrics is advanced.</p></li>
+<li><p><span id="ai-22"></span><strong>Cunningham and Myers — <a href="https://www.youtube.com/watch?v=yMbni8rOsMM">Making Maps with Claude Code</a></strong> · Research session. Building and interrogating maps during an actual project.</p></li>
+<li><p><span id="ai-23"></span><strong>Development Data Lab’s Tobias Lunt — <a href="https://podcasts.apple.com/nl/podcast/generation-ai-podcast-episode-9-tobias-lunt/id1701867555?i=1000666662136">Generation AI Interview</a></strong> · Podcast. Creating research data about gender norms from historical documents. See also <a href="https://www.devdatalab.org/norms-gpt">DDL’s project explanation</a>.</p></li>
+<li><p><span id="ai-24"></span><strong>Stanford — <a href="https://www.youtube.com/watch?v=XG4YWtEJtOg">Empirical Work in the Age of AI</a></strong> · Advanced workshop. Replication demonstrations, verification, research skills, and coordinating agents.</p></li>
+</ol>
+</section>
+<section id="writing-and-verification" class="level2">
+<h2 class="anchored" data-anchor-id="writing-and-verification">Writing, project instructions, and verification</h2>
+<ol start="25" type="1">
+<li><p><span id="ai-25"></span>★ <strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=BxfSiB3Moyo">Writing &amp; Thinking</a></strong> · Desktop demonstration. Suggested excerpts: <strong>1:27–18:12</strong> for a writing guide and <strong>35:37–43:42</strong> for brainstorming and editing.</p></li>
+<li><p><span id="ai-26"></span><strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=a03ehomPqMA">Skills</a></strong> · Demonstration. Creating a reusable paper-summary procedure. Suggested excerpt: <strong>7:33–21:50</strong>.</p></li>
+<li><p><span id="ai-27"></span><strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=EcloxLPcRsY">Integration &amp; Collaboration</a></strong> · Demonstration. Incremental verification and connecting analysis to manuscript outputs.</p></li>
+<li><p><span id="ai-28"></span><strong>Claude Blattman — <a href="https://claudeblattman.com/essentials/project-folders/">AI Project Folders</a></strong> · Guide. Organizing reusable context and instructions.</p></li>
+<li><p><span id="ai-29"></span><strong>Blattman — <a href="https://claudeblattman.com/essentials/voice/">Teaching AI Your Voice</a></strong> · Guide. Using examples and explicit preferences to improve writing assistance.</p></li>
+<li><p><span id="ai-30"></span><strong>Blattman — <a href="https://claudeblattman.com/workflows/plan-review-browser/">Stress-Test Any Plan</a></strong> · Browser workflow. Obtaining critical feedback before executing a project.</p></li>
+<li><p><span id="ai-31"></span><strong>Blattman — <a href="https://claudeblattman.com/workflows/first-session-skills/">Prompt, Plan, Review, Revise</a></strong> · Guide. Structuring a task, reviewing the approach, and preserving progress.</p></li>
+<li><p><span id="ai-32"></span>★ <strong>Adrien Matray — <a href="https://adrienmatray-ai.com/core-workflow.html">Core Workflow</a></strong> · Worked guide. Planning, reviewing, executing, and verifying an R data-processing task. Part of <a href="https://adrienmatray-ai.com/">An AI Guide for Economists</a>.</p></li>
+<li><p><span id="ai-33"></span>★ <strong>Matray — <a href="https://adrienmatray-ai.com/common-failures.html">Common Failures</a></strong> · Guide. Invented variables, silent sample changes, scope changes, and checks.</p></li>
+<li><p><span id="ai-34"></span><strong>Matray — <a href="https://adrienmatray-ai.com/making-it-yours.html">Making It Yours</a></strong> · Optional technical reference. Project instructions, preferences, skills, and settings.</p></li>
+<li><p><span id="ai-35"></span><strong>Matray — <a href="https://adrienmatray-ai.com/skills.html">Skills</a></strong> · Reference collection. Examples for code review, citation checking, documents, and research feedback.</p></li>
+<li><p><span id="ai-36"></span><strong>Cunningham and Myers — <a href="https://www.youtube.com/watch?v=G4SPpFdaYc4">Human Verification, I Mean, Hannah Verification!</a></strong> · Research session. Independent checking of marriage records before proceeding with analysis.</p></li>
+</ol>
+</section>
+<section id="templates" class="level2">
+<h2 class="anchored" data-anchor-id="templates">Templates, collections, and larger workflows</h2>
+<ol start="37" type="1">
+<li><p><span id="ai-37"></span><strong><a href="https://claudeblattman.com/">Claude Blattman</a></strong> · Workflow collection. Begin with its <a href="https://claudeblattman.com/starter-kit/">Desktop Agent Starter Kit</a> using the course’s existing setup.</p></li>
+<li><p><span id="ai-38"></span><strong>Pedro Sant’Anna — <a href="https://github.com/pedrohcgs/claude-code-my-workflow">Claude Code Academic Workflow</a></strong> · Advanced template. Project instructions, reusable skills, separate reviewers, and verification. Also available as a <a href="https://psantanna.com/claude-code-my-workflow/">readable overview</a>.</p></li>
+<li><p><span id="ai-39"></span><strong>Antonio Mele — <a href="https://meleantonio.github.io/awesome-econ-ai-stuff/">Awesome Econ AI Stuff</a></strong> · Skill collection. Examples for data, figures, writing, and research tasks.</p></li>
+<li><p><span id="ai-40"></span><strong><a href="https://github.com/hanlulong/awesome-ai-for-economists">Awesome AI for Economists</a></strong> · Broad directory. Economic data tools, research resources, courses, and talks.</p></li>
+<li><p><span id="ai-41"></span><strong>Békés — <a href="https://gabors-data-analysis.com/ai-course/">Data Analysis with AI</a></strong> · Advanced course and instructor reference. Assignments and case studies spanning data processing, text analysis, and econometrics.</p></li>
+<li><p><span id="ai-42"></span><strong>Korinek — <a href="https://www.aeaweb.org/articles/materials/23826">AI Agents for Economic Research</a></strong> · Advanced reference. Agent concepts and research examples. The opening pages provide an accessible introduction.</p></li>
+<li><p><span id="ai-43"></span><strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=HzgByl5ZsWE">Getting Started</a></strong> · Video. Agents and context. <strong>23:54–29:31</strong> explains the context window.</p></li>
+<li><p><span id="ai-44"></span><strong>Goldsmith-Pinkham — <a href="https://www.youtube.com/watch?v=8Jnx5rL_Gfk">Permissions &amp; OpenClaw</a></strong> · Video. <strong>0:00–11:37</strong> introduces permissions. Later implementation material is advanced.</p></li>
+</ol>
+</section>
+<section id="theory" class="level2">
+<h2 class="anchored" data-anchor-id="theory">Theory and mathematical reasoning</h2>
+<ol start="45" type="1">
+<li><p><span id="ai-45"></span><strong>Ortoleva and Sandomirskiy — <a href="https://www.youtube.com/watch?v=kVVggnIaw2Q">Core Uses of AI for Economic Theory</a></strong> · Advanced economics. Model sketching, brainstorming, and checking arguments.</p></li>
+<li><p><span id="ai-46"></span><strong>Ortoleva and Sandomirskiy — <a href="https://www.youtube.com/watch?v=LbedQKu-5XM">Can AI Be Creative?</a></strong> · Discussion. Mathematical creativity, attribution, and distinguishing discovery from rediscovery.</p></li>
+<li><p><span id="ai-47"></span><strong>Ortoleva and Sandomirskiy — <a href="https://www.youtube.com/watch?v=OBJ0h8j_m8Y">Prompts and Agent Swarms</a></strong> · Advanced workflow. Prompt expansion and separating problem-solving from verification.</p></li>
+</ol>
+</section>
+<section id="podcasts" class="level2">
+<h2 class="anchored" data-anchor-id="podcasts">Podcasts and broader implications</h2>
+<ol start="48" type="1">
+<li><p><span id="ai-48"></span><strong>The Daily — <a href="https://podcasts.apple.com/us/podcast/a-i-is-outsmarting-its-creators/id1200361736?i=1000787630226">A.I. Is Outsmarting Its Creators</a></strong> · <strong>3 September 2026; 41 minutes.</strong> Rogue agents and oversight. <strong>Subscription:</strong> Apple labels this episode subscribers-only.</p></li>
+<li><p><span id="ai-49"></span><strong>The Daily — <a href="https://podcasts.apple.com/us/podcast/when-a-i-comes-for-your-purpose-in-life/id1200361736?i=1000796109623">When A.I. Comes for Your Purpose in Life</a></strong> · <strong>13 October 2026; 33 minutes.</strong> Steven Strogatz on mathematics, discovery, and purpose. <strong>Subscription:</strong> Apple labels this episode subscribers-only.</p></li>
+<li><p><span id="ai-50"></span><strong>Panjwani interviews Cunningham — <a href="https://www.youtube.com/watch?v=0MFHo_dywCM">Economics Research and the Returns to Expertise</a></strong> · Interview. Verification and subject expertise. <strong>0:53–9:43</strong> is an accessible opening excerpt.</p></li>
+<li><p><span id="ai-51"></span><strong>EconTalk / Tyler Cowen — <a href="https://www.econtalk.org/ai-employment-and-education-with-tyler-cowen/">AI, Employment, and Education</a></strong> · Podcast. An optimistic perspective on work, education, and what students should learn.</p></li>
+<li><p><span id="ai-52"></span><strong>Pitchfork Economics / David Autor — <a href="https://pitchforkeconomics.com/episode/ai-wont-decide-the-future-of-work-we-will-with-david-autor/">AI Won’t Decide the Future of Work—We Will</a></strong> · Podcast. Expertise, distribution, and choices about replacing or complementing workers.</p></li>
+<li><p><span id="ai-53"></span><strong>Ideas in Development / Korinek — <a href="https://audioboom.com/posts/8861706-how-to-think-like-an-economist-about-ai">How to Think Like an Economist About AI</a></strong> · Podcast. Adoption, performance, labor markets, and economic impacts.</p></li>
+<li><p><span id="ai-54"></span><strong>Hannah Fry and Iason Gabriel — <a href="https://www.youtube.com/watch?v=aaZc-as-soA">The Ethics of AI Assistants</a></strong> · Interview. Delegation, anthropomorphism, alignment, and limits on assistance.</p></li>
+</ol>
+</section>
+<section id="resource-notes" class="level2">
+<h2 class="anchored" data-anchor-id="resource-notes">Resource notes</h2>
+<p>Compiled 18 October 2026. Descriptions and suggested excerpts were checked against author or publisher pages. Complete playback and software workflows were not independently tested. Subscription and access requirements can change.</p>
+<p>Resources on AI’s future present their speakers’ arguments and forecasts. Check the evidence supporting each claim, just as you would for any other reading.</p>
+<p><a href="analisis-empirico.html#ai-resources">← Return to the course</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/mauricio-romero\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Mauricio Romero</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a> · <a href="https://github.com/mauricioromero86">source</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
