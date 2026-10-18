@@ -1,0 +1,158 @@
+---
+title: "AI for empirical work"
+description: "Podcasts, videos, tutorials, and research workflows for Seminario de Análisis Empírico at ITAM."
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+[← Seminario de Análisis Empírico](analisis-empirico.html#ai-resources)
+
+**Seminario de Análisis Empírico · Fall 2026**
+
+These 54 resources cover using AI, learning, empirical research, writing, and verification. **★ marks eight starting points.** The remaining entries are optional; advanced references are labeled.
+
+Use the course's desktop and RStudio setup for practical work. Technical demonstrations can be watched for their approach. Older resources retain useful examples, while their model, pricing, and interface discussions reflect their publication dates.
+
+## Start here {#start-here}
+
+| Goal | Resource | Suggested part |
+|---|---|---|
+| See practical uses | [1. Karpathy: How I use LLMs](#ai-1) | 31:00–1:14:02 |
+| Use AI to learn | [9. The Mollicks: AI for Students](#ai-9) | Short video |
+| Study with your sources | [11. NotebookLM study guide](#ai-11) | Select one reading and try a study activity |
+| Work with an agent | [14. Panjwani: Codex Desktop](#ai-14) | 7:25–12:39 and 15:50–47:21 |
+| Go from data to a figure | [16. Goldsmith-Pinkham: Data Analysis](#ai-16) | 22:24–35:20 |
+| Use AI for writing and thinking | [25. Goldsmith-Pinkham: Writing & Thinking](#ai-25) | 1:27–18:12 and 35:37–43:42 |
+| Structure the work | [32. Matray: Core Workflow](#ai-32) | Worked R example |
+| Check the result | [33. Matray: Common Failures](#ai-33) | Failure examples and verification checks |
+
+## Understanding AI and using it well {#understanding-ai}
+
+1. <span id="ai-1"></span>★ **Karpathy — [How I use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw)** · Video. Practical demonstrations of search, documents, data analysis, and artifacts. Suggested excerpt: **31:00–1:14:02**.
+
+2. <span id="ai-2"></span>**Karpathy — [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)** · Talk. Natural-language programming, partial autonomy, and human–AI collaboration.
+
+3. <span id="ai-3"></span>**Karpathy — [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)** · Long video. Training, tokens, hallucinations, and uneven capabilities.
+
+4. <span id="ai-4"></span>**Ethan Mollick — [AI's productivity paradox](https://www.ted.com/talks/ethan_mollick_ai_s_productivity_paradox_and_what_it_means_for_you)** · TED talk. An accessible introduction with demonstrations.
+
+5. <span id="ai-5"></span>**Mollick — [15 Times to Use AI, and 5 Not to](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to)** · Essay. Choosing tasks for which you can evaluate the output.
+
+6. <span id="ai-6"></span>**Gábor Békés — [Data Analysis with AI: Concepts](https://gabors-data-analysis.com/courses/da-w-ai-2025/da-w-ai-01-llm-course.html)** · Open slides. Concepts, context, applications, and failure modes.
+
+7. <span id="ai-7"></span>**Jascha Sohl-Dickstein — [Advice for a Young Investigator in the First and Last Days of the Anthropocene](https://slideslive.com/39064423/advice-for-a-young-investigator-in-the-first-and-last-days-of-the-anthropocene)** · Talk. Research and career choices under forecasts of rapid AI progress. A related [Spanish-language X post](https://x.com/ecommartinez/status/2111755238327628202) discusses this topic; the recording version in that post has not been confirmed.
+
+## Learning, reading, and studying {#learning}
+
+8. <span id="ai-8"></span>**Ethan and Lilach Mollick — [Prompting AI](https://www.youtube.com/watch?v=wbGKfAPlZVA)** · Video. Specifying tasks, supplying context, and iterating.
+
+9. <span id="ai-9"></span>★ **The Mollicks — [AI for Students](https://www.youtube.com/watch?v=ZorvXYUZtRg)** · Video. Using AI for tutoring and learning while checking its responses.
+
+10. <span id="ai-10"></span>**Wharton — [Prompt Library](https://gail.wharton.upenn.edu/prompt-library/)** · Reusable examples. Prompts to inspect, adapt, and test.
+
+11. <span id="ai-11"></span>★ **Google — [Six Ways to Use NotebookLM to Master Any Subject](https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-student-features/)** · Illustrated guide. Source-based study, quizzes, flashcards, and explanations.
+
+12. <span id="ai-12"></span>**Hannah Fry — [Inside NotebookLM](https://www.youtube.com/watch?v=mccQdu5afZw)** · Interview. How a source-based research assistant works.
+
+13. <span id="ai-13"></span>**Hannah Fry and Irina Jurenka — [AI in the Classroom](https://www.youtube.com/watch?v=Mfl_WBxxamI)** · Interview. Learning, engagement, cheating, and dependency. Suggested excerpt: **29:43–39:42**.
+
+## Data analysis and research demonstrations {#data-analysis}
+
+14. <span id="ai-14"></span>★ **Aniket Panjwani — [Codex Desktop Course](https://www.youtube.com/watch?v=j7d5rs0iMlE)** · Video course. Suggested excerpts: **7:25–12:39** and **15:50–47:21**, approximately 37 minutes of desktop demonstrations. The [economist viewing guide](https://www.aieconomist.io/guides/codex-for-economists) maps the longer course.
+
+15. <span id="ai-15"></span>**Panjwani / VoxDev — [AI Agents for Economic Research](https://www.youtube.com/watch?v=YPv9BqweQIo)** · Webinar. Research tasks, project organization, reusable instructions, and verification.
+
+16. <span id="ai-16"></span>★ **Paul Goldsmith-Pinkham — [Data Analysis](https://www.youtube.com/watch?v=Rp17XUPxa4I)** · Demonstration. Census housing data to cleaned data and R figures. **22:24–35:20** focuses on plotting.
+
+17. <span id="ai-17"></span>**Goldsmith-Pinkham — [Web Scraping](https://www.youtube.com/watch?v=wqLZrKdevHs)** · Technical demonstration. Turning SEC filings into structured data about tariff-risk disclosures.
+
+18. <span id="ai-18"></span>**Goldsmith-Pinkham — [Large Datasets](https://www.youtube.com/watch?v=4uwI1-9DafU)** · Advanced demonstration. Mortgage data, harmonization, DuckDB, and Parquet.
+
+19. <span id="ai-19"></span>**Békés — [Creating Graphs](https://gabors-data-analysis.com/ai-course/da-knowledge/creating-graphs.html)** · Worked tutorial. RStudio, descriptive earnings graphs, codebooks, and improving an initial request.
+
+20. <span id="ai-20"></span>**Anton Korinek — [Generative AI for Economic Research in Low- and Middle-Income Countries](https://voxdev.org/topic/generative-ai-economic-research-low-and-middle-income-countries)** · Webinar and slides. Examples spanning tutoring, writing, coding, and analysis.
+
+21. <span id="ai-21"></span>**Scott Cunningham and Caitlin Myers — [The Odd Couple, Episode 1](https://www.youtube.com/watch?v=1nndJc19rMo)** · Research session. Watch researchers develop a project with AI. The eventual econometrics is advanced.
+
+22. <span id="ai-22"></span>**Cunningham and Myers — [Making Maps with Claude Code](https://www.youtube.com/watch?v=yMbni8rOsMM)** · Research session. Building and interrogating maps during an actual project.
+
+23. <span id="ai-23"></span>**Development Data Lab's Tobias Lunt — [Generation AI Interview](https://podcasts.apple.com/nl/podcast/generation-ai-podcast-episode-9-tobias-lunt/id1701867555?i=1000666662136)** · Podcast. Creating research data about gender norms from historical documents. See also [DDL's project explanation](https://www.devdatalab.org/norms-gpt).
+
+24. <span id="ai-24"></span>**Stanford — [Empirical Work in the Age of AI](https://www.youtube.com/watch?v=XG4YWtEJtOg)** · Advanced workshop. Replication demonstrations, verification, research skills, and coordinating agents.
+
+## Writing, project instructions, and verification {#writing-and-verification}
+
+25. <span id="ai-25"></span>★ **Goldsmith-Pinkham — [Writing & Thinking](https://www.youtube.com/watch?v=BxfSiB3Moyo)** · Desktop demonstration. Suggested excerpts: **1:27–18:12** for a writing guide and **35:37–43:42** for brainstorming and editing.
+
+26. <span id="ai-26"></span>**Goldsmith-Pinkham — [Skills](https://www.youtube.com/watch?v=a03ehomPqMA)** · Demonstration. Creating a reusable paper-summary procedure. Suggested excerpt: **7:33–21:50**.
+
+27. <span id="ai-27"></span>**Goldsmith-Pinkham — [Integration & Collaboration](https://www.youtube.com/watch?v=EcloxLPcRsY)** · Demonstration. Incremental verification and connecting analysis to manuscript outputs.
+
+28. <span id="ai-28"></span>**Claude Blattman — [AI Project Folders](https://claudeblattman.com/essentials/project-folders/)** · Guide. Organizing reusable context and instructions.
+
+29. <span id="ai-29"></span>**Blattman — [Teaching AI Your Voice](https://claudeblattman.com/essentials/voice/)** · Guide. Using examples and explicit preferences to improve writing assistance.
+
+30. <span id="ai-30"></span>**Blattman — [Stress-Test Any Plan](https://claudeblattman.com/workflows/plan-review-browser/)** · Browser workflow. Obtaining critical feedback before executing a project.
+
+31. <span id="ai-31"></span>**Blattman — [Prompt, Plan, Review, Revise](https://claudeblattman.com/workflows/first-session-skills/)** · Guide. Structuring a task, reviewing the approach, and preserving progress.
+
+32. <span id="ai-32"></span>★ **Adrien Matray — [Core Workflow](https://adrienmatray-ai.com/core-workflow.html)** · Worked guide. Planning, reviewing, executing, and verifying an R data-processing task. Part of [An AI Guide for Economists](https://adrienmatray-ai.com/).
+
+33. <span id="ai-33"></span>★ **Matray — [Common Failures](https://adrienmatray-ai.com/common-failures.html)** · Guide. Invented variables, silent sample changes, scope changes, and checks.
+
+34. <span id="ai-34"></span>**Matray — [Making It Yours](https://adrienmatray-ai.com/making-it-yours.html)** · Optional technical reference. Project instructions, preferences, skills, and settings.
+
+35. <span id="ai-35"></span>**Matray — [Skills](https://adrienmatray-ai.com/skills.html)** · Reference collection. Examples for code review, citation checking, documents, and research feedback.
+
+36. <span id="ai-36"></span>**Cunningham and Myers — [Human Verification, I Mean, Hannah Verification!](https://www.youtube.com/watch?v=G4SPpFdaYc4)** · Research session. Independent checking of marriage records before proceeding with analysis.
+
+## Templates, collections, and larger workflows {#templates}
+
+37. <span id="ai-37"></span>**[Claude Blattman](https://claudeblattman.com/)** · Workflow collection. Begin with its [Desktop Agent Starter Kit](https://claudeblattman.com/starter-kit/) using the course's existing setup.
+
+38. <span id="ai-38"></span>**Pedro Sant'Anna — [Claude Code Academic Workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** · Advanced template. Project instructions, reusable skills, separate reviewers, and verification. Also available as a [readable overview](https://psantanna.com/claude-code-my-workflow/).
+
+39. <span id="ai-39"></span>**Antonio Mele — [Awesome Econ AI Stuff](https://meleantonio.github.io/awesome-econ-ai-stuff/)** · Skill collection. Examples for data, figures, writing, and research tasks.
+
+40. <span id="ai-40"></span>**[Awesome AI for Economists](https://github.com/hanlulong/awesome-ai-for-economists)** · Broad directory. Economic data tools, research resources, courses, and talks.
+
+41. <span id="ai-41"></span>**Békés — [Data Analysis with AI](https://gabors-data-analysis.com/ai-course/)** · Advanced course and instructor reference. Assignments and case studies spanning data processing, text analysis, and econometrics.
+
+42. <span id="ai-42"></span>**Korinek — [AI Agents for Economic Research](https://www.aeaweb.org/articles/materials/23826)** · Advanced reference. Agent concepts and research examples. The opening pages provide an accessible introduction.
+
+43. <span id="ai-43"></span>**Goldsmith-Pinkham — [Getting Started](https://www.youtube.com/watch?v=HzgByl5ZsWE)** · Video. Agents and context. **23:54–29:31** explains the context window.
+
+44. <span id="ai-44"></span>**Goldsmith-Pinkham — [Permissions & OpenClaw](https://www.youtube.com/watch?v=8Jnx5rL_Gfk)** · Video. **0:00–11:37** introduces permissions. Later implementation material is advanced.
+
+## Theory and mathematical reasoning {#theory}
+
+45. <span id="ai-45"></span>**Ortoleva and Sandomirskiy — [Core Uses of AI for Economic Theory](https://www.youtube.com/watch?v=kVVggnIaw2Q)** · Advanced economics. Model sketching, brainstorming, and checking arguments.
+
+46. <span id="ai-46"></span>**Ortoleva and Sandomirskiy — [Can AI Be Creative?](https://www.youtube.com/watch?v=LbedQKu-5XM)** · Discussion. Mathematical creativity, attribution, and distinguishing discovery from rediscovery.
+
+47. <span id="ai-47"></span>**Ortoleva and Sandomirskiy — [Prompts and Agent Swarms](https://www.youtube.com/watch?v=OBJ0h8j_m8Y)** · Advanced workflow. Prompt expansion and separating problem-solving from verification.
+
+## Podcasts and broader implications {#podcasts}
+
+48. <span id="ai-48"></span>**The Daily — [A.I. Is Outsmarting Its Creators](https://podcasts.apple.com/us/podcast/a-i-is-outsmarting-its-creators/id1200361736?i=1000787630226)** · **3 September 2026; 41 minutes.** Rogue agents and oversight. **Subscription:** Apple labels this episode subscribers-only.
+
+49. <span id="ai-49"></span>**The Daily — [When A.I. Comes for Your Purpose in Life](https://podcasts.apple.com/us/podcast/when-a-i-comes-for-your-purpose-in-life/id1200361736?i=1000796109623)** · **13 October 2026; 33 minutes.** Steven Strogatz on mathematics, discovery, and purpose. **Subscription:** Apple labels this episode subscribers-only.
+
+50. <span id="ai-50"></span>**Panjwani interviews Cunningham — [Economics Research and the Returns to Expertise](https://www.youtube.com/watch?v=0MFHo_dywCM)** · Interview. Verification and subject expertise. **0:53–9:43** is an accessible opening excerpt.
+
+51. <span id="ai-51"></span>**EconTalk / Tyler Cowen — [AI, Employment, and Education](https://www.econtalk.org/ai-employment-and-education-with-tyler-cowen/)** · Podcast. An optimistic perspective on work, education, and what students should learn.
+
+52. <span id="ai-52"></span>**Pitchfork Economics / David Autor — [AI Won't Decide the Future of Work—We Will](https://pitchforkeconomics.com/episode/ai-wont-decide-the-future-of-work-we-will-with-david-autor/)** · Podcast. Expertise, distribution, and choices about replacing or complementing workers.
+
+53. <span id="ai-53"></span>**Ideas in Development / Korinek — [How to Think Like an Economist About AI](https://audioboom.com/posts/8861706-how-to-think-like-an-economist-about-ai)** · Podcast. Adoption, performance, labor markets, and economic impacts.
+
+54. <span id="ai-54"></span>**Hannah Fry and Iason Gabriel — [The Ethics of AI Assistants](https://www.youtube.com/watch?v=aaZc-as-soA)** · Interview. Delegation, anthropomorphism, alignment, and limits on assistance.
+
+## Resource notes {#resource-notes}
+
+Compiled 18 October 2026. Descriptions and suggested excerpts were checked against author or publisher pages. Complete playback and software workflows were not independently tested. Subscription and access requirements can change.
+
+Resources on AI's future present their speakers' arguments and forecasts. Check the evidence supporting each claim, just as you would for any other reading.
+
+[← Return to the course](analisis-empirico.html#ai-resources)
