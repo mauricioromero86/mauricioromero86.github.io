@@ -78,7 +78,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 “[The Effect of School Grants on Test Scores: Experimental Evidence from Mexico](https://onlinelibrary.wiley.com/share/author/QNSWV5CYKMWMDQZHFGDR?target=10.1111/ecca.12523)”. **Economica**. Volume 91, No. 363, 2024. Joint with Juan Bedoya, Rafael de Hoyos, Marcela Silveyra, and Monica Yanez-Pagans.
 “[Factorial Designs, Model Selection, and (Incorrect) Inference in Randomized Experiments](https://direct.mit.edu/rest/article-abstract/doi/10.1162/rest_a_01317/115272/Factorial-Designs-Model-Selection-and-Incorrect?redirectedFrom=fulltext)”. **The Review of Economics and Statistics**. Volume 107, Issue 3, 2025. Joint with Karthik Muralidharan and Kaspar Wuthrich.
 “[The Productivity of Public and Private Preschools (and Schools): Evidence from India](https://doi.org/10.1093/ej/ueaf089)”. **Economic Journal**, Volume 136, No. 676, 2026. Joint with Petter Berg and Abhijeet Singh.
-“[COVID-19 Learning loss and recovery: Panel data evidence from India](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2)”. Joint with Abhijeet Singh and Karthik Muralidharan. **Forthcoming in the Journal of Human Resources**.
+“[COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/61/5/1499)”. Joint with Abhijeet Singh and Karthik Muralidharan. **Journal of Human Resources**, Volume 61, No. 5, pp. 1499–1535, 2026.
 “[Preventing School Dropout: Experimental Evidence from Guatemala](https://doi.org/10.1086/739022)” Joint with Melissa Adelman, Francisco Haimovich, and Emmanuel Vazquez . **Forthcoming in the Journal of Labor Economics**
 
 ## COMMENTS, CONFERENCE PROCEEDING, AND OTHERS

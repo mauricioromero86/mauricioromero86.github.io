@@ -1,7 +1,9 @@
 ---
 title: "COVID-19 Learning Loss and Recovery: Panel Data Evidence from India"
-authors_and_venue: "with Abhijeet Singh and Karthik Muralidharan - Forthcoming, Journal of Human Resources"
+authors_and_venue: "with Abhijeet Singh and Karthik Muralidharan - Journal of Human Resources 61(5), 1499–1535, 2026"
 venue: "Journal of Human Resources"
+year: 2026
+doi: "10.3368/jhr.0723-13025R2"
 abstract: "We use a panel survey of 19,000 primary-school-aged children in rural Tamil Nadu to study 'learning loss' after COVID-19-induced school closures, and the pace of recovery after schools reopened. Students tested in December 2021 (18 months after school closures) displayed learning deficits of 0.73 standard deviations in math and 0.34 in language compared to identically-aged students in the same villages in 2019. Two-thirds of this deficit was made up within 6 months after schools reopened. Further, while learning loss was regressive, recovery was progressive. A government-run after-school remediation program contributed 24% of the cohort-level recovery, likely aiding the progressive recovery."
 pdf_url: "https://mauricio-romero.com/pdfs/papers/Forthcoming_JHR_TNLL.pdf"
 canonical_url: "https://mauricio-romero.com/pdfs/papers/Forthcoming_JHR_TNLL.pdf.md"

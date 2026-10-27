@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: "Publications and working papers by Mauricio Romero in development, education, and public economics."
-date-modified: 2026-09-09
+date-modified: 2026-10-27
 include-in-header: _includes/research-jsonld.html
 toc: true
 toc-location: right
@@ -326,12 +326,12 @@ We study the relative productivity of private and public institutions at the pre
 :::
 
 ::: {.paper-head}
-### 13. [COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/early/2024/04/01/jhr.0723-13025R2)
+### 13. [COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/61/5/1499)
 
 [Abstract](#abs-13){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-13" aria-expanded="false"} [BibTeX](#bib-13){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-13" aria-expanded="false"}
 :::
 
-with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/) · Forthcoming, **Journal of Human Resources**
+with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) and [Karthik Muralidharan](https://econweb.ucsd.edu/~kamurali/) · **Journal of Human Resources** 61(5), 1499–1535, 2026
 
 [Final Manuscript](/pdfs/papers/Forthcoming_JHR_TNLL.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/covid-19-learning-loss-and-recovery-panel-data-evidence-india) · [NBER WP No. 30552](https://www.nber.org/papers/w30552) · [Data and code](https://doi.org/10.7910/DVN/XGY7CV) · [Markdown](/pdfs/papers/Forthcoming_JHR_TNLL.pdf.md)
 
@@ -341,10 +341,12 @@ We use a panel survey of 19,000 primary-school-aged children in rural Tamil Nadu
 
 ::: {#bib-13 .collapse .paper-panel}
 ```bibtex
-@article{singh2024covid,
+@article{singh2026covid,
   title={COVID-19 learning loss and recovery: Panel data evidence from India},
   author={Singh, Abhijeet and Romero, Mauricio and Muralidharan, Karthik},
-  journal={Journal of Human Resources}, note={Forthcoming}, year={2024}
+  journal={Journal of Human Resources},
+  volume={61}, number={5}, pages={1499--1535}, year={2026},
+  doi={10.3368/jhr.0723-13025R2}
 }
 ```
 :::

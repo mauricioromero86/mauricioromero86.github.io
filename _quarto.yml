@@ -5,6 +5,8 @@ project:
     # CV is linked only from the navbar/button config, which Quarto's resource
     # scanner does not follow — declare it explicitly so it lands in _site/gh-pages.
     - pdfs/Mauricio-Romero-CV.pdf
+    - pdfs/Mauricio-Romero-CV.pdf.md
+    - llms.txt
     # Hike/ride GPX tracks (CDMX page) are referenced from raw-HTML map blocks the
     # scanner does not follow — declare the folder so the .gpx files publish.
     - hikes/*.gpx
