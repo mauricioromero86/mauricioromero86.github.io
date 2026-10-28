@@ -209,6 +209,12 @@ Research Affiliate, IZA — Institute of Labor Economics
 | Journal of Human Resources Excellence in Refereeing Award, 2023. |  |
 | American Economic Journal: Applied Economics Excellence in Refereeing Award, 2025. |  |
 
+### Proposal and Institutional Review Service
+
+*Proposals and fellowships:* USAID DIV (2019, 2020, 2022, 2023); Fund for Innovation in Development (2021, 2024); CGIAR SPIA (2020); SSRC Mercury Project (2022); Riksbankens Jubileumsfond (2024); ANID/FONDECYT (2023; 2024 Regular Competition); J-PAL: King Climate Action and Learning for All initiatives (2023), Innovation in Government Initiative (2025); US–Israel Binational Science Foundation (2025); Templeton World Charity Foundation (2025); CONAHCYT: doctoral scholarships abroad (2023), postdoctoral fellowships (2024; 2023 call); SECIHTI postdoctoral fellowships (2025).
+
+*Institutional:* FMCN/GANARE consultancy-proposal evaluation committee (2019); CGD publication reviews (2023, 2025); World Bank research-report review (2021); SECIHTI national journal recognition (2026).
+
 ### Other Service
 
 |  |  |
@@ -247,20 +253,20 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 ## HONORS AND AWARDS
 
-|  |  |
-|:---|:---|
-| [Mario Henrique Simonsen Lecture](https://www.econometricsociety.org/regional-activities/schedule/2026/11/12/2026-LAMES-LACEA-Lima-Peru), 2026 Latin American Meeting of the Econometric Society (LAMES), Lima, Peru. Awarded to two young economists from the region for strong publications and impact. |  |
-| [Jacobs Foundation Research Fellowship](https://jacobsfoundation.org/fellowships/), 2024–2026. |  |
-| LACEA’s Juan Luis Londoño Prize, 2023. |  |
-| Investigador Nivel I — Sistema Nacional de Investigadores (SNI), 2023–2027. |  |
-| Candidato a Investigador — Sistema Nacional de Investigadores (SNI), 2019–2022. |  |
-| O’Gorman Scholars Program (summer visiting scholar program), Columbia University, 2022. |  |
-| Chancellor’s Dissertation Medal (Social Sciences), UC San Diego, 2019. |  |
-| Clive Granger Fellowship for Promising Graduate Student Research, UC San Diego, 2016. |  |
-| Benjamin C. Horne Memorial Prize, UC San Diego, 2015. |  |
-| Lauchlin Currie Scholarship, Central Bank of Colombia, 2012–2016. |  |
-| DEEWR Prize for Applied Microeconometrics, Australian National University, 2008. |  |
-| Mario Galán Gómez Scholarship, Ecopetrol S.A. Bachilleres por Colombia program, 2004–2009. |  |
+|  |
+|:---|
+| [Mario Henrique Simonsen Lecture](https://www.econometricsociety.org/regional-activities/schedule/2026/11/12/2026-LAMES-LACEA-Lima-Peru), 2026 Latin American Meeting of the Econometric Society (LAMES), Lima, Peru. Awarded to two young economists from the region for strong publications and impact. |
+| [Jacobs Foundation Research Fellowship](https://jacobsfoundation.org/fellowships/), 2024–2026. |
+| LACEA’s Juan Luis Londoño Prize, 2023. |
+| Investigador Nivel I — Sistema Nacional de Investigadores (SNI), 2023–2027. |
+| Candidato a Investigador — Sistema Nacional de Investigadores (SNI), 2019–2022. |
+| O’Gorman Scholars Program (summer visiting scholar program), Columbia University, 2022. |
+| Chancellor’s Dissertation Medal (Social Sciences), UC San Diego, 2019. |
+| Clive Granger Fellowship for Promising Graduate Student Research, UC San Diego, 2016. |
+| Benjamin C. Horne Memorial Prize, UC San Diego, 2015. |
+| Lauchlin Currie Scholarship, Central Bank of Colombia, 2012–2016. |
+| DEEWR Prize for Applied Microeconometrics, Australian National University, 2008. |
+| Mario Galán Gómez Scholarship, Ecopetrol S.A. Bachilleres por Colombia program, 2004–2009. |
 
 ## SUPERVISED STUDENTS
 
