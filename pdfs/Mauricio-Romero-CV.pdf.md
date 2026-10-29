@@ -121,8 +121,8 @@ Research Affiliate, IZA — Institute of Labor Economics
 |  |  |
 |:---|:---|
 | Economics IV | Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Spring 2022, Spring 2023, Fall 2023, Fall 2025 |
-| Microeconometrics (causal inference & impact evaluation) | Fall 2020, Fall 2021, Spring 2023, Fall 2023, Fall 2025, Spring 2026 |
-| Seminario de Análisis Empírico | Spring 2026 |
+| Microeconometrics (causal inference & impact evaluation) | Fall 2020, Fall 2021, Spring 2023, Fall 2023, Fall 2025, Spring 2026, Fall 2026 |
+| Seminario de Análisis Empírico | Spring 2026, Fall 2026 |
 
 ### J-PAL’s Evaluating Social Programs
 
@@ -171,7 +171,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 |  |  |
 |:---|:---|
-| 2026 | University of Washington, Universidad Carlos III de Madrid (UC3M), Universidad de Chile (Departamento de Economía, FEN), Universidad de Chile (Centro de Economía Aplicada, DII), University of Texas Rio Grande Valley (UTRGV) |
+| 2026 | University of Washington, Universidad Carlos III de Madrid (UC3M), Universidad de Chile (Departamento de Economía, FEN), Universidad de Chile (Centro de Economía Aplicada, DII), University of Texas Rio Grande Valley (UTRGV), University of Tennessee, Knoxville |
 | 2025 | Universidad de los Andes (Colombia), PUC-Chile, Universidad de los Andes (Chile), Universidad EIA, Banco de la Republica de Colombia, University of Illinois Urbana-Champaign, CIDE |
 | 2024 | Universidad Javeriana, Universidad del Rosario |
 | 2023 | El Colegio de Mexico, Dartmouth College, Institute for International Economic Studies (IIES), Stockholm School of Economics, University of Zurich |
@@ -201,7 +201,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 ### Referee Service
 
-*Journal of Educational and Behavioral Statistics*, *Economic Development and Cultural Change*, *Journal of Comparative Economics*, *The Economic Journal*, *Journal of Human Resources*, *Environment and Development Economics*, *American Economic Journal: Applied Economics*, *The Review of Economics and Statistics*, *American Economic Review*, *Review of Economic Studies*, *Quarterly Journal of Economics*, *Journal of Development Economics*, *American Economic Journal: Economic Policy*, *Experimental Economics*, *Journal of Public Economics*, *American Economic Review: Insights*, *Journal of the European Economic Association*, *Economics of Education Review*, *Health Economics*, *Nature*, *Journal of Political Economy*, *World Bank Economic Review*, *Journal of Labor Economics*, *European Economic Review*
+*Journal of Educational and Behavioral Statistics*, *Economic Development and Cultural Change*, *Journal of Comparative Economics*, *The Economic Journal*, *Journal of Human Resources*, *Environment and Development Economics*, *American Economic Journal: Applied Economics*, *The Review of Economics and Statistics*, *American Economic Review*, *Review of Economic Studies*, *Quarterly Journal of Economics*, *Journal of Development Economics*, *American Economic Journal: Economic Policy*, *Experimental Economics*, *Journal of Public Economics*, *American Economic Review: Insights*, *Journal of the European Economic Association*, *Economics of Education Review*, *Health Economics*, *Nature*, *Nature Communications*, *Journal of Political Economy*, *World Bank Economic Review*, *Journal of Labor Economics*, *European Economic Review*
 
 |  |  |
 |:---|:---|
@@ -224,6 +224,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 | 2026 | [Organizing committee for the BREAD Conference on Development Economics, Mexico City](https://bread-mexico-2026.github.io/) |
 | 2026 | Program Committee, LACEA-LAMES Annual Meeting, Lima, Peru |
 | 2025 | Program Committee, LACEA Annual Meeting, Recife, Brazil |
+| 2025 | Co-organizer, ITAM/LACEA–Impact Evaluation Network mini-course on Difference-in-Differences (Kirill Borusyak), Mexico City, 26–27 September |
 | 2024 | Program Committee, LACEA-LAMES Annual Meeting, Montevideo, Uruguay |
 | 2023 | [Organizing committee for the G2LM|LIC & BREAD Conference on Development Economics in Nairobi, Kenya](https://conference.iza.org/conference_files/GLMLIC_BREAD_Conference_2023/program) |
 | 2023 | [Organizing committee for EGAP Learning Days 13: Latin America Regional Hub Workshop](https://egap.org/project/learning-days-13-latin-america-regional-hub-workshop/) |
