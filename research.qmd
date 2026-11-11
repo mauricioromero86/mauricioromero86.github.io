@@ -376,25 +376,25 @@ We evaluate a randomized dropout prevention program across 4,000 schools in Guat
 :::
 
 ::: {.paper-head}
-### 15. [The Incidence of Affirmative Action: Evidence from Quotas in Private Schools in India](/pdfs/papers/CG_RTE_Draft.pdf)
+### 15. [The Benefit Incidence of School Vouchers: Evidence from Private Schools in India](/pdfs/papers/CG_RTE_Draft.pdf)
 
 [Abstract](#abs-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-19" aria-expanded="false"} [BibTeX](#bib-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-19" aria-expanded="false"}
 :::
 
 with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · Conditionally accepted, **Review of Economic Studies**
 
-[Working Paper](/pdfs/papers/CG_RTE_Draft.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/incidence-affirmative-action-evidence-quotas-private-schools-india) · [Online Appendix](/pdfs/papers/CG_Preference_Tables.pdf) · [Markdown](/pdfs/papers/CG_RTE_Draft.pdf.md)
+[Working Paper](/pdfs/papers/CG_RTE_Draft.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/incidence-affirmative-action-evidence-quotas-private-schools-india) · [Earlier online appendix (2024)](/pdfs/papers/CG_Preference_Tables.pdf) · [Markdown](/pdfs/papers/CG_RTE_Draft.pdf.md)
 
 ::: {#abs-19 .collapse .paper-panel}
-The incidence of redistributive policies is central to whether they meet their stated goals. We study this in the context of one of the world's largest affirmative action programs in schooling: a 25% quota in all Indian private schools for students from disadvantaged groups. We use lottery-based estimates to show that, although students admitted under the quota attend more expensive and preferred schools on average, the distribution of program benefits is very regressive. Program applicants are concentrated among more-educated and better-off households. Consequently, 7.4% of the program spending accrues to the bottom socioeconomic quintile, compared to 24.3% to the top quintile. In total, two-thirds of the per-child cost of a quota seat is inframarginal for school choice. We use rich survey data to show that low application rates for poorer children are not driven by preferences and beliefs. Instead, information constraints and application frictions appear to be key. Finally, we use a randomized intervention to confirm the importance of these frictions and further demonstrate that alleviating a single constraint (e.g., information) may not reduce regressive selection, even if it boosts application rates substantially. Our results demonstrate how constraints facing potential applicants can make redistributive policies regressive in practice. Appropriate policy interventions must consider the joint incidence of these constraints to reduce regressivity.
+The incidence of redistributive policies is central to whether they meet their stated goals. We study this in the context of one of the world’s largest programs to improve social equity in schooling: a 25% quota in all Indian private schools for students from disadvantaged groups. We show that, although eligible groups are poorer than the state average, program benefits accrue disproportionately to better-off households: 7.4% of the program spending on tuition fees accrues to the bottom socioeconomic quintile, compared to 24.3% to the top quintile. This is consistent with selection within eligible groups at the application stage: program applicants are disproportionately drawn from more-educated and better-off households. Lottery-based estimates of the causal effect of receiving a quota seat show that three-quarters of lottery-winners would have attended a private school even without the voucher; the bulk of program spending is inframarginal for school choice. Finally, we use rich survey data to show that low application rates for poorer children reflect information constraints and application frictions. A randomized intervention providing information and application assistance substantially raises application rates but has similar estimated effects across socioeconomic groups. Our results illustrate how constraints facing potential applicants can make redistributive policies regressive in practice.
 :::
 
 ::: {#bib-19 .collapse .paper-panel}
 ```bibtex
 @unpublished{singh_romero_affirmative,
-  title={The incidence of affirmative action: Evidence from quotas in private schools in India},
-  author={Singh, Abhijeet and Romero, Mauricio},
-  note={Working paper (conditionally accepted, Review of Economic Studies)}
+  title={The benefit incidence of school vouchers: Evidence from private schools in India},
+  author={Romero, Mauricio and Singh, Abhijeet},
+  note={Conditionally accepted, Review of Economic Studies}
 }
 ```
 :::
