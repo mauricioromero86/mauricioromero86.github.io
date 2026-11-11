@@ -80,6 +80,7 @@ Research Affiliate, IZA — Institute of Labor Economics
 “[The Productivity of Public and Private Preschools (and Schools): Evidence from India](https://doi.org/10.1093/ej/ueaf089)”. **Economic Journal**, Volume 136, No. 676, 2026. Joint with Petter Berg and Abhijeet Singh.
 “[COVID-19 Learning Loss and Recovery: Panel Data Evidence from India](https://jhr.uwpress.org/content/61/5/1499)”. Joint with Abhijeet Singh and Karthik Muralidharan. **Journal of Human Resources**, Volume 61, No. 5, pp. 1499–1535, 2026.
 “[Preventing School Dropout: Experimental Evidence from Guatemala](https://doi.org/10.1086/739022)” Joint with Melissa Adelman, Francisco Haimovich, and Emmanuel Vazquez . **Forthcoming in the Journal of Labor Economics**
+“[The incidence of affirmative action: Evidence from quotas in private schools in India](https://mauricio-romero.com/pdfs/papers/CG_RTE_Draft.pdf)”. Joint with Abhijeet Singh. **Conditionally accepted at the Review of Economic Studies**
 
 ## COMMENTS, CONFERENCE PROCEEDING, AND OTHERS
 
@@ -93,7 +94,6 @@ Research Affiliate, IZA — Institute of Labor Economics
 
 ## WORKING PAPERS
 
-“[The incidence of affirmative action: Evidence from quotas in private schools in India](https://mauricio-romero.com/pdfs/papers/CG_RTE_Draft.pdf)”. Joint with Abhijeet Singh. **Conditionally accepted at the Review of Economic Studies**
 “[Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/3b9ae0b96b478b61aff952943ab6f80a0a4513d2/JMP_Litzow.pdf)” Joint with Erin Litzow, Bianca Cecato, and Tatiana Zarate-Barrera. **Reject and resubmit at the Review of Economics and Statistics**
 
 ## RESEARCH IN PROGRESS

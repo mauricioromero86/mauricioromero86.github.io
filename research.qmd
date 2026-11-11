@@ -307,7 +307,7 @@ Factorial designs are widely used to study multiple treatments in one experiment
 
 with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · **Economic Journal** 136(676), 2026
 
-[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441) · [VoxDev article](https://voxdev.org/topic/education/does-private-preschool-really-give-children-head-start) · [Markdown](/pdfs/papers/ueaf089.pdf.md)
+[Final Manuscript](/pdfs/papers/ueaf089.pdf) · [Data and code](https://doi.org/10.5281/zenodo.17119441) · [VoxDev article](https://voxdev.org/topic/education/does-private-preschool-really-give-children-head-start) · [Voces article (Spanish)](https://economia.uniandes.edu.co/es/publicaciones/voces/preescolar-publico-y-privado-oportunidades-desiguales) · [Markdown](/pdfs/papers/ueaf089.pdf.md)
 
 ::: {#abs-12 .collapse .paper-panel}
 We study the relative productivity of private and public institutions at the preschool and primary school levels using panel data from 215 villages in Tamil Nadu. Private preschools show higher test score value-added in math and language (0.59–0.74 standard deviations) and outperform government providers in nearly all villages. This productivity difference explains 60% of the socioeconomic test score gap before school entry. These results contrast starkly with primary schooling, where we find no evidence of a private-sector premium in math and negative effects in local language. Test score value-added is positively correlated between private and government options in a village, both at the preschool and primary school levels. Quality is also correlated across levels; villages with more productive primary schools also tend to have more productive preschools. Our findings inform debates on achieving universal foundational skills and highlight the need to improve the quality of preschools available to lower-income families.
@@ -371,6 +371,30 @@ We evaluate a randomized dropout prevention program across 4,000 schools in Guat
   title={Preventing school dropout: Experimental evidence from Guatemala},
   author={Adelman, Melissa and Haimovich, Francisco and Romero, Mauricio and Vazquez, Emmanuel},
   journal={Journal of Labor Economics}, note={Forthcoming}, year={2024}
+}
+```
+:::
+
+::: {.paper-head}
+### 15. [The Incidence of Affirmative Action: Evidence from Quotas in Private Schools in India](/pdfs/papers/CG_RTE_Draft.pdf)
+
+[Abstract](#abs-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-19" aria-expanded="false"} [BibTeX](#bib-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-19" aria-expanded="false"}
+:::
+
+with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · Conditionally accepted, **Review of Economic Studies**
+
+[Working Paper](/pdfs/papers/CG_RTE_Draft.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/incidence-affirmative-action-evidence-quotas-private-schools-india) · [Online Appendix](/pdfs/papers/CG_Preference_Tables.pdf) · [Markdown](/pdfs/papers/CG_RTE_Draft.pdf.md)
+
+::: {#abs-19 .collapse .paper-panel}
+The incidence of redistributive policies is central to whether they meet their stated goals. We study this in the context of one of the world's largest affirmative action programs in schooling: a 25% quota in all Indian private schools for students from disadvantaged groups. We use lottery-based estimates to show that, although students admitted under the quota attend more expensive and preferred schools on average, the distribution of program benefits is very regressive. Program applicants are concentrated among more-educated and better-off households. Consequently, 7.4% of the program spending accrues to the bottom socioeconomic quintile, compared to 24.3% to the top quintile. In total, two-thirds of the per-child cost of a quota seat is inframarginal for school choice. We use rich survey data to show that low application rates for poorer children are not driven by preferences and beliefs. Instead, information constraints and application frictions appear to be key. Finally, we use a randomized intervention to confirm the importance of these frictions and further demonstrate that alleviating a single constraint (e.g., information) may not reduce regressive selection, even if it boosts application rates substantially. Our results demonstrate how constraints facing potential applicants can make redistributive policies regressive in practice. Appropriate policy interventions must consider the joint incidence of these constraints to reduce regressivity.
+:::
+
+::: {#bib-19 .collapse .paper-panel}
+```bibtex
+@unpublished{singh_romero_affirmative,
+  title={The incidence of affirmative action: Evidence from quotas in private schools in India},
+  author={Singh, Abhijeet and Romero, Mauricio},
+  note={Working paper (conditionally accepted, Review of Economic Studies)}
 }
 ```
 :::
@@ -480,30 +504,6 @@ The rights of homosexuals and same-sex couples are currently the subject of deba
 ## Working papers
 
 ::: {.paper-head}
-### [The Incidence of Affirmative Action: Evidence from Quotas in Private Schools in India](/pdfs/papers/CG_RTE_Draft.pdf)
-
-[Abstract](#abs-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="abs-19" aria-expanded="false"} [BibTeX](#bib-19){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-19" aria-expanded="false"}
-:::
-
-with [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/) · Conditionally accepted, **Review of Economic Studies**
-
-[Working Paper](/pdfs/papers/CG_RTE_Draft.pdf) · [RISE Working Paper](https://riseprogramme.org/publications/incidence-affirmative-action-evidence-quotas-private-schools-india) · [Online Appendix](/pdfs/papers/CG_Preference_Tables.pdf) · [Markdown](/pdfs/papers/CG_RTE_Draft.pdf.md)
-
-::: {#abs-19 .collapse .paper-panel}
-The incidence of redistributive policies is central to whether they meet their stated goals. We study this in the context of one of the world's largest affirmative action programs in schooling: a 25% quota in all Indian private schools for students from disadvantaged groups. We use lottery-based estimates to show that, although students admitted under the quota attend more expensive and preferred schools on average, the distribution of program benefits is very regressive. Program applicants are concentrated among more-educated and better-off households. Consequently, 7.4% of the program spending accrues to the bottom socioeconomic quintile, compared to 24.3% to the top quintile. In total, two-thirds of the per-child cost of a quota seat is inframarginal for school choice. We use rich survey data to show that low application rates for poorer children are not driven by preferences and beliefs. Instead, information constraints and application frictions appear to be key. Finally, we use a randomized intervention to confirm the importance of these frictions and further demonstrate that alleviating a single constraint (e.g., information) may not reduce regressive selection, even if it boosts application rates substantially. Our results demonstrate how constraints facing potential applicants can make redistributive policies regressive in practice. Appropriate policy interventions must consider the joint incidence of these constraints to reduce regressivity.
-:::
-
-::: {#bib-19 .collapse .paper-panel}
-```bibtex
-@unpublished{singh_romero_affirmative,
-  title={The incidence of affirmative action: Evidence from quotas in private schools in India},
-  author={Singh, Abhijeet and Romero, Mauricio},
-  note={Working paper (conditionally accepted, Review of Economic Studies)}
-}
-```
-:::
-
-::: {.paper-head}
 ### [Toxic Recycling: The Cost of Used Lead-Acid Battery Processing in Mexico](https://github.com/ErinLitzow/MyFiles/blob/master/JMP_Litzow.pdf)
 
 [BibTeX](#bib-20){.paper-toggle role="button" data-bs-toggle="collapse" aria-controls="bib-20" aria-expanded="false"}
@@ -548,6 +548,8 @@ with [Erin Litzow](https://sites.google.com/site/erinlitzow/home), [Bianca Cecat
 - [The economist improving education policy with evidence](https://boldscience.org/the-economist-improving-education-policy-with-evidence/) · Interview by Annie Brookman-Byrne for [BOLD](https://boldscience.org/), 2025
 - [Aire limpio para aprender](https://economia.uniandes.edu.co/es/publicaciones/voces/aire-limpio-para-aprender) · Voces, Universidad de los Andes, 2026
 - [Does private preschool really give children a head start?](https://voxdev.org/topic/education/does-private-preschool-really-give-children-head-start) *(with [Petter Berg](https://sites.google.com/view/petterberg) and [Abhijeet Singh](https://sites.google.com/site/abhijeetsingh1/))* · VoxDev, 2026
+
+- [Preescolar público y privado: oportunidades desiguales](https://economia.uniandes.edu.co/es/publicaciones/voces/preescolar-publico-y-privado-oportunidades-desiguales) · Voces, Universidad de los Andes, 2026
 
 ## Resting papers
 
